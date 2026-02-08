@@ -4124,10 +4124,13 @@
     "https": true,
     "cors": "unknown",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "DigitalOcean infrastructure status API (via Statuspage.io). Returns current operational status, active incidents, and component health. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://s2k7tnzlhrpw.statuspage.io/api/v2/status.json",
+      "response-type": "json"
+    }
   },
   {
     "name": "Docker Hub",
@@ -4675,9 +4678,9 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "working",
+    "notes": "Diagram-as-a-service API. Converts text descriptions (PlantUML, Mermaid, GraphViz, etc.) to diagrams via POST. Supports 20+ diagram types. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -9329,10 +9332,13 @@
     "https": false,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "IP geolocation API. Returns country, city, ISP, org, AS number, lat/lon coordinates for any IP. HTTP only (HTTPS requires paid plan). Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "http://ip-api.com/json/8.8.8.8",
+      "response-type": "json"
+    }
   },
   {
     "name": "IP2Location",
@@ -9537,10 +9543,14 @@
     "https": true,
     "cors": "yes",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "OpenStreetMap geocoding/search API. Returns places with lat/lon, display name, bounding box. Requires User-Agent header (browsers send automatically). Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://nominatim.openstreetmap.org/search",
+      "response-type": "json",
+      "params": "q=london&format=json&limit=2"
+    }
   },
   {
     "name": "One Map, Singapore",
@@ -9845,10 +9855,13 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Brazilian ZIP code lookup API. Returns address details (street, neighborhood, city, state) for CEP codes. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://viacep.com.br/ws/01001000/json/",
+      "response-type": "json"
+    }
   },
   {
     "name": "What3Words",
@@ -10237,9 +10250,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "EnviroFacts API endpoints return 404. data.epa.gov/efservice/ appears restructured or deprecated. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -10415,10 +10428,14 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Australian government open data catalog (CKAN API). Returns dataset lists and metadata. Note: use /data/ path (v0 endpoint is deprecated). Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://data.gov.au/data/api/3/action/package_list",
+      "response-type": "json",
+      "params": "limit=3"
+    }
   },
   {
     "name": "Open Government, Austria",
@@ -11052,10 +11069,14 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Federal spending data API. Returns JSON with agency names, budgets, toptier codes, abbreviations. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.usaspending.gov/api/v2/references/toptier_agencies/",
+      "response-type": "json",
+      "params": "sort=agency_name&order=asc&limit=3"
+    }
   },
   {
     "name": "CMS.gov",
@@ -11377,10 +11398,14 @@
     "https": true,
     "cors": "unknown",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "National Provider Identifier (NPI) registry lookup. Returns healthcare provider details (name, taxonomy, address, practice info). Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://npiregistry.cms.hhs.gov/api/",
+      "response-type": "json",
+      "params": "number=1234567893&version=2.1"
+    }
   },
   {
     "name": "Nutritionix",
@@ -11403,10 +11428,14 @@
     "https": true,
     "cors": "unknown",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Scottish NHS open data portal (CKAN-based). Returns dataset lists and health statistics metadata. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://www.opendata.nhs.scot/api/3/action/package_list",
+      "response-type": "json",
+      "params": "limit=5"
+    }
   },
   {
     "name": "Open Disease",
@@ -12208,10 +12237,13 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Song lyrics API. Returns full lyrics as JSON for artist/song queries. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.lyrics.ovh/v1/coldplay/yellow",
+      "response-type": "json"
+    }
   },
   {
     "name": "Mixcloud",
@@ -13022,9 +13054,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "teleport.org and developers.teleport.org not loading. Service appears shut down (acquired by Topia). Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -13504,9 +13536,9 @@
     "https": true,
     "cors": "unknown",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "api.quotable.io not responding. Hosted on Heroku (free tier discontinued Nov 2022). Project unmaintained since 2023. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -14279,10 +14311,14 @@
     "https": true,
     "cors": "yes",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Space launch data API. Returns upcoming launches with rocket details, mission info, launch pads, agencies, status, and countdown timers. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/upcoming/",
+      "response-type": "json",
+      "params": "limit=3&format=json"
+    }
   },
   {
     "name": "Materials Platform for Data Science",
@@ -14589,10 +14625,14 @@
     "https": true,
     "cors": "no",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "World Bank country and indicator data API. Returns country profiles with regions, income levels, capital cities, lending types. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.worldbank.org/v2/country",
+      "response-type": "json",
+      "params": "format=json&per_page=5"
+    }
   },
   {
     "name": "xMath",
@@ -14956,10 +14996,14 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "NIST NVD CVE vulnerability database API. Returns CVE records with descriptions, CVSS scores, affected products, references. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+      "response-type": "json",
+      "params": "resultsPerPage=3"
+    }
   },
   {
     "name": "Passwordinator",
@@ -16076,10 +16120,13 @@
     "https": true,
     "cors": "yes",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Free sports data API (primarily European football/soccer). Returns leagues, match data, scores, team info for Bundesliga, Champions League, etc. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.openligadb.de/getmatchdata/bl1/2024/1",
+      "response-type": "json"
+    }
   },
   {
     "name": "Premier League Standings ",
@@ -16574,10 +16621,13 @@
     "https": true,
     "cors": "no",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "UUID v4 generation API. Returns array of random UUIDs. Simple GET endpoint. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://www.uuidtools.com/api/generate/v4",
+      "response-type": "json"
+    }
   },
   {
     "name": "What The Commit",
@@ -17560,9 +17610,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "api.metro.net/agencies/lametro/routes/ returns 404. API endpoints appear deprecated or restructured. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -17797,10 +17847,14 @@
     "https": true,
     "cors": "yes",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Public transport API for European systems (Deutsche Bahn, VBB, etc). Returns stations, departures, journeys with real-time data. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://v6.db.transport.rest/locations",
+      "response-type": "json",
+      "params": "query=berlin&results=3"
+    }
   },
   {
     "name": "Tripadvisor",
