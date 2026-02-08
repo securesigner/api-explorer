@@ -89,34 +89,20 @@ Examples:
   %(prog)s "Dogs" --dry-run
         """,
     )
-    parser.add_argument(
-        "name", help="API name to search for (case-insensitive substring match)"
-    )
-    parser.add_argument(
-        "--status", choices=sorted(VALID_STATUSES), help="New status value"
-    )
+    parser.add_argument("name", help="API name to search for (case-insensitive substring match)")
+    parser.add_argument("--status", choices=sorted(VALID_STATUSES), help="New status value")
     parser.add_argument("--notes", help="Testing notes (overwrites existing)")
     parser.add_argument("--try-url", help="Try-it endpoint URL")
-    parser.add_argument(
-        "--try-type", choices=sorted(VALID_RESPONSE_TYPES), help="Try-it response type"
-    )
-    parser.add_argument(
-        "--try-params", help='Try-it params as JSON string, e.g. \'{"code": "200"}\''
-    )
+    parser.add_argument("--try-type", choices=sorted(VALID_RESPONSE_TYPES), help="Try-it response type")
+    parser.add_argument("--try-params", help="Try-it params as JSON string, e.g. '{\"code\": \"200\"}'")
     parser.add_argument("--clear-tryit", action="store_true", help="Set try-it to null")
-    parser.add_argument(
-        "--dry-run", action="store_true", help="Preview changes without writing"
-    )
-    parser.add_argument(
-        "--yes", "-y", action="store_true", help="Skip confirmation prompt"
-    )
+    parser.add_argument("--dry-run", action="store_true", help="Preview changes without writing")
+    parser.add_argument("--yes", "-y", action="store_true", help="Skip confirmation prompt")
     parser.add_argument("--category", help="Filter matches to a specific category")
     args = parser.parse_args()
 
     if not args.status and not args.notes and not args.try_url and not args.clear_tryit:
-        parser.error(
-            "At least one of --status, --notes, --try-url, or --clear-tryit is required"
-        )
+        parser.error("At least one of --status, --notes, --try-url, or --clear-tryit is required")
 
     if args.try_url and not args.try_type:
         parser.error("--try-type is required when --try-url is specified")
@@ -135,9 +121,7 @@ Examples:
         print(f"{RED}No API found matching '{args.name}'{RESET}")
         # Suggest close matches
         query_lower = args.name.lower()
-        suggestions = [
-            a for a in apis if any(w in a["name"].lower() for w in query_lower.split())
-        ][:5]
+        suggestions = [a for a in apis if any(w in a["name"].lower() for w in query_lower.split())][:5]
         if suggestions:
             print(f"\n{YELLOW}Did you mean:{RESET}")
             for s in suggestions:
@@ -147,15 +131,11 @@ Examples:
     if len(matches) > 1:
         print(f"{YELLOW}Multiple matches found for '{args.name}':{RESET}\n")
         for i, m in enumerate(matches):
-            print(
-                f"  [{i + 1}] {m['name']} ({m['category']}) — {colorize_status(m['status'])}"
-            )
+            print(f"  [{i + 1}] {m['name']} ({m['category']}) — {colorize_status(m['status'])}")
         print()
 
         if args.yes:
-            print(
-                f"{RED}Cannot use --yes with ambiguous matches. Be more specific or add --category.{RESET}"
-            )
+            print(f"{RED}Cannot use --yes with ambiguous matches. Be more specific or add --category.{RESET}")
             sys.exit(1)
 
         try:

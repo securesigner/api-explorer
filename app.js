@@ -266,7 +266,9 @@ document.getElementById("search").addEventListener("input", applyFilters);
 document
   .getElementById("filter-category")
   .addEventListener("change", applyFilters);
-document.getElementById("filter-auth").addEventListener("change", applyFilters);
+document
+  .getElementById("filter-auth")
+  .addEventListener("change", applyFilters);
 document
   .getElementById("filter-status")
   .addEventListener("change", applyFilters);

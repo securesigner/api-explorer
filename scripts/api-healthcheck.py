@@ -15,6 +15,7 @@ import sys
 import urllib.request
 import urllib.error
 import ssl
+import re
 from datetime import date
 from pathlib import Path
 
@@ -54,13 +55,10 @@ def check_api(api, timeout=10, verbose=False):
         ctx.check_hostname = False
         ctx.verify_mode = ssl.CERT_NONE
 
-        req = urllib.request.Request(
-            url,
-            headers={
-                "User-Agent": "PublicAPIs-HealthCheck/1.0",
-                "Accept": "application/json, text/plain, image/*, */*",
-            },
-        )
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "PublicAPIs-HealthCheck/1.0",
+            "Accept": "application/json, text/plain, image/*, */*",
+        })
 
         with urllib.request.urlopen(req, timeout=timeout, context=ctx) as resp:
             status = resp.status
@@ -77,24 +75,15 @@ def check_api(api, timeout=10, verbose=False):
                     detail = f"HTTP {status}, valid JSON ({len(body)} bytes)"
                 except (json.JSONDecodeError, UnicodeDecodeError):
                     # Some APIs return valid data but not UTF-8 parseable in first 4KB
-                    if (
-                        "json" in content_type.lower()
-                        or "javascript" in content_type.lower()
-                    ):
+                    if "json" in content_type.lower() or "javascript" in content_type.lower():
                         detail = f"HTTP {status}, JSON content-type ({len(body)} bytes)"
                     else:
-                        return (
-                            False,
-                            f"HTTP {status}, expected JSON but got {content_type}",
-                        )
+                        return False, f"HTTP {status}, expected JSON but got {content_type}"
             elif expected_type == "image":
                 if "image" in content_type.lower() or len(body) > 100:
                     detail = f"HTTP {status}, {content_type} ({len(body)} bytes)"
                 else:
-                    return (
-                        False,
-                        f"HTTP {status}, expected image but got {content_type}",
-                    )
+                    return False, f"HTTP {status}, expected image but got {content_type}"
             else:
                 detail = f"HTTP {status}, {len(body)} bytes"
 
@@ -122,19 +111,12 @@ def check_api(api, timeout=10, verbose=False):
 def main():
     parser = argparse.ArgumentParser(description="Health check working APIs")
     parser.add_argument("--category", "-c", help="Check only APIs in this category")
-    parser.add_argument(
-        "--timeout",
-        "-t",
-        type=int,
-        default=10,
-        help="Timeout per request in seconds (default: 10)",
-    )
-    parser.add_argument(
-        "--fix", action="store_true", help="Auto-mark failed APIs as broken"
-    )
-    parser.add_argument(
-        "--verbose", "-v", action="store_true", help="Show response details"
-    )
+    parser.add_argument("--timeout", "-t", type=int, default=10,
+                        help="Timeout per request in seconds (default: 10)")
+    parser.add_argument("--fix", action="store_true",
+                        help="Auto-mark failed APIs as broken")
+    parser.add_argument("--verbose", "-v", action="store_true",
+                        help="Show response details")
     args = parser.parse_args()
 
     # Load data
@@ -154,9 +136,7 @@ def main():
 
     # Separate those with try-it URLs from those without
     testable = [a for a in candidates if a.get("try-it") and a["try-it"].get("url")]
-    skipped = [
-        a for a in candidates if not a.get("try-it") or not a["try-it"].get("url")
-    ]
+    skipped = [a for a in candidates if not a.get("try-it") or not a["try-it"].get("url")]
 
     cat_label = f" ({args.category})" if args.category else ""
     print(f"{BOLD}Health Check{cat_label}{RESET}")
@@ -186,9 +166,7 @@ def main():
 
     # Summary
     print(f"\n{'─' * 60}")
-    print(
-        f"{BOLD}Results:{RESET} {GREEN}{passed} passed{RESET}, {RED}{failed} failed{RESET}, {DIM}{len(skipped)} skipped{RESET}"
-    )
+    print(f"{BOLD}Results:{RESET} {GREEN}{passed} passed{RESET}, {RED}{failed} failed{RESET}, {DIM}{len(skipped)} skipped{RESET}")
 
     if failed_apis:
         print(f"\n{RED}Failed APIs:{RESET}")
@@ -202,13 +180,9 @@ def main():
         for api in failed_apis:
             # Find in original array and update
             for orig in apis:
-                if orig is api or (
-                    orig["name"] == api["name"] and orig["url"] == api["url"]
-                ):
+                if orig is api or (orig["name"] == api["name"] and orig["url"] == api["url"]):
                     orig["status"] = "broken"
-                    orig["notes"] = (
-                        f"Health check failed on {today}. Previous: {orig.get('notes', '')}"
-                    )
+                    orig["notes"] = f"Health check failed on {today}. Previous: {orig.get('notes', '')}"
                     orig["date-checked"] = today
                     orig["try-it"] = None
                     break

@@ -111,22 +111,13 @@ def print_category_detail(apis, category):
         sys.exit(1)
 
     # Sort: pending last, then alphabetically
-    status_order = {
-        "working": 0,
-        "broken": 1,
-        "needs-key": 2,
-        "paid-only": 3,
-        "skipped": 4,
-        "pending": 5,
-    }
+    status_order = {"working": 0, "broken": 1, "needs-key": 2, "paid-only": 3, "skipped": 4, "pending": 5}
     cat_apis.sort(key=lambda a: (status_order.get(a["status"], 9), a["name"].lower()))
 
     print(f"\n{BOLD}{category}{RESET} — {len(cat_apis)} APIs\n")
 
     for api in cat_apis:
-        status_str = colorize(
-            f"{api['status']:<10}", STATUS_COLORS.get(api["status"], "")
-        )
+        status_str = colorize(f"{api['status']:<10}", STATUS_COLORS.get(api["status"], ""))
         auth_str = f"{DIM}{api['auth']:<12}{RESET}"
         notes = f" — {api['notes']}" if api["notes"] else ""
         print(f"  {status_str} {auth_str} {api['name']}{DIM}{notes}{RESET}")
@@ -137,28 +128,18 @@ def print_category_detail(apis, category):
         counts[a["status"]] += 1
 
     tested = len(cat_apis) - counts["pending"]
-    print(
-        f"\n  {BOLD}Summary:{RESET} {tested}/{len(cat_apis)} tested ({pct(tested, len(cat_apis))})"
-    )
+    print(f"\n  {BOLD}Summary:{RESET} {tested}/{len(cat_apis)} tested ({pct(tested, len(cat_apis))})")
     for status in ALL_STATUSES:
         if counts[status] > 0:
-            print(
-                f"    {colorize(f'{status}:', STATUS_COLORS[status])} {counts[status]}"
-            )
+            print(f"    {colorize(f'{status}:', STATUS_COLORS[status])} {counts[status]}")
 
 
 def main():
     parser = argparse.ArgumentParser(description="API testing progress dashboard")
     parser.add_argument("--category", "-c", help="Show detail for a specific category")
-    parser.add_argument(
-        "--auth", "-a", help="Filter by auth type (none, api-key, oauth, etc.)"
-    )
-    parser.add_argument(
-        "--sort",
-        choices=["name", "total", "done", "pending"],
-        default="name",
-        help="Sort categories by (default: name)",
-    )
+    parser.add_argument("--auth", "-a", help="Filter by auth type (none, api-key, oauth, etc.)")
+    parser.add_argument("--sort", choices=["name", "total", "done", "pending"],
+                        default="name", help="Sort categories by (default: name)")
     args = parser.parse_args()
 
     # Load data

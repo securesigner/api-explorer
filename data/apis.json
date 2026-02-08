@@ -1730,9 +1730,9 @@
     "https": true,
     "cors": "no",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Returns HTTP 401 Unauthorized. Domain search API now requires authentication",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -3626,10 +3626,13 @@
     "https": true,
     "cors": "unknown",
     "category": "data-validation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Mirrors request details back as JSON. GET /get, POST /post, etc",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://postman-echo.com/get",
+      "response-type": "json"
+    }
   },
   {
     "name": "PurgoMalum",
@@ -3639,10 +3642,13 @@
     "https": false,
     "cors": "unknown",
     "category": "data-validation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Profanity filter API. GET /service/json?text=input returns filtered text as JSON",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://www.purgomalum.com/service/json?text=hello%20world",
+      "response-type": "json"
+    }
   },
   {
     "name": "US Autocomplete",
@@ -5860,10 +5866,13 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Email validation. GET /api/email/test@gmail.com returns format, domain, disposable, dns checks",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://www.disify.com/api/email/test@gmail.com",
+      "response-type": "json"
+    }
   },
   {
     "name": "DropMail",
@@ -6294,10 +6303,13 @@
     "https": true,
     "cors": "unknown",
     "category": "environment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Netherlands air quality monitoring stations. GET /open_api/stations returns paginated station list with locations",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.luchtmeetnet.nl/open_api/stations?page=1",
+      "response-type": "json"
+    }
   },
   {
     "name": "National Grid ESO",
@@ -13009,10 +13021,13 @@
     "https": true,
     "cors": "unknown",
     "category": "open-source-projects",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Word-finding API. GET /words?ml=programming returns related words with scores and tags",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.datamuse.com/words?ml=programming&max=10",
+      "response-type": "json"
+    }
   },
   {
     "name": "Drupal.org",
@@ -13223,9 +13238,9 @@
     "https": false,
     "cors": "unknown",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Returns 404 on all tested endpoints including /version and /awesome/user",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -13236,9 +13251,9 @@
     "https": false,
     "cors": "unknown",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "API redirects to Russian landing page instead of returning JSON quotes",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -13505,10 +13520,13 @@
     "https": true,
     "cors": "yes",
     "category": "phone",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GSMArena phone specs. GET /latest returns newest phones with images and detail links",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://phone-specs-api.vercel.app/latest",
+      "response-type": "json"
+    }
   },
   {
     "name": "Veriphone",
@@ -13726,10 +13744,13 @@
     "https": true,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Random placeholder images. GET /id/1/info returns photo metadata JSON. GET /200/300 returns random image",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://picsum.photos/200/300",
+      "response-type": "image"
+    }
   },
   {
     "name": "ObjectCut",
@@ -13791,10 +13812,13 @@
     "https": true,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Placeholder images of Keanu Reeves. GET /200/300 returns random image",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://placekeanu.com/200/300",
+      "response-type": "image"
+    }
   },
   {
     "name": "Readme typing SVG",
@@ -15090,10 +15114,13 @@
     "https": true,
     "cors": "yes",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /boards.json returns all boards with metadata. Read-only JSON API for boards, threads, posts",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://a.4cdn.org/boards.json",
+      "response-type": "json"
+    }
   },
   {
     "name": "Ayrshare",
@@ -15259,10 +15286,13 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /v0/topstories.json returns JSON array of story IDs",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty",
+      "response-type": "json"
+    }
   },
   {
     "name": "Hashnode",
@@ -15704,9 +15734,9 @@
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "API returns HTML docs page instead of JSON for all endpoints including /api/f1/drivers.json",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -16521,10 +16551,13 @@
     "https": true,
     "cors": "unknown",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Open source translation API. GET /languages returns supported languages with target codes",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://libretranslate.com/languages",
+      "response-type": "json"
+    }
   },
   {
     "name": "Semantria",
@@ -16625,10 +16658,13 @@
     "https": true,
     "cors": "unknown",
     "category": "tracking",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "India postal pincode lookup. GET /api/pincode/110001 returns post offices with region, district, state",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "http://www.postalpincode.in/api/pincode/110001",
+      "response-type": "json"
+    }
   },
   {
     "name": "Postmon",
@@ -16768,10 +16804,13 @@
     "https": true,
     "cors": "no",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "US airport data. GET /v1/airports?apt=KJFK returns FAA airport details with coordinates and contact info",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://aviationapi.com/v1/airports?apt=KJFK",
+      "response-type": "json"
+    }
   },
   {
     "name": "AZ511",
@@ -16807,10 +16846,13 @@
     "https": true,
     "cors": "yes",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Real-time BC Ferries sailing data with departure times, fill levels, vessel names",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://www.bcferriesapi.ca/api/",
+      "response-type": "json"
+    }
   },
   {
     "name": "BIC-Boxtech",
@@ -17015,10 +17057,13 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Live flight tracking. GET /api/states/all with lat/lon bounds returns aircraft positions, velocity, altitude",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://opensky-network.org/api/states/all?lamin=47&lomin=8&lamax=48&lomax=9",
+      "response-type": "json"
+    }
   },
   {
     "name": "Railway Transport for France",
@@ -17444,10 +17489,13 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Swiss public transport. GET /v1/locations?query=Zurich returns stations with coordinates",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://transport.opendata.ch/v1/locations?query=Zurich&type=station",
+      "response-type": "json"
+    }
   },
   {
     "name": "Transport for The Netherlands",

@@ -39,11 +39,11 @@ def parse_cors(raw):
 
 ROW_PATTERN = re.compile(
     r"^\|\s*\[([^\]]+)\]\(([^)]+)\)\s*\|"  # name and url
-    r"\s*(.+?)\s*\|"  # description
-    r"\s*(`[^`]+`|No)\s*\|"  # auth
-    r"\s*(Yes|No|YES)\s*\|"  # HTTPS (some entries use uppercase)
-    r"\s*(Yes|No|Unknown|Unkown|)\s*"  # CORS (some empty or missing)
-    r"\|?\s*"  # optional trailing pipe and whitespace
+    r"\s*(.+?)\s*\|"                         # description
+    r"\s*(`[^`]+`|No)\s*\|"                  # auth
+    r"\s*(Yes|No|YES)\s*\|"                   # HTTPS (some entries use uppercase)
+    r"\s*(Yes|No|Unknown|Unkown|)\s*"           # CORS (some empty or missing)
+    r"\|?\s*"                                  # optional trailing pipe and whitespace
 )
 
 
@@ -69,20 +69,18 @@ def parse_apis(md_path):
         if current_category is None:
             continue
 
-        apis.append(
-            {
-                "name": match.group(1),
-                "url": match.group(2),
-                "description": match.group(3).replace("\t", " ").strip(),
-                "auth": parse_auth(match.group(4)),
-                "https": match.group(5).lower() == "yes",
-                "cors": parse_cors(match.group(6)),
-                "category": current_category,
-                "status": "pending",
-                "notes": "",
-                "date-checked": None,
-            }
-        )
+        apis.append({
+            "name": match.group(1),
+            "url": match.group(2),
+            "description": match.group(3).replace("\t", " ").strip(),
+            "auth": parse_auth(match.group(4)),
+            "https": match.group(5).lower() == "yes",
+            "cors": parse_cors(match.group(6)),
+            "category": current_category,
+            "status": "pending",
+            "notes": "",
+            "date-checked": None,
+        })
 
     return apis
 
