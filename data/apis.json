@@ -1084,10 +1084,13 @@
     "https": true,
     "cors": "yes",
     "category": "art-design",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Generates random noise pattern images with configurable RGB and tile size",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://php-noise.com/noise.php?r=10&g=10&b=10&tiles=3&tileSize=100",
+      "response-type": "image"
+    }
   },
   {
     "name": "Pixel Encounter",
@@ -1357,9 +1360,9 @@
     "https": true,
     "cors": "unknown",
     "category": "blockchain",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Returns 404 Not Found - service appears discontinued",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -1422,9 +1425,9 @@
     "https": true,
     "cors": "yes",
     "category": "books",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Returns HTTP 404 on all endpoints",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -1464,10 +1467,13 @@
     "https": true,
     "cors": "unknown",
     "category": "books",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /works?rows=3 returns scholarly metadata JSON with 178M+ records",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.crossref.org/works?rows=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Ganjoor",
@@ -1580,10 +1586,13 @@
     "https": true,
     "cors": "yes",
     "category": "books",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /api/v4/chapters returns all 114 Quran chapters with metadata",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.quran.com/api/v4/chapters",
+      "response-type": "json"
+    }
   },
   {
     "name": "Quran Cloud",
@@ -1687,10 +1696,13 @@
     "https": true,
     "cors": "unknown",
     "category": "books",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /api/books returns JSON array of Polish literature with covers and audio",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://wolnelektury.pl/api/books/?format=json",
+      "response-type": "json"
+    }
   },
   {
     "name": "Apache Superset",
@@ -2149,9 +2161,9 @@
     "https": true,
     "cors": "yes",
     "category": "calendar",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Returns HTTP 404 on all API endpoints",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -2175,10 +2187,13 @@
     "https": true,
     "cors": "yes",
     "category": "calendar",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Returns 0/1 for whether a date is a holiday. Supports multiple countries",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://isdayoff.ru/api/getdata?year=2026&month=02&day=08&cc=us",
+      "response-type": "text"
+    }
   },
   {
     "name": "Russian Calendar",
@@ -2831,9 +2846,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "API returns empty/blocked responses on all endpoints",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -2996,10 +3011,13 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /data/price returns BTC price in USD as JSON",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD",
+      "response-type": "json"
+    }
   },
   {
     "name": "CryptoMarket",
@@ -3100,10 +3118,13 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /v1/symbols returns JSON array of trading pairs",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.gemini.com/v1/symbols",
+      "response-type": "json"
+    }
   },
   {
     "name": "Hirak Exchange Rates",
@@ -3217,10 +3238,13 @@
     "https": true,
     "cors": "no",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /api/v1/fees/recommended returns JSON fee estimates",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://mempool.space/api/v1/fees/recommended",
+      "response-type": "json"
+    }
   },
   {
     "name": "MercadoBitcoin",
@@ -3230,10 +3254,13 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /api/BTC/ticker returns BRL/BTC ticker with high, low, vol, last",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://www.mercadobitcoin.net/api/BTC/ticker/",
+      "response-type": "json"
+    }
   },
   {
     "name": "Messari",
@@ -3819,10 +3846,13 @@
     "https": true,
     "cors": "unknown",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /v2/metrics.json returns API directory stats with 2500+ APIs indexed",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.apis.guru/v2/metrics.json",
+      "response-type": "json"
+    }
   },
   {
     "name": "Azure DevOps",
@@ -4108,9 +4138,9 @@
     "https": true,
     "cors": "unknown",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Returns HTTP 401 - requires API key authentication",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -4455,9 +4485,9 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Service shut down - redirects to shutdown notice page",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -4468,10 +4498,13 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Returns your public IP address as plain text",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://icanhazip.com",
+      "response-type": "text"
+    }
   },
   {
     "name": "IFTTT",
@@ -4520,9 +4553,9 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Domain parked - no longer serving API responses",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -4588,10 +4621,13 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /v1/stats/packages returns CDN package download stats as JSON",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://data.jsdelivr.com/v1/stats/packages",
+      "response-type": "json"
+    }
   },
   {
     "name": "JSON 2 JSONP",
@@ -4786,10 +4822,13 @@
     "https": true,
     "cors": "unknown",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /express/latest returns package metadata JSON for any npm package",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://registry.npmjs.org/express/latest",
+      "response-type": "json"
+    }
   },
   {
     "name": "OneSignal",
@@ -4968,10 +5007,13 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Generates chart images from Chart.js config passed as URL parameters",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://quickchart.io/chart?c={type:'pie',data:{labels:['A','B'],datasets:[{data:[1,2]}]}}",
+      "response-type": "image"
+    }
   },
   {
     "name": "Random Stuff",
@@ -5319,10 +5361,13 @@
     "https": true,
     "cors": "unknown",
     "category": "dictionaries",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /getcharacter returns character analysis with readings and meanings",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.ctext.org/getcharacter?char=好",
+      "response-type": "json"
+    }
   },
   {
     "name": "Collins",
@@ -5442,10 +5487,13 @@
     "https": true,
     "cors": "yes",
     "category": "dictionaries",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "MediaWiki API returns word definitions and etymology as JSON",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://en.wiktionary.org/w/api.php?action=query&titles=hello&format=json",
+      "response-type": "json"
+    }
   },
   {
     "name": "Wordnik",
@@ -5952,10 +6000,13 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /v1/disposable checks if email domain is disposable",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://open.kickbox.com/v1/disposable/mailinator.com",
+      "response-type": "json"
+    }
   },
   {
     "name": "mail.gw",
@@ -6004,10 +6055,13 @@
     "https": true,
     "cors": "unknown",
     "category": "email",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /email returns disposable check, MX records, and domain risk score",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.mailcheck.ai/email/test@mailinator.com",
+      "response-type": "json"
+    }
   },
   {
     "name": "Mailtrap",
@@ -6434,9 +6488,9 @@
     "https": true,
     "cors": "unknown",
     "category": "environment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Returns HTTP 401 - requires API key",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -6632,9 +6686,9 @@
     "https": true,
     "cors": "yes",
     "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Returns HTTP 403 Forbidden on all endpoints",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -7080,10 +7134,13 @@
     "https": true,
     "cors": "yes",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Returns placeholder images featuring delicious bacon at specified dimensions",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://baconmockup.com/300/200",
+      "response-type": "image"
+    }
   },
   {
     "name": "Chomp",
@@ -7106,10 +7163,13 @@
     "https": true,
     "cors": "unknown",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /random.json returns random coffee image URL as JSON",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://coffee.alexflipnote.dev/random.json",
+      "response-type": "json"
+    }
   },
   {
     "name": "Edamam nutrition",
@@ -14055,10 +14115,13 @@
     "https": true,
     "cors": "unknown",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Atom/XML API returns research paper metadata, abstracts, and author info",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://export.arxiv.org/api/query?search_query=all:electron&max_results=1",
+      "response-type": "text"
+    }
   },
   {
     "name": "CORE",
@@ -18715,10 +18778,13 @@
     "https": true,
     "cors": "unknown",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /metar returns real-time METAR weather data for any airport as JSON",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://aviationweather.gov/api/data/metar?ids=KJFK&format=json",
+      "response-type": "json"
+    }
   },
   {
     "name": "ColorfulClouds",
