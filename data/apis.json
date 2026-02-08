@@ -33,10 +33,13 @@
     "https": true,
     "cors": "no",
     "category": "animals",
-    "status": "broken",
-    "notes": "herokuapp endpoint returns error. Docs page loads but API seems dead.",
-    "date-checked": "2026-02-05",
-    "try-it": null
+    "status": "working",
+    "notes": "Random cat facts",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://catfact.ninja/fact",
+      "response-type": "json"
+    }
   },
   {
     "name": "Cataas",
@@ -952,10 +955,13 @@
     "https": true,
     "cors": "yes",
     "category": "art-design",
-    "status": "pending",
+    "status": "working",
     "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://emojihub.yurace.pro/api/random",
+      "response-type": "json"
+    }
   },
   {
     "name": "Europeana",
@@ -991,10 +997,13 @@
     "https": true,
     "cors": "yes",
     "category": "art-design",
-    "status": "pending",
+    "status": "working",
     "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://icon.horse/icon/github.com",
+      "response-type": "image"
+    }
   },
   {
     "name": "Iconfinder",
@@ -2836,7 +2845,7 @@
     "cors": "yes",
     "category": "cryptocurrency",
     "status": "working",
-    "notes": "GET /api/v3/simple/price returns crypto prices in chosen currency",
+    "notes": "Crypto prices, market data, exchanges",
     "date-checked": "2026-02-08",
     "try-it": {
       "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd",
@@ -2877,10 +2886,13 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Top 100 cryptocurrency tickers with market data",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.coinlore.net/api/tickers/",
+      "response-type": "json"
+    }
   },
   {
     "name": "CoinMarketCap",
@@ -2903,10 +2915,13 @@
     "https": true,
     "cors": "yes",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Crypto market data - prices, volumes, market cap",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.coinpaprika.com/v1/tickers/btc-bitcoin",
+      "response-type": "json"
+    }
   },
   {
     "name": "CoinRanking",
@@ -3737,10 +3752,10 @@
     "cors": "yes",
     "category": "development",
     "status": "working",
-    "notes": "GET /?name={name} predicts age from first name with count and confidence",
-    "date-checked": "2026-02-07",
+    "notes": "Predict age from a name",
+    "date-checked": "2026-02-08",
     "try-it": {
-      "url": "https://api.agify.io?name=michael",
+      "url": "https://api.agify.io/?name=michael",
       "response-type": "json"
     }
   },
@@ -4133,10 +4148,10 @@
     "cors": "yes",
     "category": "development",
     "status": "working",
-    "notes": "GET /?name={name} returns gender prediction with probability",
-    "date-checked": "2026-02-07",
+    "notes": "Predict gender from a name",
+    "date-checked": "2026-02-08",
     "try-it": {
-      "url": "https://api.genderize.io/?name=emma",
+      "url": "https://api.genderize.io/?name=michael",
       "response-type": "json"
     }
   },
@@ -4398,10 +4413,13 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "HTTP request/response testing with HTTP/3 support",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://cloudflare-quic.com/b/headers",
+      "response-type": "json"
+    }
   },
   {
     "name": "Hunter",
@@ -4542,8 +4560,8 @@
     "cors": "unknown",
     "category": "development",
     "status": "working",
-    "notes": "GET /?format=json returns caller public IP address",
-    "date-checked": "2026-02-07",
+    "notes": "Returns your public IP address",
+    "date-checked": "2026-02-08",
     "try-it": {
       "url": "https://api.ipify.org?format=json",
       "response-type": "json"
@@ -4727,10 +4745,10 @@
     "cors": "yes",
     "category": "development",
     "status": "working",
-    "notes": "GET /?name={name} returns nationality probabilities",
-    "date-checked": "2026-02-07",
+    "notes": "Predict nationality from a name",
+    "date-checked": "2026-02-08",
     "try-it": {
-      "url": "https://api.nationalize.io/?name=james",
+      "url": "https://api.nationalize.io/?name=michael",
       "response-type": "json"
     }
   },
@@ -6155,8 +6173,8 @@
     "cors": "unknown",
     "category": "entertainment",
     "status": "working",
-    "notes": "GET /api/v2/facts/random returns JSON {id, text, source, language}",
-    "date-checked": "2026-02-06",
+    "notes": "Random useless facts",
+    "date-checked": "2026-02-08",
     "try-it": {
       "url": "https://uselessfacts.jsph.pl/api/v2/facts/random",
       "response-type": "json"
@@ -6264,10 +6282,13 @@
     "https": true,
     "cors": "unknown",
     "category": "environment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Danish electricity spot prices and energy data",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.energidataservice.dk/dataset/Elspotprices?limit=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "GrünstromIndex",
@@ -6397,10 +6418,13 @@
     "https": true,
     "cors": "unknown",
     "category": "environment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Real-time and forecasted UK grid carbon intensity",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.carbonintensity.org.uk/intensity",
+      "response-type": "json"
+    }
   },
   {
     "name": "Website Carbon",
@@ -8145,10 +8169,13 @@
     "https": true,
     "cors": "no",
     "category": "games-comics",
-    "status": "pending",
+    "status": "working",
     "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.mcsrvstat.us/2/hypixel.net",
+      "response-type": "json"
+    }
   },
   {
     "name": "MMO Games",
@@ -9887,10 +9914,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "US Census data - population, demographics by state",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.census.gov/data/2021/acs/acs5?get=NAME,B01001_001E&for=state:06",
+      "response-type": "json"
+    }
   },
   {
     "name": "City, Berlin",
@@ -10043,9 +10073,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "HTTP 404 - endpoint down",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -10218,10 +10248,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Search Interpol red notice records",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://ws-public.interpol.int/notices/v1/red?page=1&resultPerPage=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Istanbul (İBB) Open Data",
@@ -12557,10 +12590,13 @@
     "https": true,
     "cors": "no",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /metadata/{item} returns item metadata",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://archive.org/metadata/TheAdventuresOfTomSawyer_201303",
+      "response-type": "json"
+    }
   },
   {
     "name": "Black History Facts",
@@ -12622,9 +12658,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "HTTP 404 - endpoint removed",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -12726,10 +12762,13 @@
     "https": true,
     "cors": "yes",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Link preview API - extracts metadata from any URL",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.microlink.io?url=https://github.com",
+      "response-type": "json"
+    }
   },
   {
     "name": "Nasdaq Data Link",
@@ -12969,10 +13008,13 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "MediaWiki API for article extracts and metadata",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://en.wikipedia.org/w/api.php?action=query&titles=Python_(programming_language)&prop=extracts&exintro&explaintext&format=json",
+      "response-type": "json"
+    }
   },
   {
     "name": "Yelp",
@@ -13171,7 +13213,7 @@
     "cors": "unknown",
     "category": "personality",
     "status": "working",
-    "notes": "GET /advice returns random advice slip with id and text",
+    "notes": "Random advice slips",
     "date-checked": "2026-02-08",
     "try-it": {
       "url": "https://api.adviceslip.com/advice",
@@ -13468,10 +13510,13 @@
     "https": true,
     "cors": "yes",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Random inspirational quotes",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://zenquotes.io/api/random",
+      "response-type": "json"
+    }
   },
   {
     "name": "Phone Validation",
@@ -14088,10 +14133,13 @@
     "https": true,
     "cors": "no",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /api/spacecrafts returns Indian spacecraft list",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://isro.vercel.app/api/spacecrafts",
+      "response-type": "json"
+    }
   },
   {
     "name": "ITIS",
@@ -14182,10 +14230,13 @@
     "https": true,
     "cors": "no",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Math computation API - simplify, derive, integrate",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://newton.vercel.app/api/v2/simplify/2^2+2(2)",
+      "response-type": "json"
+    }
   },
   {
     "name": "Noctua",
@@ -14208,10 +14259,13 @@
     "https": true,
     "cors": "no",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Trivia, math, date, year facts about numbers",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "http://numbersapi.com/random/trivia",
+      "response-type": "text"
+    }
   },
   {
     "name": "Numbers",
@@ -14247,10 +14301,13 @@
     "https": false,
     "cors": "no",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /iss-now.json returns real-time ISS position",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "http://api.open-notify.org/iss-now.json",
+      "response-type": "json"
+    }
   },
   {
     "name": "Open Science Framework",
@@ -14312,10 +14369,13 @@
     "https": true,
     "cors": "no",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /v4/launches/latest returns latest launch data",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.spacexdata.com/v4/launches/latest",
+      "response-type": "json"
+    }
   },
   {
     "name": "SpaceX",
@@ -14396,10 +14456,13 @@
     "https": true,
     "cors": "no",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Real-time water data for US monitoring sites",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01646500&parameterCd=00060&period=PT1H",
+      "response-type": "json"
+    }
   },
   {
     "name": "World Bank",
@@ -14591,10 +14654,13 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Directory of filter lists for ad blockers and firewalls",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.filterlists.com/lists",
+      "response-type": "json"
+    }
   },
   {
     "name": "FingerprintJS Pro",
@@ -15666,9 +15732,9 @@
     "https": true,
     "cors": "yes",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "HTTP 401 - requires API key",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -15864,10 +15930,13 @@
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "NHL franchise records and statistics",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://records.nhl.com/site/api/franchise",
+      "response-type": "json"
+    }
   },
   {
     "name": "Oddsmagnet",
@@ -15994,10 +16063,13 @@
     "https": true,
     "cors": "yes",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "AFL Australian football teams and match data",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.squiggle.com.au/?q=teams",
+      "response-type": "json"
+    }
   },
   {
     "name": "Strava",
@@ -16088,10 +16160,13 @@
     "https": true,
     "cors": "no",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Generate random avatar SVG images",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.dicebear.com/7.x/avataaars/svg",
+      "response-type": "image"
+    }
   },
   {
     "name": "English Random Words",
@@ -16353,10 +16428,13 @@
     "https": true,
     "cors": "unknown",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "AI-generated face images",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://thispersondoesnotexist.com/",
+      "response-type": "image"
+    }
   },
   {
     "name": "Toolcarton",
@@ -17979,10 +18057,13 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GoT universe data - characters, houses, books",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://anapioficeandfire.com/api/characters/583",
+      "response-type": "json"
+    }
   },
   {
     "name": "Bob's Burgers",
@@ -18109,9 +18190,9 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "HTTP 402 - payment required",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -18320,9 +18401,9 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "HTTP 404 - API offline",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -18404,10 +18485,13 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Game of Thrones character images and info",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://thronesapi.com/api/v2/Characters/0",
+      "response-type": "json"
+    }
   },
   {
     "name": "TMDb",
@@ -18550,10 +18634,13 @@
     "https": false,
     "cors": "unknown",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Weather forecast - astronomical and civil predictions",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://www.7timer.info/bin/astro.php?lon=0&lat=0&output=json",
+      "response-type": "json"
+    }
   },
   {
     "name": "AccuWeather",
@@ -18839,10 +18926,13 @@
     "https": true,
     "cors": "unknown",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Real-time weather radar maps worldwide",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.rainviewer.com/public/weather-maps.json",
+      "response-type": "json"
+    }
   },
   {
     "name": "Storm Glass",
