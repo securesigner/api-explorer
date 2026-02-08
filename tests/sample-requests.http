@@ -1,0 +1,117 @@
+### ===========================================
+### Public APIs — REST Client Test File
+### ===========================================
+### Usage: Click "Send Request" above any request
+### to see the response inline in VS Code.
+###
+### Create one file per category as you test.
+### See: https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+### ===========================================
+
+### --- Animals ---
+
+### Dog CEO — Random dog image
+GET https://dog.ceo/api/breeds/image/random
+
+###
+
+### Cat Facts — Random cat fact
+GET https://catfact.ninja/fact
+
+###
+
+### HTTPCat — Cat status code image
+GET https://http.cat/200
+
+###
+
+### --- Test Data ---
+
+### JSONPlaceholder — Fake REST API
+GET https://jsonplaceholder.typicode.com/posts/1
+
+###
+
+### RandomUser — Random user profile
+GET https://randomuser.me/api/
+
+###
+
+### FakerAPI — Fake person data
+GET https://fakerapi.it/api/v2/persons?_quantity=1
+
+###
+
+### --- Development ---
+
+### httpbin — Request inspection
+GET https://httpbin.org/get
+
+###
+
+### IPify — Your public IP
+GET https://api.ipify.org?format=json
+
+###
+
+### Agify — Age prediction from name
+GET https://api.agify.io?name=michael
+
+###
+
+### --- Games & Comics ---
+
+### PokéAPI — Pikachu data
+GET https://pokeapi.co/api/v2/pokemon/pikachu
+
+###
+
+### xkcd — Latest comic (JSON)
+GET https://xkcd.com/info.0.json
+
+###
+
+### Open Trivia DB — Random question
+GET https://opentdb.com/api.php?amount=1
+
+###
+
+### --- Finance ---
+
+### Frankfurter — EUR exchange rates
+GET https://api.frankfurter.dev/v1/latest?base=USD
+
+###
+
+### Binlist — BIN/IIN card lookup
+GET https://lookup.binlist.net/45717360
+
+###
+
+### --- Science ---
+
+### USGS Earthquakes — Last hour
+GET https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson
+
+###
+
+### Sunrise/Sunset — NYC today
+GET https://api.sunrise-sunset.org/json?lat=40.7128&lng=-74.0060&formatted=0
+
+###
+
+### --- Weather ---
+
+### Open-Meteo — Current weather NYC
+GET https://api.open-meteo.com/v1/forecast?latitude=40.7128&longitude=-74.006&current_weather=true
+
+###
+
+### --- Template for testing new APIs ---
+### Copy this block, fill in the details, send request.
+### If working, update via CLI:
+###   python3 scripts/update-api-status.py "Name" --status working \
+###     --notes "GET /endpoint returns JSON" \
+###     --try-url "https://api.example.com/endpoint" --try-type json
+
+# GET https://api.example.com/endpoint
