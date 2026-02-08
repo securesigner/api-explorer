@@ -916,10 +916,13 @@
     "https": false,
     "cors": "unknown",
     "category": "art-design",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Returns JSON array of top-rated colors with hex, RGB, HSV values and community stats",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "http://www.colourlovers.com/api/colors/top?format=json&numResults=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Cooper Hewitt",
@@ -1683,10 +1686,13 @@
     "https": true,
     "cors": "yes",
     "category": "books",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Harry Potter universe API returns JSON array of spells with name, effect, type, and light color",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://wizard-world-api.herokuapp.com/Spells?Name=Lumos",
+      "response-type": "json"
+    }
   },
   {
     "name": "Wolne Lektury",
@@ -2050,10 +2056,13 @@
     "https": false,
     "cors": "unknown",
     "category": "calendar",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Returns today's Catholic liturgical calendar as JSON with season, celebrations, and colours",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "http://calapi.inadiutorium.cz/api/v0/en/calendars/default/today",
+      "response-type": "json"
+    }
   },
   {
     "name": "Czech Namedays Calendar",
@@ -2102,10 +2111,13 @@
     "https": false,
     "cors": "unknown",
     "category": "calendar",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Converts Gregorian to Hebrew dates and returns JSON with Hebrew date parts and Torah portion",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://www.hebcal.com/converter?cfg=json&gy=2024&gm=1&gd=1&g2h=1",
+      "response-type": "json"
+    }
   },
   {
     "name": "Holidays",
@@ -6819,10 +6831,13 @@
     "https": true,
     "cors": "unknown",
     "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Returns fund metadata and NAV history as JSON for Indian mutual fund schemes",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.mfapi.in/mf/119551",
+      "response-type": "json"
+    }
   },
   {
     "name": "Intrinio",
@@ -7292,9 +7307,9 @@
     "https": true,
     "cors": "unknown",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Service appears to be down - failed to connect to API endpoint",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -7814,10 +7829,13 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Final Fantasy XIV collectibles API returns JSON with achievements, icons, and patch info",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://ffxivcollect.com/api/achievements?limit=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "FIFA Ultimate Team",
@@ -8805,10 +8823,13 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "French address geocoding API returns GeoJSON FeatureCollection with coordinates and scores",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api-adresse.data.gouv.fr/search/?q=paris&limit=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Airtel IP",
@@ -9870,10 +9891,13 @@
     "https": false,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Returns JSON with place name, state, and coordinates for a given postal/ZIP code",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.zippopotam.us/us/90210",
+      "response-type": "json"
+    }
   },
   {
     "name": "Ziptastic",
@@ -9909,10 +9933,13 @@
     "https": false,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Returns XML directory structure of British Columbia statutes and regulations",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://www.bclaws.gov.bc.ca/civix/content/complete/statreg/",
+      "response-type": "text"
+    }
   },
   {
     "name": "Brazil",
@@ -9922,10 +9949,13 @@
     "https": true,
     "cors": "yes",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /api/ibge/uf/v1 returns JSON array of 27 Brazilian states with codes, names, and regions",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://brasilapi.com.br/api/ibge/uf/v1",
+      "response-type": "json"
+    }
   },
   {
     "name": "Brazil Central Bank Open Data",
@@ -9961,10 +9991,13 @@
     "https": true,
     "cors": "no",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Returns XML/JSON data on Brazilian federal deputies with name, party, state, and photo",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://dadosabertos.camara.leg.br/api/v2/deputados?itens=3&ordem=ASC&ordenarPor=nome",
+      "response-type": "text"
+    }
   },
   {
     "name": "Census.gov",
@@ -12069,10 +12102,13 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Returns random music genre name as plain text string",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://binaryjazz.us/wp-json/genrenator/v1/genre/",
+      "response-type": "text"
+    }
   },
   {
     "name": "iTunes Search",
@@ -12189,10 +12225,13 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Returns detailed artist/release JSON data from the open music encyclopedia",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://musicbrainz.org/ws/2/artist/5b11f4ce-a62d-471e-81fc-a69a8278c7da?fmt=json",
+      "response-type": "json"
+    }
   },
   {
     "name": "Musixmatch",
@@ -12692,10 +12731,13 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Amateur radio callsign lookup returns JSON with name, address, coordinates, and FCC license info",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://www.callook.info/W1AW/json",
+      "response-type": "json"
+    }
   },
   {
     "name": "CARTO",
@@ -14183,9 +14225,9 @@
     "https": true,
     "cors": "unknown",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Returns 404 Not Found - service appears to be down",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -14212,10 +14254,13 @@
     "https": true,
     "cors": "unknown",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Taxonomy search returns JSON with scientific names, TSN codes, and classification data",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://www.itis.gov/ITISWebService/jsonservice/searchByCommonName?srchKey=bear",
+      "response-type": "json"
+    }
   },
   {
     "name": "Launch Library 2",
@@ -17227,10 +17272,13 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Returns JSON array of restroom locations with accessibility and safety ratings",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://www.refugerestrooms.org/api/v1/restrooms?page=1&per_page=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Sabre for Developers",
@@ -17318,10 +17366,13 @@
     "https": true,
     "cors": "yes",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "iRail API returns JSON list of Belgian railway stations with coordinates and IDs",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.irail.be/stations/?format=json&lang=en",
+      "response-type": "json"
+    }
   },
   {
     "name": "Transport for Berlin, Germany",
@@ -18266,10 +18317,13 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Returns JSON array of Harry Potter characters with house, wand, patronus, and actor info",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://hp-api.onrender.com/api/spells",
+      "response-type": "json"
+    }
   },
   {
     "name": "IMDb-API",
@@ -18425,10 +18479,13 @@
     "https": false,
     "cors": "no",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Star Trek API returns paginated JSON with character data including species, gender, and roles",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "http://stapi.co/api/v1/rest/character/search?pageSize=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Stranger Things Quotes",
@@ -18940,10 +18997,13 @@
     "https": true,
     "cors": "yes",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Stats endpoint returns JSON array with senseBox count and measurement totals",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.opensensemap.org/stats",
+      "response-type": "json"
+    }
   },
   {
     "name": "OpenUV",
