@@ -10862,10 +10862,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN at ckan.govdata.de, 147K+ datasets, package_search returns full metadata JSON",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://www.govdata.de/ckan/api/3/action/package_search?rows=2",
+      "response-type": "json"
+    }
   },
   {
     "name": "Open Government, Greece",
@@ -10972,9 +10975,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "INEGI Indicators API requires token parameter in URL, free registration at inegi.org.mx/servicios/api_indicadores.html",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -10985,9 +10988,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "CKAN API returns 404 on all endpoints (package_list, package_search, status_show), portal restructured",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11024,9 +11027,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "CKAN at catalogue.data.govt.nz blocked by Incapsula WAF, API inaccessible",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11037,9 +11040,9 @@
     "https": true,
     "cors": "yes",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "data.norge.no is HTML catalog browser only (1092 data services listed), no JSON REST API endpoint",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11050,9 +11053,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "DKAN portal at datosabiertos.gob.pe, API endpoints non-functional (no extractable JSON from any /api/ path)",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11063,9 +11066,9 @@
     "https": true,
     "cors": "yes",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "dane.gov.pl API returns Page not found on all /api/ versions tested (1.4, 2.0, datasets). Portal active but API retired",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11124,9 +11127,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "data.gov.sa WAF rejects all API requests with 'URL was rejected' message",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11137,9 +11140,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "data.gov.sg returns 403 on all API endpoints, platform redesigned with auth required",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11150,9 +11153,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "data.gov.sk redirects to data.slovensko.sk, CKAN API removed (404), SPARQL only",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11163,10 +11166,13 @@
     "https": true,
     "cors": "no",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN at podatki.gov.si, package_list and package_search return JSON",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://podatki.gov.si/api/3/action/package_search?rows=2",
+      "response-type": "json"
+    }
   },
   {
     "name": "Open Government, South Australian Government",
@@ -11176,9 +11182,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "data.sa.gov.au CKAN API returns 403 Forbidden on all endpoints (package_list, package_search, status_show)",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11205,10 +11211,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "SCB Statistical Database API at api.scb.se, returns JSON array of statistical categories (18 top-level)",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://api.scb.se/OV0104/v1/doris/en/ssd",
+      "response-type": "json"
+    }
   },
   {
     "name": "Open Government, Switzerland",
@@ -11234,9 +11243,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "data.gov.tw API returns 405 Method Not Allowed on REST endpoints, portal active but no public API",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11276,10 +11285,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN at catalog.data.gov, 387K+ datasets, package_search returns full dataset metadata JSON",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://catalog.data.gov/api/3/action/package_search?rows=2",
+      "response-type": "json"
+    }
   },
   {
     "name": "Open Government, Victoria State Government",
@@ -11289,10 +11301,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN at discover.data.vic.gov.au, package_list and package_search return JSON",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://discover.data.vic.gov.au/api/3/action/package_search?rows=2",
+      "response-type": "json"
+    }
   },
   {
     "name": "Open Government, West Australia",
@@ -11302,10 +11317,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN at catalogue.data.wa.gov.au, package_list and package_search return JSON",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://catalogue.data.wa.gov.au/api/3/action/package_search?rows=2",
+      "response-type": "json"
+    }
   },
   {
     "name": "PRC Exam Schedule",
