@@ -110,7 +110,7 @@ function renderStats() {
     .filter((s) => counts[s])
     .map(
       (status) =>
-        `<span class="stat"><span class="stat-dot stat-dot-${status}"></span>${status}: ${counts[status]}</span>`,
+        `<span class="stat"><span class="stat-dot stat-dot-${status}"></span><span class="stat-label">${status}</span> <span class="stat-count">${counts[status]}</span></span>`,
     )
     .join("");
 }
