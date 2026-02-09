@@ -10739,9 +10739,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Portal at data.gov.be exists but no public REST API found. Tested /api/1/, /api/2/, /api/3/, /en/search/datasets — all return 404. Portal is a catalog website without CKAN or Socrata API. Tested 2025-06-13.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -10752,10 +10752,13 @@
     "https": false,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN instance at open.canada.ca. Returns JSON with dataset IDs for Canadian government open data. Tested 2025-06-13.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://open.canada.ca/data/en/api/3/action/package_list?limit=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Open Government, Colombia",
@@ -10765,9 +10768,9 @@
     "https": false,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "URL dane.gov.co is the Colombian national statistics bureau (DANE) website, not an open data API. The actual open data portal is at datos.gov.co (different domain). No REST API at the listed URL. Tested 2025-06-13.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -10778,9 +10781,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Portal at data.gov.cy uses EKAN platform with 1,901 datasets listed, but no public REST API endpoints found. Tested /api/3/, /api/1/, /api/metastore/ — all failed. Not CKAN-based. Tested 2025-06-13.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -10791,9 +10794,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Portal at data.gov.cz has a SPARQL endpoint only. REST API at /api/v2/datasets returns 404. No public JSON REST API available. Tested 2025-06-13.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -10804,9 +10807,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Portal at opendata.dk exists but is not CKAN-based. Tested /api/action/package_list, /api/3/action/package_list — all return 404. No public REST API accessible. Tested 2025-06-13.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -10830,10 +10833,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN instance redirects from avoindata.fi to avoindata.suomi.fi. Returns JSON with massive list of Finnish government datasets. Tested 2025-06-13.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://www.avoindata.fi/data/en/api/3/action/package_list?limit=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Open Government, France",
@@ -10895,10 +10901,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN instance at data.gov.ie. Returns JSON with Irish government dataset IDs. Tested 2025-06-13.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://data.gov.ie/api/3/action/package_list?limit=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Open Government, Italy",
@@ -10908,10 +10917,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN instance at dati.gov.it. Returns JSON with Italian government dataset IDs via /opendata/ path. Tested 2025-06-13.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://www.dati.gov.it/opendata/api/3/action/package_list?limit=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Open Government, Korea",
@@ -10934,9 +10946,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Portal at data.gov.lt has SPARQL endpoint only. No REST API found at /public/api/1 or other standard patterns. Portal page returns HTML, not JSON. Tested 2025-06-13.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -10986,9 +10998,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Catalog portal at data.overheid.nl lists 19,057 datasets but no public JSON API. CKAN endpoints (/api/3/action/package_list) return 404. Custom API at /datasets.json also 404. Portal is browse-only. Tested 2025-06-13.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11064,10 +11076,13 @@
     "https": true,
     "cors": "yes",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "REST API at dados.gov.pt. Returns JSON with pagination showing 20,026 total datasets. Well-documented API. Tested 2025-06-13.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://dados.gov.pt/api/1/datasets/?page_size=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Open Government, Queensland Government",
@@ -11077,10 +11092,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN instance at data.qld.gov.au. Returns JSON with Queensland government dataset IDs. Tested 2025-06-13.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://www.data.qld.gov.au/api/3/action/package_list?limit=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Open Government, Romania",
@@ -11090,10 +11108,13 @@
     "https": false,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN instance at data.gov.ro. Returns JSON with Romanian government dataset IDs. Tested 2025-06-13.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://data.gov.ro/api/3/action/package_list?limit=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Open Government, Saudi Arabia",
@@ -11168,10 +11189,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Linked Data API at datos.gob.es. Returns rich JSON with dataset metadata including titles, descriptions, distributions, and themes. Tested 2025-06-13.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://datos.gob.es/apidata/catalog/dataset?_pageSize=3&_page=0",
+      "response-type": "json"
+    }
   },
   {
     "name": "Open Government, Sweden",
@@ -11194,10 +11218,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN instance at ckan.opendata.swiss (redirects from opendata.swiss). Returns JSON with Swiss government dataset IDs. Tested 2025-06-13.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://ckan.opendata.swiss/api/3/action/package_list?limit=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Open Government, Taiwan",
@@ -11233,10 +11260,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN instance at data.gov.uk (backend at ckan.publishing.service.gov.uk). Returns JSON with UK government dataset IDs. Tested 2025-06-13.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://data.gov.uk/api/3/action/package_list?limit=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Open Government, USA",
@@ -11285,9 +11315,9 @@
     "https": true,
     "cors": "yes",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Domain whenisthenextboardexam.com redirects to parked domain ww1.whenisthenextboardexam.com which fails with ERR_NAME_NOT_RESOLVED. API is completely dead. Tested 2025-06-13.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11298,10 +11328,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "REST API at represent.opennorth.ca. Returns JSON with Canadian elected officials data (3,816 total representatives). Supports pagination and filtering. Tested 2025-06-13.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://represent.opennorth.ca/representatives/?limit=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "UK Companies House",
@@ -11324,9 +11357,9 @@
     "https": true,
     "cors": "no",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "API endpoint at uselection.togatech.org/api/ returns HTTP 404. Site appears to be down or discontinued. Tested 2025-06-13.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
