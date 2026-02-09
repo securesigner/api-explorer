@@ -7539,9 +7539,9 @@
     "https": true,
     "cors": "no",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Hosted on Heroku free tier (age-of-empires-2-api.herokuapp.com). DNS resolution fails — Heroku free dynos were retired. Tested 2026-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -7565,9 +7565,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Domain acnhapi.com expired and sold. Redirects to spam site (thesheperdsquad.com). API completely gone. Tested 2026-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -7646,9 +7646,9 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "bugsnaxapi.com/api/snax and bugsnaxapi.com/api/snax/1 both fail to return any content on multiple attempts. Site appears non-functional. Tested 2026-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -7691,9 +7691,9 @@
     "https": false,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Domain icndb.com has been hijacked. Now serves a gambling/slot site (ROYALTOGEL). Original joke API is completely gone. Tested 2026-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -7730,9 +7730,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API at comicvine.gamespot.com/api/ returns HTTP 401 Unauthorized without valid api_key parameter. Registration required at gamespot.com. Tested 2026-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -7756,10 +7756,13 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Cross Universe card game data API at crossuniverse.net. GET /cardInfo/?lang=en&cardID={id} returns JSON with card name, level, types, effects, illustrator. Also supports POST search and card images. Tested 2026-02-09.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://crossuniverse.net/cardInfo/?lang=en&cardID=U00107",
+      "response-type": "json"
+    }
   },
   {
     "name": "Deck of Cards",
@@ -7817,10 +7820,13 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Digimon card game data at digimoncard.io. GET /api-public/search.php?n={name} returns JSON array of cards with name, type, color, DP, effects, set info, TCGplayer IDs. Tested 2026-02-09.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://digimoncard.io/api-public/search.php?n=Agumon&series=Digimon%20Card%20Game&limit=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Disney",
@@ -7920,9 +7926,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "easports.com/fifa/ultimate-team/api/fut/item returns Service Unavailable. EA Sports FIFA has been rebranded to EA Sports FC; old API endpoints retired. Tested 2026-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -7959,9 +7965,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "forza-api.tk domain DNS resolution fails. .tk free domain expired and not renewed. API completely gone. Tested 2026-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -7988,9 +7994,9 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Hosted on Heroku free tier (asli-fun-fact-api.herokuapp.com). DNS resolution fails — Heroku free dynos were retired. Tested 2026-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -8030,10 +8036,13 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Geometry Dash browser/API. GET /api/profile/{username} returns JSON with player stats (stars, diamonds, coins, rank, icon). Also /api/search, /api/level endpoints. Tested 2026-02-09.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://gdbrowser.com/api/profile/RobTop",
+      "response-type": "json"
+    }
   },
   {
     "name": "Geek-Jokes",
@@ -8043,10 +8052,13 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Random geeky/programming joke API. GET /api?format=json returns JSON with joke string. Simple single-endpoint API. Tested 2026-02-09.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://geek-jokes.sameerkumar.website/api?format=json",
+      "response-type": "json"
+    }
   },
   {
     "name": "Genshin Impact",
@@ -8111,9 +8123,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "gw2spidy.com domain DNS resolution fails. Domain expired and not renewed. Guild Wars 2 trading post API is gone. Tested 2026-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -8208,9 +8220,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "hytale-api.com domain DNS resolution fails. Domain expired. Hytale game blog/jobs API is gone. Tested 2026-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -8347,10 +8359,13 @@
     "https": true,
     "cors": "no",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Free-to-play MMO games database at mmobomb.com. GET /api1/games returns large JSON array of games with title, short_description, genre, platform, publisher, thumbnail. Tested 2026-02-09.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://www.mmobomb.com/api1/games",
+      "response-type": "json"
+    }
   },
   {
     "name": "mod.io",
@@ -8444,10 +8459,13 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Multi-platform player lookup. GET /api/player/minecraft/{username} returns JSON with player UUID, username, avatar. Also supports Steam and Xbox lookups. Tested 2026-02-09.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://playerdb.co/api/player/minecraft/Notch",
+      "response-type": "json"
+    }
   },
   {
     "name": "Pokéapi",
@@ -8502,9 +8520,9 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Netlify docs page at psychonauts-api.netlify.app exists but actual API backend is hosted on Heroku (psychonauts-api.herokuapp.com) which is dead. DNS resolution fails for API endpoints. Tested 2026-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -8612,10 +8630,13 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Rock, Paper, Scissors with 101 objects. GET /api/v1/objects/all returns JSON array of all 101 objects. GET /api/v1/match?object_one=Rock&object_two=Scissors returns match result. Tested 2026-02-09.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://rps101.pythonanywhere.com/api/v1/objects/all",
+      "response-type": "json"
+    }
   },
   {
     "name": "RuneScape",
@@ -8761,9 +8782,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "api.tronalddump.io domain DNS resolution fails. Domain expired and not renewed. Trump quotes API is gone. Tested 2026-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -8806,9 +8827,9 @@
     "https": true,
     "cors": "no",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "api.wfstats.cf redirects to wftoolsnotavailable.pages.dev — a page explicitly stating the tools are not available. API deliberately taken down. Tested 2026-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
