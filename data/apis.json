@@ -12794,9 +12794,9 @@
     "https": false,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "18f.github.io/API-All-the-X/ returns HTTP 404. GitHub Pages site removed. Tested 2026-02-15.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -12807,9 +12807,9 @@
     "https": true,
     "cors": "yes",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Indian Government API gateway requiring partner registration. Not a direct REST API — services require authentication via partner credentials. Tested 2026-02-15.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -12849,10 +12849,13 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /getBotID.php?username=@vote returns JSON with bot info including ok, id, result fields. Tested 2026-02-15.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.botsarchive.com/getBotID.php?username=@vote",
+      "response-type": "json"
+    }
   },
   {
     "name": "Callook.info",
@@ -12917,10 +12920,13 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /search/?q=paris&limit=1 returns GeoJSON FeatureCollection with coordinates, address label, city, postcode. Old api-adresse.data.gouv.fr deprecated Jan 2026, migrating to Géoplateforme. Tested 2026-02-15.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api-adresse.data.gouv.fr/search/?q=paris&limit=1",
+      "response-type": "json"
+    }
   },
   {
     "name": "GENESIS",
@@ -12982,9 +12988,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "power.lowyinstitute.org/countries.json returns 404. GitHub docs repo (0x0is1/lowy-index-api-docs) archived Nov 2025. API no longer served. Tested 2026-02-15.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -13040,10 +13046,13 @@
     "https": true,
     "cors": "no",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "ArcGIS REST services API at services.arcgis.com returns JSON listing of all FeatureServer datasets (police, fire, transportation, etc). GET /?f=json for service catalog. Tested 2026-02-15.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://services.arcgis.com/afSMGVsC7QlRK1kZ/arcgis/rest/services?f=json",
+      "response-type": "json"
+    }
   },
   {
     "name": "openAFRICA",
@@ -13053,10 +13062,13 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN API at open.africa. GET /api/3/action/package_list?limit=2 returns JSON with success:true and dataset names. Tested 2026-02-15.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://open.africa/api/3/action/package_list?limit=2",
+      "response-type": "json"
+    }
   },
   {
     "name": "OpenCorporates",
@@ -13079,9 +13091,9 @@
     "https": true,
     "cors": "yes",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API requires API key with pay-as-you-go pricing. Free trial available only for business emails. GET /search/ returns 401 without key. Tested 2026-02-15.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -13157,10 +13169,13 @@
     "https": true,
     "cors": "yes",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Opendatasoft platform. GET /api/explore/v2.1/catalog/datasets?limit=2 returns JSON with 332 datasets. Covers environment, transport, demographics. Tested 2026-02-15.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://opendata.umea.se/api/explore/v2.1/catalog/datasets?limit=2",
+      "response-type": "json"
+    }
   },
   {
     "name": "Universities List",
@@ -13189,10 +13204,13 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /studies/v1/course/EXPHIL03?lang=en returns JSON course data with name, description, credits, assessments. Tested 2026-02-15.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://data.uio.no/studies/v1/course/EXPHIL03?lang=en",
+      "response-type": "json"
+    }
   },
   {
     "name": "UPC database",
@@ -13215,9 +13233,9 @@
     "https": false,
     "cors": "no",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "urbanobservatory.ac.uk API returns 502 on multiple endpoints (/api/v1.1/themes/json, /api/v1.1/sensors/json). Server infrastructure appears down. Tested 2026-02-15.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -14888,9 +14906,9 @@
     "https": true,
     "cors": "yes",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Hosted on Heroku (classify-web.herokuapp.com). Heroku free tier shut down Nov 2022. Returns error page. Tested 2026-02-15.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -14927,9 +14945,9 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "GitHub repo (Dehash-lt/api) returns 404 — repository deleted. No alternative API endpoint found. Tested 2026-02-15.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -14940,9 +14958,9 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Unauthenticated API disabled. GET /bill@microsoft.com returns 'Unauthenticated API is currently disabled. Please login.' Free API key available at emailrep.io/key. Tested 2026-02-15.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -14953,9 +14971,9 @@
     "https": true,
     "cors": "no",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Hosted on Replit (s.polarspetroll.repl.co). Replit discontinued free hosting — endpoint unreachable. Tested 2026-02-15.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -15060,9 +15078,9 @@
     "https": true,
     "cors": "yes",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "hashable.space and /pages/api/ both unreachable — multiple fetch attempts return no content. Site appears completely down. Tested 2026-02-15.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -15112,9 +15130,9 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Report Abuse API requires Microsoft account sign-in. Not a general-purpose data API — designed for submitting security incident reports. Tested 2026-02-15.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -15125,9 +15143,9 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Old HTTP Observatory API v1 at http-observatory.security.mozilla.org shut down Oct 2024. Returns 502. New v2 API moved to observatory-api.mdn.mozilla.net but requires POST. Tested 2026-02-15.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -15138,9 +15156,9 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Mozilla TLS Observatory sunset Oct 2024 per MDN FAQ. tls-observatory.services.mozilla.com endpoints unreachable. No replacement planned. Tested 2026-02-15.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -15168,9 +15186,9 @@
     "https": true,
     "cors": "yes",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Migrated from Heroku to Render (passwordinator.onrender.com). Returns HTTP 404 — Render free tier app inactive/removed. Tested 2026-02-15.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -15181,10 +15199,13 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /api/phishing?_sort=-id&_size=2 returns JSON array of phishing URL records with url, ip, title, score, date fields. Tested 2026-02-15.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.phishstats.info:2096/api/phishing?_sort=-id&_size=2",
+      "response-type": "json"
+    }
   },
   {
     "name": "Privacy.com",
@@ -15288,9 +15309,9 @@
     "https": true,
     "cors": "yes",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "api.virushee.com unreachable — multiple fetch attempts return no content on root and hash endpoints. API appears offline. Tested 2026-02-15.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
