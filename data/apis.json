@@ -17238,9 +17238,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Now requires paid API via RapidAPI. adsbexchange.com/data/ redirects to RapidAPI marketplace for subscription access.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -17251,9 +17251,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Root at airport-web.appspot.com returns only 'Hello World!'. /api/airports/KJFK returns 404. API endpoints removed or defunct.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -17400,9 +17400,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Links to TransitLand v1 datastore which now returns HTTP 403. TransitLand moved to v2 API with paid plans at transit.land.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -17465,10 +17465,13 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Open APIs for Iceland. Docs at docs.apis.is list bus, flight, earthquake endpoints. Endpoints return JSON data (bus nearstop, flight departures, earthquake data).",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://apis.is/earthquake/is",
+      "response-type": "json"
+    }
   },
   {
     "name": "Impala Hotel Bookings",
@@ -17517,10 +17520,13 @@
     "https": false,
     "cors": "no",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Lisbon metro line status. Returns JSON {resposta:{amarela:'Ok',azul:'Ok',verde:'Ok',vermelha:'Ok'},codigo:'200'}.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "http://app.metrolisboa.pt/status/getLinhas.php",
+      "response-type": "json"
+    }
   },
   {
     "name": "Navitia",
@@ -17640,9 +17646,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "TransitLand v1 API at transit.land/api/v1/operators returns HTTP 403. Service migrated to v2 with paid plans and pricing tiers.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -17653,9 +17659,9 @@
     "https": false,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "MARTA developer API at developer.itsmarta.com returns HTTP 502 Bad Gateway. API endpoint uses apikey parameter despite being listed as no-auth.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -17666,9 +17672,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Auckland Transport dev portal requires signup and Ocp-Apim-Subscription-Key header for all API calls.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -17695,10 +17701,13 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "VBB transport.rest instance for Berlin public transit. Returns station data, departures, and journeys with real-time info.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://3.vbb.transport.rest/stops?query=alexanderplatz&results=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Transport for Bordeaux, France",
@@ -17721,9 +17730,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "BKK Futar API docs at bkkfutar.docs.apiary.io return HTTP 502. API documentation and endpoints unreachable.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -17747,9 +17756,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "CHAPS/IDOS at chaps.cz returns no extractable content on multiple attempts. Product pages and API documentation unreachable.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -17760,9 +17769,9 @@
     "https": false,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "RTD developer guide at rtd-denver.com/gtfs-developer-guide.shtml returns HTTP 404.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -17773,9 +17782,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Digitransit.fi now requires registration and API keys for all endpoints. Free tier available but signup mandatory.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -17799,10 +17808,13 @@
     "https": false,
     "cors": "no",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Mobilités-m open data API. Returns comprehensive JSON with all Grenoble transit routes (tram A-E, chronobus, proximo, SNCF rail, funicular).",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://data.mobilites-m.fr/api/routers/default/index/routes",
+      "response-type": "json"
+    }
   },
   {
     "name": "Transport for Hessen, Germany",
@@ -17812,9 +17824,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RMV OpenData portal requires registration for API access key (Zugriffsschlüssel). Free tier available but signup mandatory.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -17890,10 +17902,13 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Entur open transport API. Geocoder at api.entur.io returns GeoJSON with Norwegian transit stops. Open and free.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://api.entur.io/geocoder/v1/autocomplete?text=oslo&size=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Transport for Ottawa, Canada",
@@ -17916,10 +17931,13 @@
     "https": false,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "RATP Open Data via Opendatasoft platform at data.ratp.fr. Provides dataset search, real-time transit data for Paris public transport.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "http://data.ratp.fr/api/v1/console/datasets/1.0/search/?rows=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Transport for Philadelphia, US",
@@ -17929,10 +17947,13 @@
     "https": false,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "SEPTA hackathon API. TrainView returns live JSON with all active trains including lat/lon, line, current/next stop, delay minutes, consist.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://www3.septa.org/api/TrainView/index.php",
+      "response-type": "json"
+    }
   },
   {
     "name": "Transport for Sao Paulo, Brazil",
@@ -17955,10 +17976,13 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Renfe CKAN open data API. Datastore search returns Spanish railway station data with coordinates, addresses, provinces.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://data.renfe.com/api/3/action/datastore_search?resource_id=a2368cff-1562-4dde-8466-9635ea3a572a&limit=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Transport for Sweden",
@@ -18023,10 +18047,13 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "OVAPI country-wide Dutch public transport. REST API at v0.ovapi.nl returns JSON for all lines, stops, journeys. Massive dataset covering QBUZZ, GVB, CXX, ARR, HTM, RET operators.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "http://v0.ovapi.nl/stopareacode/",
+      "response-type": "json"
+    }
   },
   {
     "name": "Transport for Toronto, Canada",
@@ -18036,9 +18063,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "MyTTC.ca is a community-built web app, not an API. Developer page non-functional. Site says TTC has released official GTFS and real-time data separately.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -18062,10 +18089,13 @@
     "https": false,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "NextBus/Umo IQ XML feed API. agencyList command returns XML with all transit agencies (Cape Cod, Glendale, Escalon, etc.).",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://retro.umoiq.com/service/publicXMLFeed?command=agencyList",
+      "response-type": "text"
+    }
   },
   {
     "name": "Transport for Vancouver, Canada",
@@ -18144,10 +18174,13 @@
     "https": true,
     "cors": "no",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Vélib Métropole GBFS open data. All APIs accessible without key (explicitly stated). Returns JSON with 1400+ bike station details, availability, coordinates.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://velib-metropole-opendata.smovengo.cloud/opendata/Velib_Metropole/gbfs.json",
+      "response-type": "json"
+    }
   },
   {
     "name": "1pt",
