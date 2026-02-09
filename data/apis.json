@@ -1466,9 +1466,9 @@
     "https": false,
     "cors": "unknown",
     "category": "books",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Linked data/SPARQL endpoint at bnb.data.bl.uk. Server responds but returns no parseable content on any endpoint (base, SPARQL, JSON-LD resources). Service appears non-functional.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -1521,10 +1521,13 @@
     "https": true,
     "cors": "unknown",
     "category": "books",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Fast Gurbani API at api.gurbaninow.com. GET /v2/hukamnama/today returns rich JSON with daily Hukamnama including Gurmukhi, translations (English, Punjabi, Spanish), transliterations.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.gurbaninow.com/v2/hukamnama/today",
+      "response-type": "json"
+    }
   },
   {
     "name": "Gutendex",
@@ -1569,9 +1572,9 @@
     "https": true,
     "cors": "yes",
     "category": "books",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "REST API at reststop.randomhouse.com. Docs state 'All RHRS requests are secured via BASIC HTTP authentication over HTTPS'. Requires credentials despite listing saying no auth.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -1630,10 +1633,13 @@
     "https": true,
     "cors": "yes",
     "category": "books",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CDN-hosted Quran API by fawazahmed0. GET /editions.json returns JSON with 400+ translations in 90+ languages. Static JSON hosted on jsDelivr CDN.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions.json",
+      "response-type": "json"
+    }
   },
   {
     "name": "Rig Veda",
@@ -1643,9 +1649,9 @@
     "https": true,
     "cors": "unknown",
     "category": "books",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Indica API by Anindita Basu. Docs explicitly state 'API will no longer work from 28 Nov 2022 when Heroku pulls its free plan'. Was at api-rv.herokuapp.com. Offline.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -1682,9 +1688,9 @@
     "https": true,
     "cors": "unknown",
     "category": "books",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Indica API by Anindita Basu. Same as Rig Veda — hosted on Heroku free tier, offline since Nov 2022. Doc pages at indica/html/vs.html return 404.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -5981,9 +5987,9 @@
     "https": true,
     "cors": "unknown",
     "category": "email",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "working",
+    "notes": "GraphQL-only API at dropmail.me/api/graphql/. Supports temporary email creation and inbox reading via mutations/queries. No simple REST GET endpoint for try-it.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -5994,9 +6000,9 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "eva.pingutil.com returns no parseable content on base URL or API endpoints. Multiple URL patterns tested; site appears non-functional.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -6007,10 +6013,13 @@
     "https": true,
     "cors": "unknown",
     "category": "email",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /ajax.php?f=get_email_address returns JSON with disposable temp email address, token, and expiry. Fully functional REST API.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.guerrillamail.com/ajax.php?f=get_email_address",
+      "response-type": "json"
+    }
   },
   {
     "name": "ImprovMX",
@@ -6049,10 +6058,13 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Temp mail API. GET /domains.json returns JSON array of available domains (e.g. oakon.com, teihu.com). Supports account creation and inbox reading.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.mail.gw/domains.json",
+      "response-type": "json"
+    }
   },
   {
     "name": "mail.tm",
@@ -6062,10 +6074,13 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Temp mail API. GET /domains.json returns JSON array of available domains with IDs. Supports account creation and message retrieval.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.mail.tm/domains.json",
+      "response-type": "json"
+    }
   },
   {
     "name": "MailboxValidator",
@@ -12128,9 +12143,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "GET /artists/{name}?app_id=test returns 403 Forbidden. Requires registered app_id from Bandsintown developer portal.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -12180,9 +12195,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "GitHub-hosted Flask wrapper by cyberboysumanjay. Heroku deploy-based, no public instance. gaana-api.herokuapp.com is dead.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -12251,10 +12266,16 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Unofficial Flask API by cyberboysumanjay; public Vercel instance at saavnapi-nine.vercel.app. GET /result/?query={query} returns JSON array of songs with metadata, album art, and streaming URLs.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://saavnapi-nine.vercel.app/result/?query={query}",
+      "response-type": "json",
+      "params": {
+        "query": "hello"
+      }
+    }
   },
   {
     "name": "KKBOX",
@@ -12374,10 +12395,13 @@
     "https": true,
     "cors": "no",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Public Data Export API. GET /{username}?format=json&limit=N returns JSON array of user tracks with title, source, play count. No auth needed for public profiles.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://openwhyd.org/adrien?format=json&limit=5",
+      "response-type": "json"
+    }
   },
   {
     "name": "Phishin",
@@ -12442,9 +12466,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "API endpoints /a/wa/api/ and /a/ra/songs/search.json both return HTTP 404. API appears discontinued.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -13246,9 +13270,9 @@
     "https": false,
     "cors": "unknown",
     "category": "open-source-projects",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Self-hosted analytics platform. api.count.ly DNS fails; requires deploying your own Countly server instance + app_key for API access. No public API endpoint available.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -13320,10 +13344,16 @@
     "https": true,
     "cors": "yes",
     "category": "open-source-projects",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Vercel-hosted. GET /api/v1/{username} returns JSON with yearly GitHub contribution data including total count and daily data array.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://github-contributions.vercel.app/api/v1/{username}",
+      "response-type": "json",
+      "params": {
+        "username": "anuraghazra"
+      }
+    }
   },
   {
     "name": "GitHub ReadMe Stats",
@@ -13333,9 +13363,9 @@
     "https": true,
     "cors": "yes",
     "category": "open-source-projects",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "GET /api?username=anuraghazra consistently returns HTTP 503 Service Unavailable. Public Vercel instance appears overloaded or rate-limited.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -13346,9 +13376,9 @@
     "https": true,
     "cors": "yes",
     "category": "open-source-projects",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Self-hosted BI/analytics tool. Docs at metabase.com describe API for your own Metabase instance. No public API endpoint; requires running own server.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
