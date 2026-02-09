@@ -1863,9 +1863,9 @@
     "https": false,
     "cors": "unknown",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Site is live at markerapi.com. Requires API subscription with username/password authentication for trademark search. Free tier not available without signup credentials.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -1941,9 +1941,9 @@
     "https": true,
     "cors": "unknown",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "tenders.guru domain appears dead. Multiple URLs tested (tenders.guru/hu/api, tenders.guru/); all fail to return content. Entire domain unresponsive.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -1954,9 +1954,9 @@
     "https": true,
     "cors": "unknown",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Same dead domain as Tenders in Hungary (tenders.guru). All regional tender endpoints unresponsive.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -1967,9 +1967,9 @@
     "https": true,
     "cors": "unknown",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Same dead domain as Tenders in Hungary (tenders.guru). All regional tender endpoints unresponsive.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -1980,9 +1980,9 @@
     "https": true,
     "cors": "unknown",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Same dead domain as Tenders in Hungary (tenders.guru). All regional tender endpoints unresponsive.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -1993,9 +1993,9 @@
     "https": true,
     "cors": "unknown",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Same dead domain as Tenders in Hungary (tenders.guru). All regional tender endpoints unresponsive.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -15504,9 +15504,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "aztro.sameerkumar.website is unresponsive. POST-only horoscope API. Domain fails to return any content; appears dead.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -15582,9 +15582,9 @@
     "https": true,
     "cors": "yes",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "api.doge-meme.lol is dead. DNS resolution fails and fetch returns no content. Random doge meme API no longer operational.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -15621,9 +15621,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "foaas.com returns HTTP 404 on /version endpoint. Previously served profanity-laced insults as a service; site is now dead.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -15663,9 +15663,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "hashnode.com/api returns HTTP 404. Platform migrated to GraphQL-only API (api.hashnode.com/graphql) which requires different integration. REST API endpoint no longer exists.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -15702,10 +15702,16 @@
     "https": true,
     "cors": "yes",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /v1/users/{user_id} returns full Discord presence JSON including status, activities, Spotify data. WebSocket support also available. Fast, reliable API.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.lanyard.rest/v1/users/{user_id}",
+      "response-type": "json",
+      "params": {
+        "user_id": "94490510688792576"
+      }
+    }
   },
   {
     "name": "Line",
@@ -15780,10 +15786,16 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "REST API works at opencollective.com/{collective}/members/all.json. Returns JSON array of members with profile, role, tier, and financial data. Also has GraphQL API.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://opencollective.com/{collective}/members/all.json",
+      "response-type": "json",
+      "params": {
+        "collective": "webpack"
+      }
+    }
   },
   {
     "name": "Pinterest",
@@ -16134,9 +16146,9 @@
     "https": true,
     "cors": "yes",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ScoreBat video API requires API token even for free plan. Must sign up at scorebat.com to get token for accessing video highlights feed.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -16147,10 +16159,13 @@
     "https": true,
     "cors": "yes",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Vercel-hosted API at api-football-standings.azharimm.dev. Wraps ESPN data for league standings. GET /leagues returns JSON list of football leagues. Endpoints: /leagues, /leagues/{id}, /leagues/{id}/standings.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api-football-standings.azharimm.dev/leagues",
+      "response-type": "json"
+    }
   },
   {
     "name": "Football-Data",
@@ -16186,9 +16201,9 @@
     "https": false,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "lookup-service-prod.mlb.com returns 404 on root and 500 on search endpoints. MLB deprecated this unofficial data API in favor of statsapi.mlb.com.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -16212,9 +16227,9 @@
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "any-api.com docs page redirects to apilayer.com marketplace (docs gone). stats.nba.com/stats/ returns HTTP 403 Forbidden. NBA locked down their stats API to block non-browser requests.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -16241,9 +16256,9 @@
     "https": true,
     "cors": "yes",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "data.oddsmagnet.com redirects to oddsmagnet.com/oddsdata. Site is live with three tiers: embedded odds (free HTML widget), historical data (free CSV/paid parquet), and full API (paid). No free REST API endpoint without authentication.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -16296,10 +16311,13 @@
     "https": true,
     "cors": "yes",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Decathlon Sports API at sports.api.decathlon.com/sports. Returns JSON list of sports with metadata. Corporate API maintained by Decathlon.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://sports.api.decathlon.com/sports",
+      "response-type": "json"
+    }
   },
   {
     "name": "Sport Places",
@@ -16309,10 +16327,13 @@
     "https": true,
     "cors": "no",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Decathlon Sport Places API at sportplaces.api.decathlon.com. Crowd-sourced sports facility locations worldwide. GET /api/v1/places with origin/radius params returns nearby venues.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://sportplaces.api.decathlon.com/api/v1/places?origin=-73.582,45.511&radius=10",
+      "response-type": "json"
+    }
   },
   {
     "name": "Sport Vision",
@@ -16390,9 +16411,9 @@
     "https": false,
     "cors": "no",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "suredbits.com returns HTTP 522 (Cloudflare connection timeout). Bitcoin micropayment-based sports/crypto data startup appears defunct.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
