@@ -11183,10 +11183,13 @@
     "https": true,
     "cors": "unknown",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Pipedream workflow wrapping JHU CSSE data. Returns global summary stats + per-country CSV-parsed data. Cache refreshes every 5 min. Data frozen at 2023-03-09 (JHU stopped updates).",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://coronavirus.m.pipedream.net/",
+      "response-type": "json"
+    }
   },
   {
     "name": "Coronavirus in the UK",
@@ -11196,9 +11199,9 @@
     "https": true,
     "cors": "unknown",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "UK Gov COVID dashboard retired. api.coronavirus.data.gov.uk returns no meaningful response.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11209,10 +11212,13 @@
     "https": true,
     "cors": "no",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "The Atlantic's COVID tracking project. API frozen 2021-03-07 but still serves historical US data. Returns JSON arrays with states/dates/cases/deaths.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://api.covidtracking.com/v2/us/daily.json",
+      "response-type": "json"
+    }
   },
   {
     "name": "Covid-19",
@@ -11222,9 +11228,9 @@
     "https": true,
     "cors": "yes",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "api.covid19api.com/summary returns no meaningful response. Wrapper around JHU data, now dead.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11235,9 +11241,9 @@
     "https": true,
     "cors": "yes",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "covid-api.mmediagroup.fr returns HTTP 403 Forbidden. API access blocked.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11248,9 +11254,9 @@
     "https": true,
     "cors": "unknown",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "ArcGIS Hub site now requires sign-in credentials. Was listed as no-auth but npgeo-corona-npgeo-de.hub.arcgis.com is gated behind authentication.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11261,9 +11267,9 @@
     "https": true,
     "cors": "yes",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Oxford BSG COVID tracker at covidtracker.bsg.ox.ac.uk redirects to info page. API endpoints no longer serve data.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11274,10 +11280,13 @@
     "https": true,
     "cors": "unknown",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Community-maintained covid19india.org data. API frozen at 2021-10-31 but still serves historical JSON. Comprehensive India state-level data.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://data.covid19india.org/v4/min/data.min.json",
+      "response-type": "json"
+    }
   },
   {
     "name": "Covid-19 JHU CSSE",
@@ -11287,9 +11296,9 @@
     "https": true,
     "cors": "yes",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Third-party wrapper at covid19.nuttaphat.com returns no response. Original JHU data discontinued March 2023.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11300,9 +11309,9 @@
     "https": true,
     "cors": "yes",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "covid19.mathdro.id/api returns no meaningful response. Mathdroid wrapper API dead.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11313,9 +11322,9 @@
     "https": true,
     "cors": "yes",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Heroku app dead. covid19-api-philippines.herokuapp.com returns no response.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11326,9 +11335,9 @@
     "https": true,
     "cors": "unknown",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "api.covid19tracker.ca returns no meaningful response. Canadian COVID tracker API dead.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11339,9 +11348,9 @@
     "https": true,
     "cors": "unknown",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "hpb.health.gov.lk API returns no meaningful response. Sri Lanka Health Promotion Bureau endpoint dead.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11352,9 +11361,9 @@
     "https": true,
     "cors": "yes",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Indonesian government COVID API at data.covid19.go.id returns no meaningful response.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11365,9 +11374,9 @@
     "https": true,
     "cors": "unknown",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "covid-19.dataflowkit.com returns no meaningful response. Scraping-based COVID data aggregator dead.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11391,10 +11400,13 @@
     "https": true,
     "cors": "unknown",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Active US government Healthcare.gov API. Returns JSON array of glossary entries with bilingual content (en/es), tags, categories, URLs, descriptions.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://www.healthcare.gov/api/index.json",
+      "response-type": "json"
+    }
   },
   {
     "name": "Humanitarian Data Exchange",
@@ -11404,10 +11416,13 @@
     "https": true,
     "cors": "unknown",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN-based API from UN OCHA. Returns humanitarian dataset listings. Active and well-maintained.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://data.humdata.org/api/3/action/package_list?limit=5",
+      "response-type": "json"
+    }
   },
   {
     "name": "Infermedica",
@@ -11430,10 +11445,13 @@
     "https": true,
     "cors": "yes",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "COVID variant surveillance API from cov-spectrum.org. Actively maintained (LAPIS v0.6.3, SILO v0.9.3). Returns aggregated genomic sequencing data.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://lapis.cov-spectrum.org/open/v2/sample/aggregated?country=Switzerland&dateFrom=2021-01-01&dateTo=2021-01-31",
+      "response-type": "json"
+    }
   },
   {
     "name": "Lexigram",
@@ -11456,10 +11474,13 @@
     "https": false,
     "cors": "unknown",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Rare surviving Heroku free-tier app. Returns detailed makeup product data (brand, price, ratings, colors, images). Fully functional.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline",
+      "response-type": "json"
+    }
   },
   {
     "name": "MyVaccination",
@@ -11469,9 +11490,9 @@
     "https": true,
     "cors": "unknown",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Vercel app returns HTTP 404. Malaysian vaccination tracker API dead.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -11571,9 +11592,9 @@
     "https": true,
     "cors": "yes",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "quarantine.country returns no meaningful response. Travel quarantine requirements API dead.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
