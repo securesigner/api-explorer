@@ -2649,9 +2649,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "API returns 403 Forbidden. Domain nova.bitcambio.com.br exists but all endpoints blocked.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -2999,9 +2999,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Public v1 API deprecated Oct 2023. New version at openapi.coinstats.app requires login and API key.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -3255,9 +3255,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Service permanently closed 2023. Site shows closure notice, API returns 404.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -3313,9 +3313,9 @@
     "https": false,
     "cors": "yes",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "HTTP 522, Cloudflare cannot reach origin server. Domain api.nexchange.io dead.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -3430,9 +3430,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Ethereum JSON-RPC provider. Requires API key signup at zmok.io for RPC endpoint access.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -18486,10 +18486,13 @@
     "https": true,
     "cors": "yes",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "REST API at bobsburgers-api.herokuapp.com (still alive). Characters, episodes, burgers of the day. Returns JSON arrays.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://bobsburgers-api.herokuapp.com/characters/?limit=5",
+      "response-type": "json"
+    }
   },
   {
     "name": "Breaking Bad",
@@ -18499,9 +18502,9 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "breakingbadapi.com returns no response. Site and API both dead.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -18512,9 +18515,9 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "api.breakingbadquotes.xyz returns HTTP 402 Payment Required. Previously free, now paywalled.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -18525,9 +18528,9 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "api.catalogopolis.xyz returns no response. Doctor Who API dead.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -18538,9 +18541,9 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Heroku app dead. catchtheshow.herokuapp.com returns no response.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -18551,10 +18554,13 @@
     "https": false,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "XML/JSON TV schedule API. GET with user=test, date, channel params returns full program data. Supports &json=1 for JSON output.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://www.ceskatelevize.cz/services-old/programme/xml/schedule.php?user=test&date=09.02.2026&channel=ct24&json=1",
+      "response-type": "json"
+    }
   },
   {
     "name": "Dailymotion",
@@ -18577,9 +18583,9 @@
     "https": true,
     "cors": "yes",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Heroku app dead. Render mirror at dune-api-a4iq.onrender.com returns 503 (free tier sleeping).",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -18590,10 +18596,16 @@
     "https": true,
     "cors": "yes",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "REST API at finalspaceapi.com. Characters, episodes, locations. Returns detailed JSON with images.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://finalspaceapi.com/api/v0/character/{id}",
+      "response-type": "json",
+      "params": {
+        "id": "1"
+      }
+    }
   },
   {
     "name": "Game of Thrones Quotes",
@@ -18645,10 +18657,16 @@
     "https": true,
     "cors": "yes",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Free movie/series search API at imdb.iamidiotareyoutoo.com. Returns JSON with titles, years, posters, IMDB links. No API key needed.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://imdb.iamidiotareyoutoo.com/search?q={query}",
+      "response-type": "json",
+      "params": {
+        "query": "inception"
+      }
+    }
   },
   {
     "name": "JSON2Video",
@@ -18671,10 +18689,13 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Redirects to luciferquotes.shadowdev.xyz. Returns random Lucifer TV show quotes as JSON array.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://luciferquotes.shadowdev.xyz/api/quotes",
+      "response-type": "json"
+    }
   },
   {
     "name": "MCU Countdown",
@@ -18684,9 +18705,9 @@
     "https": true,
     "cors": "yes",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Heroku app dead. mcu-countdown.herokuapp.com returns no response.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -18697,9 +18718,9 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Heroku app dead. nodejs-quoteapp.herokuapp.com returns no response.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -18710,9 +18731,9 @@
     "https": true,
     "cors": "yes",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Heroku deployment dead. movie-quote-api.herokuapp.com returns no response. Django REST API for movie/series quotes.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -18736,10 +18757,13 @@
     "https": true,
     "cors": "yes",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Moved from Heroku to Render. Returns random Owen Wilson 'wow' data with movie, timestamp, video clips, and audio. Rich JSON.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://owen-wilson-wow-api.onrender.com/wows/random",
+      "response-type": "json"
+    }
   },
   {
     "name": "Ron Swanson Quotes",
@@ -18794,10 +18818,13 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Redirects to strangerthingsquotes.shadowdev.xyz. Returns random quotes with author as JSON array.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://strangerthingsquotes.shadowdev.xyz/api/quotes",
+      "response-type": "json"
+    }
   },
   {
     "name": "Stream",
@@ -18807,9 +18834,9 @@
     "https": true,
     "cors": "no",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "working",
+    "notes": "Czech internet TV. GraphQL-only API at api.stream.cz/graphql. GraphiQL explorer available at api.stream.cz/graphiql. POST-only, no GET try-it possible.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -18852,10 +18879,16 @@
     "https": true,
     "cors": "yes",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Alternative SWAPI at swapi.tech. Returns Star Wars data with richer metadata than swapi.dev. JSON with properties, descriptions, timestamps.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://www.swapi.tech/api/people/{id}",
+      "response-type": "json",
+      "params": {
+        "id": "1"
+      }
+    }
   },
   {
     "name": "SWAPI GraphQL",
@@ -18865,9 +18898,9 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "working",
+    "notes": "Star Wars GraphQL API hosted on Netlify. GraphQL-only (POST), returns 400 on GET. GraphiQL interface works at graphql.org/swapi-graphql. No GET try-it possible.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -19027,9 +19060,9 @@
     "https": true,
     "cors": "yes",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "web-series-quotes.vercel.app returns 404. GitHub Pages variant also 404. API dead.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
