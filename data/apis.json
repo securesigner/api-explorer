@@ -903,10 +903,13 @@
     "https": false,
     "cors": "unknown",
     "category": "art-design",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Color palette generator. POST /api/ with JSON model input returns 5-color palette as RGB arrays. GET /list/ returns available models. Free for personal use. Tested 2025-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "http://colormind.io/list/",
+      "response-type": "json"
+    }
   },
   {
     "name": "ColourLovers",
@@ -1029,10 +1032,13 @@
     "https": true,
     "cors": "unknown",
     "category": "art-design",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CDN icon delivery. URL pattern: img.icons8.com/{style}/{size}/{color}/{name}.png returns icon images. No auth needed. Tested 2025-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://img.icons8.com/color/48/000000/search.png",
+      "response-type": "image"
+    }
   },
   {
     "name": "Lordicon",
@@ -1042,9 +1048,9 @@
     "https": true,
     "cors": "yes",
     "category": "art-design",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API requires account registration at lordicon.com/account/api plus project verification. Free animated icons available but API access needs account. Tested 2025-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -1103,10 +1109,13 @@
     "https": true,
     "cors": "no",
     "category": "art-design",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Pixel art generator API. Returns random monster SVGs at /api/basic/monsters/random/svg and PNGs at /api/basic/monsters/random/png. No auth required. Tested 2025-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://app.pixelencounter.com/api/basic/monsters/random/svg",
+      "response-type": "image"
+    }
   },
   {
     "name": "Rijksmuseum",
@@ -1142,9 +1151,9 @@
     "https": true,
     "cors": "yes",
     "category": "art-design",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Hosted on Heroku (x-colors.herokuapp.com). Heroku free tier shutdown November 2022, DNS no longer resolves. Tested 2025-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -1259,9 +1268,9 @@
     "https": true,
     "cors": "unknown",
     "category": "blockchain",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Not a REST API. Chainlink is a decentralized oracle network for smart contracts. dev.chain.link is a learning hub, not a public API endpoint. Tested 2025-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -1272,9 +1281,9 @@
     "https": true,
     "cors": "unknown",
     "category": "blockchain",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Self-hosted Chainpoint Gateway only. No public REST endpoint available; requires running your own Gateway node. Tested 2025-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -1311,9 +1320,9 @@
     "https": true,
     "cors": "unknown",
     "category": "blockchain",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Migrated from own L1 blockchain to Solana in April 2023. Original blockchain API at api.helium.io shut down. Only legacy snapshots via S3. Tested 2025-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -1337,9 +1346,9 @@
     "https": false,
     "cors": "no",
     "category": "blockchain",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "working",
+    "notes": "JSON-RPC based API at api.steemit.com. GET / returns {status:OK}. POST-only for content queries (condenser_api, database_api). AppBase API docs at developers.steem.io. Tested 2025-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -6347,9 +6356,9 @@
     "https": true,
     "cors": "unknown",
     "category": "environment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "co2offset.io/api.html redirects to corrently.io/books SusScope2 framework docs. Original standalone API discontinued, subsumed into Corrently ecosystem. Tested 2025-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -6376,10 +6385,13 @@
     "https": false,
     "cors": "yes",
     "category": "environment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Corrently GSI API. GET /v2.0/gsi/prediction?zip={zip} returns green energy forecast with CO2 data, energy prices, signatures. API at api.corrently.io. Tested 2025-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.corrently.io/v2.0/gsi/prediction?zip=69256",
+      "response-type": "json"
+    }
   },
   {
     "name": "IQAir",
@@ -6418,10 +6430,13 @@
     "https": true,
     "cors": "unknown",
     "category": "environment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Carbon Intensity API at api.carbonintensity.org.uk. GET /intensity returns forecast/actual carbon intensity with index (very low/low/moderate/high/very high). Tested 2025-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.carbonintensity.org.uk/intensity",
+      "response-type": "json"
+    }
   },
   {
     "name": "OpenAQ",
@@ -6444,10 +6459,13 @@
     "https": true,
     "cors": "unknown",
     "category": "environment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Air quality sensor data from multiple sources (airu, airboxk, lass, airbox). JSON at pm25.lass-net.org/data/. SwaggerHub docs available. Tested 2025-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://pm25.lass-net.org/data/device_ranking.json",
+      "response-type": "json"
+    }
   },
   {
     "name": "PM25.in",
@@ -7344,9 +7362,9 @@
     "https": true,
     "cors": "no",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Hosted on Heroku (rustybeer.herokuapp.com). Heroku free tier shutdown November 2022, DNS no longer resolves. Tested 2025-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -7383,9 +7401,9 @@
     "https": false,
     "cors": "unknown",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "taco-randomizer.herokuapp.com redirects to Heroku CDN error page. Heroku free tier shutdown. Tested 2025-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -7409,10 +7427,13 @@
     "https": true,
     "cors": "unknown",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Live Fastify API. GET /api/v1/reports/ returns food/drink review data with product, manufacturer, category, rating. Scalar docs at /docs. Tested 2025-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://www.thereportoftheweekapi.com/api/v1/reports/?limit=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "TheCocktailDB",
@@ -13398,9 +13419,9 @@
     "https": true,
     "cors": "unknown",
     "category": "patent",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "PatentsView legacy API returns 410 Gone. New API at patentsview.org requires API key. Open Data Portal at data.uspto.gov only has downloadable datasets. Tested 2025-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -13793,9 +13814,9 @@
     "https": true,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Requires access_key parameter. Free plan allows 100 screenshots/month but requires registration at screenshotlayer.com. Tested 2025-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -13975,9 +13996,9 @@
     "https": true,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Hosted on Heroku (imsea.herokuapp.com). Heroku free tier shutdown November 2022, DNS no longer resolves. Tested 2025-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -14072,10 +14093,13 @@
     "https": true,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "SVG typing animation generator at readme-typing-svg.demolab.com. Configurable via URL parameters (font, pause, width, lines). Tested 2025-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://readme-typing-svg.demolab.com/?lines=Hello+World",
+      "response-type": "image"
+    }
   },
   {
     "name": "Remove.bg",
@@ -14098,10 +14122,13 @@
     "https": false,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Free image compression API. GET /ws.php?img={url}&qlty={quality} returns JSON with optimized image URL and size stats. Requires User-Agent header. Free for personal use. Tested 2025-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.resmush.it/ws.php?img=https://resmush.it/wp-content/uploads/2024/02/testimage.jpg&qlty=92",
+      "response-type": "json"
+    }
   },
   {
     "name": "shutterstock",
@@ -18230,10 +18257,13 @@
     "https": true,
     "cors": "no",
     "category": "vehicle",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "FIPE API. GET /fipe/api/v1/carros/marcas returns JSON array of car brands. 500 free requests/day, 1000 with free token. Has v1 and v2 endpoints. Tested 2025-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://parallelum.com.br/fipe/api/v1/carros/marcas",
+      "response-type": "json"
+    }
   },
   {
     "name": "Helipaddy sites",

@@ -6,6 +6,8 @@ Usage:
     python3 scripts/api-progress.py --auth none         # Filter by auth type
     python3 scripts/api-progress.py --category animals  # Detail for one category
     python3 scripts/api-progress.py --category animals --auth none  # Combined
+    python3 scripts/api-progress.py --category animals --pending    # List pending APIs only
+    python3 scripts/api-progress.py --auth none --next              # Suggest categories to close out
 """
 
 import argparse
@@ -140,6 +142,10 @@ def main():
     parser.add_argument("--auth", "-a", help="Filter by auth type (none, api-key, oauth, etc.)")
     parser.add_argument("--sort", choices=["name", "total", "done", "pending"],
                         default="name", help="Sort categories by (default: name)")
+    parser.add_argument("--pending", "-p", action="store_true",
+                        help="List only pending API names (use with --category)")
+    parser.add_argument("--next", "-n", action="store_true",
+                        help="Suggest categories closest to completion")
     args = parser.parse_args()
 
     # Load data
@@ -153,6 +159,54 @@ def main():
             print(f"{RED}No APIs found with auth type '{args.auth}'{RESET}")
             sys.exit(1)
         print(f"{CYAN}Filtered to auth: {args.auth} ({len(apis)} APIs){RESET}\n")
+
+    # Pending list mode (requires --category)
+    if args.pending:
+        if not args.category:
+            print(f"{RED}--pending requires --category{RESET}")
+            sys.exit(1)
+        cat_apis = [a for a in apis if a["category"] == args.category and a["status"] == "pending"]
+        if not cat_apis:
+            print(f"{GREEN}No pending APIs in '{args.category}'{RESET}")
+            return
+        print(f"\n{BOLD}{args.category}{RESET} — {len(cat_apis)} pending\n")
+        for api in sorted(cat_apis, key=lambda a: a["name"].lower()):
+            auth_str = f"{DIM}{api['auth']:<12}{RESET}"
+            print(f"  {auth_str} {api['name']}")
+            print(f"             {DIM}{api['url']}{RESET}")
+        print()
+        return
+
+    # Next categories mode
+    if args.next:
+        cat_stats = defaultdict(lambda: defaultdict(int))
+        for api in apis:
+            cat = api["category"]
+            cat_stats[cat]["total"] += 1
+            cat_stats[cat][api["status"]] += 1
+
+        # Only categories with pending APIs, sorted by fewest pending
+        candidates = []
+        for name, stats in cat_stats.items():
+            pending = stats.get("pending", 0)
+            if pending > 0:
+                candidates.append({
+                    "name": name,
+                    "pending": pending,
+                    "total": stats["total"],
+                    "tested": stats["total"] - pending,
+                })
+        candidates.sort(key=lambda c: c["pending"])
+
+        print(f"\n{BOLD}Categories closest to completion:{RESET}\n")
+        for cat in candidates[:10]:
+            pct_done = cat["tested"] / cat["total"] * 100
+            bar_width = 20
+            filled = int(pct_done / 100 * bar_width)
+            bar = f"{GREEN}{'█' * filled}{RESET}{DIM}{'░' * (bar_width - filled)}{RESET}"
+            print(f"  {cat['name']:<25} {bar} {cat['tested']}/{cat['total']} ({cat['pending']} pending)")
+        print()
+        return
 
     # Category detail mode
     if args.category:
