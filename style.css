@@ -122,6 +122,19 @@ thead th:hover {
   color: #fff;
 }
 
+thead th.sorted {
+  color: #fff;
+}
+
+thead th.sorted::after {
+  content: " ▲";
+  font-size: 0.65rem;
+}
+
+thead th.sorted[data-sort-dir="desc"]::after {
+  content: " ▼";
+}
+
 tbody tr {
   border-bottom: 1px solid #2a2a4a;
 }
@@ -186,6 +199,13 @@ tbody td a:hover {
 .badge-skipped {
   background: #2a2a3a;
   color: #666;
+}
+
+.empty-state {
+  text-align: center;
+  color: #888;
+  padding: 2rem 0.75rem;
+  font-size: 0.85rem;
 }
 
 .notes-icon {

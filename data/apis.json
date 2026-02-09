@@ -2584,9 +2584,9 @@
     "https": true,
     "cors": "yes",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Now requires API key via 0x Dashboard (dashboard.0x.org); requests need 0x-api-key header; listed as auth:none but has changed",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -2597,9 +2597,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API at api.1inch.dev returns 401 Unauthorized; requires API key registration; listed as auth:none but has changed",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -2675,9 +2675,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "bitcoincharts.com returns no extractable content on any page including API endpoints, charts, and about pages; site appears defunct",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -3012,10 +3012,13 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Cryptocurrency payment processor; GET /btc/info/ returns detailed coin info with real-time prices in 40+ currencies",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.cryptapi.io/btc/info/",
+      "response-type": "json"
+    }
   },
   {
     "name": "CryptingUp",
@@ -3025,9 +3028,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Domain cryptingup.com sold; redirects to hugedomains.com parking page",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -3067,9 +3070,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "API at api.cryptonator.com returns HTTP 522 (origin connection timeout); Cloudflare cannot reach origin server",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -3297,9 +3300,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API at data.messari.io returns HTTP 401; requires API key registration at messari.io; listed as auth:none but has changed",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -3375,9 +3378,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "working",
+    "notes": "POST-only JSON-RPC endpoint at api.mainnet-beta.solana.com; server alive and responding; requires JSON-RPC formatted POST requests (no GET try-it possible)",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -14337,10 +14340,13 @@
     "https": true,
     "cors": "unknown",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Unified astronomy REST API; GET /satellites/?format=json returns paginated satellite data (13,854 satellites)",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.arcsecond.io/satellites/?format=json&page_size=5",
+      "response-type": "json"
+    }
   },
   {
     "name": "arXiv",
@@ -14398,10 +14404,13 @@
     "https": true,
     "cors": "unknown",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Biodiversity specimen search API; GET /v2/search/records returns results from 149M+ specimen records",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://search.idigbio.org/v2/search/records?limit=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "inspirehep.net",
@@ -14411,10 +14420,13 @@
     "https": true,
     "cors": "unknown",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "High-energy physics literature REST API; GET /api/literature returns results from 1.8M+ records",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://inspirehep.net/api/literature?size=2",
+      "response-type": "json"
+    }
   },
   {
     "name": "isEven (humor)",
@@ -14499,10 +14511,13 @@
     "https": false,
     "cors": "unknown",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Asteroid data via asterank.com API proxy; GET /api/mpc returns minor planet orbital elements",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "http://www.asterank.com/api/mpc?limit=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "NASA",
@@ -14557,10 +14572,13 @@
     "https": true,
     "cors": "unknown",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Sky source database with 5.8M sources; GET /api/v1/skysources/name/{name} returns star/DSO data",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.noctuasky.com/api/v1/skysources/name/Sirius",
+      "response-type": "json"
+    }
   },
   {
     "name": "Numbers",
@@ -14589,9 +14607,9 @@
     "https": false,
     "cors": "no",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "numbersapi.com unreachable; all URL variants (/42, /random/trivia, /42/math) return no content. Separate from Numbers entry at math.tools which is working",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -14602,9 +14620,9 @@
     "https": true,
     "cors": "unknown",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Hosted on herokuapp; DNS resolution failure, app likely removed from Heroku free tier",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -14647,9 +14665,9 @@
     "https": true,
     "cors": "unknown",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API returns 403 Forbidden without key; developer portal at develop.purpleair.com for API key registration",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -14660,9 +14678,9 @@
     "https": true,
     "cors": "yes",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Hosted on herokuapp; DNS resolution failure, app removed from Heroku free tier",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -14705,9 +14723,9 @@
     "https": true,
     "cors": "unknown",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "api.spacex.land GraphQL wrapper is dead; official API moved to spacexdata.com (separate project r-spacex/SpaceX-API)",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -14734,9 +14752,9 @@
     "https": true,
     "cors": "no",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "POST-only API on railway.app; returns 404 on all GET requests, no documentation page found",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -14815,9 +14833,9 @@
     "https": true,
     "cors": "yes",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Hosted on herokuapp; DNS resolution failure, app removed from Heroku free tier",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {

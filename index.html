@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' https: data:; connect-src 'self' https:; font-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'">
   <title>Public APIs Tracker</title>
-  <link rel="stylesheet" href="style.css?v=3">
+  <link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
   <header>
@@ -15,9 +15,9 @@
 
   <main>
     <section id="filters">
-      <input type="search" id="search" placeholder="Search APIs...">
-      <select id="filter-category"><option value="">All categories</option></select>
-      <select id="filter-auth">
+      <input type="search" id="search" placeholder="Search APIs..." aria-label="Search APIs by name or description">
+      <select id="filter-category" aria-label="Filter by category"><option value="">All categories</option></select>
+      <select id="filter-auth" aria-label="Filter by auth type">
         <option value="">All auth types</option>
         <option value="none">None</option>
         <option value="api-key">API Key</option>
@@ -25,7 +25,7 @@
         <option value="x-mashape-key">X-Mashape-Key</option>
         <option value="user-agent">User-Agent</option>
       </select>
-      <select id="filter-status">
+      <select id="filter-status" aria-label="Filter by status">
         <option value="">All statuses</option>
         <option value="pending">Pending</option>
         <option value="working">Working</option>
@@ -54,6 +54,6 @@
     </div>
   </main>
 
-  <script src="app.js?v=3"></script>
+  <script src="app.js?v=4"></script>
 </body>
 </html>

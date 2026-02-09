@@ -6,16 +6,3 @@ __pycache__/
 *.log
 *.tmp
 *.bak
-
-# Editor config
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Dependencies
-node_modules/
-
-# AI tooling (never push to public repo)
-.claude/
-CLAUDE.md

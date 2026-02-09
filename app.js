@@ -10,6 +10,7 @@ async function init() {
   apis = await res.json();
   populateCategories();
   applyFilters();
+  updateSortIndicators();
   initDetailListeners();
 }
 
@@ -60,6 +61,15 @@ function sortFiltered() {
 
 function renderTable() {
   const tbody = document.getElementById("api-list");
+
+  if (filtered.length === 0) {
+    tbody.innerHTML =
+      '<tr><td colspan="5" class="empty-state">No APIs match the current filters.</td></tr>';
+    document.getElementById("result-count").textContent =
+      `Showing 0 of ${apis.length} APIs`;
+    return;
+  }
+
   const rows = filtered
     .map((a, i) => {
       const notesHtml = a.notes
@@ -80,6 +90,15 @@ function renderTable() {
     `Showing ${filtered.length} of ${apis.length} APIs`;
 }
 
+const statusOrder = [
+  "working",
+  "broken",
+  "needs-key",
+  "paid-only",
+  "pending",
+  "skipped",
+];
+
 function renderStats() {
   const counts = {};
   for (const a of apis) {
@@ -87,10 +106,11 @@ function renderStats() {
   }
 
   const el = document.getElementById("stats");
-  el.innerHTML = Object.entries(counts)
+  el.innerHTML = statusOrder
+    .filter((s) => counts[s])
     .map(
-      ([status, count]) =>
-        `<span class="stat"><span class="stat-dot stat-dot-${status}"></span>${status}: ${count}</span>`,
+      (status) =>
+        `<span class="stat"><span class="stat-dot stat-dot-${status}"></span>${status}: ${counts[status]}</span>`,
     )
     .join("");
 }
@@ -274,9 +294,21 @@ document.querySelectorAll("thead th[data-sort]").forEach((th) => {
       sortKey = key;
       sortAsc = true;
     }
+    updateSortIndicators();
     sortFiltered();
     renderTable();
   });
 });
+
+function updateSortIndicators() {
+  document.querySelectorAll("thead th[data-sort]").forEach((th) => {
+    th.classList.toggle("sorted", th.dataset.sort === sortKey);
+    if (th.dataset.sort === sortKey) {
+      th.dataset.sortDir = sortAsc ? "asc" : "desc";
+    } else {
+      delete th.dataset.sortDir;
+    }
+  });
+}
 
 init();
