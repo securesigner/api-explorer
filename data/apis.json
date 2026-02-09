@@ -9304,9 +9304,9 @@
     "https": true,
     "cors": "yes",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Geocoding API requires signup at geokeo.com/signup.php for API key. Free tier: 2500 requests/day. Demo page works but API calls need YOUR_API_KEY parameter. Tested 2025-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -9317,9 +9317,9 @@
     "https": false,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API at api.geonames.org requires free username registration. Demo account exceeded daily 20K credit limit. Sign up at geonames.org/login for free account. Tested 2025-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -9330,9 +9330,9 @@
     "https": true,
     "cors": "yes",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Website at geoplugin.com returns 403 Forbidden. API endpoint at geoplugin.net/json.gp returns no extractable content. Both .com and .net domains appear to block automated requests. Tested 2025-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -9369,9 +9369,9 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "working",
+    "notes": "GraphQL API for country data on Google App Engine. POST-only GraphQL endpoint at countries-274616.ew.r.appspot.com. Supports countries, timezones, currencies, languages, flags. No try-it (GraphQL POST-only). Tested 2025-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -9382,10 +9382,16 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Moved to hellosalut.stefanbohacek.com. Returns greeting in specified language. Supports lang, ip, cc params and auto mode. Tested 2025-02-09.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://hellosalut.stefanbohacek.com/?lang={lang}",
+      "response-type": "json",
+      "params": {
+        "lang": "en"
+      }
+    }
   },
   {
     "name": "HERE Maps",
@@ -9421,10 +9427,16 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "HK gov geo portal. Location search returns JSON array with bilingual names, addresses, districts and coordinates. Tested 2025-02-09.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://geodata.gov.hk/gs/api/v1.0.0/locationSearch?q={q}",
+      "response-type": "json",
+      "params": {
+        "q": "airport"
+      }
+    }
   },
   {
     "name": "IBGE",
@@ -9434,10 +9446,13 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Brazilian Institute of Geography and Statistics API. Returns JSON array of states with region data. Extensive endpoints for localities, districts, municipalities. Tested 2025-02-09.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/estados",
+      "response-type": "json"
+    }
   },
   {
     "name": "IP 2 Country",
@@ -9447,9 +9462,9 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Migrated to ipapi.com. Original ip2country.info site shows migration notice. Now requires free API key from ipapi.com. Tested 2025-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -9460,10 +9475,16 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "ipinfo.io IP geolocation. Returns JSON with city, region, country, coordinates, org, timezone. Freemium — works without auth but response includes missingauth hint. Tested 2025-02-09.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://ipinfo.io/{ip}/json",
+      "response-type": "json",
+      "params": {
+        "ip": "8.8.8.8"
+      }
+    }
   },
   {
     "name": "IP Vigilante",
@@ -9473,9 +9494,9 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Site at ipvigilante.com unreachable — no content returned. Domain appears dead. Tested 2025-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -9554,10 +9575,16 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "IP geolocation by techniknews.net. Returns JSON with country, region, city, ISP, coordinates, timezone, proxy/hosting detection. Tested 2025-02-09.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://api.techniknews.net/ipgeo/{ip}",
+      "response-type": "json",
+      "params": {
+        "ip": "8.8.8.8"
+      }
+    }
   },
   {
     "name": "ipgeolocation",
@@ -9684,10 +9711,13 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Sepomex API by Icalia Labs. Mexican postal codes, states, municipalities, cities. Returns paginated JSON. 145K+ zip code records. Tested 2025-02-09.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://sepomex.icalialabs.com/api/v1/states",
+      "response-type": "json"
+    }
   },
   {
     "name": "Nominatim",
@@ -9727,9 +9757,9 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Rebranded to isitwater.com. API now requires Bearer token (Authorization header). 1000 free credits on signup. Pricing starts at $1 per 2500 calls. Tested 2025-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -9795,10 +9825,13 @@
     "https": true,
     "cors": "yes",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Pinball machine location database. Returns JSON array of regions with coordinates, names, and messages. Also has /locations, /machines endpoints. Tested 2025-02-09.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://pinballmap.com/api/v1/regions.json",
+      "response-type": "json"
+    }
   },
   {
     "name": "positionstack",
@@ -9821,9 +9854,9 @@
     "https": true,
     "cors": "yes",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "postali.app/api returns HTTP 402 Payment Required. Postal code API now requires payment. Tested 2025-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -9834,10 +9867,17 @@
     "https": false,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Dutch postcode lookup API (HTTP only). Returns JSON with street, city, municipality, province, coordinates. Requires postcode, streetnumber, ref params. Tested 2025-02-09.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "http://api.postcodedata.nl/v1/postcode/?postcode={postcode}&streetnumber={streetnumber}&ref=apitest&type=json",
+      "response-type": "json",
+      "params": {
+        "postcode": "1211EP",
+        "streetnumber": "60"
+      }
+    }
   },
   {
     "name": "Postcodes.io",
@@ -9863,9 +9903,9 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Original domain at queimadas.dgi.inpe.br redirects to terrabrasilis.dpi.inpe.br which returns 404. Brazilian wildfire data portal migrated and old API paths are dead. Tested 2025-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -9905,9 +9945,9 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Hosted on RapidAPI. Requires RapidAPI key (X-RapidAPI-Key header). Provides Rwanda provinces, districts, sectors, cells, villages. 373 subscribers. Tested 2025-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -9918,10 +9958,13 @@
     "https": true,
     "cors": "yes",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "German word game (Stadt Land Fluss) data. Static JSON on GitHub Pages with cities, countries, rivers, names, professions, animals, brands, plants for each letter A-Z. Tested 2025-02-09.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://slftool.github.io/data.json",
+      "response-type": "json"
+    }
   },
   {
     "name": "SpotSense",
@@ -10080,9 +10123,9 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "ziptasticapi.com returns 'SQLSTATE[HY000]: General error: 5 database is locked' on requests. SQLite database appears corrupted. Tested 2025-02-09.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
