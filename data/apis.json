@@ -3782,10 +3782,13 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Returns JSON array of open source projects with descriptions, GitHub URLs, and languages. Active community site for December contributions. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://24pullrequests.com/projects.json",
+      "response-type": "json"
+    }
   },
   {
     "name": "Screenshot",
@@ -3824,9 +3827,9 @@
     "https": true,
     "cors": "unknown",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Brazilian API aggregation platform. Returns HTTP 429 on unauthenticated requests. Requires account registration for proper API access. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -3837,10 +3840,16 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Parses user-agent strings and returns browser family, client, device, OS details as JSON. No auth required. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://api.apicagent.com/?ua={ua}",
+      "response-type": "json",
+      "params": {
+        "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+      }
+    }
   },
   {
     "name": "ApiFlash",
@@ -3918,10 +3927,13 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Mock API platform with a free HTTP echo server. echo.free.beeceptor.com echoes back request method, path, headers, IP, and parsed body as JSON. No auth needed. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://echo.free.beeceptor.com/",
+      "response-type": "json"
+    }
   },
   {
     "name": "Bitbucket",
@@ -3983,9 +3995,9 @@
     "https": true,
     "cors": "unknown",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "boredapi.com returns no content. Domain appears dead. API endpoint /api/activity no longer responds. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -4038,9 +4050,9 @@
     "https": true,
     "cors": "unknown",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Domain now hosts a generic tech blog (Flaviocopes-style content). No longer provides a changelog API. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -4051,9 +4063,9 @@
     "https": true,
     "cors": "no",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Hosted at ciprand.p3p.repl.co. Repl.it free tier shut down, endpoint dead. GitHub repo exists but hosted instance gone. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -4064,10 +4076,13 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Returns text with IP, location (colo), TLS version, HTTP version, user agent, and country code. Fast and reliable. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://1.1.1.1/cdn-cgi/trace",
+      "response-type": "text"
+    }
   },
   {
     "name": "Codex",
@@ -4077,9 +4092,9 @@
     "https": true,
     "cors": "unknown",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "GitHub repo (Jaagrav/CodeX) returns 404. Project appears deleted. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -4103,9 +4118,9 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Hosted at course-search-proxy.herokuapp.com. Heroku free tier discontinued, app dead. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -4116,9 +4131,9 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "countapi.xyz returns no content. Domain appears dead. Hit counter API no longer operational. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -4184,9 +4199,9 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API docs state 'You must create an account to use the API (free). Find your API key in My Account page.' Free tier exists but requires account/key. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -4421,9 +4436,9 @@
     "https": true,
     "cors": "no",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Redirects to dnsviahttp.com. API endpoint /A/google.com returns HTTP 404. DNS lookup API no longer functional. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -4447,9 +4462,9 @@
     "https": true,
     "cors": "unknown",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Domain redirects to scottvinkle.me which now hosts a Vietnamese gambling/spam site. Original HTTP/2 testing API gone. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -4547,9 +4562,9 @@
     "https": true,
     "cors": "unknown",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "IFTTT Connect API requires IFTTT-Service-Key header for authenticated requests. Some endpoints allow unauthenticated access but return minimal data. Not a free open API. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -4560,10 +4575,13 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Generates chart images (pie, bar, line, radar, etc.) via URL parameters. Returns PNG/SVG images. No auth, no signup needed for basic usage. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://image-charts.com/chart?cht=p3&chd=t:60,40&chs=250x100&chl=Hello|World",
+      "response-type": "image"
+    }
   },
   {
     "name": "import.io",
@@ -4641,10 +4659,13 @@
     "https": true,
     "cors": "unknown",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Returns IP address, city, region, country, coordinates, org, postal code, and timezone as JSON. Up to 50k requests/month free without key. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://ipinfo.io/json",
+      "response-type": "json"
+    }
   },
   {
     "name": "jsDelivr",
@@ -4670,10 +4691,13 @@
     "https": true,
     "cors": "unknown",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Converts any JSON URL to JSONP format by wrapping in a callback function. Service alive and returning proper JSONP responses. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://json2jsonp.com/?url=https://ipinfo.io/json&callback=myCallback",
+      "response-type": "text"
+    }
   },
   {
     "name": "JSONbin.io",
@@ -4709,9 +4733,9 @@
     "https": true,
     "cors": "no",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "GitHub repo archived Jan 2023. Hosted at licenseapi.herokuapp.com which is dead (Heroku free tier discontinued). Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -4735,9 +4759,9 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "lua-decompiler.ferib.dev returns no extractable content on multiple attempts. API endpoint /api also returns nothing. Site appears dead or non-functional. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -4774,9 +4798,9 @@
     "https": true,
     "cors": "unknown",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Platform requires signup/sign-in at app.microenv.com to access REST API features. Not a free open API — it's a SaaS development platform using AI. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -4787,9 +4811,9 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "working",
+    "notes": "Mock API designer at designer.mocky.io. Users create custom mock API endpoints with defined responses. Platform is alive and functional. No single try-it URL since responses are user-defined. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -4800,10 +4824,13 @@
     "https": true,
     "cors": "unknown",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Returns IP address, country name, and country code as JSON. Simple and fast. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://api.myip.com",
+      "response-type": "json"
+    }
   },
   {
     "name": "Nationalize.io",
@@ -4842,10 +4869,13 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "DNS lookup and network calculator API. Site is live with API docs. API returns JSON for DNS lookups, subnet calculations. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://networkcalc.com/api/dns/lookup/google.com",
+      "response-type": "json"
+    }
   },
   {
     "name": "npm Registry",
@@ -4923,9 +4953,9 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "working",
+    "notes": "Image/media processing API (resize, crop, convert, watermark, compress). All endpoints are POST-only. No auth required. Comprehensive docs at oyyi.xyz/docs. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -5001,10 +5031,13 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "goqr.me QR code API (uses api.qrserver.com backend). Generates QR codes as PNG images with customizable size and data. No auth needed. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://example.com",
+      "response-type": "image"
+    }
   },
   {
     "name": "QR code",
@@ -5014,10 +5047,13 @@
     "https": true,
     "cors": "unknown",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "goqr.me QR code API (uses api.qrserver.com backend). Generates QR codes as PNG images with customizable size and data. No auth needed. Tested 2025-02-15.",
+    "date-checked": "2025-02-15",
+    "try-it": {
+      "url": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://example.com",
+      "response-type": "image"
+    }
   },
   {
     "name": "Qrcode Monkey",
@@ -5027,9 +5063,9 @@
     "https": true,
     "cors": "unknown",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API docs state it's accessible through RapidAPI, which requires a RapidAPI account/key. Not directly usable without signup. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -5095,9 +5131,9 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Vercel app at rss-to-json-serverless-api.vercel.app now hosts a Dutch gambling/spam site. Original RSS-to-JSON converter gone. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -5212,10 +5248,13 @@
     "https": true,
     "cors": "no",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Returns comprehensive color data including hex, RGB, HSL, complementary colors, grayscale, and contrasted text color. Accepts color names and hex values. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://color.serialif.com/red",
+      "response-type": "json"
+    }
   },
   {
     "name": "serpstack",
@@ -5251,9 +5290,9 @@
     "https": false,
     "cors": "unknown",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "shoutcloud.io domain taken over by a Swedish gambling blog (Casinometoden.se). Original uppercase conversion API gone. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -5264,9 +5303,9 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "sonar.omnisint.io returns HTTP 522 (connection timed out). ProjectDiscovery subdomain enumeration API appears offline. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -5303,10 +5342,13 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Free global CDN for open source. Serves files from GitHub, GitLab, Bitbucket, and npm via cdn.statically.io. Note: /img/ endpoint disabled due to abuse, but CDN for repos/npm works. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://cdn.statically.io/gh/nicedoc/html-prettify/HEAD/README.md",
+      "response-type": "text"
+    }
   },
   {
     "name": "Supportivekoala",
@@ -5342,10 +5384,13 @@
     "https": true,
     "cors": "unknown",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Online compiler API. /api/list.json returns massive JSON array of available compilers (C, C++, Python, Rust, Go, etc.) with versions and configuration options. Tested 2025-02-15.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://wandbox.org/api/list.json",
+      "response-type": "json"
+    }
   },
   {
     "name": "WebScraping.AI",
