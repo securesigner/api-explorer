@@ -7578,9 +7578,9 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "No public deployment found. GitHub repo only shows local npm run dev setup with no hosted URL. Project appears abandoned (wrapper for VNG's Auto Chess game).",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -7591,10 +7591,16 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "barter.vg/i/1/json returns rich game trading data (FTL item with pricing, tags, bundles, trade stats). Well-documented wiki with multiple endpoints.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://barter.vg/i/{item_id}/json",
+      "response-type": "json",
+      "params": {
+        "item_id": "1"
+      }
+    }
   },
   {
     "name": "Battle.net",
@@ -8097,9 +8103,9 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "working",
+    "notes": "GraphQL server alive at graphqlpokemon.favware.tech/v8. POST-only GraphQL endpoint. Actively maintained by favware. No try-it (POST-only GraphQL).",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -8491,9 +8497,9 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "working",
+    "notes": "GraphQL server alive at graphql-pokeapi.vercel.app/api/graphql. Vercel-hosted, maintained. No try-it (POST-only GraphQL).",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -8546,9 +8552,9 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "puyodb-api-deno.herokuapp.com is dead. Heroku free tier shutdown. No alternative deployment found.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -8646,10 +8652,16 @@
     "https": true,
     "cors": "no",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Grand Exchange API returns detailed item data (prices, trends, icons). secure.runescape.com/m=itemdb_rs/api/catalogue/detail.json works reliably.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://secure.runescape.com/m=itemdb_rs/api/catalogue/detail.json?item={item_id}",
+      "response-type": "json",
+      "params": {
+        "item_id": "21787"
+      }
+    }
   },
   {
     "name": "Sakura CardCaptor",
@@ -8659,9 +8671,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "protected-taiga-89091.herokuapp.com is dead. Heroku free tier shutdown. No alternative deployment found.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -8714,10 +8726,13 @@
     "https": true,
     "cors": "no",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "ISteamWebAPIUtil/GetSupportedAPIList/v1/ returns JSON listing all available API interfaces without key. Documents internal/undocumented Steam Web API endpoints accessible without authentication.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://api.steampowered.com/ISteamWebAPIUtil/GetSupportedAPIList/v1/",
+      "response-type": "json"
+    }
   },
   {
     "name": "SuperHeroes",
@@ -8769,10 +8784,13 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "ch.tetr.io/api/general/stats returns server stats (usercount, gamecount, etc). Well-documented API at tetr.io/about/api/.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://ch.tetr.io/api/general/stats",
+      "response-type": "json"
+    }
   },
   {
     "name": "Tronald Dump",
@@ -8853,10 +8871,13 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Production URL whenisthenextmcufilm.com/api returns JSON with days_until, title, overview, poster_url. Recently refactored (v2, active development).",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://www.whenisthenextmcufilm.com/api",
+      "response-type": "json"
+    }
   },
   {
     "name": "xkcd",
@@ -8924,10 +8945,16 @@
     "https": true,
     "cors": "yes",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CDN-served JSON files via githack. Returns administrative divisions data for countries. rawcdn.githack.com serves the static JSON reliably.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://rawcdn.githack.com/kamikazechaser/administrative-divisions-db/master/api/{country_code}.json",
+      "response-type": "json",
+      "params": {
+        "country_code": "KE"
+      }
+    }
   },
   {
     "name": "adresse.data.gouv.fr",
@@ -8953,9 +8980,9 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "sys.airtel.lv/ip2country/ returns 403 Forbidden for all tested IPs (8.8.8.8, 1.1.1.1). Airtel Latvia internal service, access restricted.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -9031,10 +9058,17 @@
     "https": true,
     "cors": "yes",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "api.getthedata.com/bng2latlong/529090/179645 returns accurate lat/long conversion from British National Grid coordinates.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://api.getthedata.com/bng2latlong/{easting}/{northing}",
+      "response-type": "json",
+      "params": {
+        "easting": "529090",
+        "northing": "179645"
+      }
+    }
   },
   {
     "name": "Cartes.io",
@@ -9044,9 +9078,9 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "working",
+    "notes": "Map/marker API is live. Requires Accept: application/json header (without it, redirects to HTML app). Well-documented with Postman collection. No try-it (requires custom Accept header).",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -9057,9 +9091,9 @@
     "https": false,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "HTTP-only site returns 404 on API endpoints (cep.la/01001000). Brazilian postal code service appears defunct.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -9070,9 +9104,9 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Domain citysdk.eu has been taken over by a gambling review site. Original EU CitySDK project APIs are completely defunct.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -9083,10 +9117,16 @@
     "https": true,
     "cors": "yes",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "country.is returns JSON IP geolocation data. Lightweight service returning country code for given IP address.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://country.is/{ip}",
+      "response-type": "json",
+      "params": {
+        "ip": "1.1.1.1"
+      }
+    }
   },
   {
     "name": "CountryStateCity",
@@ -9109,9 +9149,9 @@
     "https": true,
     "cors": "no",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "gis.ducks.org ArcGIS Hub portal endpoints return Not Found. Dataset API page non-functional.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -9122,10 +9162,16 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "geo.api.gouv.fr/communes?codePostal=75001 returns JSON array with Paris commune data (name, code, population, coordinates). French government geographic data API.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://geo.api.gouv.fr/communes?codePostal={postal_code}",
+      "response-type": "json",
+      "params": {
+        "postal_code": "75001"
+      }
+    }
   },
   {
     "name": "Geoapify",
@@ -9161,9 +9207,9 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Returns 'Throttled! See geocode.xyz/pricing' for all fields without authentication. Effectively requires subscription for any usage.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -9187,10 +9233,13 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN-powered Greek open data portal. API endpoints (package_list, status_show) return JSON data. Government data catalog.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://geodata.gov.gr/api/3/action/package_list",
+      "response-type": "json"
+    }
   },
   {
     "name": "GeoDataSource",
@@ -9226,9 +9275,9 @@
     "https": true,
     "cors": "yes",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "working",
+    "notes": "GraphQL server alive at api.geographql.rudio.dev/graphql. Landing page with playground at geographql.netlify.app. POST-only GraphQL endpoint. No try-it (POST-only GraphQL).",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
