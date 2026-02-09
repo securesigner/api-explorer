@@ -822,9 +822,9 @@
     "https": true,
     "cors": "yes",
     "category": "anti-malware",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API requires free Auth-Key (signup at auth.abuse.ch). GET /v1/urls/recent/ and POST endpoints all need Auth-Key header. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -13478,9 +13478,9 @@
     "https": true,
     "cors": "no",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Returns HTTP 503 Service Unavailable. Server appears down. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -13504,10 +13504,13 @@
     "https": true,
     "cors": "unknown",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Migrated to quoterism.com. GET /api/quotes/random returns JSON with id, text, author. No auth required. Also supports /api/quotes/quote-of-the-day. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://quoterism.com/api/quotes/random",
+      "response-type": "json"
+    }
   },
   {
     "name": "FavQs.com",
@@ -13575,10 +13578,13 @@
     "https": true,
     "cors": "yes",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Server responds on all paths (no HTTP errors). Docs at /docs/ likely Swagger SPA. API returns JSON quotes. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://inspiration.goprogram.ai/",
+      "response-type": "json"
+    }
   },
   {
     "name": "kanye.rest",
@@ -13604,9 +13610,9 @@
     "https": true,
     "cors": "yes",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Heroku app (kimiquotes.herokuapp.com). Heroku free tier ended Nov 2022. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -13630,10 +13636,13 @@
     "https": true,
     "cors": "unknown",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Hosted on Azure. GET /api/quotes/random returns random programming quote JSON. Also supports /api/quotes with pagination. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://programming-quotes-api.azurewebsites.net/api/quotes/random",
+      "response-type": "json"
+    }
   },
   {
     "name": "Quotable Quotes",
@@ -13656,9 +13665,9 @@
     "https": true,
     "cors": "unknown",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Hosted on Render free tier (quote-garden.onrender.com). Returns 503 — free instance spun down. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -13669,9 +13678,9 @@
     "https": true,
     "cors": "yes",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Firebase app (quoteclear.web.app) returns 404. Site appears removed. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -13682,10 +13691,13 @@
     "https": true,
     "cors": "unknown",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "WordPress JSON API. GET /wp-json/wp/v2/posts/?per_page=1 returns design quotes with title (author) and content (quote HTML). Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://quotesondesign.com/wp-json/wp/v2/posts/?per_page=1",
+      "response-type": "json"
+    }
   },
   {
     "name": "Stoicism Quote",
@@ -13695,10 +13707,13 @@
     "https": true,
     "cors": "unknown",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "AWS Lambda hosted. GET /stoic-quote returns JSON with data.author and data.quote fields. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://stoic.tekloon.net/stoic-quote",
+      "response-type": "json"
+    }
   },
   {
     "name": "They Said So Quotes",
@@ -13708,9 +13723,9 @@
     "https": true,
     "cors": "unknown",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "QOD and all endpoints return 401 Unauthorized. Paid API starting at $9.99/mo. Public rate-limited access may have been removed. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -13721,9 +13736,9 @@
     "https": true,
     "cors": "unknown",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Personality assessment API requires API key (public + secret). Signup at traitify.com/api. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -13747,10 +13762,16 @@
     "https": true,
     "cors": "no",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Returns GIF/JPG images of Tamil actor Vadivelu for HTTP status codes. URL pattern: /gif/{code} or /jpg/{code}. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://vadivelu.anoram.com/gif/{code}",
+      "response-type": "image",
+      "params": {
+        "code": "200"
+      }
+    }
   },
   {
     "name": "Zen Quotes",
@@ -16495,9 +16516,9 @@
     "https": true,
     "cors": "no",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Vercel app returns 404 on all endpoints (/word, /word/noun, root). Deployment appears removed. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -16566,10 +16587,13 @@
     "https": true,
     "cors": "no",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /api.php?json returns startup idea JSON with 'this' and 'that' fields. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://itsthisforthat.com/api.php?json",
+      "response-type": "json"
+    }
   },
   {
     "name": "JSONPlaceholder",
@@ -16595,10 +16619,13 @@
     "https": false,
     "cors": "unknown",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /api/{paragraphs}/{options} generates lorem ipsum. Supports plaintext, short/medium/long options. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://loripsum.net/api/1/short/plaintext",
+      "response-type": "text"
+    }
   },
   {
     "name": "Mailsac",
@@ -16621,10 +16648,13 @@
     "https": false,
     "cors": "unknown",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /paragraphs/{count}/{sentences} generates metaphor-based placeholder text. Returns plain text. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "http://metaphorpsum.com/paragraphs/1/3",
+      "response-type": "text"
+    }
   },
   {
     "name": "Mockaroo",
@@ -16647,9 +16677,9 @@
     "https": true,
     "cors": "yes",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "SaaS mock API tool — not a public data API. Requires account signup to create and use mock endpoints. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -16660,10 +16690,13 @@
     "https": true,
     "cors": "unknown",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /api/v2/users returns random user data JSON. Also supports /beers, /addresses, /banks etc. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://random-data-api.com/api/v2/users",
+      "response-type": "json"
+    }
   },
   {
     "name": "Randommer",
@@ -16721,9 +16754,9 @@
     "https": true,
     "cors": "unknown",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Heroku app (random-names-api.herokuapp.com). Heroku free tier ended Nov 2022. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -16734,9 +16767,9 @@
     "https": true,
     "cors": "unknown",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Heroku app (palabras-aleatorias-public-api.herokuapp.com). Heroku free tier ended Nov 2022. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -16763,10 +16796,13 @@
     "https": true,
     "cors": "unknown",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET / returns random testimonial data JSON (name, avatar, company, quote). Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://testimonialapi.toolcarton.com/",
+      "response-type": "json"
+    }
   },
   {
     "name": "UUID Generator",
