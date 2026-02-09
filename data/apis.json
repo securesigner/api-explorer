@@ -7241,10 +7241,13 @@
     "https": true,
     "cors": "yes",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Random food dish images API. Returns JSON with image URL from 1000+ food photos across categories (pizza, pasta, burger, etc.). Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://foodish-api.com/api/",
+      "response-type": "json"
+    }
   },
   {
     "name": "Fruityvice",
@@ -7471,9 +7474,9 @@
     "https": true,
     "cors": "unknown",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Whisky auction data API. whiskyhunter.net/api/ endpoints return HTTP 404. API appears removed or restructured. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -7575,10 +7578,13 @@
     "https": true,
     "cors": "no",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "BoardGameGeek XML API v2. Game info, ratings, images, mechanics. 130K+ board games. Returns XML (not JSON). Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://boardgamegeek.com/xmlapi2/thing?id=174430",
+      "response-type": "text"
+    }
   },
   {
     "name": "Brawl Stars",
@@ -7698,9 +7704,9 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Minecraft avatar/skin rendering service. crafatar.com returns HTTP 521 (Cloudflare: Web Server Is Down). Server appears offline. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -7753,10 +7759,16 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Digimon character data API. Returns name, image URL, and level (Fresh/In Training/Rookie/Champion/Ultimate/Mega) for all Digimon. Vercel-hosted. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://digimon-api.vercel.app/api/digimon/name/{name}",
+      "response-type": "json",
+      "params": {
+        "name": "Agumon"
+      }
+    }
   },
   {
     "name": "Digimon TCG",
@@ -7824,10 +7836,13 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Open5e D&D 5th Edition SRD API. Monsters, spells, classes, items from official SRD + third-party (Kobold Press). 3,207 monsters, Django REST framework. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.open5e.com/v1/monsters/?limit=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Eve Online",
@@ -7879,9 +7894,9 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "XIVAPI character/item search. xivapi.com returns HTTP 403 Forbidden on all endpoints. API may now require authentication or has been restructured. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -7947,9 +7962,9 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Yoda/Shakespeare/Pirate text translations. api.funtranslations.com returns HTTP 405 Method Not Allowed on all tested endpoints. API appears non-functional. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -8135,10 +8150,16 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Zelda Breath of the Wild / Tears of the Kingdom compendium data. Creatures, equipment, materials, monsters, treasures with images and descriptions. Hosted on Heroku (still alive). Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://botw-compendium.herokuapp.com/api/v3/compendium/entry/{entry}",
+      "response-type": "json",
+      "params": {
+        "entry": "moblin"
+      }
+    }
   },
   {
     "name": "Hytale",
@@ -8229,10 +8250,13 @@
     "https": false,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Magic: The Gathering card data API. Card names, mana costs, types, sets, images, prices, foreign names. All MTG sets included. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.magicthegathering.io/v1/cards?pageSize=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Mario Kart Tour",
@@ -8423,10 +8447,13 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Pokémon Trading Card Game API. Card data with images, prices (TCGplayer/Cardmarket), attacks, abilities, sets. 20K+ cards. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.pokemontcg.io/v2/cards?pageSize=3&q=name:charizard",
+      "response-type": "json"
+    }
   },
   {
     "name": "Psychonauts",
@@ -8488,10 +8515,13 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Raider.IO World of Warcraft Mythic+ and Raid progression API. Character profiles, season cutoffs, dungeon rankings. Very active community. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://raider.io/api/v1/mythic-plus/season-cutoffs?season=season-tww-2&region=us",
+      "response-type": "json"
+    }
   },
   {
     "name": "RAWG.io",
@@ -8705,10 +8735,13 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Final Fantasy XIV market board data API. Crowdsourced pricing from all FFXIV worlds/data centers. Item listings, sale history, tax rates. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://universalis.app/api/v2/North-America/5?listings=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Valorant (non-official)",
@@ -13234,10 +13267,13 @@
     "https": true,
     "cors": "unknown",
     "category": "open-source-projects",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Official Drupal CMS platform API. Nodes, users, taxonomy terms. 2.1M+ nodes. Drupal 7 REST API format. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://www.drupal.org/api-d7/node.json?limit=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Evil Insult Generator",
@@ -13302,10 +13338,18 @@
     "https": true,
     "cors": "unknown",
     "category": "open-source-projects",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Shields.io badge/shield generation service. SVG/PNG badges for GitHub, npm, CI status, custom labels. Used by millions of repos. Returns SVG images. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://img.shields.io/badge/{label}-{message}-{color}",
+      "response-type": "image",
+      "params": {
+        "label": "build",
+        "message": "passing",
+        "color": "green"
+      }
+    }
   },
   {
     "name": "EPO",
@@ -14239,10 +14283,16 @@
     "https": true,
     "cors": "yes",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Global Biodiversity Information Facility API. Species search, occurrence records, datasets. 2.4B+ occurrence records from 82K+ datasets. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.gbif.org/v1/species/search?q={query}&limit=5",
+      "response-type": "json",
+      "params": {
+        "query": "bear"
+      }
+    }
   },
   {
     "name": "iDigBio",
@@ -14425,11 +14475,14 @@
     "cors": "no",
     "category": "science-math",
     "status": "working",
-    "notes": "Trivia, math, date, year facts about numbers",
+    "notes": "Random trivia, math, date, and year facts about numbers. Returns plain text by default, JSON with ?json flag. Free, no auth. Tested 2026-02-08.",
     "date-checked": "2026-02-08",
     "try-it": {
-      "url": "http://numbersapi.com/random/trivia",
-      "response-type": "text"
+      "url": "http://numbersapi.com/{number}/trivia",
+      "response-type": "text",
+      "params": {
+        "number": "42"
+      }
     }
   },
   {
@@ -14482,10 +14535,13 @@
     "https": true,
     "cors": "unknown",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Center for Open Science research platform API (JSON:API format). Access public research projects, preprints, files, contributors. 566K+ public nodes. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.osf.io/v2/nodes/?page[size]=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Purple Air",
@@ -14521,10 +14577,13 @@
     "https": true,
     "cors": "no",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Open dataset of research activities (papers, preprints, datasets) aggregated from 100+ sources. JSON:API format. Endpoints for sources, users, feeds. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://share.osf.io/api/v2/sources/",
+      "response-type": "json"
+    }
   },
   {
     "name": "SpaceX",
@@ -14592,10 +14651,16 @@
     "https": true,
     "cors": "no",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Satellite TLE (Two-Line Element) orbital data. Search by name, get current orbital parameters. Includes ISS, Starlink, weather sats. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://tle.ivanstanojevic.me/api/tle?search={query}&page_size=5",
+      "response-type": "json",
+      "params": {
+        "query": "ISS"
+      }
+    }
   },
   {
     "name": "USGS Earthquake Hazards Program",
@@ -16649,10 +16714,13 @@
     "https": false,
     "cors": "yes",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Random funny/sarcastic commit messages. Plain text endpoint. Simple, no auth, been running 10+ years. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "http://whatthecommit.com/index.txt",
+      "response-type": "text"
+    }
   },
   {
     "name": "Yes No",
