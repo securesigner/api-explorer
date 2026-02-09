@@ -10181,9 +10181,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "API at api.bnm.gov.my returns 404 Not Found for all tested endpoints (/public/exchange-rate, /public/exchange-rate/USD, /public/msb/latest). OpenAPI explorer exists at apikijangportal.bnm.gov.my but no endpoint responds without custom Accept headers. Tested 2025-06-12.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -10226,10 +10226,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN instance at dadosabertos.bcb.gov.br. Returns JSON with hundreds of datasets including Selic rates, Pix stats, USD/BRL exchange rates, credit data. Tested 2025-06-12.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://dadosabertos.bcb.gov.br/api/3/action/package_list",
+      "response-type": "json"
+    }
   },
   {
     "name": "Brazil Receita WS",
@@ -10239,10 +10242,16 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Free CNPJ lookup API. Returns detailed company data (name, address, directors, capital_social, CNAE codes) as JSON. Free tier confirmed (billing.free=true). No auth required. Tested 2025-06-12.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://www.receitaws.com.br/v1/cnpj/{cnpj}",
+      "response-type": "json",
+      "params": {
+        "cnpj": "00000000000191"
+      }
+    }
   },
   {
     "name": "Brazilian Chamber of Deputies Open Data",
@@ -10284,9 +10293,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Open data portal at daten.berlin.de exists but CKAN API at /api/3/action/package_list and /api/3/action/status_show both fail to return valid responses. Portal may have migrated away from CKAN. Tested 2025-06-12.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -10297,10 +10306,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN instance at ckan.multimediagdansk.pl. Returns JSON with datasets covering demographics, WiFi data, budget, transport, and more. Tested 2025-06-12.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://ckan.multimediagdansk.pl/api/3/action/package_list",
+      "response-type": "json"
+    }
   },
   {
     "name": "City, Gdynia",
@@ -10310,10 +10322,13 @@
     "https": false,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN instance at otwartedane.gdynia.pl. Returns JSON with datasets covering traffic, weather, parking, budget, ISO indicators. Tested 2025-06-12.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://otwartedane.gdynia.pl/api/3/action/package_list",
+      "response-type": "json"
+    }
   },
   {
     "name": "City, Helsinki",
@@ -10323,9 +10338,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Helsinki Region Infoshare portal at hri.fi. CKAN API at /data/api/3/action/package_list fails to return content. Portal may have restructured or moved to a different API. Tested 2025-06-12.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -10336,10 +10351,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN instance at opendata.city-adm.lviv.ua. Returns JSON with hundreds of datasets covering city administration, budgets, transport, financial reports, municipal property. Tested 2025-06-12.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://opendata.city-adm.lviv.ua/api/3/action/package_list",
+      "response-type": "json"
+    }
   },
   {
     "name": "City, Nantes Open Data",
@@ -10362,10 +10380,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Socrata-powered open data portal at data.cityofnewyork.us. API returns JSON with datasets covering 311 requests, voter turnout, transit zones, city planning, public safety. Tested 2025-06-12.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://data.cityofnewyork.us/api/views.json?limit=5",
+      "response-type": "json"
+    }
   },
   {
     "name": "City, Prague Open Data",
@@ -10375,9 +10396,9 @@
     "https": false,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Portal at opendata.praha.eu returns HTTP 404. Site appears dead or relocated. Tested 2025-06-12.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -10388,10 +10409,13 @@
     "https": true,
     "cors": "yes",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN instance at ckan0.cf.opendata.inter.prod-toronto.ca. Returns JSON with hundreds of datasets covering transit, police, parks, housing, elections, library, cycling, and more. Tested 2025-06-12.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/api/3/action/package_list",
+      "response-type": "json"
+    }
   },
   {
     "name": "Code.gov",
@@ -10414,10 +10438,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Socrata-powered open data portal at data.colorado.gov. API returns JSON with datasets covering geospatial data, energy, enterprise zones, and more. Tested 2025-06-12.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://data.colorado.gov/api/views.json?limit=5",
+      "response-type": "json"
+    }
   },
   {
     "name": "Data USA",
@@ -10453,10 +10480,13 @@
     "https": false,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "UK Parliament Linked Data API at lda.data.parliament.uk. Returns JSON with structured parliamentary data including commons members with constituency, party, gender, and social links. Tested 2025-06-12.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://lda.data.parliament.uk/commonsmembers.json?_pageSize=5",
+      "response-type": "json"
+    }
   },
   {
     "name": "Deutscher Bundestag DIP",
@@ -10479,9 +10509,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Portal at opendata.dc.gov exists but API endpoints at /api/v2/datasets and /api/v3/datasets return errors (404, 400). DCAT feed also failed. ArcGIS Hub-based portal with no accessible REST API. Tested 2025-06-12.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -10550,9 +10580,9 @@
     "https": false,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "API at api.ratings.food.gov.uk returns 404/405 for tested endpoints (/Establishments, /Authorities/basic). FHRS ratings API appears to have been deprecated or restructured. Tested 2025-06-12.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -10589,9 +10619,9 @@
     "https": false,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Peru National Institute of Statistics at web.inei.gob.pe. No REST API found at /api/ endpoint. Site is primarily a statistical portal without a public data API. Tested 2025-06-12.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
@@ -10618,10 +10648,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN instance at data.ibb.gov.tr. Returns JSON with hundreds of datasets covering transit, traffic, environment, demographics, municipal services, energy, and more. Tested 2025-06-12.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://data.ibb.gov.tr/api/3/action/package_list",
+      "response-type": "json"
+    }
   },
   {
     "name": "National Park Service, US",
@@ -10644,10 +10677,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Socrata-powered Australian Capital Territory open data portal at data.act.gov.au. Returns JSON with datasets covering health, community services, and government performance. Tested 2025-06-12.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://data.act.gov.au/api/views.json?limit=5",
+      "response-type": "json"
+    }
   },
   {
     "name": "Open Government, Argentina",
@@ -10657,10 +10693,13 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "CKAN 2.7.6 instance at datos.gob.ar. Status API confirms active CKAN platform with extensions for stats, DCAT, structured_data, Google Analytics. Tested 2025-06-12.",
+    "date-checked": "2026-02-09",
+    "try-it": {
+      "url": "https://datos.gob.ar/api/3/action/status_show",
+      "response-type": "json"
+    }
   },
   {
     "name": "Open Government, Australia",
@@ -10687,9 +10726,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Portal at data.gv.at exists (64,974 datasets listed) but CKAN API at /katalog/api/3/action/package_list returns Fehler 404 (Error 404). API endpoint has been removed or relocated. Tested 2025-06-12.",
+    "date-checked": "2026-02-09",
     "try-it": null
   },
   {
