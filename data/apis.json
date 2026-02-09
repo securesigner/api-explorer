@@ -2072,9 +2072,9 @@
     "https": false,
     "cors": "unknown",
     "category": "calendar",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "svatky.adresa.info returns HTTP 402 Payment Required. API appears paywalled or shut down. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -2140,9 +2140,9 @@
     "https": false,
     "cors": "unknown",
     "category": "calendar",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Website at lectserve.com works (shows daily readings) but serves only HTML — no JSON API endpoints found. All /api/ paths return 404. Not a REST API. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -2186,9 +2186,9 @@
     "https": true,
     "cors": "unknown",
     "category": "calendar",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "GitHub repo of static ICS calendar files (gadael/icsdb), not a REST API. No programmatic endpoints — just downloadable .ics files. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -2215,9 +2215,9 @@
     "https": true,
     "cors": "no",
     "category": "calendar",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Self-hosted Docker app (egno/work-calendar) — no public API endpoint. GitHub repo archived Oct 2023. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -5363,10 +5363,13 @@
     "https": false,
     "cors": "no",
     "category": "dictionaries",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Chinese character database API (Unihan). Returns character definitions, Mandarin/Cantonese pronunciations, radical/stroke data. 20,902 CJK characters. CORS enabled. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "http://ccdb.hemiola.com/characters/strokes/1?fields=string,kDefinition,kMandarin",
+      "response-type": "json"
+    }
   },
   {
     "name": "Chinese Text Project",
@@ -5424,9 +5427,9 @@
     "https": true,
     "cors": "unknown",
     "category": "dictionaries",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Hosted on Heroku (new-kbbi-api.herokuapp.com). DNS failure — Heroku free tier shut down Nov 2022. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -6973,9 +6976,9 @@
     "https": true,
     "cors": "yes",
     "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "working",
+    "notes": "Portfolio optimization Web API using modern portfolio theory. Free, no registration. POST-only endpoints (no GET try-it). Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -6986,10 +6989,16 @@
     "https": true,
     "cors": "unknown",
     "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Indian bank branch lookup by IFSC code. Returns branch name, address, city, state, bank name, MICR code, and support flags (RTGS, NEFT, IMPS, UPI). Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://ifsc.razorpay.com/{ifsc}",
+      "response-type": "json",
+      "params": {
+        "ifsc": "SBIN0000001"
+      }
+    }
   },
   {
     "name": "Real Time Finance",
@@ -7106,10 +7115,13 @@
     "https": true,
     "cors": "unknown",
     "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Top 50 Reddit WallstreetBets stocks with sentiment analysis (bullish/bearish). Moved from nbshare.io to tradestie.com. Updates every 15 minutes. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.tradestie.com/v1/apps/reddit",
+      "response-type": "json"
+    }
   },
   {
     "name": "Yahoo Finance",
@@ -11555,9 +11567,9 @@
     "https": true,
     "cors": "yes",
     "category": "jobs",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "devitjobs.uk domain no longer resolves (DNS failure). Site appears shut down. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -12480,9 +12492,9 @@
     "https": false,
     "cors": "unknown",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Library of Congress newspaper API. Redirects from chroniclingamerica.loc.gov to loc.gov domain, all JSON endpoints return HTTP 403. API appears restricted or restructured. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -12532,9 +12544,9 @@
     "https": true,
     "cors": "yes",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "corona.dnsforfamily.com not responding. COVID-19 data API appears shut down. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -12545,9 +12557,9 @@
     "https": true,
     "cors": "unknown",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Hosted on Deta Space (inshorts.deta.dev). Deta Space was discontinued — endpoint not responding. GitHub repo unmaintained (3+ years). Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -16919,9 +16931,9 @@
     "https": false,
     "cors": "unknown",
     "category": "tracking",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Brazilian ZIP code API. Docs alive on GitHub Pages (postmon.com.br) but API at api.postmon.com.br appears dead (404 at root, endpoints unresponsive). Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -16971,9 +16983,9 @@
     "https": true,
     "cors": "unknown",
     "category": "tracking",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Keyboard/mouse usage statistics API. Requires Bearer token authentication (create API key at whatpulse.org settings). Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -18007,9 +18019,9 @@
     "https": true,
     "cors": "unknown",
     "category": "url-shorteners",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "GitHub deprecated git.io URL shortener in January 2022. Service displays 'no longer accepting new links'. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -18966,10 +18978,13 @@
     "https": true,
     "cors": "unknown",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Hong Kong Observatory open data API. Returns real-time rainfall, temperature, humidity, UV index, and weather warnings across 18+ districts. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en",
+      "response-type": "json"
+    }
   },
   {
     "name": "MetaWeather",
@@ -18979,9 +18994,9 @@
     "https": true,
     "cors": "no",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "metaweather.com not responding. Service shut down in 2022. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
     "try-it": null
   },
   {
@@ -19018,10 +19033,13 @@
     "https": false,
     "cors": "unknown",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Ocean weather data API (Mallorca/Balearic Islands). Returns temperature, wind speed/direction, pressure, humidity, rain data from AEMET and SOCIB stations. Swagger docs available. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://api.oceandrivers.com/v1.0/getAemetStation/aeropuertopalma/lastdata/",
+      "response-type": "json"
+    }
   },
   {
     "name": "Oikolab",
@@ -19186,10 +19204,16 @@
     "https": true,
     "cors": "no",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Simple weather API by city name. Returns current temperature, wind, description, and 3-day forecast. Hosted at goweather.xyz. Tested 2026-02-08.",
+    "date-checked": "2026-02-08",
+    "try-it": {
+      "url": "https://goweather.xyz/weather/{city}",
+      "response-type": "json",
+      "params": {
+        "city": "London"
+      }
+    }
   },
   {
     "name": "WeatherAPI",
