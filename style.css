@@ -43,6 +43,13 @@ header h1 {
   display: inline-block;
 }
 
+.stat-dot-pending { background: #3a3a5a; }
+.stat-dot-working { background: #6fcf87; }
+.stat-dot-broken { background: #e06060; }
+.stat-dot-paid-only { background: #e0a040; }
+.stat-dot-needs-key { background: #d0d060; }
+.stat-dot-skipped { background: #666; }
+
 main {
   padding: 1rem 2rem 2rem;
 }

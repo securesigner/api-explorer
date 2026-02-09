@@ -9,6 +9,26 @@ Usage:
     python3 scripts/api-healthcheck.py --verbose            # Show response details
 """
 
+# SECURITY NOTE — SSRF risk accepted for local dev tool
+#
+# This script makes HTTP requests to URLs stored in data/apis.json:
+#   - SSL verification is disabled (some APIs have expired/invalid certs)
+#   - Redirects are followed by default (urllib behavior)
+#   - No URL scheme or destination validation in this script
+#
+# This is acceptable because:
+#   - This script runs locally on the developer's machine only
+#   - It is never deployed to any server or CI/CD pipeline
+#   - URLs in apis.json are validated at commit time by the pre-commit hook
+#     (.claude/hooks/pre-commit-api-validate.sh) which rejects private IPs,
+#     localhost, and dangerous URL schemes (file://, javascript://, etc.)
+#   - The pre-commit hook is the security boundary; this script trusts the data
+#
+# If this script is ever used in a shared or automated context, add:
+#   1. URL allowlist validation before each request
+#   2. SSL verification (remove ctx.check_hostname/ctx.verify_mode overrides)
+#   3. Redirect chain validation
+
 import argparse
 import json
 import sys

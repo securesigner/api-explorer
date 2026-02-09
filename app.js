@@ -86,20 +86,11 @@ function renderStats() {
     counts[a.status] = (counts[a.status] || 0) + 1;
   }
 
-  const colors = {
-    pending: "#3a3a5a",
-    working: "#6fcf87",
-    broken: "#e06060",
-    "paid-only": "#e0a040",
-    "needs-key": "#d0d060",
-    skipped: "#666",
-  };
-
   const el = document.getElementById("stats");
   el.innerHTML = Object.entries(counts)
     .map(
       ([status, count]) =>
-        `<span class="stat"><span class="stat-dot" style="background:${colors[status] || "#888"}"></span>${status}: ${count}</span>`,
+        `<span class="stat"><span class="stat-dot stat-dot-${status}"></span>${status}: ${count}</span>`,
     )
     .join("");
 }
