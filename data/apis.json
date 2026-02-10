@@ -1255,9 +1255,9 @@
     "https": true,
     "cors": "yes",
     "category": "blockchain",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free Developer plan $0/mo, 1K points trial, 10 rows/request, 10 req/min, personal use only. Email signup at account.bitquery.io/auth/signup. GraphQL blockchain API.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1294,9 +1294,9 @@
     "https": true,
     "cors": "unknown",
     "category": "blockchain",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Rebranded to GoldRush (goldrush.dev). Multi-blockchain data aggregator, 200+ chains. Free tier available with API key. Email signup at goldrush.dev.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1307,9 +1307,9 @@
     "https": true,
     "cors": "yes",
     "category": "blockchain",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: 100K API calls/day, 5 calls/sec, 90% multichain coverage. Email signup at etherscan.io/myapikey. Ethereum blockchain explorer API.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1333,9 +1333,9 @@
     "https": true,
     "cors": "unknown",
     "category": "blockchain",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free START plan: 100K requests, 1 month duration, 5 networks, 15 RPS, 1 API key. Email signup at account.nownodes.io. Blockchain-as-a-service.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1359,9 +1359,9 @@
     "https": true,
     "cors": "unknown",
     "category": "blockchain",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free API keys at Subgraph Studio (thegraph.com/studio). GraphQL protocol for querying blockchain data, 90+ networks. Uses GRT tokens for queries.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1385,9 +1385,9 @@
     "https": true,
     "cors": "unknown",
     "category": "blockchain",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Blockchain API for Ethereum, Tron, BSC, Bitcoin, Polygon. Email signup at dashboard.watchdata.io. Docs last updated ~3 years ago, may be stale.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2032,9 +2032,9 @@
     "https": true,
     "cors": "yes",
     "category": "calendar",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "AbstractAPI. Free: 1,000 requests total (lifetime, not monthly), 1 req/sec, no credit card. Email signup at app.abstractapi.com. National/regional/religious holidays.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2045,9 +2045,9 @@
     "https": true,
     "cors": "unknown",
     "category": "calendar",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free: 500 calls/month, attribution required, single language, limited data. Email signup at calendarific.com/signup. 230+ countries worldwide holidays.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2058,9 +2058,9 @@
     "https": true,
     "cors": "unknown",
     "category": "calendar",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "APILayer marketplace. Free: 100 requests/month, no credit card. 5,000+ holidays. Email signup at marketplace.apilayer.com/signup.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2100,9 +2100,9 @@
     "https": true,
     "cors": "yes",
     "category": "calendar",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free plan with generous usage allowance, non-commercial only. Paid starts €24.92/mo. Email signup at app.getfestivo.com/join. 250+ countries.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2142,9 +2142,9 @@
     "https": true,
     "cors": "unknown",
     "category": "calendar",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free signup, no credit card required. 250+ countries, 3,600+ regions. Email signup at holidayapi.com/signup. Historical holiday data.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2506,9 +2506,9 @@
     "https": false,
     "cors": "no",
     "category": "continuous-integration",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Azure Resource Health REST API. Requires Azure account (free tier at azure.microsoft.com/free with $200 credit, 12 months free services). Complex signup.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2519,9 +2519,9 @@
     "https": true,
     "cors": "unknown",
     "category": "continuous-integration",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Mobile CI/CD. Free Hobby plan (free forever, team of one). Personal access token from account. Email signup at app.bitrise.io/users/sign_up.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2545,9 +2545,9 @@
     "https": true,
     "cors": "unknown",
     "category": "continuous-integration",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free plan: 6,000 build minutes/month, 5 active users, 30x concurrency, no credit card. API token from user settings. Email signup at circleci.com/signup.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2558,9 +2558,9 @@
     "https": true,
     "cors": "unknown",
     "category": "continuous-integration",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Reached end-of-life, migrated to CloudBees Unify. API at api.codeship.com/v2 is dead. Docs redirect to CloudBees.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2571,9 +2571,9 @@
     "https": true,
     "cors": "unknown",
     "category": "continuous-integration",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "No free tier. Cheapest plan $13.75/mo (yearly) with 35K credits. Free OSS tier discontinued. Trial at app.travis-ci.com/signup but no ongoing free plan.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -6007,7 +6007,7 @@
     "cors": "yes",
     "category": "email",
     "status": "needs-key",
-    "notes": "Free tier: 600 API calls/month, no expiration. Email or Google signup at portal.cloudmersive.com/signup. Phone, email, domain validation.",
+    "notes": "Free tier: 600 API calls/month, no expiration. Email signup at portal.cloudmersive.com/signup. Phone, email, domain validation.",
     "date-checked": "2026-02-10",
     "try-it": null
   },
@@ -14113,9 +14113,9 @@
     "https": true,
     "cors": "yes",
     "category": "phone",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: 600 API calls/month, no expiration. Email signup at portal.cloudmersive.com/signup. Phone validation with international support.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -17366,9 +17366,9 @@
     "https": true,
     "cors": "yes",
     "category": "tracking",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "No free API tier. Essentials $11/mo (tracking page only). Tracking API requires Pro plan $119/mo. Enterprise ecommerce product.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -17379,9 +17379,9 @@
     "https": true,
     "cors": "unknown",
     "category": "tracking",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Brazilian postal service API (CWS). Login required at auth.correios.com.br. Price calculator, delivery estimates, ZIP code lookup. May require business contract.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -17434,9 +17434,9 @@
     "https": false,
     "cors": "unknown",
     "category": "tracking",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Developer portal at developer.postnord.com exists but /api page returns 404. API categories listed but individual endpoints appear defunct.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -17447,9 +17447,9 @@
     "https": true,
     "cors": "unknown",
     "category": "tracking",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Active developer portal at developer.ups.com. OAuth 2.0 auth. Free UPS account registration. APIs: Tracking, Shipping, Address Validation, Rating. GitHub samples available.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -17460,9 +17460,9 @@
     "https": true,
     "cors": "yes",
     "category": "tracking",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Affiliate conversion tracking platform. API requires authentication. Docs at docs.wecantrack.com. SaaS platform with subscription plans.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
