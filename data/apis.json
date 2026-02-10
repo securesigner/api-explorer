@@ -7,9 +7,9 @@
     "https": true,
     "cors": "yes",
     "category": "animals",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "API docs at /public/apis/pet_list.html return Unauthorized. No public API documentation available. Site now consumer-only (Mars/Kinship).",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -65,9 +65,9 @@
     "https": true,
     "cors": "no",
     "category": "animals",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: email signup at thecatapi.com. Some endpoints work without key (limited to 10 results). x-api-key header. 60k+ images, breeds, facts.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -123,9 +123,9 @@
     "https": true,
     "cors": "no",
     "category": "animals",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: sign up at ebird.org/api/keygen (Cornell Lab). x-ebirdapitoken header. Bird observation data worldwide.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -187,9 +187,9 @@
     "https": false,
     "cors": "no",
     "category": "animals",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "API v3 docs at apiv3.iucnredlist.org return 404. iucnredlist.org/resources/api also 404. Red List API appears discontinued.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -232,9 +232,9 @@
     "https": true,
     "cors": "yes",
     "category": "animals",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Developer portal at petfinder.com/developers/ and /for-developers/ both return 404. API discontinued.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -372,9 +372,9 @@
     "https": true,
     "cors": "no",
     "category": "animals",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier for students/developers at thedogapi.com/signup, no credit card. Enterprise pivot but free access still available. 60k+ images, breeds.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1398,9 +1398,9 @@
     "https": true,
     "cors": "no",
     "category": "books",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "DNS resolution fails for abibliadigital.com.br — domain dead.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1411,9 +1411,9 @@
     "https": true,
     "cors": "yes",
     "category": "books",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "DNS resolution fails for bhagavadgitaapi.in — domain dead.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1662,9 +1662,9 @@
     "https": true,
     "cors": "unknown",
     "category": "books",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: email signup at scripture.api.bible/signup (American Bible Society). 1500 Bible versions, 1000+ languages. api-key header.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -13726,9 +13726,9 @@
     "https": true,
     "cors": "unknown",
     "category": "patent",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Taiwan patent office API at cloud.tipo.gov.tw. Requires form submission (DOCX/ODT) for API verification code. Government registration process.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -13781,9 +13781,9 @@
     "https": true,
     "cors": "unknown",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: API key from DEV.to account settings (Forem platform). V1 API requires api-key header. Email signup at dev.to.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -13810,9 +13810,9 @@
     "https": true,
     "cors": "unknown",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: sign up at favqs.com/login, get key at favqs.com/api_keys. Quote of the Day endpoint works without token.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -14039,9 +14039,9 @@
     "https": true,
     "cors": "unknown",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free Udemy account required. Create API client at udemy.com/user/edit-api-clients. Bearer token auth. Limited to instructor data (courses, Q&A, reviews). 100 req/10s.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -14641,9 +14641,9 @@
     "https": true,
     "cors": "unknown",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: email registration at core.ac.uk/services/api, 5 req/10s rate limit, 321M+ papers. API key via email.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -14767,9 +14767,9 @@
     "https": true,
     "cors": "no",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Subscription API at mpds.io, some data subsets free (binary oxides, Ag-K compounds, ML data). Must contact team for API key account.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -16837,9 +16837,9 @@
     "https": true,
     "cors": "yes",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Domain redirects to dclinicstudios.com — company pivoted/sold domain.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -16882,9 +16882,9 @@
     "https": true,
     "cors": "unknown",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: 0 EUR/mo, 10 req/day, up to 100 results/request, 1000 data/day. Spanish test data generator. Signup at api.generadordni.es.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -16943,9 +16943,9 @@
     "https": true,
     "cors": "unknown",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: email signup at mailsac.com, 1 API key. Disposable email testing API with REST, webhooks, web sockets.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -16972,9 +16972,9 @@
     "https": true,
     "cors": "unknown",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: 200 req/day, email signup at mockaroo.com/sign-up. Mock data generation API with 200+ data types, JSON/CSV/SQL output.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -17014,9 +17014,9 @@
     "https": true,
     "cors": "yes",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: 1000 calls/day, email signup at randommer.io. X-Api-Key header. Random data generator (names, phones, addresses, etc).",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
