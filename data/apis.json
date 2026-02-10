@@ -1164,9 +1164,9 @@
     "https": true,
     "cors": "yes",
     "category": "authentication-authorization",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier up to 25,000 MAU, no credit card required. Part of Okta. Email signup at auth0.com. Includes custom domains, passwordless, social connections.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1177,9 +1177,9 @@
     "https": true,
     "cors": "no",
     "category": "authentication-authorization",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free 100 requests included. Email signup at dashboard.otp.dev/sign-up. OTP via SMS, Viber, Voice, Telegram.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1190,9 +1190,9 @@
     "https": true,
     "cors": "no",
     "category": "authentication-authorization",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "m3o.com domain sold, redirects to Sedo domain parking page.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1203,9 +1203,9 @@
     "https": true,
     "cors": "yes",
     "category": "authentication-authorization",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier 25,000 MAU, no credit card required. Email signup at mojoauth.com. Includes Email OTP, Magic Link, social login.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1216,9 +1216,9 @@
     "https": true,
     "cors": "yes",
     "category": "authentication-authorization",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "sawolabs.com domain sold/repurposed, redirects to unrelated Indonesian site (desasidodadi.id).",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1229,9 +1229,9 @@
     "https": true,
     "cors": "no",
     "category": "authentication-authorization",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier 10,000 MAU, no credit card required. Acquired by Twilio. Email signup. Includes unlimited orgs, 5 SSO/SCIM connections, RBAC.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1242,9 +1242,9 @@
     "https": true,
     "cors": "yes",
     "category": "authentication-authorization",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Acquired by WorkOS. Original warrant.dev pricing page 404s. API now through WorkOS (free tier available). Open source at github.com/warrant-dev/warrant.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -15820,9 +15820,9 @@
     "https": true,
     "cors": "yes",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Cheapest plan is $149/month (Premium). No free tier, only 14-day free trial. Social media posting API for 13+ platforms.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -15872,9 +15872,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "discord.riverside.rocks unreachable. Domain appears dead, docs page returns no content.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -16076,9 +16076,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API migrated to GraphQL. Requires OAuth approval or Meetup Pro account. API docs at meetup.com/api/. Original REST API with api-key deprecated.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -16173,9 +16173,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Rebranded to Stoat (stoat.chat). Free, open source. API docs at developers.stoat.chat. Same team, new name.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -16212,9 +16212,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free Bot API by Mail.ru. Token from @PrimeBot bot on TamTam. REST API at botapi.tamtam.chat. Supports webhooks and long polling.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -16225,9 +16225,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free, unlimited usage. Token from @BotFather. Comprehensive bot platform with payments, inline mode, games, stickers.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -16251,9 +16251,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free publishing API by Telegram. Create account via API call to get access_token. No signup required, instant access.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -18477,9 +18477,9 @@
     "https": true,
     "cors": "unknown",
     "category": "url-shorteners",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "clickmeter.com redirects to rebrandly.com. ClickMeter was acquired by Rebrandly and merged.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -18490,9 +18490,9 @@
     "https": true,
     "cors": "unknown",
     "category": "url-shorteners",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "cli.co domain redirects to click.it.com. Original URL shortener service no longer exists.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -18503,9 +18503,9 @@
     "https": true,
     "cors": "unknown",
     "category": "url-shorteners",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier with 3 API calls per 60 seconds. API key from Edit Account page after registration. Paid plans from Starter to Team Enterprise.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -18568,9 +18568,9 @@
     "https": true,
     "cors": "yes",
     "category": "url-shorteners",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free, open source URL shortener. Hosted at kutt.it. API docs at docs.kutt.it. Self-hostable. API key auth.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -18607,9 +18607,9 @@
     "https": true,
     "cors": "unknown",
     "category": "url-shorteners",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier available. API key from dashboard at app.rebrandly.com/account/api-keys. Branded short links with analytics.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -18646,9 +18646,9 @@
     "https": true,
     "cors": "yes",
     "category": "url-shorteners",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "shrtlnk.dev domain hijacked by Thai gambling site (GOLDEN456 online slots). Original URL shortener service is gone.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -18659,9 +18659,9 @@
     "https": true,
     "cors": "no",
     "category": "url-shorteners",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free account available. API bearer token from app/settings/api page. OpenAPI spec at tinyurl.com/app/dev. URL shortening with analytics.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -18672,9 +18672,9 @@
     "https": true,
     "cors": "yes",
     "category": "url-shorteners",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free account with auto-generated API key. 30 requests per minute rate limit. URL shortening, QR codes, bio pages, analytics.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
