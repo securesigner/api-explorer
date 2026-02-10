@@ -3443,9 +3443,9 @@
     "https": true,
     "cors": "unknown",
     "category": "currency-exchange",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "No free tier. Cheapest plan Starter at $25/mo (14-day free trial only, not ongoing). 700+ forex pairs, real-time quotes. Pricing at 1forge.com/pricing.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -3456,9 +3456,9 @@
     "https": true,
     "cors": "unknown",
     "category": "currency-exchange",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier available. 150+ currencies, simple conversion API. Email signup at amdoren.com/developer/signup.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -3469,9 +3469,9 @@
     "https": false,
     "cors": "unknown",
     "category": "currency-exchange",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: 100 API calls/month, hourly updates, historical data. APILayer product. Email signup at fixer.io/signup/free.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -3514,9 +3514,9 @@
     "https": true,
     "cors": "yes",
     "category": "currency-exchange",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free Developer plan: 1,000 API calls/month, 24-hour updates, USD base only, no CC required. Email signup at currencyfreaks.com/signup.html.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -3527,9 +3527,9 @@
     "https": true,
     "cors": "unknown",
     "category": "currency-exchange",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "APILayer product. Free tier available with limited calls. Email signup at currencylayer.com/signup/free.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -3540,9 +3540,9 @@
     "https": true,
     "cors": "yes",
     "category": "currency-exchange",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Rebranded to CurrencyBeacon (currencybeacon.com). Free tier: $0/mo, 5,000 API requests/month, hourly updates, HTTPS, commercial use allowed.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -3585,9 +3585,9 @@
     "https": true,
     "cors": "yes",
     "category": "currency-exchange",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: $0/mo, 1,500 requests/month, daily updates, no CC required. Email signup at app.exchangerate-api.com/sign-up. Operating since 2010.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -3611,9 +3611,9 @@
     "https": true,
     "cors": "yes",
     "category": "currency-exchange",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "APILayer product. Free tier: 100 API calls/month, hourly updates, historical data. Email signup at manage.exchangeratesapi.io/signup/free.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -5458,9 +5458,9 @@
     "https": true,
     "cors": "unknown",
     "category": "dictionaries",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API docs at api.collinsdictionary.com with full REST API (dictionaries, search, entries, word-of-the-day). No self-service signup found on docs page; may require contacting HarperCollins for access.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -5503,9 +5503,9 @@
     "https": true,
     "cors": "yes",
     "category": "dictionaries",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI-based. Free Basic tier: $0/mo, 2,500 req/day (then $0.004 each). English dictionary, 800K+ entries. Signup via RapidAPI.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -5516,9 +5516,9 @@
     "https": true,
     "cors": "unknown",
     "category": "dictionaries",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free for non-commercial use. 1,000 queries/day, max 2 reference APIs. Email registration at dictionaryapi.com/register. Commercial use requires contacting them.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -5529,9 +5529,9 @@
     "https": true,
     "cors": "yes",
     "category": "dictionaries",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "owlbot.info returns HTTP 404. Site appears to be down.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -5542,9 +5542,9 @@
     "https": true,
     "cors": "no",
     "category": "dictionaries",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Sandbox trial only: 500 total calls, limited to first letter of alphabet. No ongoing free tier. Cheapest paid plan API Lite: £50/mo. Pricing at account.oxforddictionaries.com/pricing.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -5555,9 +5555,9 @@
     "https": true,
     "cors": "unknown",
     "category": "dictionaries",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "STANDS4 network API. Free up to 100 queries/day. Apply at synonyms.com/api.php (uid + tokenid auth). Premium/commercial requires contacting them.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -5584,9 +5584,9 @@
     "https": true,
     "cors": "unknown",
     "category": "dictionaries",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free non-profit dictionary API. Signup at wordnik.com/signup. Definitions from 5 dictionaries, synonyms, example sentences, audio, word-of-the-day, random word.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -5597,9 +5597,9 @@
     "https": true,
     "cors": "unknown",
     "category": "dictionaries",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI-based (X-Mashape-Key header). Provides definitions, synonyms, antonyms, pronunciations. Signup via RapidAPI at rapidapi.com/dpventures/api/wordsapi.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -15622,9 +15622,9 @@
     "https": true,
     "cors": "unknown",
     "category": "shopping",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free API key via email signup at developer.bestbuy.com/login. Products, Stores, Categories, Recommendations APIs. Extensive documentation.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -15648,9 +15648,9 @@
     "https": true,
     "cors": "yes",
     "category": "shopping",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "dummyproducts-api.herokuapp.com returns no content. Heroku removed free tier (Nov 2022), app shut down.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -15700,9 +15700,9 @@
     "https": true,
     "cors": "unknown",
     "category": "shopping",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "LazOP (Lazada Open Platform) for sellers/ISV partners. Requires app registration (App Key + Secret) and seller OAuth authorization. Not general-purpose public API.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -15713,9 +15713,9 @@
     "https": true,
     "cors": "unknown",
     "category": "shopping",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Developer platform for Mercado Libre marketplace. Requires app registration and OAuth authorization. Multiple business units: marketplace, global selling, shipping, payments.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -15726,9 +15726,9 @@
     "https": true,
     "cors": "unknown",
     "category": "shopping",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Electronic parts search GraphQL API (v4). Free tier available. Part of Nexar/Altium ecosystem. Get API token at octopart.com/business/api/v4/api-transition.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -15739,9 +15739,9 @@
     "https": true,
     "cors": "unknown",
     "category": "shopping",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Partner API v2.0 with OAuth2 auth. Requires client_id/client_secret provided by OLX business team (not self-service). For classified marketplace listing management.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -15765,9 +15765,9 @@
     "https": true,
     "cors": "unknown",
     "category": "shopping",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Shopee Open Platform for sellers/ISVs. Strict eligibility: must be Shopee seller with min order thresholds, or registered ISV with live product. Requires profile approval (3-10 days).",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -15791,9 +15791,9 @@
     "https": true,
     "cors": "yes",
     "category": "shopping",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Self-hosted REST API for WordPress/WooCommerce stores. Requires generating API keys in WooCommerce admin (Settings > REST API). Not a hosted service—runs on your own WordPress installation.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
