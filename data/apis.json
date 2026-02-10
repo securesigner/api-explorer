@@ -3685,9 +3685,9 @@
     "https": true,
     "cors": "unknown",
     "category": "data-validation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free Developer Plan: 1 user, 500 mailings, 10 HTML templates, address verification API. Signup at dashboard.lob.com/register. Direct mail + address API.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -3730,9 +3730,9 @@
     "https": true,
     "cors": "yes",
     "category": "data-validation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Smarty (ex-SmartyStreets) 42-day free trial, 1,000 lookups, no credit card. Address autocomplete API. Signup at smarty.com/pricing.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -3743,9 +3743,9 @@
     "https": true,
     "cors": "yes",
     "category": "data-validation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Same Smarty platform as US Autocomplete. 42-day free trial, 1,000 lookups, no credit card. Extracts addresses from text.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -3756,9 +3756,9 @@
     "https": true,
     "cors": "yes",
     "category": "data-validation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Same Smarty platform. 42-day free trial, 1,000 lookups, no credit card. Full address verification with 55+ metadata points.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -3769,9 +3769,9 @@
     "https": true,
     "cors": "unknown",
     "category": "data-validation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free plan via APILayer, email signup at vatlayer.com/signup/free/yearly. EU VAT number validation and rates API.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -6006,9 +6006,9 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: 600 API calls/month, no expiration. Email or Google signup at portal.cloudmersive.com/signup. Phone, email, domain validation.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -6619,9 +6619,9 @@
     "https": true,
     "cors": "unknown",
     "category": "events",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free developer registration at developer.seatgeek.com/register. Event ticket/venue search API. API key via developer portal.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -6632,9 +6632,9 @@
     "https": true,
     "cors": "unknown",
     "category": "events",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: 5,000 calls/day, 5 req/sec. Registration at developer-acct.ticketmaster.com/user/register. Discovery API available instantly. Very generous.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -14087,9 +14087,9 @@
     "https": true,
     "cors": "yes",
     "category": "phone",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: 100 req/month, no credit card required. Email signup at app.abstractapi.com/users/signup. Abstract API platform.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -14100,9 +14100,9 @@
     "https": true,
     "cors": "unknown",
     "category": "phone",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free plan: 100 req/month, email signup at numverify.com/signup/free/yearly. APILayer product. Phone number validation & country detection.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -14142,9 +14142,9 @@
     "https": true,
     "cors": "yes",
     "category": "phone",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: 1,000 verifications/month, free forever, no credit card. Signup at veriphone.io/cp. Phone validation with carrier detection.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -14544,9 +14544,9 @@
     "https": true,
     "cors": "unknown",
     "category": "programming",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free API key from account settings at codeforces.com/settings/api. Most methods work anonymously; key only for private data. Rate limit: 1 req/2 sec.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -14557,9 +14557,9 @@
     "https": true,
     "cors": "unknown",
     "category": "programming",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free registration at hackerearth.com/api/register. Code execution API with quota-based free requests. client-secret header auth.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -14570,9 +14570,9 @@
     "https": true,
     "cors": "unknown",
     "category": "programming",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Cloud API on RapidAPI starts at EUR 27/month. No free cloud tier. Open source self-hosted is free but cloud API requires subscription.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -14596,9 +14596,9 @@
     "https": true,
     "cors": "yes",
     "category": "programming",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Documentation SaaS platform, not a consumable public API. Developer API requires Pro tier ($250/mo). Hobby plan has no API access.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -18701,9 +18701,9 @@
     "https": true,
     "cors": "unknown",
     "category": "vehicle",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API at helipaddy.com/api says 'Get started today for free.' Contact support@helipaddy.com for API key. Helicopter landing sites data.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -18714,9 +18714,9 @@
     "https": true,
     "cors": "no",
     "category": "vehicle",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "IDWS 4.0 in pilot phase with select customers only. Must contact b2b.kbb.com/contact. Enterprise/B2B — no public free tier.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -18727,9 +18727,9 @@
     "https": true,
     "cors": "no",
     "category": "vehicle",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Enterprise developer portal with 29 data products. Requires login and consultation — 'Talk to us for an individual consultation.' No public free tier.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
