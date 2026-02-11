@@ -728,9 +728,9 @@
     "https": true,
     "cors": "yes",
     "category": "anime",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free token via Discord bot 'Kohai' (/token command). Docs at docs.waifu.it. Anime image/quote API",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1020,9 +1020,9 @@
     "https": true,
     "cors": "yes",
     "category": "art-design",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: $0/mo, 50 req/day, backlink required. Signup at artsearch.io/console. Visual art search",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1265,9 +1265,9 @@
     "https": true,
     "cors": "yes",
     "category": "art-design",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Domain redirects to orshot.com (rebranded). Original Pika image generation API no longer exists at pika.style",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1359,9 +1359,9 @@
     "https": true,
     "cors": "yes",
     "category": "authentication-authorization",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free Hobby tier: 50,000 monthly active users, unlimited apps, no credit card required. Signup at dashboard.clerk.com",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1372,9 +1372,9 @@
     "https": true,
     "cors": "yes",
     "category": "authentication-authorization",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Known passkey auth platform with free developer tier. Website unreachable during automated testing (likely blocks bots). Signup at corbado.com",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1726,9 +1726,9 @@
     "https": true,
     "cors": "yes",
     "category": "books",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: $0/mo, 50 req/day, non-commercial only. Signup at apileague.com. Books search/covers/similar",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2490,9 +2490,9 @@
     "https": true,
     "cors": "yes",
     "category": "calendar",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub utility. Free tier: $0/mo, 5 API calls/day. Signup at apyhub.com. Generates iCal files from event data",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2779,9 +2779,9 @@
     "https": true,
     "cors": "yes",
     "category": "cloud-storage-file-sharing",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "S3-compatible object storage. Free account signup. Pay-per-use pricing (€0.04/GB). No free storage tier but free account creation at auth.gcore.com",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2909,9 +2909,9 @@
     "https": true,
     "cors": "yes",
     "category": "cloud-storage-file-sharing",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "14-day free trial (100 GB) only, then paid plans from €10/mo. No ongoing free tier for API access",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -8220,9 +8220,9 @@
     "https": true,
     "cors": "yes",
     "category": "entertainment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI. BASIC plan $0/mo, free for personal/non-commercial use. AI-generated horoscopes in multiple languages",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -8304,9 +8304,9 @@
     "https": true,
     "cors": "yes",
     "category": "entertainment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI. BASIC plan $0/mo, free for personal/educational use. Random fun facts",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -8330,9 +8330,9 @@
     "https": true,
     "cors": "yes",
     "category": "environment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free plan: $0/mo, 50 API calls/mo, sandbox access, no credit card. Carbon offset and environmental impact API",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -8566,9 +8566,9 @@
     "https": true,
     "cors": "unknown",
     "category": "environment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Open data API, free self-registration. Launching new portal with no registration needed. 5 req/sec rate limit",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -8595,9 +8595,9 @@
     "https": true,
     "cors": "yes",
     "category": "environment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free developer account, signup at wattbuy.readme.io. Energy rates and utility data API",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -9616,9 +9616,9 @@
     "https": true,
     "cors": "unknown",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "URL updated from public-apis-2 (was broken). Previous: Hosted API shut down. Code open-sourced on GitHub (heycarsten/lcbo-api). No replacement service",
-    "date-checked": null,
+    "status": "working",
+    "notes": "lcbo.dev — No auth required despite listing api-key. GraphQL API, 60 req/min, no signup needed. POST-only GraphQL so no try-it config",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -15589,9 +15589,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Plans start at $49/mo (Trial tier). No free API tier available. AI music generation",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -17221,9 +17221,9 @@
     "https": true,
     "cors": "no",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Free plan is chatbot-only (no API access). API access starts at Gold tier ($99/mo). Token via email request",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -20620,10 +20620,13 @@
     "https": true,
     "cors": "unknown",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Free, no auth required. 160M+ requests/month served. Fake REST API for testing/prototyping",
+    "date-checked": "2026-02-10",
+    "try-it": {
+      "url": "https://dummyjson.com/products?limit=5",
+      "response-type": "json"
+    }
   },
   {
     "name": "English Random Words",
@@ -20862,9 +20865,9 @@
     "https": true,
     "cors": "yes",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI. Freemium, BASIC plan $0/mo. Generates random user identity data",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -21383,9 +21386,9 @@
     "https": true,
     "cors": "unknown",
     "category": "tracking",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier via email signup. Paid: Rs.2000/mo ($23 USD). Indian postal code lookup API",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -21438,9 +21441,9 @@
     "https": false,
     "cors": "unknown",
     "category": "tracking",
-    "status": "pending",
-    "notes": "URL updated from public-apis-2 (was broken). Previous: Developer portal at developer.postnord.com exists but /api page returns 404. API categories listed but individual endpoints appear defunct.",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free developer portal signup. 17 active APIs including Track & Trace, Service Points, Transit Time. API key provided after registration",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
