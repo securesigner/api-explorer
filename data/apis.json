@@ -1733,9 +1733,9 @@
     "https": true,
     "cors": "yes",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Open-source self-hosted BI platform (Apache 2.0). API uses JWT auth on your own instance. Free to deploy",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1746,9 +1746,9 @@
     "https": false,
     "cors": "unknown",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: 2500 hits/month. Email signup at orghunter.3scale.net. Multiple API tiers (Basic, Financial, GeoLocation, Premium)",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1759,9 +1759,9 @@
     "https": true,
     "cors": "unknown",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Acquired by HubSpot 2023. No standalone free API — requires HubSpot account. Docs redirect to login",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1824,9 +1824,9 @@
     "https": true,
     "cors": "unknown",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free Starter plan, no credit card required. API access included. 15 monitors, 5 team members, 200 subscribers",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1837,9 +1837,9 @@
     "https": true,
     "cors": "unknown",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free plan: 250 contacts, 500 emails/month. Full API access, no credit card required. signup at mailchimp.com",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1850,9 +1850,9 @@
     "https": true,
     "cors": "unknown",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free plan: 6,000 emails/month (200/day). API + SMTP relay, no credit card required. signup at app.mailjet.com",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1876,9 +1876,9 @@
     "https": true,
     "cors": "unknown",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Domain dead — api.orb-intelligence.com DNS resolution failure",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1889,9 +1889,9 @@
     "https": true,
     "cors": "yes",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Open-source self-hosted BI tool (BSD license). API uses user/query API keys on your own instance. Free to deploy",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -1928,9 +1928,9 @@
     "https": true,
     "cors": "unknown",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Free Team plan exists but API access only in Enterprise plan ($15/user/month). Rebranded to NimbleWork",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2006,9 +2006,9 @@
     "https": true,
     "cors": "yes",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free plan available, no credit card required. Domain search, email finder, verification. signup at app.tomba.io",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -7438,9 +7438,9 @@
     "https": true,
     "cors": "unknown",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free plan: $0/mo, 50 points/day. No credit card required (direct signup). Email signup at spoonacular.com/food-api/console",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -7506,9 +7506,9 @@
     "https": true,
     "cors": "yes",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free test API key '1' for dev/education. Premium key (one-time PayPal payment) required for production apps",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -7519,9 +7519,9 @@
     "https": true,
     "cors": "yes",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free test API key '1' for dev/education. Same family as TheCocktailDB. Premium key for production apps",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -17194,9 +17194,9 @@
     "https": true,
     "cors": "unknown",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Domain dead — aylien.com DNS resolution failure",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -17207,9 +17207,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: 600 API calls/month, no expiration. Email signup at portal.cloudmersive.com/signup",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -17233,9 +17233,9 @@
     "https": true,
     "cors": "unknown",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Thai NLP API by InsightEra. Token-based auth. Swagger docs live at nlp.insightera.co.th/docs/v1.0. Contact company for token",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -17246,9 +17246,9 @@
     "https": true,
     "cors": "unknown",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "GCP Natural Language API. $300 free credits + free tier, but requires credit card for GCP account signup",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -17259,9 +17259,9 @@
     "https": true,
     "cors": "unknown",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Domain hijacked — ocr.hirak.site redirects to click spam (exppxxclck.com)",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -17272,9 +17272,9 @@
     "https": true,
     "cors": "unknown",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Domain hijacked — translate.hirak.site redirects to click spam (exppxxclck.com)",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -17392,9 +17392,9 @@
     "https": true,
     "cors": "yes",
     "category": "tracking",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free. Create user token via POST /v1/users. No signup page — auth is self-created via API. Docs at docs.pixe.la",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
