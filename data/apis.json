@@ -7267,9 +7267,9 @@
     "https": true,
     "cors": "unknown",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free $0/mo plan with $0.01/request fee, 30 req/min, limited data. 875K+ grocery/branded foods. Signup at chompthis.com/api/manage.php",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -7296,9 +7296,9 @@
     "https": true,
     "cors": "unknown",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Starts at $29/mo (EnterpriseBasic Multilingual). No free tier. NLP-based nutrition analysis",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -7309,9 +7309,9 @@
     "https": true,
     "cors": "unknown",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Starts at $9/mo (EnterpriseBasic), 10-day trial only. No permanent free tier. 2M+ web recipes",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -7354,9 +7354,9 @@
     "https": true,
     "cors": "unknown",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Developer portal at developer.kroger.com blocked by bot protection. Major US grocery chain, likely has free tier for product/location data",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -7367,9 +7367,9 @@
     "https": true,
     "cors": "unknown",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Hosted API shut down. Code open-sourced on GitHub (heycarsten/lcbo-api). No replacement service",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -7451,9 +7451,9 @@
     "https": true,
     "cors": "unknown",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Swedish state alcohol monopoly API portal at api-portal.systembolaget.se. Requires registration, portal content not fully accessible",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -7477,9 +7477,9 @@
     "https": true,
     "cors": "unknown",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI Basic plan at $0/mo. Recipe data from Tasty/BuzzFeed. Signup via rapidapi.com",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -7545,9 +7545,9 @@
     "https": false,
     "cors": "unknown",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "NYPL historical menus API. Free token via email to menus@nypl.org. 5000 req/day, 2 req/sec. Menus/dishes from 1851-2012",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -7571,9 +7571,9 @@
     "https": true,
     "cors": "yes",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free trial: 30 ingredient parses/day. Professional plan $0.02/ingredient via RapidAPI. Developer-friendly data licensing",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -11853,9 +11853,9 @@
     "https": true,
     "cors": "unknown",
     "category": "jobs",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free signup at developer.adzuna.com/signup. REST API for job search, salary data, histograms across 16+ countries",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -11895,9 +11895,9 @@
     "https": false,
     "cors": "unknown",
     "category": "jobs",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free publisher API key via careerjet.com/partners account. Search API at search.api.careerjet.net/v4/query. Basic auth",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -11921,9 +11921,9 @@
     "https": true,
     "cors": "unknown",
     "category": "jobs",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Developer API for remote jobs. Email/GitHub/Google/LinkedIn signup at findwork.dev/accounts/signup",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -11947,9 +11947,9 @@
     "https": true,
     "cors": "unknown",
     "category": "jobs",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Acquired by Talroo, rebranded as consumer job board. API spec PDF at HTTP URL unreachable. No developer docs on current site",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -11960,9 +11960,9 @@
     "https": true,
     "cors": "unknown",
     "category": "jobs",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Active job aggregator in 71 countries. API page blocked by bot protection (403). Partner API likely requires application",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -11973,9 +11973,9 @@
     "https": false,
     "cors": "unknown",
     "category": "jobs",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "api.juju.com returns Forbidden. Main site juju.com appears defunct. Publisher API docs are 2010-era XML/RSS format",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -11999,9 +11999,9 @@
     "https": true,
     "cors": "unknown",
     "category": "jobs",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free API key signup at reed.co.uk/developers. UK job search & details API. Basic auth with API key as username",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -12012,9 +12012,9 @@
     "https": true,
     "cors": "unknown",
     "category": "jobs",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free developer API. Register app at themuse.com/developers/api/v2/apps. Job listings and company profiles",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -12038,9 +12038,9 @@
     "https": true,
     "cors": "unknown",
     "category": "jobs",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free US government job API. Developer portal at developer.usajobs.gov with tutorials, guides, and API reference. Email signup",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -12051,9 +12051,9 @@
     "https": true,
     "cors": "unknown",
     "category": "jobs",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Publisher FeedAPI (REST, JSON/XML). Apply at whatjobs.com/contact/publisher. Revenue-sharing affiliate model",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -12064,9 +12064,9 @@
     "https": true,
     "cors": "unknown",
     "category": "jobs",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Publisher program page returns 403. Likely requires commercial partnership agreement. No self-serve free API access",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
