@@ -1489,9 +1489,9 @@
     "https": true,
     "cors": "yes",
     "category": "blockchain",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "BSC blockchain explorer, Etherscan family. Free API key with 5 calls/sec rate limit. Email signup at bscscan.com. Redirects to etherscan.io/apis.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -1554,9 +1554,9 @@
     "https": true,
     "cors": "unknown",
     "category": "blockchain",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: $0/month, 50K Compute Units, 20 RPS, 2 Access Tokens. Paid starts $49/mo. 100+ blockchain protocols supported. Signup at account.getblock.io.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -1580,9 +1580,9 @@
     "https": true,
     "cors": "yes",
     "category": "blockchain",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Blockchain token/record API on Arbitrum Nova. API keys generated in Layer4 web app. Some endpoints use credits. No explicit free tier pricing shown on docs page.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -2058,9 +2058,9 @@
     "https": true,
     "cors": "no",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Iranian cloud provider with CDN/cloud/DNS/video APIs. Docs page returned JS challenge/redirect — could not fetch full content. Known cloud infra provider requiring API keys.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -2097,9 +2097,9 @@
     "https": true,
     "cors": "yes",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Company data enrichment API. 'Start for free' at app.companyenrich.com. 30M+ companies, 300+ data points. Free tier available.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -2175,9 +2175,9 @@
     "https": true,
     "cors": "yes",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Company logo API. Free Community plan: 500K req/mo with attribution required. Paid Startup $400/yr removes attribution (1M req/mo). Trusted by 30K+ teams.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -2188,9 +2188,9 @@
     "https": true,
     "cors": "unknown",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Logo API for brands, stocks, ETFs. Docs at docs.logokit.com. Logo API + Brand API endpoints. Requires authentication. Clearbit alternative.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -2240,9 +2240,9 @@
     "https": true,
     "cors": "yes",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Email finder & verifier API. Bearer token auth. Credit-based system — 1 finder credit per verified email found. API key at nioleads.com/dashboard/integrations.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -4603,9 +4603,9 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "5 calls/day free tier. E-commerce catalog includes currency conversion, barcode/QR generation, product AI tools. Uses 'Atoms' credit system. Assessed in prior sessions — same free tier pattern.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -14638,9 +14638,9 @@
     "https": true,
     "cors": "yes",
     "category": "jobs",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Job posting API via RapidAPI. ATS/career site jobs: $1-$9/1K jobs. LinkedIn jobs: $0.75-$4.50/1K. Free internships API & Y Combinator jobs API available. 175K+ employer career sites.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -14677,9 +14677,9 @@
     "https": true,
     "cors": "unknown",
     "category": "jobs",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Starts at $485/mo (no free tier). Pro $745/mo, Pro+ $925/mo, Ultra $1650/mo. 34M+ total jobs. Can explore rate-limited endpoints publicly before subscribing.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -14690,9 +14690,9 @@
     "https": true,
     "cors": "unknown",
     "category": "jobs",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "working",
+    "notes": "Free public API for remote jobs. No auth required. Endpoint: jobicy.com/api/v2/remote-jobs. JSON format with optional filters (geo, industry, tag, count). RSS feed also available.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -14742,9 +14742,9 @@
     "https": true,
     "cors": "unknown",
     "category": "jobs",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Could not fetch content from okjob.io/api — page returned error. Site may be down or deprecated.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -17898,9 +17898,9 @@
     "https": true,
     "cors": "unknown",
     "category": "podcasts",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "working",
+    "notes": "Apple's public podcast search API. No auth required. Endpoint: itunes.apple.com/search?media=podcast&term=... Same underlying API as iTunes Search (music) which is already working.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -17911,9 +17911,9 @@
     "https": true,
     "cors": "unknown",
     "category": "podcasts",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free API key via email signup at api.podcastindex.org. Open-source project. Uses Amazon-style auth headers (X-Auth-Key + SHA-1 hash). Comprehensive podcast search/episode API.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -17924,9 +17924,9 @@
     "https": true,
     "cors": "yes",
     "category": "podcasts",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free signup at taddy.org/signup/developers. GraphQL API for 4M+ podcasts, 200M episodes, transcripts. 'Sign Up for Free' prominent.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -19171,9 +19171,9 @@
     "https": true,
     "cors": "unknown",
     "category": "shopping",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Amazon product data API. Free Hobby tier: 100 requests/month forever, no additional charges. Pay-as-you-go: $0.01/request. Signup at canopyapi.co.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -19314,9 +19314,9 @@
     "https": true,
     "cors": "unknown",
     "category": "shopping",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "working",
+    "notes": "Free fake e-commerce API. No auth required despite api-key listing. Endpoint: api.escuelajs.co/api/v1/products. Full CRUD, pagination, JWT auth optional. Built for learning.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -19366,9 +19366,9 @@
     "https": true,
     "cors": "unknown",
     "category": "shopping",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Amazon product data API. Free plan available via API marketplaces (likely RapidAPI). No credit card required to start. Docs at scoutapi.com/documentation.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -19632,9 +19632,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI-hosted (hashtag5.p.rapidapi.com). Free RapidAPI account for key. Generates hashtags from keywords/images.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -19865,9 +19865,9 @@
     "https": true,
     "cors": "no",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Pay-as-you-go: $0.20/1K tweets or users. 'Try for Free' with no credit card required. No subscriptions. Balance doesn't expire.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -19995,9 +19995,9 @@
     "https": true,
     "cors": "no",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Pay-as-you-go: $0.15/1K tweets, $0.18/1K profiles. $0.1 free credits immediately, no credit card required. 1000+ req/sec. Unofficial Twitter/X data API.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
