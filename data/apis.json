@@ -4005,9 +4005,9 @@
     "https": true,
     "cors": "yes",
     "category": "currency-exchange",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub utility. Free tier: $0/mo, 5 API calls/day. Signup at apyhub.com. Currency conversion to multiple targets",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -4034,9 +4034,9 @@
     "https": true,
     "cors": "yes",
     "category": "currency-exchange",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "EverAPI family. Free tier: 300 req/month, no CC required. 150+ currencies, minutely updates. Signup at app.currencyapi.com/register",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -4186,9 +4186,9 @@
     "https": true,
     "cors": "yes",
     "category": "currency-exchange",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: $0/mo, 5000 req/month, 160+ currencies, daily updates, 30-day historical. No CC. Signup at fxfeed.io/login/signup",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -4199,9 +4199,9 @@
     "https": true,
     "cors": "no",
     "category": "currency-exchange",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: $0/mo, 1000 req/month, 3 endpoints, hourly updates. No CC required. Signup at fxratesapi.com/auth/signup",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -4212,9 +4212,9 @@
     "https": true,
     "cors": "yes",
     "category": "currency-exchange",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "fygraph.com failed to load content — appears to be JS-only SPA or dead site. No accessible docs or pricing info",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -4225,9 +4225,9 @@
     "https": true,
     "cors": "yes",
     "category": "currency-exchange",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free plan: 10 req/day, no CC required. Currency exchange rates. Signup at manyapis.com/signup",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -4238,9 +4238,9 @@
     "https": true,
     "cors": "unknown",
     "category": "currency-exchange",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: $0/mo, 100 req/month, daily updates, no CC. Precious metals + 150+ forex currencies. Signup at metalpriceapi.com/register",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -4267,9 +4267,9 @@
     "https": true,
     "cors": "yes",
     "category": "currency-exchange",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: $0/mo, 300 req/month, 1 req/sec, current rates only. Reserve Bank of Australia data. Signup at app.exchangeratesapi.com.au",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -4280,9 +4280,9 @@
     "https": true,
     "cors": "yes",
     "category": "currency-exchange",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: $0/mo, 200 req/day, 593 currencies. No CC required. Signup at unirateapi.com/register",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -4322,9 +4322,9 @@
     "https": true,
     "cors": "yes",
     "category": "data-validation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Brevo (ex-Sendinblue) CRM suite. Free plan: 300 emails/day, API access for contacts/email/SMS. Signup at app.brevo.com",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -4348,9 +4348,9 @@
     "https": true,
     "cors": "unknown",
     "category": "data-validation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free BASIC plan: $0/mo, 200 charity checks/month, no CC required. IRS/PUB78/BMF/OFAC data. Signup at pactman.org/register-developer",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -4432,9 +4432,9 @@
     "https": true,
     "cors": "yes",
     "category": "data-validation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub utility. Free tier: $0/mo, 5 API calls/day. UK postcode validation. Signup at apyhub.com",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -4445,9 +4445,9 @@
     "https": true,
     "cors": "yes",
     "category": "data-validation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "EverAPI family. Free tier: 100 req/month. EU VAT number validation and lookup. Signup at app.vatcheckapi.com/register",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -17363,9 +17363,9 @@
     "https": true,
     "cors": "yes",
     "category": "phone",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "EverAPI family. Free tier: 100 req/month. Phone validation for 230+ countries. Signup at app.numlookupapi.com/register",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -17405,9 +17405,9 @@
     "https": true,
     "cors": "yes",
     "category": "phone",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free credits on signup. Paid plans from $9.99/mo (2000 req). Phone number validation API. Signup at proweblook.com/auth/signup",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -17418,9 +17418,9 @@
     "https": true,
     "cors": "yes",
     "category": "phone",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free plan: $0, 10 credits first month. WhatsApp number validation. Signup at proweblook.com/auth/signup",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -22575,9 +22575,9 @@
     "https": true,
     "cors": "yes",
     "category": "url-shorteners",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free account available. URL shortening with analytics and tracking. API key from manage-api-key page. Signup at blyto.com/sign-up",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -22705,9 +22705,9 @@
     "https": true,
     "cors": "yes",
     "category": "url-shorteners",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Same Manyapis platform. Free plan: 10 req/day, no CC required. URL shortening API. Signup at manyapis.com/signup",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -22731,9 +22731,9 @@
     "https": true,
     "cors": "yes",
     "category": "url-shorteners",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "app.ogli.sh returns HTTP 520 (Cloudflare origin server error). Service unreachable",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -22822,9 +22822,9 @@
     "https": true,
     "cors": "yes",
     "category": "url-shorteners",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "API access only in paid plans starting at $5/mo (Hobby). No free API tier. 5-day free trial only. Pricing at t.ly/#pricing",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -22890,9 +22890,9 @@
     "https": true,
     "cors": "no",
     "category": "vehicle",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free dev tier — no fees, no signup needed for free dataset. Paid plans from $199/year for production. Signup at carapi.app/register",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -22903,9 +22903,9 @@
     "https": true,
     "cors": "no",
     "category": "vehicle",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Sandbox tier: $0/mo, 100 API calls lifetime (shared). VIN decoder, plates, images, market value. Signup at api.carsxe.com/signin",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
