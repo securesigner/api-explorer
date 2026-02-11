@@ -1,0 +1,107 @@
+[
+  {
+    "source-name": "Databricks",
+    "source-category": "cloud-storage-file-sharing",
+    "existing-name": "Databricks",
+    "existing-category": "development",
+    "source-url": "https://docs.databricks.com/api/workspace/introduction",
+    "existing-url": "https://docs.databricks.com/dev-tools/api/latest/index.html"
+  },
+  {
+    "source-name": "JokeAPI",
+    "source-category": "entertainment",
+    "existing-name": "JokeAPI",
+    "existing-category": "games-comics",
+    "source-url": "https://jokeapi.dev/",
+    "existing-url": "https://sv443.net/jokeapi/v2/"
+  },
+  {
+    "source-name": "Spotify",
+    "source-category": "podcasts",
+    "existing-name": "Spotify",
+    "existing-category": "music",
+    "source-url": "https://developer.spotify.com/documentation/web-api/",
+    "existing-url": "https://beta.developer.spotify.com/documentation/web-api/"
+  },
+  {
+    "source-name": "API Adresse",
+    "source-url": "https://adresse.data.gouv.fr/api-doc/adresse",
+    "source-category": "data-validation",
+    "existing-name": "adresse.data.gouv.fr",
+    "existing-url": "https://adresse.data.gouv.fr",
+    "existing-category": "geocoding",
+    "action": "added-as-new"
+  },
+  {
+    "source-name": "Pusher Channels",
+    "source-url": "https://pusher.com/channels",
+    "source-category": "development",
+    "existing-name": "Pusher Beams",
+    "existing-url": "https://pusher.com/beams",
+    "existing-category": "development",
+    "action": "added-as-new"
+  },
+  {
+    "source-name": "Random Dad Joke",
+    "source-url": "https://icanhazdadjoke.com/",
+    "source-category": "entertainment",
+    "existing-name": "icanhazdadjoke",
+    "existing-url": "https://icanhazdadjoke.com/api",
+    "existing-category": "personality",
+    "action": "added-as-new"
+  },
+  {
+    "source-name": "BigDataCloud's IP Geolocation API",
+    "source-url": "https://www.bigdatacloud.com/ip-geolocation",
+    "source-category": "geocoding",
+    "existing-name": "BigDataCloud",
+    "existing-url": "https://www.bigdatacloud.com/ip-geolocation-apis",
+    "existing-category": "geocoding",
+    "action": "added-as-new"
+  },
+  {
+    "source-name": "BigDataCloud's Reverse Geocoding API",
+    "source-url": "https://www.bigdatacloud.com/reverse-geocoding",
+    "source-category": "geocoding",
+    "existing-name": "BigDataCloud",
+    "existing-url": "https://www.bigdatacloud.com/ip-geolocation-apis",
+    "existing-category": "geocoding",
+    "action": "added-as-new"
+  },
+  {
+    "source-name": "BigDataCloud's Phone and Email Verification API",
+    "source-url": "https://www.bigdatacloud.com/phone-email-verification",
+    "source-category": "geocoding",
+    "existing-name": "BigDataCloud",
+    "existing-url": "https://www.bigdatacloud.com/ip-geolocation-apis",
+    "existing-category": "geocoding",
+    "action": "added-as-new"
+  },
+  {
+    "source-name": "BigDataCloud's Network Engineering API",
+    "source-url": "https://www.bigdatacloud.com/network-engineering",
+    "source-category": "geocoding",
+    "existing-name": "BigDataCloud",
+    "existing-url": "https://www.bigdatacloud.com/ip-geolocation-apis",
+    "existing-category": "geocoding",
+    "action": "added-as-new"
+  },
+  {
+    "source-name": "BigDataCloud's Free API",
+    "source-url": "https://www.bigdatacloud.com//free-api",
+    "source-category": "geocoding",
+    "existing-name": "BigDataCloud",
+    "existing-url": "https://www.bigdatacloud.com/ip-geolocation-apis",
+    "existing-category": "geocoding",
+    "action": "added-as-new"
+  },
+  {
+    "source-name": "Fuel Prices at Spanish Gas Stations",
+    "source-url": "https://datos.gob.es/en/apidata",
+    "source-category": "transportation",
+    "existing-name": "Open Government, Spain",
+    "existing-url": "https://datos.gob.es/en",
+    "existing-category": "government",
+    "action": "added-as-new"
+  }
+]

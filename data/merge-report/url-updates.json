@@ -1,0 +1,274 @@
+[
+  {
+    "name": "Cats",
+    "category": "animals",
+    "current-url": "https://docs.thecatapi.com/",
+    "current-status": "needs-key",
+    "source-url": "https://developers.thecatapi.com/",
+    "action": "flagged"
+  },
+  {
+    "name": "Dogs",
+    "category": "animals",
+    "current-url": "https://dog.ceo/dog-api/",
+    "current-status": "working",
+    "source-url": "https://dogapi.dog/docs/api-v2",
+    "action": "flagged"
+  },
+  {
+    "name": "MangaDex",
+    "category": "anime",
+    "current-url": "https://api.mangadex.org/docs.html",
+    "current-status": "needs-key",
+    "source-url": "https://api.mangadex.org/docs/",
+    "action": "flagged"
+  },
+  {
+    "name": "Icon Horse",
+    "category": "art-design",
+    "current-url": "https://icon.horse",
+    "current-status": "working",
+    "source-url": "https://icon.horse/usage",
+    "action": "flagged"
+  },
+  {
+    "name": "Warrant",
+    "category": "authentication-authorization",
+    "current-url": "https://warrant.dev/",
+    "current-status": "needs-key",
+    "source-url": "https://docs.warrant.dev/",
+    "action": "flagged"
+  },
+  {
+    "name": "1inch",
+    "category": "cryptocurrency",
+    "current-url": "https://1inch.io/api/",
+    "current-status": "needs-key",
+    "source-url": "https://1inch.io/page-api/",
+    "action": "flagged"
+  },
+  {
+    "name": "Bybit",
+    "category": "cryptocurrency",
+    "current-url": "https://bybit-exchange.github.io/docs/linear/#t-introduction",
+    "current-status": "pending",
+    "source-url": "https://bybit-exchange.github.io/docs",
+    "action": "flagged"
+  },
+  {
+    "name": "MercadoBitcoin",
+    "category": "cryptocurrency",
+    "current-url": "https://www.mercadobitcoin.com.br/api-doc/",
+    "current-status": "working",
+    "source-url": "https://api.mercadobitcoin.net/api/v4/docs",
+    "action": "flagged"
+  },
+  {
+    "name": "OKEx",
+    "category": "cryptocurrency",
+    "current-url": "https://www.okex.com/docs/",
+    "current-status": "pending",
+    "source-url": "https://okx.com/okx-api",
+    "action": "flagged"
+  },
+  {
+    "name": "ZMOK",
+    "category": "cryptocurrency",
+    "current-url": "https://zmok.io",
+    "current-status": "needs-key",
+    "source-url": "https://docs.zmok.io",
+    "action": "flagged"
+  },
+  {
+    "name": "OneSignal",
+    "category": "development",
+    "current-url": "https://documentation.onesignal.com/docs/onesignal-api",
+    "current-status": "pending",
+    "source-url": "https://documentation.onesignal.com/reference/rest-api-overview",
+    "action": "flagged"
+  },
+  {
+    "name": "Wandbox",
+    "category": "development",
+    "current-url": "https://github.com/melpon/wandbox/blob/master/kennel2/API.rst",
+    "current-status": "working",
+    "source-url": "https://github.com/melpon/wandbox/blob/master/kennel/API.md",
+    "action": "flagged"
+  },
+  {
+    "name": "Monday",
+    "category": "documents-productivity",
+    "current-url": "https://api.developer.monday.com/docs",
+    "current-status": "pending",
+    "source-url": "https://developer.monday.com/",
+    "action": "flagged"
+  },
+  {
+    "name": "Banco do Brasil",
+    "category": "finance",
+    "current-url": "https://developers.bb.com.br/home",
+    "current-status": "pending",
+    "source-url": "https://developers.bb.com.br",
+    "action": "flagged"
+  },
+  {
+    "name": "Plaid",
+    "category": "finance",
+    "current-url": "https://www.plaid.com/docs",
+    "current-status": "pending",
+    "source-url": "https://plaid.com/",
+    "action": "flagged"
+  },
+  {
+    "name": "SEC EDGAR Data",
+    "category": "finance",
+    "current-url": "https://www.sec.gov/edgar/sec-api-documentation",
+    "current-status": "working",
+    "source-url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
+    "action": "flagged"
+  },
+  {
+    "name": "Machinetutors",
+    "category": "machine-learning",
+    "current-url": "https://www.machinetutors.com/portfolio/MT_api.html",
+    "current-status": "pending",
+    "source-url": "https://machinetutors.com/api/",
+    "action": "flagged"
+  },
+  {
+    "name": "Yelp",
+    "category": "open-data",
+    "current-url": "https://www.yelp.com/developers/documentation/v3",
+    "current-status": "pending",
+    "source-url": "https://www.yelp.com/developers",
+    "action": "flagged"
+  },
+  {
+    "name": "Duply",
+    "category": "photography",
+    "current-url": "https://duply.co/docs#getting-started-api",
+    "current-status": "pending",
+    "source-url": "https://app.duply.co/docs",
+    "action": "flagged"
+  },
+  {
+    "name": "arXiv",
+    "category": "science-math",
+    "current-url": "https://arxiv.org/help/api/user-manual",
+    "current-status": "working",
+    "source-url": "https://arxiv.org/help/api",
+    "action": "flagged"
+  },
+  {
+    "name": "FilterLists",
+    "category": "security",
+    "current-url": "https://filterlists.com",
+    "current-status": "working",
+    "source-url": "https://api.filterlists.com",
+    "action": "flagged"
+  },
+  {
+    "name": "GitGuardian",
+    "category": "security",
+    "current-url": "https://api.gitguardian.com/doc",
+    "current-status": "pending",
+    "source-url": "https://api.gitguardian.com/docs",
+    "action": "flagged"
+  },
+  {
+    "name": "SecurityTrails",
+    "category": "security",
+    "current-url": "https://securitytrails.com/corp/apidocs",
+    "current-status": "pending",
+    "source-url": "https://securitytrails.com/corp/api",
+    "action": "flagged"
+  },
+  {
+    "name": "Revolt",
+    "category": "social",
+    "current-url": "https://developers.revolt.chat/api/",
+    "current-status": "needs-key",
+    "source-url": "https://developers.revolt.chat",
+    "action": "flagged"
+  },
+  {
+    "name": "NBA Stats",
+    "category": "sports-fitness",
+    "current-url": "https://api.server.nbaapi.com/",
+    "current-status": "pending",
+    "source-url": "https://documenter.getpostman.com/view/25652688/2sB34Zs4xZ",
+    "action": "flagged"
+  },
+  {
+    "name": "Oddsmagnet",
+    "category": "sports-fitness",
+    "current-url": "https://data.oddsmagnet.com",
+    "current-status": "needs-key",
+    "source-url": "https://oddsmagnet.com/oddsdata",
+    "action": "flagged"
+  },
+  {
+    "name": "Transport for Berlin, Germany",
+    "category": "transportation",
+    "current-url": "https://github.com/derhuerst/vbb-rest/blob/3/docs/index.md",
+    "current-status": "working",
+    "source-url": "https://github.com/derhuerst/vbb-rest/blob/5/docs/api.md",
+    "action": "flagged"
+  },
+  {
+    "name": "xColors",
+    "category": "art-design",
+    "current-url": "https://x-colors.herokuapp.com/",
+    "current-status": "broken",
+    "source-url": "https://github.com/cheatsnake/xColors-api",
+    "action": "auto-updated"
+  },
+  {
+    "name": "LCBO",
+    "category": "food-drink",
+    "current-url": "https://lcboapi.com/",
+    "current-status": "broken",
+    "source-url": "https://lcbo.dev/",
+    "action": "auto-updated"
+  },
+  {
+    "name": "PunkAPI",
+    "category": "food-drink",
+    "current-url": "https://punkapi.com/",
+    "current-status": "broken",
+    "source-url": "https://github.com/alxiw/punkapi",
+    "action": "auto-updated"
+  },
+  {
+    "name": "kimiquotes",
+    "category": "personality",
+    "current-url": "https://kimiquotes.herokuapp.com/doc",
+    "current-status": "broken",
+    "source-url": "https://kimiquotes.pages.dev/docs",
+    "action": "auto-updated"
+  },
+  {
+    "name": "Classify",
+    "category": "security",
+    "current-url": "https://classify-web.herokuapp.com/#/api",
+    "current-status": "broken",
+    "source-url": "https://github.com/cheatsnake/classify",
+    "action": "auto-updated"
+  },
+  {
+    "name": "NBA Stats",
+    "category": "sports-fitness",
+    "current-url": "https://any-api.com/nba_com/nba_com/docs/API_Description",
+    "current-status": "broken",
+    "source-url": "https://api.server.nbaapi.com/",
+    "action": "auto-updated"
+  },
+  {
+    "name": "PostNord",
+    "category": "tracking",
+    "current-url": "https://developer.postnord.com/api",
+    "current-status": "broken",
+    "source-url": "https://developer.postnord.com/apis",
+    "action": "auto-updated"
+  }
+]

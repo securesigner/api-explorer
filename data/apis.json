@@ -378,6 +378,19 @@
     "try-it": null
   },
   {
+    "name": "WoRMS",
+    "url": "https://www.marinespecies.org/rest/",
+    "description": "Authoritative list of marine species names and taxonomy",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "animals",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "xeno-canto",
     "url": "https://xeno-canto.org/explore/api",
     "description": "Bird recordings",
@@ -514,6 +527,32 @@
     "try-it": null
   },
   {
+    "name": "Dattebayo API",
+    "url": "https://api-dattebayo.vercel.app/",
+    "description": "Dattebayo: Your Ultimate Naruto Anime API",
+    "auth": "none",
+    "https": true,
+    "cors": "no",
+    "category": "anime",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Dragon Ball",
+    "url": "https://web.dragonball-api.com",
+    "description": "An easy to use Dragon Ball API",
+    "auth": "none",
+    "https": true,
+    "cors": "no",
+    "category": "anime",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Jikan",
     "url": "https://jikan.moe",
     "description": "Unofficial MyAnimeList API",
@@ -582,6 +621,19 @@
     "try-it": null
   },
   {
+    "name": "Nekos API",
+    "url": "https://nekosapi.com/docs",
+    "description": "Anime images with lots of metadata",
+    "auth": "oauth",
+    "https": true,
+    "cors": "yes",
+    "category": "anime",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "NekosBest",
     "url": "https://docs.nekos.best",
     "description": "Neko Images & Anime roleplaying GIFs",
@@ -596,6 +648,19 @@
       "url": "https://nekos.best/api/v2/neko",
       "response-type": "json"
     }
+  },
+  {
+    "name": "Nekosia API",
+    "url": "https://nekosia.cat",
+    "description": "Anime API with cute random images. Dominated colors & compressed images & avoiding duplicates.",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "anime",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Shikimori",
@@ -656,6 +721,19 @@
     "try-it": null
   },
   {
+    "name": "Waifu.it",
+    "url": "https://docs.waifu.it",
+    "description": "Free RESTful API for Anime Quotes, Facts, Emotes, Gifs, Nekos, Waifus and More!",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "anime",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Waifu.pics",
     "url": "https://waifu.pics/docs",
     "description": "Image sharing platform for anime images",
@@ -702,6 +780,32 @@
     "url": "https://capev2.readthedocs.io/en/latest/usage/api.html",
     "description": "Malware execution and analysis",
     "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "anti-malware",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Dymo API",
+    "url": "https://dymo.tpeoficial.com/products/dymo-api",
+    "description": "Fraud & reputation detection",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "anti-malware",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "FishFish",
+    "url": "https://fishfish.gg/",
+    "description": "A volunteer cybersecurity project focused on providing resources and services that improve safety across Discord",
+    "auth": "none",
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
@@ -841,6 +945,19 @@
     "try-it": null
   },
   {
+    "name": "Verisys Antivirus API",
+    "url": "https://www.ionxsolutions.com/products/antivirus-api",
+    "description": "Antivirus as a service - REST API that scans provided files for malware and NSFW content",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "anti-malware",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "VirusTotal",
     "url": "https://www.virustotal.com/en/documentation/public-api/",
     "description": "VirusTotal File/URL Analysis",
@@ -894,6 +1011,32 @@
       "url": "https://api.artic.edu/api/v1/artworks?limit=3&fields=id,title,artist_display,date_display",
       "response-type": "json"
     }
+  },
+  {
+    "name": "Art Search",
+    "url": "https://artsearch.io",
+    "description": "Search and discover art with semantic AI search",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "art-design",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "ColorMagic",
+    "url": "https://colormagic.app/api",
+    "description": "Color Palette Generator",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "art-design",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Colormind",
@@ -1041,6 +1184,19 @@
     }
   },
   {
+    "name": "Logotypes",
+    "url": "https://logotypes.dev/",
+    "description": "Logotypes of the world in multiples format",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "art-design",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Lordicon",
     "url": "https://lordicon.com/",
     "description": "Icons with predone Animations",
@@ -1102,6 +1258,19 @@
     }
   },
   {
+    "name": "Pika",
+    "url": "https://pika.style/image-generation-api",
+    "description": "Image Generation API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "art-design",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Pixel Encounter",
     "url": "https://pixelencounter.com/api",
     "description": "SVG Icon Generator",
@@ -1131,6 +1300,19 @@
     "try-it": null
   },
   {
+    "name": "The Color",
+    "url": "https://www.thecolorapi.com/",
+    "description": "Swiss army knife for color",
+    "auth": "none",
+    "https": false,
+    "cors": "unknown",
+    "category": "art-design",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Word Cloud",
     "url": "https://wordcloudapi.com/",
     "description": "Easily create word clouds",
@@ -1145,15 +1327,15 @@
   },
   {
     "name": "xColors",
-    "url": "https://x-colors.herokuapp.com/",
+    "url": "https://github.com/cheatsnake/xColors-api",
     "description": "Generate & convert colors",
     "auth": "none",
     "https": true,
     "cors": "yes",
     "category": "art-design",
-    "status": "broken",
-    "notes": "Hosted on Heroku (x-colors.herokuapp.com). Heroku free tier shutdown November 2022, DNS no longer resolves. Tested 2025-02-08.",
-    "date-checked": "2026-02-08",
+    "status": "pending",
+    "notes": "URL updated from public-apis-2 (was broken). Previous: Hosted on Heroku (x-colors.herokuapp.com). Heroku free tier shutdown November 2022, DNS no longer resolves. Tested 2025-02-08.",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -1170,6 +1352,32 @@
     "try-it": null
   },
   {
+    "name": "Clerk",
+    "url": "https://clerk.com",
+    "description": "Drop-in React components for authentication and authorization",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "authentication-authorization",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Corbado",
+    "url": "https://corbado.com",
+    "description": "Passkey-first authentication",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "authentication-authorization",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "GetOTP",
     "url": "https://otp.dev/en/docs/",
     "description": "Implement OTP flow quickly",
@@ -1180,6 +1388,19 @@
     "status": "needs-key",
     "notes": "Free 100 requests included. Email signup at dashboard.otp.dev/sign-up. OTP via SMS, Viber, Voice, Telegram.",
     "date-checked": "2026-02-10",
+    "try-it": null
+  },
+  {
+    "name": "Kinde",
+    "url": "https://kinde.com",
+    "description": "Authentication for modern applications. Integrates in minutes and free up to 7,500 MAU",
+    "auth": "oauth",
+    "https": true,
+    "cors": "no",
+    "category": "authentication-authorization",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -1261,6 +1482,19 @@
     "try-it": null
   },
   {
+    "name": "Bscscan",
+    "url": "https://bscscan.com/apis",
+    "description": "Binance Smart Chain explorer API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "blockchain",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Chainlink",
     "url": "https://chain.link/developer-resources",
     "description": "Build hybrid smart contracts with Chainlink",
@@ -1313,6 +1547,19 @@
     "try-it": null
   },
   {
+    "name": "GetBlock",
+    "url": "https://getblock.io/",
+    "description": "Blockchain RPC Node provider that supports over 50 multiple blockchains",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "blockchain",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Helium",
     "url": "https://docs.helium.com/api/blockchain/introduction/",
     "description": "Helium is a global, distributed network of Hotspots that create public, long-range wireless coverage",
@@ -1323,6 +1570,19 @@
     "status": "broken",
     "notes": "Migrated from own L1 blockchain to Solana in April 2023. Original blockchain API at api.helium.io shut down. Only legacy snapshots via S3. Tested 2025-02-08.",
     "date-checked": "2026-02-08",
+    "try-it": null
+  },
+  {
+    "name": "Layer4",
+    "url": "https://www.layer4.app/api-docs",
+    "description": "Layer4 is a blockchain integration platform that supports no-code and API use",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "blockchain",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -1459,6 +1719,19 @@
     }
   },
   {
+    "name": "Big Book",
+    "url": "https://bigbookapi.com",
+    "description": "The Big Book API allows you to semantically search, filter, sort, and recommend books",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "books",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "British National Bibliography",
     "url": "http://bnb.data.bl.uk/",
     "description": "Books",
@@ -1547,6 +1820,32 @@
         "query": "shakespeare"
       }
     }
+  },
+  {
+    "name": "Harry Potter",
+    "url": "https://github.com/fedeperin/potterapi",
+    "description": "API to get data from Harry Potter books, movies and characters",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "books",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Library Management",
+    "url": "https://github.com/adam-dev2/library-management-api",
+    "description": "Manage users, books, authors, loans and reviews",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "books",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Open Library",
@@ -1655,6 +1954,19 @@
     "try-it": null
   },
   {
+    "name": "Stephen King",
+    "url": "https://stephen-king-api.onrender.com/",
+    "description": "The varied works and characters of the prolific author Stephen King",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "books",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "The Bible",
     "url": "https://docs.api.bible",
     "description": "Everything you need from the Bible in one discoverable place",
@@ -1739,6 +2051,19 @@
     "try-it": null
   },
   {
+    "name": "ArvanCloud",
+    "url": "https://www.arvancloud.ir/en/dev/sdk",
+    "description": "Enables you to use ArvanCloud services",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "business",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Charity Search",
     "url": "http://charityapi.orghunter.com/",
     "description": "Non-profit charity data",
@@ -1762,6 +2087,19 @@
     "status": "paid-only",
     "notes": "Acquired by HubSpot 2023. No standalone free API — requires HubSpot account. Docs redirect to login",
     "date-checked": "2026-02-10",
+    "try-it": null
+  },
+  {
+    "name": "CompanyEnrich",
+    "url": "https://companyenrich.com",
+    "description": "API for B2B company data enrichment, domain enrichment, and website enrichment",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "business",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -1830,6 +2168,32 @@
     "try-it": null
   },
   {
+    "name": "Logo.dev",
+    "url": "https://www.logo.dev",
+    "description": "Automated company logo API that updates daily. Transform any domain or company name into verified logos.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "business",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "LogoKit",
+    "url": "https://docs.logokit.com",
+    "description": "Logo API for brands, stocks, and cryptocurrencies",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "business",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Mailchimp",
     "url": "https://mailchimp.com/developer/",
     "description": "Send marketing campaigns and transactional mails",
@@ -1866,6 +2230,19 @@
     "status": "needs-key",
     "notes": "Site is live at markerapi.com. Requires API subscription with username/password authentication for trademark search. Free tier not available without signup credentials.",
     "date-checked": "2026-02-08",
+    "try-it": null
+  },
+  {
+    "name": "NioLeads",
+    "url": "https://nioleads.com/apidoc",
+    "description": "LinkedIn Email Finder and Email Verifier",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "business",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -2025,19 +2402,6 @@
     "try-it": null
   },
   {
-    "name": "Public Holidays",
-    "url": "https://www.abstractapi.com/holidays-api",
-    "description": "Data on national, regional, and religious holidays via API",
-    "auth": "api-key",
-    "https": true,
-    "cors": "yes",
-    "category": "calendar",
-    "status": "needs-key",
-    "notes": "AbstractAPI. Free: 1,000 requests total (lifetime, not monthly), 1 req/sec, no credit card. Email signup at app.abstractapi.com. National/regional/religious holidays.",
-    "date-checked": "2026-02-10",
-    "try-it": null
-  },
-  {
     "name": "Calendarific",
     "url": "https://calendarific.com/",
     "description": "Worldwide Holidays",
@@ -2093,6 +2457,19 @@
     "try-it": null
   },
   {
+    "name": "DigiDates",
+    "url": "https://digidates.de/en/",
+    "description": "Various date and time calculations",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "calendar",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Festivo Public Holidays",
     "url": "https://docs.getfestivo.com/docs/products/public-holidays-api/intro",
     "description": "Fastest and most advanced public holiday and observance service on the market",
@@ -2103,6 +2480,19 @@
     "status": "needs-key",
     "notes": "Free plan with generous usage allowance, non-commercial only. Paid starts €24.92/mo. Email signup at app.getfestivo.com/join. 250+ countries.",
     "date-checked": "2026-02-10",
+    "try-it": null
+  },
+  {
+    "name": "Generate iCAL",
+    "url": "https://apyhub.com/utility/generator-ical",
+    "description": "Generates iCal calendar events that can be used across calendar applications",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "calendar",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -2223,6 +2613,32 @@
     }
   },
   {
+    "name": "OpenHolidays API",
+    "url": "https://www.openholidaysapi.org/",
+    "description": "Public and school holidays for many countries via an open REST API",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "calendar",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Public Holidays",
+    "url": "https://www.abstractapi.com/holidays-api",
+    "description": "Data on national, regional, and religious holidays via API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "calendar",
+    "status": "needs-key",
+    "notes": "AbstractAPI. Free: 1,000 requests total (lifetime, not monthly), 1 req/sec, no credit card. Email signup at app.abstractapi.com. National/regional/religious holidays.",
+    "date-checked": "2026-02-10",
+    "try-it": null
+  },
+  {
     "name": "Russian Calendar",
     "url": "https://github.com/egno/work-calendar",
     "description": "Check if a date is a Russian holiday or not",
@@ -2304,6 +2720,19 @@
     "try-it": null
   },
   {
+    "name": "Delta Lake",
+    "url": "https://docs.delta.io/latest/delta-apidoc.html",
+    "description": "Open-source storage framework enabling Lakehouse architecture with Spark, PrestoDB, Flink, Trino, Hive, and APIs",
+    "auth": "none",
+    "https": false,
+    "cors": "unknown",
+    "category": "cloud-storage-file-sharing",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Dropbox",
     "url": "https://www.dropbox.com/developers",
     "description": "File Sharing and Storage",
@@ -2340,6 +2769,19 @@
     "status": "paid-only",
     "notes": "Plans start at $69/mo (Start plan). Free trial available but no permanent free tier. Pricing: Start $69/mo, Grow $199/mo, Scale $379/mo.",
     "date-checked": "2026-02-10",
+    "try-it": null
+  },
+  {
+    "name": "Gcore Storage",
+    "url": "https://docs.gcore.com/storage",
+    "description": "S3-Compatible Object Storage is a fast and scalable cloud storage system by Gcore that gives you an opportunity to store and retrieve any amount of data at any time. High-performance storage for use as a CDN origin.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "cloud-storage-file-sharing",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -2457,6 +2899,19 @@
     "status": "paid-only",
     "notes": "Salesforce product. Requires Quip Plus, Quip Advanced, or Salesforce Enterprise/Professional license. No free tier for individual developers. OAuth2 auth.",
     "date-checked": "2026-02-10",
+    "try-it": null
+  },
+  {
+    "name": "Smash",
+    "url": "https://api.fromsmash.com/",
+    "description": "Upload large files on websites, mobile apps, SaaS solutions and custom workflows",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "cloud-storage-file-sharing",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -2723,6 +3178,19 @@
     "name": "Block",
     "url": "https://block.io/docs/basic",
     "description": "Bitcoin Payment, Wallet & Transaction Data",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "cryptocurrency",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "BlockBee",
+    "url": "https://docs.blockbee.io/",
+    "description": "Cryptocurrency Payment Processor",
     "auth": "api-key",
     "https": true,
     "cors": "unknown",
@@ -3358,6 +3826,19 @@
     "try-it": null
   },
   {
+    "name": "OpenSea",
+    "url": "https://docs.opensea.io/reference/api-overview",
+    "description": "The Largest NFT Marketplace",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "cryptocurrency",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Poloniex",
     "url": "https://docs.poloniex.com",
     "description": "US based digital asset exchange",
@@ -3390,6 +3871,32 @@
     "auth": "api-key",
     "https": true,
     "cors": "no",
+    "category": "cryptocurrency",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Trading View",
+    "url": "https://www.tradingview.com/rest-api-spec/",
+    "description": "Market price, data, graph for brokers and traders",
+    "auth": "oauth",
+    "https": true,
+    "cors": "unknown",
+    "category": "cryptocurrency",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Tron Network",
+    "url": "https://developers.tron.network/reference/api-key",
+    "description": "Provides various endpoints to interact with the Tron Blockchain",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
     "category": "cryptocurrency",
     "status": "pending",
     "notes": "",
@@ -3491,6 +3998,19 @@
     }
   },
   {
+    "name": "Convert Currency to Multiple Currencies",
+    "url": "https://apyhub.com/utility/currency-conversion-multiple",
+    "description": "Convert currencies from a source currency to multiple target currencies.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "currency-exchange",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Currency-api",
     "url": "https://github.com/fawazahmed0/currency-api#readme",
     "description": "Free Currency Exchange Rates API with 150+ Currencies & No Rate Limits",
@@ -3505,6 +4025,19 @@
       "url": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.min.json",
       "response-type": "json"
     }
+  },
+  {
+    "name": "Currencyapi",
+    "url": "https://currencyapi.com",
+    "description": "Currency Conversion API and cryptocurrency prices, updated minutely",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "currency-exchange",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "CurrencyFreaks",
@@ -3646,6 +4179,71 @@
     "try-it": null
   },
   {
+    "name": "FxFeed.io",
+    "url": "https://fxfeed.io",
+    "description": "Foreign exchange rates, currency conversion and time series data",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "currency-exchange",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "FxRatesAPI",
+    "url": "https://fxratesapi.com/",
+    "description": "Real-time exchange rates, historical rates and currency conversion",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "currency-exchange",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "FyGraph",
+    "url": "https://fygraph.com",
+    "description": "GraphQL API of latest 1.000+ crypto and 167+ fiat updated every minute",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "currency-exchange",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Manyapis",
+    "url": "https://manyapis.com/products/currency/usd-to-eur-rate",
+    "description": "Exchange rates and currency conversion with free plan 50 requests/day",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "currency-exchange",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "MetalpriceAPI",
+    "url": "https://metalpriceapi.com",
+    "description": "Real-time and historical exchange rates and currency conversion API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "currency-exchange",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "National Bank of Poland",
     "url": "http://api.nbp.pl/en.html",
     "description": "A collection of currency exchange rates (data in XML and JSON)",
@@ -3660,6 +4258,32 @@
       "url": "https://api.nbp.pl/api/exchangerates/tables/a/?format=json",
       "response-type": "json"
     }
+  },
+  {
+    "name": "RBA Exchange Rates API",
+    "url": "https://www.exchangeratesapi.com.au",
+    "description": "Real-time and historical Reserve Bank of Australia (RBA) exchange rates API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "currency-exchange",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Unirate",
+    "url": "https://unirateapi.com",
+    "description": "Free Exchange Rates and Currency Conversion",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "currency-exchange",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "VATComply.com",
@@ -3678,6 +4302,32 @@
     }
   },
   {
+    "name": "API Adresse",
+    "url": "https://adresse.data.gouv.fr/api-doc/adresse",
+    "description": "Official French address validation service",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "data-validation",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Brevo Suit",
+    "url": "https://developers.brevo.com/",
+    "description": "Connection for brevo CRM suite",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "data-validation",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Lob.com",
     "url": "https://lob.com/",
     "description": "US Address Verification",
@@ -3688,6 +4338,19 @@
     "status": "needs-key",
     "notes": "Free Developer Plan: 1 user, 500 mailings, 10 HTML templates, address verification API. Signup at dashboard.lob.com/register. Direct mail + address API.",
     "date-checked": "2026-02-10",
+    "try-it": null
+  },
+  {
+    "name": "Nonprofit Check Plus",
+    "url": "https://pactman.org/nonprofitcheckplus-api/landing",
+    "description": "Verify charities via EIN using IRS, PUB78, BMF & OFAC data for compliance and legitimacy",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "data-validation",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -3762,6 +4425,32 @@
     "try-it": null
   },
   {
+    "name": "Validate UK Postcodes",
+    "url": "https://apyhub.com/utility/data-postcodes-uk",
+    "description": "This API validates postal codes within UK",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "data-validation",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "VatcheckAPI",
+    "url": "https://vatcheckapi.com",
+    "description": "VAT Number Validation & Lookup REST API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "data-validation",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "vatlayer",
     "url": "https://vatlayer.com/documentation",
     "description": "VAT number validation",
@@ -3791,10 +4480,10 @@
     }
   },
   {
-    "name": "Screenshot",
-    "url": "https://www.abstractapi.com/website-screenshot-api",
-    "description": "Take programmatic screenshots of web pages from any website",
-    "auth": "api-key",
+    "name": "Abacus",
+    "url": "https://abacus.jasoncameron.dev/",
+    "description": "Free and simple counting service. You can use it to track page hits and specific events",
+    "auth": "none",
     "https": true,
     "cors": "yes",
     "category": "development",
@@ -3830,6 +4519,19 @@
     "status": "needs-key",
     "notes": "Brazilian API aggregation platform. Returns HTTP 429 on unauthenticated requests. Requires account registration for proper API access. Tested 2025-02-15.",
     "date-checked": "2026-02-09",
+    "try-it": null
+  },
+  {
+    "name": "API League",
+    "url": "https://apileague.com",
+    "description": "World-class APIs in a single hub",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -3892,6 +4594,45 @@
       "url": "https://api.apis.guru/v2/metrics.json",
       "response-type": "json"
     }
+  },
+  {
+    "name": "ApyHub APIs: Secure APIs for Every Application",
+    "url": "https://apyhub.com/catalog",
+    "description": "Build and ship faster with 150+ APIs to connect to your application",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "AutoChangelog",
+    "url": "https://autochangelog.com",
+    "description": "Automatically creates changelog entries from deployments by analyzing pull requests, commits, and code diffs across your GitHub repositories",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Autom",
+    "url": "https://www.autom.dev",
+    "description": "Our SERP API delivers lightning-fast Google search results at unbeatable prices. Built for developers who need reliable, scalable access to search data without the complexity of web scraping or CAPTCHA challenges.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Azure DevOps",
@@ -4014,9 +4755,61 @@
     "try-it": null
   },
   {
+    "name": "Brand.dev",
+    "url": "https://www.brand.dev/",
+    "description": "API to personalize your product with logos, colors, and company info from any domain",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Brave Search API",
+    "url": "https://brave.com/search/api/",
+    "description": "An index of billions of pages in a single call",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "BrowserCat",
+    "url": "https://www.browsercat.com/",
+    "description": "Headless browser API for automation, scraping, and more",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Browshot",
     "url": "https://browshot.com/api/documentation",
     "description": "Easily make screenshots of web pages in any screen size, as any device",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Cache Horse",
+    "url": "https://cache.horse",
+    "description": "Combine/batch & cache multiple HTTP requests to save on API quotas, speed up & simplify your app",
     "auth": "api-key",
     "https": true,
     "cors": "yes",
@@ -4053,6 +4846,19 @@
     "status": "broken",
     "notes": "Domain now hosts a generic tech blog (Flaviocopes-style content). No longer provides a changelog API. Tested 2025-02-15.",
     "date-checked": "2026-02-09",
+    "try-it": null
+  },
+  {
+    "name": "ChatterBox",
+    "url": "https://chatter-box.io/",
+    "description": "One API for meeting bots on Zoom, Meet & Teams",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -4124,6 +4930,19 @@
     "try-it": null
   },
   {
+    "name": "Corsfix",
+    "url": "https://corsfix.com/docs/cors-proxy/api",
+    "description": "Corsfix lets you fetch any resource and bypass CORS errors, free for development environment",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "CountAPI",
     "url": "https://countapi.xyz",
     "description": "Free and simple counting service. You can use it to track page hits and specific events",
@@ -4134,6 +4953,19 @@
     "status": "broken",
     "notes": "countapi.xyz returns no content. Domain appears dead. Hit counter API no longer operational. Tested 2025-02-15.",
     "date-checked": "2026-02-09",
+    "try-it": null
+  },
+  {
+    "name": "CSC to JSON API",
+    "url": "https://apyhub.com/utility/converter-csv-json",
+    "description": "Convert CSV files to JSON with this API. Ideal for developers who want to automate data workflows and integrate structured data",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -4205,6 +5037,71 @@
     "try-it": null
   },
   {
+    "name": "Form Creation API",
+    "url": "https://apyhub.com/utility/reformify-form-api",
+    "description": "Create and manage customizable forms within your applications",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Format JSON Online Dummy API",
+    "url": "https://formatjsononline.com/dummy-api",
+    "description": "A free tool to generate dummy JSON data for testing and prototyping.",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Gcore CDN",
+    "url": "https://docs.gcore.com/cdn",
+    "description": "Make your app fast and responsive for a global audience with Gcore CDN.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Gcore Cloud",
+    "url": "https://docs.gcore.com/cloud",
+    "description": "Scalable, secure, and reliable hybrid cloud services anywhere in the world.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Gcore DNS",
+    "url": "https://docs.gcore.com/dns",
+    "description": "Fast and resilient DNS hosting service by Gcore. Improve the performance and availability of your online business.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "GeekFlare",
     "url": "https://apidocs.geekflare.com/docs/geekflare-api",
     "description": "Provide numerous capabilities for important testing and monitoring methods for websites",
@@ -4232,6 +5129,19 @@
       "url": "https://api.genderize.io/?name=michael",
       "response-type": "json"
     }
+  },
+  {
+    "name": "Generate Full Webpage Screenshot",
+    "url": "https://apyhub.com/utility/generate-webpage-screenshot",
+    "description": "Dynamically capture full page screenshots of websites.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "GETPing",
@@ -4429,6 +5339,19 @@
     "try-it": null
   },
   {
+    "name": "Hoppscotch",
+    "url": "https://hoppscotch.io/",
+    "description": "A lightweight, fast, and customizable app for testing and designing APIs. A free, fast, and beautiful",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "host-t.com",
     "url": "https://host-t.com",
     "description": "Basic DNS query via HTTP GET request",
@@ -4498,6 +5421,32 @@
       "url": "https://cloudflare-quic.com/b/headers",
       "response-type": "json"
     }
+  },
+  {
+    "name": "HTTPie",
+    "url": "https://httpie.io",
+    "description": "a free command-line HTTP client for the API era",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "httpSMS",
+    "url": "https://docs.httpsms.com/",
+    "description": "Use your Android phone as an SMS gateway to send and receive SMS messages via a simple HTTP API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Hunter",
@@ -4597,6 +5546,32 @@
     "try-it": null
   },
   {
+    "name": "Insomnia",
+    "url": "https://insomnia.rest/",
+    "description": "A free API client that allows you to design, debug, test, and mock APIs locally, on Git, or cloud.",
+    "auth": "oauth",
+    "https": true,
+    "cors": "unknown",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "IP Details API",
+    "url": "https://rapidapi.com/Bluehatcoders/api/ip-details-api",
+    "description": "Geographic location of an IP address or any domain name along with some other useful information",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "ip-fast.com",
     "url": "https://ip-fast.com/docs/",
     "description": "IP address, country and city",
@@ -4668,6 +5643,32 @@
     }
   },
   {
+    "name": "IPLocate",
+    "url": "https://www.iplocate.io/",
+    "description": "IP geolocation and threat data API",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "IPQuery",
+    "url": "https://ipquery.io",
+    "description": "A free IP Geolocation and proxy/tor/VPN detection API",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "jsDelivr",
     "url": "https://github.com/jsdelivr/data.jsdelivr.com",
     "description": "Package info and download stats on jsDelivr CDN",
@@ -4703,6 +5704,19 @@
     "name": "JSONbin.io",
     "url": "https://jsonbin.io",
     "description": "Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "JSONsilo.com",
+    "url": "https://jsonsilo.com",
+    "description": "Hassle-free JSON hosting. Convert your JSON file to an API in minutes at no cost.",
     "auth": "api-key",
     "https": true,
     "cors": "yes",
@@ -4778,6 +5792,32 @@
     "try-it": null
   },
   {
+    "name": "Markdown to HTML API",
+    "url": "https://apyhub.com/utility/converter-md-html",
+    "description": "This API lets you upload and transform a Markdown file to HTML",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Markdown to JSON API",
+    "url": "https://apyhub.com/utility/converter-markdown-json",
+    "description": "Upload Markdown and get JSON with one API call",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Micro DB",
     "url": "https://m3o.com/db",
     "description": "Simple database service",
@@ -4831,6 +5871,19 @@
       "url": "https://api.myip.com",
       "response-type": "json"
     }
+  },
+  {
+    "name": "MySQL Visual EXPLAIN",
+    "url": "https://api.mysqlexplain.com/",
+    "description": "Transform MySQL EXPLAIN output to interactive graphs",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Nationalize.io",
@@ -4972,9 +6025,61 @@
     "try-it": null
   },
   {
+    "name": "Piloterr",
+    "url": "https://www.piloterr.com/",
+    "description": "Piloterr web scraping API handles headless browsers, rotates proxies for you, and offers json-parsed data extraction",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "PipeDream",
+    "url": "https://docs.pipedream.com",
+    "description": "Pipedream is the fastest way to build powerful applications that connect all the services in your stack",
+    "auth": "oauth",
+    "https": true,
+    "cors": "unknown",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Postman",
     "url": "https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a",
     "description": "Tool for testing APIs",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Proxed AI",
+    "url": "https://proxed.ai/",
+    "description": "Secure AI APIs in iOS - No SDK, Just Change Your API URL",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Proxmox VE API",
+    "url": "https://pve.proxmox.com/pve-docs/api-viewer/",
+    "description": "API of self-hosted Proxmox VE. Address: https://your.server:8006/api2/json/ (configuring in installation process)",
     "auth": "api-key",
     "https": true,
     "cors": "unknown",
@@ -5024,6 +6129,19 @@
     "try-it": null
   },
   {
+    "name": "Pusher Channels",
+    "url": "https://pusher.com/channels",
+    "description": "Realtime features",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "QR code",
     "url": "https://www.qrtag.net/api/",
     "description": "Create an easy to read QR code and URL shortener",
@@ -5054,6 +6172,19 @@
       "url": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://example.com",
       "response-type": "image"
     }
+  },
+  {
+    "name": "QR code Generator",
+    "url": "https://docs.openqr.io/",
+    "description": "Static and Dynamic QR code generator with custom and unique QR code design",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Qrcode Monkey",
@@ -5111,6 +6242,19 @@
     "try-it": null
   },
   {
+    "name": "Render API",
+    "url": "https://render.com/docs/api",
+    "description": "Lets you programmatically manage your Render services (web apps, APIs, and static sites) including deployments, scaling, and configuration",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "ReqRes",
     "url": "https://reqres.in/ ",
     "description": "A hosted REST-API ready to respond to your AJAX requests",
@@ -5134,6 +6278,19 @@
     "status": "broken",
     "notes": "Vercel app at rss-to-json-serverless-api.vercel.app now hosts a Dutch gambling/spam site. Original RSS-to-JSON converter gone. Tested 2025-02-15.",
     "date-checked": "2026-02-09",
+    "try-it": null
+  },
+  {
+    "name": "RSS to JSON",
+    "url": "https://github.com/ayusharma/RSS-to-JSON",
+    "description": "Returns RSS feed in JSON format using feed URL",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -5202,6 +6359,19 @@
     "try-it": null
   },
   {
+    "name": "Scrapfly",
+    "url": "https://scrapfly.io",
+    "description": "Scrapfly is an enterprise-grade solution providing Web Scraping API that aims to simplify the scraping process by managing everything: real browser rendering, rotating proxies, and fingerprints (TLS, HTTP, browser) to bypass all major anti-bots.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "ScrapingAnt",
     "url": "https://scrapingant.com",
     "description": "Headless Chrome scraping with a simple API",
@@ -5228,9 +6398,100 @@
     "try-it": null
   },
   {
+    "name": "Screenshot",
+    "url": "https://www.abstractapi.com/website-screenshot-api",
+    "description": "Take programmatic screenshots of web pages from any website",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "ScreenshotAPI.net",
     "url": "https://screenshotapi.net/",
     "description": "Create pixel-perfect website screenshots",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Screenshotbase",
+    "url": "https://screenshotbase.com/",
+    "description": "Screenshot API, 1000 free requests per month",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "ScreenshotOne.com",
+    "url": "https://screenshotone.com/",
+    "description": "Convert URLs, HTML, or Markdown into PNG, JPEG, WebP, or PDF with a simple screenshot API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Scrnify",
+    "url": "https://scrnify.com/docs",
+    "description": "Screenshot and video capture API to transform any URL into high-quality images and recordings",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "SearchApi",
+    "url": "https://www.searchapi.io/",
+    "description": "Real-Time Google SERP API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Sent.dm",
+    "url": "https://sent.dm",
+    "description": "Sent is a unified API for messaging across SMS and apps\nlike WhatsApp",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "SEO Tags Generator API",
+    "url": "https://apyhub.com/utility/sharpapi-generate-seo-tags",
+    "description": "The Generate SEO Tags API generates all the most important META tags based on any content",
     "auth": "api-key",
     "https": true,
     "cors": "yes",
@@ -5257,12 +6518,64 @@
     }
   },
   {
+    "name": "SERP Rank Checker",
+    "url": "https://apyhub.com/utility/serp-rank",
+    "description": "Check realtime Google SERP Rank of any keywords",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "SerpApi - Search API",
+    "url": "https://serpapi.com/",
+    "description": "SerpApi's Search API makes it easy and fast to scrape Google and other search engines",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "serpstack",
     "url": "https://serpstack.com/",
     "description": "Real-Time & Accurate Google Search Results API",
     "auth": "api-key",
     "https": true,
     "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Shadify",
+    "url": "https://github.com/cheatsnake/shadify",
+    "description": "Service for generating data and executing logic to create various games and puzzles",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Sheet2API",
+    "url": "https://sheet2api.com/",
+    "description": "Easy Google Sheets and Excel Online API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
     "category": "development",
     "status": "pending",
     "notes": "",
@@ -5322,6 +6635,19 @@
     "try-it": null
   },
   {
+    "name": "SQLable",
+    "url": "https://sqlable.com/csv-to-jsonl/",
+    "description": "CSV to JSONL conversion API",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "StackExchange",
     "url": "https://api.stackexchange.com/",
     "description": "Q&A forum for developers",
@@ -5351,6 +6677,19 @@
     }
   },
   {
+    "name": "Supadata",
+    "url": "https://supadata.ai",
+    "description": "Scrape YouTube, web, and files into text. Get AI-ready, clean data for your next project.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Supportivekoala",
     "url": "https://developers.supportivekoala.com/",
     "description": "Autogenerate images with template",
@@ -5364,9 +6703,48 @@
     "try-it": null
   },
   {
+    "name": "Svix",
+    "url": "https://www.svix.com",
+    "description": "Webhooks as a Service",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Tolgee",
+    "url": "https://tolgee.io",
+    "description": "Open-source localization (i18n) platform enabling you to translate you app fast",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Tyk",
     "url": "https://tyk.io/open-source/",
     "description": "Api and service management platform",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "UserAgent",
+    "url": "https://useragent.app",
+    "description": "User agent parsing API is designed to help you better understand and interact with your users. By identifying browser, device, and OS data from user agent strings, this API empowers you with accurate, real-time insights into your audience.",
     "auth": "api-key",
     "https": true,
     "cors": "yes",
@@ -5393,6 +6771,19 @@
     }
   },
   {
+    "name": "Web Scraping API",
+    "url": "https://apyhub.com/utility/sharpapi-web-scraping-api",
+    "description": "Extract structured data from any public URL",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "WebScraping.AI",
     "url": "https://webscraping.ai/",
     "description": "Web Scraping API with built-in proxies and JS rendering",
@@ -5406,9 +6797,48 @@
     "try-it": null
   },
   {
+    "name": "YADG",
+    "url": "https://yadg.cc/api/v2/",
+    "description": "An API that scrapes music release data and renders it using different templates",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "YAMLine",
+    "url": "https://yamline.com/json/",
+    "description": "Convert YAML to JSON (on-the-fly)",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "ZenRows",
     "url": "https://www.zenrows.com/",
     "description": "Web Scraping API that bypasses anti-bot solutions while offering JS rendering, and rotating proxies",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "development",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Zuplo",
+    "url": "https://zuplo.com/",
+    "description": "API platform for Development, Deployment, and Docs - add auth, rate-limiting, and monetization fast",
     "auth": "api-key",
     "https": true,
     "cors": "unknown",
@@ -5603,6 +7033,19 @@
     "try-it": null
   },
   {
+    "name": "AI Meeting Minutes Suite",
+    "url": "https://rapidapi.com/vintarok-vintarok-default/api/ai-meeting-minutes-suite-summaries-templates-redaction",
+    "description": "Generate summaries, templates, and redact sensitive data from meeting notes",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "documents-productivity",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Airtable",
     "url": "https://airtable.com/api",
     "description": "Integrate with Airtable",
@@ -5720,6 +7163,71 @@
     "try-it": null
   },
   {
+    "name": "Convert HTML to PDF API",
+    "url": "https://apyhub.com/utility/converter-html-pdf",
+    "description": "This API converts any HTML (file, url, base64) to a PDF",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "documents-productivity",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Convert RSS to JSON",
+    "url": "https://apyhub.com/utility/converter-rss-json",
+    "description": "Transform raw RSS data into structured JSON",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "documents-productivity",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Convert Speech to Text API",
+    "url": "https://apyhub.com/utility/speech-to-text",
+    "description": "This API converts any speech to text multiple languages and dialects",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "documents-productivity",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Convert Word to PDF",
+    "url": "https://apyhub.com/utility/converter-doc-pdf",
+    "description": "Convert a Word document (doc, docx, or ODF formats) to a PDF document",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "documents-productivity",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "ConvertHub API",
+    "url": "https://converthub.com/api",
+    "description": "File Conversion API for Developers - Powerful REST API for file conversion. Convert documents, images, ebooks, and more. Simple integration, dev-friendly pricing.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "documents-productivity",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "CraftMyPDF",
     "url": "https://craftmypdf.com",
     "description": "Generate PDF documents from templates with a drop-and-drop editor and a simple API",
@@ -5733,12 +7241,77 @@
     "try-it": null
   },
   {
+    "name": "CustomJS",
+    "url": "https://www.customjs.io",
+    "description": "HTML to PDF or PDF to PNG/Text & PDF merging/extraction/merging APIs",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "documents-productivity",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "CV / Resume Parsing API",
+    "url": "https://apyhub.com/utility/sharpapi-ai-resume-parser",
+    "description": "The Resume Parser API parses a resume (CV) file from multiple formats (PDF/DOC/DOCX/TXT/RTF) and returns an extensive object of data points",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "documents-productivity",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "FastApi Simple Calculator",
+    "url": "https://fastapi-calculadora.onrender.com/",
+    "description": "Math, Stadistics, Conversions, Currency and more",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "documents-productivity",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "File Conversions API",
+    "url": "https://apyhub.com/catalog/file-conversion",
+    "description": "APIs to handle all your file transformations. Word to PDF, Markdown to HTML, CSV to JSON, audio and many more",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "documents-productivity",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Flowdash",
     "url": "https://docs.flowdash.com/docs/api-introduction",
     "description": "Automate business workflows",
     "auth": "api-key",
     "https": true,
     "cors": "unknown",
+    "category": "documents-productivity",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "fynk",
+    "url": "https://fynk.com",
+    "description": "Generate, update, and manage contracts from your own systems with a secure and scalable REST API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
     "category": "documents-productivity",
     "status": "pending",
     "notes": "",
@@ -5837,12 +7410,77 @@
     "try-it": null
   },
   {
+    "name": "OCR AI",
+    "url": "https://ocrai.xyz",
+    "description": "Document validation API using OCR and AI. Automatically extracts data from documents  and compares it with user-provided data to verify consistency",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "documents-productivity",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "PandaDoc",
     "url": "https://developers.pandadoc.com",
     "description": "DocGen and eSignatures API",
     "auth": "api-key",
     "https": true,
     "cors": "no",
+    "category": "documents-productivity",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Paraphrase Text API",
+    "url": "https://apyhub.com/utility/sharpapi-paraphrase-text",
+    "description": "The Paraphrase Text Generator API generates a paraphrased version of the provided text",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "documents-productivity",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Pdfblocks",
+    "url": "https://pdfblocks.com",
+    "description": "Generate PDF documents using API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "documents-productivity",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "PDFEndpoint",
+    "url": "https://pdfendpoint.com",
+    "description": "HTML and URL to PDF API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "documents-productivity",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "PDFGate",
+    "url": "https://pdfgate.com/html-to-pdf-api",
+    "description": "HTML to PDF API with support for custom headers, footers, fillable form fields, and encryption",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
     "category": "documents-productivity",
     "status": "pending",
     "notes": "",
@@ -5889,9 +7527,35 @@
     "try-it": null
   },
   {
+    "name": "RenderPDF.io",
+    "url": "https://renderpdf.io",
+    "description": "HTML to PDF crazy fast, 500 pdfs/month + CDN-ready",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "documents-productivity",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Restpack",
     "url": "https://restpack.io/",
     "description": "Provides screenshot, HTML to PDF and content extraction APIs",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "documents-productivity",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Smart Image Enhancement API",
+    "url": "https://apilayer.com/marketplace/image_enhancement-api",
+    "description": "Performs image upscaling by adding detail to images through multiple super-resolution algorithms",
     "auth": "api-key",
     "https": true,
     "cors": "unknown",
@@ -5915,12 +7579,12 @@
     "try-it": null
   },
   {
-    "name": "Smart Image Enhancement API",
-    "url": "https://apilayer.com/marketplace/image_enhancement-api",
-    "description": "Performs image upscaling by adding detail to images through multiple super-resolution algorithms",
-    "auth": "api-key",
+    "name": "URL to Markdown",
+    "url": "https://github.com/macsplit/urltomarkdown",
+    "description": "Convert web page to MarkDown",
+    "auth": "none",
     "https": true,
-    "cors": "unknown",
+    "cors": "yes",
     "category": "documents-productivity",
     "status": "pending",
     "notes": "",
@@ -5944,6 +7608,19 @@
     }
   },
   {
+    "name": "Vertopal",
+    "url": "https://www.vertopal.com/en/developer/api/introduction",
+    "description": "Convert your files to a variety of formats using Vertopal API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "documents-productivity",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "WakaTime",
     "url": "https://wakatime.com/developers",
     "description": "Automated time tracking leaderboards for programmers",
@@ -5960,6 +7637,32 @@
     }
   },
   {
+    "name": "WAV to MP3 API",
+    "url": "https://apyhub.com/utility/audio-converter-wav-mp3",
+    "description": "This API lets you convert wav files to mp3",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "documents-productivity",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "WebPDF",
+    "url": "https://webpdf.xyz/",
+    "description": "Work with PDF files via API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "documents-productivity",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Zube",
     "url": "https://zube.io/docs/api",
     "description": "Full stack project management",
@@ -5967,6 +7670,19 @@
     "https": true,
     "cors": "unknown",
     "category": "documents-productivity",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Academic Email API",
+    "url": "https://apyhub.com/utility/validator-academic-email",
+    "description": "This API allows you to verify whether an email belongs to a recognized educational institution",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "email",
     "status": "pending",
     "notes": "",
     "date-checked": null,
@@ -5982,19 +7698,6 @@
     "category": "email",
     "status": "needs-key",
     "notes": "Free tier: 1,000 API requests/month, email validation (SMTP/syntax/typo checks). APILayer product. Email signup at mailboxlayer.com/signup/free/yearly.",
-    "date-checked": "2026-02-10",
-    "try-it": null
-  },
-  {
-    "name": "Email Validation",
-    "url": "https://www.abstractapi.com/email-verification-validation-api",
-    "description": "Validate email addresses for deliverability and spam",
-    "auth": "api-key",
-    "https": true,
-    "cors": "yes",
-    "category": "email",
-    "status": "needs-key",
-    "notes": "Abstract API. Free plan: 100 requests/month, no CC required. Email deliverability, syntax, SMTP, typo detection. Email signup at app.abstractapi.com.",
     "date-checked": "2026-02-10",
     "try-it": null
   },
@@ -6041,6 +7744,45 @@
     "try-it": null
   },
   {
+    "name": "Email Validation",
+    "url": "https://www.abstractapi.com/email-verification-validation-api",
+    "description": "Validate email addresses for deliverability and spam",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "email",
+    "status": "needs-key",
+    "notes": "Abstract API. Free plan: 100 requests/month, no CC required. Email deliverability, syntax, SMTP, typo detection. Email signup at app.abstractapi.com.",
+    "date-checked": "2026-02-10",
+    "try-it": null
+  },
+  {
+    "name": "Emailvalidation",
+    "url": "https://emailvalidation.io/email-validation-api/",
+    "description": "E-Mail address validation",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "email",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Enveloop",
+    "url": "https://enveloop.com",
+    "description": "Design, host, and send emails and texts. All from one place - with a simple API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "email",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "EVA",
     "url": "https://eva.pingutil.com/",
     "description": "Validate email addresses",
@@ -6070,6 +7812,19 @@
     }
   },
   {
+    "name": "Heybounce",
+    "url": "https://www.heybounce.io/#email-verification-api",
+    "description": "Email Verification API",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "email",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "ImprovMX",
     "url": "https://improvmx.com/api",
     "description": "API for free email forwarding service",
@@ -6080,6 +7835,19 @@
     "status": "needs-key",
     "notes": "Free plan: 1 domain, 25 aliases, 500 emails/day forwarded, API access included. Email forwarding service with REST API. Email signup at app.improvmx.com/signup.",
     "date-checked": "2026-02-10",
+    "try-it": null
+  },
+  {
+    "name": "IndiePitcher",
+    "url": "https://docs.indiepitcher.com/api-reference",
+    "description": "Everything email for your startup with markdown support",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "email",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -6173,6 +7941,58 @@
     "try-it": null
   },
   {
+    "name": "NoParam",
+    "url": "https://noparam.com",
+    "description": "Email validation API for real-time & bulk checking",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "email",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Notilify",
+    "url": "https://documenter.getpostman.com/view/32462468/2s9YsT6ong",
+    "description": "A seamless messaging platform & API to send all types of SMS",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "email",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Proweblook Email Checker",
+    "url": "https://proweblook.com/email-verifier",
+    "description": "Validate email addresses without sending",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "email",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Resend",
+    "url": "https://resend.com/docs/",
+    "description": "Email API for developers",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "email",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Sendgrid",
     "url": "https://docs.sendgrid.com/api-reference/",
     "description": "A cloud-based SMTP provider that allows you to send emails without having to maintain email servers",
@@ -6199,6 +8019,58 @@
     "try-it": null
   },
   {
+    "name": "Sweego",
+    "url": "https://learn.sweego.io/docs/api-intro",
+    "description": "Self-serve multichannel notification platform for transactional email, SMS, push web& mobile, chat, in-app",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "email",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Sweep Emails",
+    "url": "https://sweepemails.com/",
+    "description": "Reliable email validation API with Free tier",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "email",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Temporary and Disposable emails API",
+    "url": "https://apyhub.com/utility/boomlify-temp-mail",
+    "description": "This API provides temporary & disposable email addresses",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "email",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Trueguard",
+    "url": "https://trueguard.io",
+    "description": "Trueguard offers API for detecting temporary emails, free-tier abusers and automated bots",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "email",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Verifier",
     "url": "https://verifier.meetchopra.com/docs#/",
     "description": "Verifies that a given email is real",
@@ -6209,6 +8081,19 @@
     "status": "broken",
     "notes": "Original domain meetchopra.com redirects to verifyright.co then verifyright.io, which returns HTTP 530 (Cloudflare origin unreachable). Service appears dead.",
     "date-checked": "2026-02-10",
+    "try-it": null
+  },
+  {
+    "name": "Zyntra",
+    "url": "https://docs.zyntra.app/",
+    "description": "Unlimited e-mail inboxes with API access. Catch OTPs, reset links, and sign-up emails in test flows",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "email",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -6242,6 +8127,19 @@
       "url": "https://corporatebs-generator.sameerkumar.website/",
       "response-type": "json"
     }
+  },
+  {
+    "name": "elonmu.sh",
+    "url": "https://elonmu.sh/",
+    "description": "Get random news article featuring Elon Musk",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "entertainment",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Excuser",
@@ -6286,6 +8184,19 @@
     }
   },
   {
+    "name": "Keanu Reeves Whoa",
+    "url": "https://whoa.onrender.com/",
+    "description": "JSON API for every \"whoa\" said by actor Keanu Reeves in his movies",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "entertainment",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Meme Maker",
     "url": "https://mememaker.github.io/API/",
     "description": "REST API for create your own meme",
@@ -6302,6 +8213,19 @@
     }
   },
   {
+    "name": "Multilingual AI Zodiac",
+    "url": "https://rapidapi.com/vintarok-vintarok-default/api/multilingual-ai-zodiac-customized-horoscopes-for-all-signs",
+    "description": "Personalized daily horoscopes and zodiac insights in 100+ languages",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "entertainment",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "NaMoMemes",
     "url": "https://github.com/theIYD/NaMoMemes",
     "description": "Memes on Narendra Modi",
@@ -6312,6 +8236,32 @@
     "status": "broken",
     "notes": "GitHub Pages site not found — 404",
     "date-checked": "2026-02-06",
+    "try-it": null
+  },
+  {
+    "name": "Official Joke",
+    "url": "https://official-joke-api.appspot.com/",
+    "description": "API for random and programming jokes",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "entertainment",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Random Dad Joke",
+    "url": "https://icanhazdadjoke.com/",
+    "description": "API for largest selection of dad jokes on the internet",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "entertainment",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -6347,6 +8297,19 @@
     }
   },
   {
+    "name": "World Fun Facts (RapidAPI)",
+    "url": "https://rapidapi.com/vintarok-vintarok-default/api/world-fun-facts-all-languages-support",
+    "description": "Fun and interesting facts with multi-language support",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "entertainment",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Yo Momma Jokes",
     "url": "https://github.com/beanboi7/yomomma-apiv2",
     "description": "REST API for Yo Momma Jokes",
@@ -6357,6 +8320,32 @@
     "status": "broken",
     "notes": "herokuapp app removed — 'No such app' error",
     "date-checked": "2026-02-06",
+    "try-it": null
+  },
+  {
+    "name": "1ClickImpact",
+    "url": "https://docs.1clickimpact.com/",
+    "description": "Environmental impact API for tree planting, carbon offsetting and ocean cleanup",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "environment",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Air Quality Index",
+    "url": "https://www.juheapi.com/api-catalog/aqi",
+    "description": "Real-time air quality data including AQI and pollutant concentrations for worldwide locations",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "environment",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -6570,6 +8559,19 @@
     "try-it": null
   },
   {
+    "name": "Thames Water Open Data",
+    "url": "https://data.thameswater.co.uk",
+    "description": "Open Data from the UK's largest water and wastewater services company",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "environment",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "UK Carbon Intensity",
     "url": "https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0",
     "description": "The Official Carbon Intensity API for Great Britain developed by National Grid",
@@ -6584,6 +8586,19 @@
       "url": "https://api.carbonintensity.org.uk/intensity",
       "response-type": "json"
     }
+  },
+  {
+    "name": "WattBuy",
+    "url": "https://wattbuy.readme.io/reference/getting-started-with-your-api",
+    "description": "Electricity usage estimations, carbon footprint estimations, and utility data",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "environment",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Website Carbon",
@@ -6638,19 +8653,6 @@
     "try-it": null
   },
   {
-    "name": "VAT Validation",
-    "url": "https://www.abstractapi.com/vat-validation-rates-api",
-    "description": "Validate VAT numbers and calculate VAT rates",
-    "auth": "api-key",
-    "https": true,
-    "cors": "yes",
-    "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
-  },
-  {
     "name": "Aletheia",
     "url": "https://aletheiaapi.com/",
     "description": "Insider trading data, earnings call analysis, financial statements, and more",
@@ -6696,6 +8698,19 @@
     "auth": "api-key",
     "https": true,
     "cors": "unknown",
+    "category": "finance",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "ArgentoFX",
+    "url": "https://fastapiproject-1-eziw.onrender.com/docs",
+    "description": "Real-time foreign exchange rates for Argentina",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
     "category": "finance",
     "status": "pending",
     "notes": "",
@@ -6771,12 +8786,51 @@
     "try-it": null
   },
   {
+    "name": "Bullbear Advisors",
+    "url": "https://rapidapi.com/otha1920/api/bullbear-advisor",
+    "description": "See strong buy and sell signals the day they occur. Get today's stocks that closed with a strong Bullish or Bearish candlestick.",
+    "auth": "none",
+    "https": true,
+    "cors": "no",
+    "category": "finance",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Citi",
     "url": "https://sandbox.developerhub.citi.com/api-catalog-list",
     "description": "All Citigroup account and statement data APIs",
     "auth": "api-key",
     "https": true,
     "cors": "unknown",
+    "category": "finance",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "DolarAPI",
+    "url": "https://dolarapi.com/docs/",
+    "description": "Real-time exchange rates for Latin American currencies",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "finance",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Earnings Feed",
+    "url": "https://earningsfeed.com/api/docs",
+    "description": "SEC filings, insider transactions, institutional holdings",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
     "category": "finance",
     "status": "pending",
     "notes": "",
@@ -6826,6 +8880,19 @@
     "try-it": null
   },
   {
+    "name": "Financial Data",
+    "url": "https://financialdata.net/documentation",
+    "description": "Stock market and financial data",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "finance",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Financial Modeling Prep",
     "url": "https://site.financialmodelingprep.com/developer/docs",
     "description": "Realtime and historical stock data",
@@ -6839,9 +8906,35 @@
     "try-it": null
   },
   {
+    "name": "FinFeedAPI",
+    "url": "https://finfeedapi.com",
+    "description": "Developer-first market data API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "finance",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Finnhub",
     "url": "https://finnhub.io/docs/api",
     "description": "Real-Time RESTful APIs and Websocket for Stocks, Currencies, and Crypto",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "finance",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Finturest IBAN",
+    "url": "https://finturest.com/products/iban-api",
+    "description": "Fast, accurate IBAN validation and generation",
     "auth": "api-key",
     "https": true,
     "cors": "unknown",
@@ -6917,6 +9010,19 @@
     "try-it": null
   },
   {
+    "name": "IIN API",
+    "url": "https://iinapi.com",
+    "description": "IIN API allows you to accurately identify the issuing bank, card type, country of origin, and other details from a credit or debit card number. This is essential for fraud prevention, payment processing, and customer verification.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "finance",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Indian Mutual Fund",
     "url": "https://www.mfapi.in/",
     "description": "Get complete history of India Mutual Funds Data",
@@ -6939,6 +9045,19 @@
     "auth": "api-key",
     "https": true,
     "cors": "unknown",
+    "category": "finance",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Kite Connect",
+    "url": "https://kite.trade/docs/connect/v3/",
+    "description": "Stock market investment and trading platform",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
     "category": "finance",
     "status": "pending",
     "notes": "",
@@ -7024,6 +9143,19 @@
     "try-it": null
   },
   {
+    "name": "ParityVend",
+    "url": "https://www.ambeteco.com/ParityVend/",
+    "description": "Globalize your business by auto-adapting pricing for each visitor with Purchasing Power Parity",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "finance",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Plaid",
     "url": "https://www.plaid.com/docs",
     "description": "Connect with user's bank accounts and access transaction data",
@@ -7095,6 +9227,32 @@
     "try-it": null
   },
   {
+    "name": "Realie Property Data API",
+    "url": "https://www.realie.ai/real-estate-data-api",
+    "description": "Realie's property data is directly sourced from local municipalities and contains over 100 data fields. Realie covers the entire USA with 180 million parcels.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "finance",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "RentCast",
+    "url": "https://developers.rentcast.io",
+    "description": "Retrieve real-time property and rental data for real estate in the United States",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "finance",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "SEC EDGAR Data",
     "url": "https://www.sec.gov/edgar/sec-api-documentation",
     "description": "API to access annual reports of public US companies",
@@ -7137,6 +9295,19 @@
     "try-it": null
   },
   {
+    "name": "Stripe",
+    "url": "https://stripe.com/docs/api",
+    "description": "Payment processing, subscriptions, and financial management",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "finance",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Styvio",
     "url": "https://www.Styvio.com",
     "description": "Realtime and historical stock data and current stock sentiment",
@@ -7156,6 +9327,19 @@
     "auth": "api-key",
     "https": true,
     "cors": "unknown",
+    "category": "finance",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "TradeWatch",
+    "url": "https://tradewatch.io/",
+    "description": "Real time financial market data",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
     "category": "finance",
     "status": "pending",
     "notes": "",
@@ -7189,6 +9373,45 @@
     "try-it": null
   },
   {
+    "name": "Validate IBAN API ",
+    "url": "https://apyhub.com/utility/finance-validator-iban",
+    "description": "This API lets you quickly validate IBAN bank codes",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "finance",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Validate Swift/BIC ",
+    "url": "https://apyhub.com/utility/finance-validator-bic",
+    "description": "Validates BIC/SWIFT code",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "finance",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "VAT Validation",
+    "url": "https://www.abstractapi.com/vat-validation-rates-api",
+    "description": "Validate VAT numbers and calculate VAT rates",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "finance",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "WallstreetBets",
     "url": "https://dashboard.nbshare.io/apps/reddit/api/",
     "description": "WallstreetBets Stock Comments Sentiment Analysis",
@@ -7203,6 +9426,19 @@
       "url": "https://api.tradestie.com/v1/apps/reddit",
       "response-type": "json"
     }
+  },
+  {
+    "name": "xChangeApi",
+    "url": "https://xchangeapi.com/",
+    "description": "Exchange rates & real time market data",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "finance",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Yahoo Finance",
@@ -7347,6 +9583,19 @@
     }
   },
   {
+    "name": "Jelly Belly Wiki",
+    "url": "https://jelly-belly-wiki.netlify.app/",
+    "description": "Data about Jelly Belly beans- flavores, facts, history and more endpoints",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "food-drink",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Kroger",
     "url": "https://developer.kroger.com/reference",
     "description": "Supermarket Data",
@@ -7361,15 +9610,15 @@
   },
   {
     "name": "LCBO",
-    "url": "https://lcboapi.com/",
+    "url": "https://lcbo.dev/",
     "description": "Alcohol",
     "auth": "api-key",
     "https": true,
     "cors": "unknown",
     "category": "food-drink",
-    "status": "broken",
-    "notes": "Hosted API shut down. Code open-sourced on GitHub (heycarsten/lcbo-api). No replacement service",
-    "date-checked": "2026-02-10",
+    "status": "pending",
+    "notes": "URL updated from public-apis-2 (was broken). Previous: Hosted API shut down. Code open-sourced on GitHub (heycarsten/lcbo-api). No replacement service",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -7406,15 +9655,15 @@
   },
   {
     "name": "PunkAPI",
-    "url": "https://punkapi.com/",
+    "url": "https://github.com/alxiw/punkapi",
     "description": "Brewdog Beer Recipes",
     "auth": "none",
     "https": true,
     "cors": "unknown",
     "category": "food-drink",
-    "status": "broken",
-    "notes": "Service appears to be down - failed to connect to API endpoint",
-    "date-checked": "2026-02-08",
+    "status": "pending",
+    "notes": "URL updated from public-apis-2 (was broken). Previous: Service appears to be down - failed to connect to API endpoint",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -7441,6 +9690,19 @@
     "status": "needs-key",
     "notes": "Free plan: $0/mo, 50 points/day. No credit card required (direct signup). Email signup at spoonacular.com/food-api/console",
     "date-checked": "2026-02-10",
+    "try-it": null
+  },
+  {
+    "name": "Status Pizza",
+    "url": "https://status.pizza",
+    "description": "Pizza for every HTTP Status",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "food-drink",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -7616,6 +9878,19 @@
     "try-it": null
   },
   {
+    "name": "Atlas Academy",
+    "url": "https://api.atlasacademy.io/docs",
+    "description": "API for Fate/Grand Order game data",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "games-comics",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Autochess VNG",
     "url": "https://github.com/didadadida93/autochess-vng-api",
     "description": "Rest Api for Autochess VNG",
@@ -7652,6 +9927,19 @@
     "url": "https://develop.battle.net/documentation/guides/getting-started",
     "description": "Diablo III, Hearthstone, StarCraft II and World of Warcraft game data APIs",
     "auth": "oauth",
+    "https": true,
+    "cors": "yes",
+    "category": "games-comics",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Blue Archive",
+    "url": "https://github.com/arufars/api-blue-archive",
+    "description": "Provides Blue Archive characters information",
+    "auth": "none",
     "https": true,
     "cors": "yes",
     "category": "games-comics",
@@ -7700,6 +9988,19 @@
     "status": "broken",
     "notes": "bugsnaxapi.com/api/snax and bugsnaxapi.com/api/snax/1 both fail to return any content on multiple attempts. Site appears non-functional. Tested 2026-02-09.",
     "date-checked": "2026-02-09",
+    "try-it": null
+  },
+  {
+    "name": "Call of Duty",
+    "url": "https://codapi.dev/",
+    "description": "Unofficial wrapper for the Call of Duty API with multi-language support.",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "games-comics",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -7814,6 +10115,19 @@
       "url": "https://crossuniverse.net/cardInfo/?lang=en&cardID=U00107",
       "response-type": "json"
     }
+  },
+  {
+    "name": "CSGO",
+    "url": "https://bymykel.github.io/CSGO-API/",
+    "description": "An unofficial JSON API for Counter-Strike: Global Offensive",
+    "auth": "none",
+    "https": true,
+    "cors": "no",
+    "category": "games-comics",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Deck of Cards",
@@ -7941,6 +10255,19 @@
     }
   },
   {
+    "name": "Eight Ball",
+    "url": "https://eightballapi.com/",
+    "description": "Fortune-telling API with random, sentiment-biased, and multi-language responses",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "games-comics",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Eve Online",
     "url": "https://esi.evetech.net/ui",
     "description": "Third-Party Developer Documentation",
@@ -8061,6 +10388,19 @@
     "status": "broken",
     "notes": "Yoda/Shakespeare/Pirate text translations. api.funtranslations.com returns HTTP 405 Method Not Allowed on all tested endpoints. API appears non-functional. Tested 2026-02-08.",
     "date-checked": "2026-02-08",
+    "try-it": null
+  },
+  {
+    "name": "Game Brain",
+    "url": "https://gamebrain.co/api",
+    "description": "Search and discover video games with AI",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "games-comics",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -8290,6 +10630,19 @@
     "try-it": null
   },
   {
+    "name": "Italian Jokes",
+    "url": "https://italian-jokes.vercel.app/",
+    "description": "JSON API for getting jokes about Italians",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "games-comics",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "JokeAPI",
     "url": "https://sv443.net/jokeapi/v2/",
     "description": "Programming, Miscellaneous and Dark Jokes",
@@ -8461,6 +10814,32 @@
     }
   },
   {
+    "name": "moogleAPI",
+    "url": "https://www.moogleapi.com/",
+    "description": "Final Fantasy franchise data",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "games-comics",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Multilingual Truth or Dare Game ",
+    "url": "https://rapidapi.com/vintarok-vintarok-default/api/multilingual-truth-or-dare-party-date-game-api",
+    "description": "Truth or Dare party/date game with multilingual support and random challenges",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "games-comics",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Open Trivia",
     "url": "https://opentdb.com/api_config.php",
     "description": "Trivia Questions",
@@ -8517,6 +10896,19 @@
       "url": "https://playerdb.co/api/player/minecraft/Notch",
       "response-type": "json"
     }
+  },
+  {
+    "name": "Poker Odds Equity EV Calculator & Advice",
+    "url": "https://rapidapi.com/vintarok-vintarok-default/api/poker-odds-equity-ev-calculator-advice-api",
+    "description": "Poker odds, equity & EV calculator with hand/decision advice",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "games-comics",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Pokéapi",
@@ -8925,6 +11317,19 @@
     }
   },
   {
+    "name": "Wynncraft",
+    "url": "https://docs.wynncraft.com/",
+    "description": "Wynncraft Information",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "games-comics",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "xkcd",
     "url": "https://xkcd.com/json.html",
     "description": "Retrieve xkcd comics as JSON",
@@ -8957,13 +11362,13 @@
     }
   },
   {
-    "name": "IP Geolocation",
-    "url": "https://www.abstractapi.com/ip-geolocation-api",
-    "description": "Geolocate website visitors from their IPs",
-    "auth": "api-key",
+    "name": "Zelda",
+    "url": "https://docs.zelda.fanapis.com/docs",
+    "description": "The Legend of Zelda franchise data",
+    "auth": "none",
     "https": true,
-    "cors": "yes",
-    "category": "geocoding",
+    "cors": "unknown",
+    "category": "games-comics",
     "status": "pending",
     "notes": "",
     "date-checked": null,
@@ -9076,6 +11481,71 @@
     "auth": "api-key",
     "https": true,
     "cors": "unknown",
+    "category": "geocoding",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "BigDataCloud's Free API",
+    "url": "https://www.bigdatacloud.com//free-api",
+    "description": "Get free client-side reverse geocoding API and Client Info API. No account creation and API key required.",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "geocoding",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "BigDataCloud's IP Geolocation API",
+    "url": "https://www.bigdatacloud.com/ip-geolocation",
+    "description": "Provides fast and accurate IP geolocation APIs along with security checks and confidence area.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "geocoding",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "BigDataCloud's Network Engineering API",
+    "url": "https://www.bigdatacloud.com/network-engineering",
+    "description": "Get detailed ASN and Network lookup of an IP address.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "geocoding",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "BigDataCloud's Phone and Email Verification API",
+    "url": "https://www.bigdatacloud.com/phone-email-verification",
+    "description": "Syntax and Format Validation of Phone Number and Email address.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "geocoding",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "BigDataCloud's Reverse Geocoding API",
+    "url": "https://www.bigdatacloud.com/reverse-geocoding",
+    "description": "Get rich locality information from the geographical coordinates.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
     "category": "geocoding",
     "status": "pending",
     "notes": "",
@@ -9200,6 +11670,19 @@
     "try-it": null
   },
   {
+    "name": "FreeGeoIP",
+    "url": "https://freegeoip.app/",
+    "description": "Free geo ip information, no registration required. 15k/hour rate limit",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "geocoding",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "GeoApi",
     "url": "https://api.gouv.fr/api/geoapi.html",
     "description": "French geographical data",
@@ -9313,6 +11796,19 @@
     "try-it": null
   },
   {
+    "name": "GeoDescription",
+    "url": "https://geodescription.com",
+    "description": "Reverse geocoding - Converting geographic coordinates to address-like location description",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "geocoding",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "GeographQL",
     "url": "https://geographql.netlify.app",
     "description": "A Country, State, and City GraphQL API",
@@ -9352,6 +11848,19 @@
     "status": "needs-key",
     "notes": "Geocoding API requires signup at geokeo.com/signup.php for API key. Free tier: 2500 requests/day. Demo page works but API calls need YOUR_API_KEY parameter. Tested 2025-02-09.",
     "date-checked": "2026-02-09",
+    "try-it": null
+  },
+  {
+    "name": "Geolocated",
+    "url": "https://geolocated.io",
+    "description": "Free IP Geolocation API with multi-continent servers, and 60000 free requests/month",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "geocoding",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -9532,6 +12041,19 @@
     }
   },
   {
+    "name": "IP Geolocation",
+    "url": "https://www.abstractapi.com/ip-geolocation-api",
+    "description": "Geolocate website visitors from their IPs",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "geocoding",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "IP Vigilante",
     "url": "https://www.ipvigilante.com/",
     "description": "Free IP Geolocation API",
@@ -9564,6 +12086,19 @@
     "name": "IP2Location",
     "url": "https://www.ip2location.com/web-service/ip2location",
     "description": "IP geolocation web service to get more than 55 parameters",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "geocoding",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "IP2Location.io",
+    "url": "https://www.ip2location.io",
+    "description": "Bundle of Free IP geolocation and WHOIS API",
     "auth": "api-key",
     "https": true,
     "cors": "unknown",
@@ -9671,6 +12206,19 @@
     "try-it": null
   },
   {
+    "name": "IPWhois",
+    "url": "https://www.ipwhois.io/documentation",
+    "description": "Identify website, IP, or email owners with geolocation, reverse IP lookup, country insights, ASN data, and email verification",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "geocoding",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Kakao Maps",
     "url": "https://apis.map.kakao.com",
     "description": "Kakao Maps provide multiple APIs for Korean maps",
@@ -9742,6 +12290,19 @@
     "auth": "api-key",
     "https": true,
     "cors": "no",
+    "category": "geocoding",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Metadapi Zip Code",
+    "url": "https://www.metadapi.com/API-Products/Zip-Code-API",
+    "description": "Enhanced United States zip code information. Census, IRS, demographics, radius, distances and more",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
     "category": "geocoding",
     "status": "pending",
     "notes": "",
@@ -9837,6 +12398,19 @@
     "try-it": null
   },
   {
+    "name": "OpenPLZ API",
+    "url": "https://www.openplzapi.org/",
+    "description": "A public street and postal code directory for Austria, Germany, Liechtenstein and Switzerland via an open REST API",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "geocoding",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "openrouteservice.org",
     "url": "https://openrouteservice.org/",
     "description": "Directions, POIs, isochrones, geocoding (+reverse), elevation, and more",
@@ -9877,6 +12451,19 @@
       "url": "https://pinballmap.com/api/v1/regions.json",
       "response-type": "json"
     }
+  },
+  {
+    "name": "Pointpin",
+    "url": "https://pointp.in",
+    "description": "Pointpin is a simple yet powerful API designed for high traffic websites to deliver fast and reliable IP geolocation for your websites and applications.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "geocoding",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "positionstack",
@@ -9939,6 +12526,19 @@
       "url": "https://api.postcodes.io/random/postcodes",
       "response-type": "json"
     }
+  },
+  {
+    "name": "Proweblook IP Checker",
+    "url": "https://proweblook.com/ipapi",
+    "description": "Proweblook lookup & Geolocation",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "geocoding",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Queimadas INPE",
@@ -10028,6 +12628,32 @@
     "name": "Telize",
     "url": "https://rapidapi.com/fcambus/api/telize/",
     "description": "Telize offers location information from any IP address",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "geocoding",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "The IP API",
+    "url": "https://theipapi.com",
+    "description": "IP to Location API, with data about country, region, city etc, with free plan allowing 1000 req/day",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "geocoding",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Timezones Dictionary API",
+    "url": "https://apyhub.com/utility/data-lists-timezone",
+    "description": "This API returns a list of all available timezones for your application",
     "auth": "api-key",
     "https": true,
     "cors": "yes",
@@ -10145,6 +12771,19 @@
     "try-it": null
   },
   {
+    "name": "Zipcodestack",
+    "url": "https://zipcodestack.com/",
+    "description": "Zip Code API - Free Postal Code Validation",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "geocoding",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Zippopotam.us",
     "url": "http://www.zippopotam.us",
     "description": "Get information about place such as country, city, state, etc",
@@ -10171,6 +12810,19 @@
     "status": "broken",
     "notes": "ziptasticapi.com returns 'SQLSTATE[HY000]: General error: 5 database is locked' on requests. SQLite database appears corrupted. Tested 2025-02-09.",
     "date-checked": "2026-02-09",
+    "try-it": null
+  },
+  {
+    "name": "Api Colombia",
+    "url": "https://api-colombia.com/",
+    "description": "Community driven API for Colombia Public Data",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "government",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -10418,6 +13070,19 @@
     }
   },
   {
+    "name": "civicAPI",
+    "url": "https://civicapi.org/",
+    "description": "Provides live and historic election results for races across the world",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "government",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Code.gov",
     "url": "https://code.gov",
     "description": "The primary platform for Open Source and code sharing for the U.S. Federal Government",
@@ -10487,6 +13152,19 @@
       "url": "https://lda.data.parliament.uk/commonsmembers.json?_pageSize=5",
       "response-type": "json"
     }
+  },
+  {
+    "name": "Dedline.io API",
+    "url": "https://github.com/dedline-io/dedline-api",
+    "description": "Data for US state voter registration deadlines and details, for primaries and general elections",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "government",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Deutscher Bundestag DIP",
@@ -10929,6 +13607,19 @@
     }
   },
   {
+    "name": "Open Government, Kazakhstan",
+    "url": "https://data.egov.kz/",
+    "description": "Kazakhstan Government Open Data",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "government",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Open Government, Korea",
     "url": "https://www.data.go.kr/",
     "description": "Korea Government Open Data",
@@ -10959,6 +13650,19 @@
     "url": "https://data.public.lu",
     "description": "Luxembourgish Government Open Data",
     "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "government",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Open Government, Malaysia",
+    "url": "https://data.gov.my/",
+    "description": "Malaysia Government Open Data",
+    "auth": "none",
     "https": true,
     "cors": "unknown",
     "category": "government",
@@ -11901,6 +14605,19 @@
     "try-it": null
   },
   {
+    "name": "CV - Job match score API",
+    "url": "https://apyhub.com/utility/sharpapi-resume-job-match-score",
+    "description": "This API use multiple criteria to evaluate how well a candidate fits a job position",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "jobs",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "DevITjobs UK",
     "url": "https://devitjobs.uk/job_feed.xml",
     "description": "Jobs with GraphQL",
@@ -11911,6 +14628,19 @@
     "status": "broken",
     "notes": "devitjobs.uk domain no longer resolves (DNS failure). Site appears shut down. Tested 2026-02-08.",
     "date-checked": "2026-02-08",
+    "try-it": null
+  },
+  {
+    "name": "Fantastic.jobs",
+    "url": "https://fantastic.jobs/api",
+    "description": "Access over 8 million jobs per month using our APIs. ATS, LinkedIn, Upwork, and more.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "jobs",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -11937,6 +14667,32 @@
     "status": "broken",
     "notes": "graphql.jobs not loading. Both docs and main site return no content. Tested 2026-02-08.",
     "date-checked": "2026-02-08",
+    "try-it": null
+  },
+  {
+    "name": "jobdata API",
+    "url": "https://jobdataapi.com/",
+    "description": "Simple Job Data API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "jobs",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Jobicy",
+    "url": "https://jobicy.com/jobs-rss-feed",
+    "description": "Remote Jobs API Feed",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "jobs",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -11979,6 +14735,19 @@
     "try-it": null
   },
   {
+    "name": "OkJob",
+    "url": "https://okjob.io/api",
+    "description": "4 day week job board",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "jobs",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Open Skills",
     "url": "https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview",
     "description": "Job titles, skills and related jobs data",
@@ -12005,6 +14774,19 @@
     "try-it": null
   },
   {
+    "name": "Techmap's Job Postings",
+    "url": "https://jobdatafeeds.com/job-api",
+    "description": "API for International Job postings",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "jobs",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "The Muse",
     "url": "https://www.themuse.com/developers/api/v2",
     "description": "Job board and company profiles",
@@ -12015,6 +14797,19 @@
     "status": "needs-key",
     "notes": "Free developer API. Register app at themuse.com/developers/api/v2/apps. Job listings and company profiles",
     "date-checked": "2026-02-10",
+    "try-it": null
+  },
+  {
+    "name": "TheirStack's Job Postings",
+    "url": "https://theirstack.com/en/job-posting-api",
+    "description": "Access simultaneously to jobs from Linkedin, Glassdoor, Indeed and 16+ other job sites",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "jobs",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -12070,9 +14865,48 @@
     "try-it": null
   },
   {
+    "name": "Advanced Multilanguage AI Translator (RapidAPI)",
+    "url": "https://rapidapi.com/vintarok-vintarok-default/api/advanced-multilanguage-ai-translator-api-with-fast-responses",
+    "description": "AI-powered translator supporting multiple languages with fast, context-aware responses",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "machine-learning",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "AI For Thai",
     "url": "https://aiforthai.in.th/index.php",
     "description": "Free Various Thai AI API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "machine-learning",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "AI Learning Engine",
+    "url": "https://rapidapi.com/vintarok-vintarok-default/api/ai-learning-engine-task-creation-auto-grading-api",
+    "description": "Create, auto-grade, and analyze learning tasks with AI-based evaluations",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "machine-learning",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "AI/ML API",
+    "url": "https://aimlapi.com",
+    "description": "Access 100+ curated AI Models over 1 API",
     "auth": "api-key",
     "https": true,
     "cors": "yes",
@@ -12109,6 +14943,32 @@
     "try-it": null
   },
   {
+    "name": "Cohere",
+    "url": "https://docs.cohere.ai/",
+    "description": "Harness the power of language understanding. Join the developers and businesses who are using Cohere to generate, categorize and organize text at a scale that was previously unimaginable.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "machine-learning",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "CustomGPT.ai",
+    "url": "https://docs.customgpt.ai/reference/i-api-homepage",
+    "description": "RAG API with RESTful endpoints, comprehensive SDKs, and enterprise-grade reliability.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "machine-learning",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Deepcode",
     "url": "https://www.deepcode.ai",
     "description": "AI for code review",
@@ -12135,6 +14995,19 @@
     "try-it": null
   },
   {
+    "name": "Eden",
+    "url": "https://www.edenai.co/",
+    "description": "Get all AI models in one place, e.g. OpenAI, Google and lots more!",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "machine-learning",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "EXUDE-API",
     "url": "http://uttesh.com/exude-api/",
     "description": "Used for the primary ways for filtering the stopping, stemming words from the text data",
@@ -12145,6 +15018,32 @@
     "status": "broken",
     "notes": "Homepage at uttesh.com/exude-api/ not loading. API appears defunct. Tested 2026-02-08.",
     "date-checked": "2026-02-08",
+    "try-it": null
+  },
+  {
+    "name": "Face-api.js",
+    "url": "https://github.com/justadudewhohacks/face-api.js",
+    "description": "JavaScript API for face detection, recognition, and emotion analysis using TensorFlow.js",
+    "auth": "none",
+    "https": false,
+    "cors": "unknown",
+    "category": "machine-learning",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Gladia",
+    "url": "https://docs.gladia.io",
+    "description": "Artificial intelligence API's",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "machine-learning",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -12213,6 +15112,19 @@
     "try-it": null
   },
   {
+    "name": "jsonAi.cloud",
+    "url": "https://jsonai.cloud",
+    "description": "Save JSON schemas as api endpoints, feed it with your data and get structured JSON responses with AI",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "machine-learning",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Keen IO",
     "url": "https://keen.io/",
     "description": "Data Analytics",
@@ -12265,6 +15177,19 @@
     "try-it": null
   },
   {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/openai-api",
+    "description": "Use AI models such as ChatGPT or DALL-E to experience the capabilities of AI",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "machine-learning",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "OpenVisionAPI",
     "url": "https://openvisionapi.com",
     "description": "Open source computer vision API based on open source models",
@@ -12310,6 +15235,32 @@
     "auth": "api-key",
     "https": true,
     "cors": "unknown",
+    "category": "machine-learning",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Spam Hunter",
+    "url": "https://spam-hunter.ru/",
+    "description": "Free service to classify text as spam using ML",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "machine-learning",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Summarize Text with AI",
+    "url": "https://apyhub.com/utility/ai-summarize",
+    "description": "This API generates customizable summaries of text and web pages using AI",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
     "category": "machine-learning",
     "status": "pending",
     "notes": "",
@@ -12589,6 +15540,19 @@
     "try-it": null
   },
   {
+    "name": "LRCLIB",
+    "url": "https://lrclib.net/docs",
+    "description": "Crowdsourced lyrics",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "music",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Lyrics.ovh",
     "url": "https://lyricsovh.docs.apiary.io",
     "description": "Simple API to retrieve the lyrics of a song",
@@ -12611,6 +15575,19 @@
     "auth": "oauth",
     "https": true,
     "cors": "yes",
+    "category": "music",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Mubert AI Music API",
+    "url": "https://landing.mubert.com",
+    "description": "Integrate AI music into your app, game or service",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
     "category": "music",
     "status": "pending",
     "notes": "",
@@ -12874,6 +15851,19 @@
     "try-it": null
   },
   {
+    "name": "Finlight",
+    "url": "https://finlight.me",
+    "description": "Realtime financial news with sentiment and article content",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "news",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "GNews",
     "url": "https://gnews.io/",
     "description": "Search for news from various sources",
@@ -12897,6 +15887,32 @@
     "status": "broken",
     "notes": "corona.dnsforfamily.com not responding. COVID-19 data API appears shut down. Tested 2026-02-08.",
     "date-checked": "2026-02-08",
+    "try-it": null
+  },
+  {
+    "name": "HackerNews Node",
+    "url": "https://github.com/EdixonAlberto/api-hackernews-node",
+    "description": "Api to get related articles about Node.js in Hacker News",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "news",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "HasData: Structured Web Data APIs",
+    "url": "https://hasdata.com",
+    "description": "Real-time Google News, SERP, and Web Scraping APIs. Extract structured public data from any news outlet or search engine at scale without blocks",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "news",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -12952,12 +15968,51 @@
     "try-it": null
   },
   {
+    "name": "NewsAPI.ai",
+    "url": "https://www.newsapi.ai/documentation",
+    "description": "News API access to real-time and archive news content",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "news",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "NewsData",
     "url": "https://newsdata.io/docs",
     "description": "News data API for live-breaking news and headlines from reputed  news sources",
     "auth": "api-key",
     "https": true,
     "cors": "unknown",
+    "category": "news",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "NewsDataHub",
+    "url": "https://newsdatahub.com",
+    "description": "NewsDataHub provides a production-ready REST API delivering near-real-time global news data at scale",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "news",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "NewsMesh",
+    "url": "https://newsmesh.co",
+    "description": "Access the news articles from trusted sources with real-time updates & powerful search capabilities",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
     "category": "news",
     "status": "pending",
     "notes": "",
@@ -12991,6 +16046,19 @@
     "try-it": null
   },
   {
+    "name": "RiskSentinel",
+    "url": "https://risksentinel.ai",
+    "description": "AI-powered news intelligence API delivering structured events with risk assessment, sentiment analysis, company impacts, geo tagging, ai generated summary and more",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "news",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Spaceflight News",
     "url": "https://spaceflightnewsapi.net",
     "description": "Spaceflight related news 🚀",
@@ -13005,6 +16073,19 @@
       "url": "https://api.spaceflightnewsapi.net/v4/articles/?limit=3",
       "response-type": "json"
     }
+  },
+  {
+    "name": "Substack API Wrapper",
+    "url": "https://github.com/NHagar/substack_api",
+    "description": "Substack's newsletter platform now has an API wrapper, for easy access to latest posts",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "news",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "The Guardian",
@@ -13059,6 +16140,19 @@
     "try-it": null
   },
   {
+    "name": "World News",
+    "url": "https://worldnewsapi.com",
+    "description": "Search through millions of semantically tagged worldwide news",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "news",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "18F",
     "url": "http://18f.github.io/API-All-the-X/",
     "description": "Unofficial US Federal Government API Development",
@@ -13099,6 +16193,19 @@
       "url": "https://archive.org/metadata/TheAdventuresOfTomSawyer_201303",
       "response-type": "json"
     }
+  },
+  {
+    "name": "ArgentinaDatos",
+    "url": "https://argentinadatos.com/",
+    "description": "Unofficial Argentinian data API",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "open-data",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Black History Facts",
@@ -13172,6 +16279,19 @@
     "try-it": null
   },
   {
+    "name": "DataStream",
+    "url": "https://github.com/datastreamapp/api-docs",
+    "description": "An open access platform for sharing Canadian water quality data",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "open-data",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Enigma Public",
     "url": "https://developers.enigma.com/docs",
     "description": "Broadest collection of public data",
@@ -13199,6 +16319,19 @@
       "url": "https://api-adresse.data.gouv.fr/search/?q=paris&limit=1",
       "response-type": "json"
     }
+  },
+  {
+    "name": "Generate Link Preview (including checking for malicious links)",
+    "url": "https://apyhub.com/utility/link-preview",
+    "description": "Fetches metadata from any URL passed to it, including Open Graph tags.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "open-data",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "GENESIS",
@@ -13421,6 +16554,19 @@
     "try-it": null
   },
   {
+    "name": "Sofiaplan",
+    "url": "https://sofiaplan.bg/api/",
+    "description": "Access to urban research data for the Bulgarian capital Sofia",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "open-data",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Teleport",
     "url": "https://developers.teleport.org/",
     "description": "Quality of Life Data",
@@ -13431,6 +16577,19 @@
     "status": "broken",
     "notes": "teleport.org and developers.teleport.org not loading. Service appears shut down (acquired by Topia). Tested 2026-02-08.",
     "date-checked": "2026-02-08",
+    "try-it": null
+  },
+  {
+    "name": "Udemy Coupons, Courses & Instructors Data",
+    "url": "https://rapidapi.com/vintarok-vintarok-default/api/udemy-coupons-courses-instructors-data-api",
+    "description": "Retrieve Udemy courses, coupons, instructors, and metadata",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "open-data",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -13448,6 +16607,19 @@
       "url": "https://opendata.umea.se/api/explore/v2.1/catalog/datasets?limit=2",
       "response-type": "json"
     }
+  },
+  {
+    "name": "UniDb",
+    "url": "https://unidbapi.com",
+    "description": "Data that helps people gain useful insight into universities in the United Kingdom",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "open-data",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Universities List",
@@ -13761,6 +16933,19 @@
     }
   },
   {
+    "name": "akshaykumar-rest",
+    "url": "https://akshaykumar-rest.vercel.app/",
+    "description": "Akshay Kumar for every HTTP status code",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "personality",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Biriyani As A Service",
     "url": "https://biriyani.anoram.com/",
     "description": "Biriyani images placeholder",
@@ -13861,6 +17046,19 @@
     }
   },
   {
+    "name": "Indian Quotes",
+    "url": "https://indian-quotes-api.vercel.app/",
+    "description": "Curated quotes from India's most successful entrepreneurs",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "personality",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Inspiration",
     "url": "https://inspiration.goprogram.ai/docs/",
     "description": "Motivational and Inspirational quotes",
@@ -13875,6 +17073,19 @@
       "url": "https://inspiration.goprogram.ai/",
       "response-type": "json"
     }
+  },
+  {
+    "name": "Joke Father",
+    "url": "https://jokefather.com/api/jokes/random",
+    "description": "Ultimate collection of dad jokes",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "personality",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "kanye.rest",
@@ -13894,15 +17105,15 @@
   },
   {
     "name": "kimiquotes",
-    "url": "https://kimiquotes.herokuapp.com/doc",
+    "url": "https://kimiquotes.pages.dev/docs",
     "description": "Team radio and interview quotes by Finnish F1 legend Kimi Räikkönen",
     "auth": "none",
     "https": true,
     "cors": "yes",
     "category": "personality",
-    "status": "broken",
-    "notes": "Heroku app (kimiquotes.herokuapp.com). Heroku free tier ended Nov 2022. Tested 2026-02-08.",
-    "date-checked": "2026-02-08",
+    "status": "pending",
+    "notes": "URL updated from public-apis-2 (was broken). Previous: Heroku app (kimiquotes.herokuapp.com). Heroku free tier ended Nov 2022. Tested 2026-02-08.",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -13974,6 +17185,19 @@
     "try-it": null
   },
   {
+    "name": "Quoterism",
+    "url": "https://www.quoterism.com/developer",
+    "description": "The Web's Largest Collection of Human Inspiration",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "personality",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Quotes on Design",
     "url": "https://quotesondesign.com/api/",
     "description": "Inspirational Quotes",
@@ -13988,6 +17212,19 @@
       "url": "https://quotesondesign.com/wp-json/wp/v2/posts/?per_page=1",
       "response-type": "json"
     }
+  },
+  {
+    "name": "Sentino Personality API",
+    "url": "https://sentino.org/api/",
+    "description": "AI-powered personality profiling and psychology analysis using NLP and Big 5, NEO, HEXACO, DISC inventories",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "personality",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Stoicism Quote",
@@ -14064,6 +17301,19 @@
     }
   },
   {
+    "name": "WhoIsTheOldest",
+    "url": "https://whoistheoldest.com",
+    "description": "This application tracks and displays data about the oldest person currently alive and the oldest person ever recorded.",
+    "auth": "none",
+    "https": false,
+    "cors": "no",
+    "category": "personality",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Zen Quotes",
     "url": "https://zenquotes.io/",
     "description": "Large collection of Zen quotes for inspiration",
@@ -14078,19 +17328,6 @@
       "url": "https://zenquotes.io/api/random",
       "response-type": "json"
     }
-  },
-  {
-    "name": "Phone Validation",
-    "url": "https://www.abstractapi.com/phone-validation-api",
-    "description": "Validate phone numbers globally",
-    "auth": "api-key",
-    "https": true,
-    "cors": "yes",
-    "category": "phone",
-    "status": "needs-key",
-    "notes": "Free tier: 100 req/month, no credit card required. Email signup at app.abstractapi.com/users/signup. Abstract API platform.",
-    "date-checked": "2026-02-10",
-    "try-it": null
   },
   {
     "name": "apilayer numverify",
@@ -14119,6 +17356,19 @@
     "try-it": null
   },
   {
+    "name": "NumlookupAPI",
+    "url": "https://numlookupapi.com",
+    "description": "Worldwide Phone Number Lookup & Verification API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "phone",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Phone Specification",
     "url": "https://github.com/azharimm/phone-specs-api",
     "description": "Rest Api for Phone specifications",
@@ -14133,6 +17383,45 @@
       "url": "https://phone-specs-api.vercel.app/latest",
       "response-type": "json"
     }
+  },
+  {
+    "name": "Phone Validation",
+    "url": "https://www.abstractapi.com/phone-validation-api",
+    "description": "Validate phone numbers globally",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "phone",
+    "status": "needs-key",
+    "notes": "Free tier: 100 req/month, no credit card required. Email signup at app.abstractapi.com/users/signup. Abstract API platform.",
+    "date-checked": "2026-02-10",
+    "try-it": null
+  },
+  {
+    "name": "Proweblook Phone Number Checker",
+    "url": "https://proweblook.com/phone-number-validator",
+    "description": "Phone number validation",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "phone",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Proweblook Whatsapp Contact Checker",
+    "url": "https://proweblook.com/whatsapp-number-checker",
+    "description": "Whatsapp number validation",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "phone",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Veriphone",
@@ -14177,6 +17466,19 @@
     "name": "Bruzu",
     "url": "https://docs.bruzu.com",
     "description": "Image generation with query string",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "photography",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Change Image Background API",
+    "url": "https://apyhub.com/utility/image-processor-change-background",
+    "description": "This API helps you change the background of any image",
     "auth": "api-key",
     "https": true,
     "cors": "yes",
@@ -14245,6 +17547,19 @@
     "auth": "oauth",
     "https": true,
     "cors": "unknown",
+    "category": "photography",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Generate Image Thumbnails API",
+    "url": "https://apyhub.com/utility/image-processor-thumbnail",
+    "description": "Generate and optimise Image Thumbnails from any image with this API and save hours of image editing",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
     "category": "photography",
     "status": "pending",
     "notes": "",
@@ -14443,6 +17758,19 @@
     }
   },
   {
+    "name": "Remove Background from Images API",
+    "url": "https://apyhub.com/utility/image-processor-remove-background",
+    "description": "This API helps you remove background from any image",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "photography",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Remove.bg",
     "url": "https://www.remove.bg/api",
     "description": "Image Background removal",
@@ -14498,6 +17826,32 @@
     "try-it": null
   },
   {
+    "name": "Smart Adaptive Ultra-Fast Image Compressor & Converter",
+    "url": "https://rapidapi.com/vintarok-vintarok-default/api/smart-adaptive-ultra-fast-image-compressor-converter",
+    "description": "Compress, convert, and optimize images automatically with adaptive AI tuning",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "photography",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Templated",
+    "url": "https://templated.io",
+    "description": "Generate images and PDFs with a simple API. Design in a Canva-like editor and render images with code",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "photography",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Unsplash",
     "url": "https://unsplash.com/developers",
     "description": "Photography",
@@ -14537,6 +17891,45 @@
     "try-it": null
   },
   {
+    "name": "iTunes",
+    "url": "https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html#//apple_ref/doc/uid/TP40017632-CH3-SW1",
+    "description": "Apple Podcasts Directory",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "podcasts",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "PodcastIndex",
+    "url": "https://podcastindex-org.github.io/docs-api/",
+    "description": "Get details on podcasts & episodes, Podcast Search",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "podcasts",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Taddy Podcasts",
+    "url": "https://taddy.org/developers/podcast-api",
+    "description": "Get details on podcasts & episodes, Podcast & Episode Search, Webhook notifications",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "podcasts",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Codeforces",
     "url": "https://codeforces.com/apiHelp",
     "description": "Get access to Codeforces data",
@@ -14560,6 +17953,19 @@
     "status": "needs-key",
     "notes": "Free registration at hackerearth.com/api/register. Code execution API with quota-based free requests. client-secret header auth.",
     "date-checked": "2026-02-10",
+    "try-it": null
+  },
+  {
+    "name": "JMESPath",
+    "url": "https://noteapiconnector.com/jmespath-free-api",
+    "description": "Run JMESPath queries on JSON data for filtering, transforming, and extracting results",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "programming",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -14589,6 +17995,19 @@
     "try-it": null
   },
   {
+    "name": "Let's Count",
+    "url": "https://letscountapi.com",
+    "description": "Create, retrieve, update, increment, and decrement counters identified by namespace and key",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "programming",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Mintlify",
     "url": "https://docs.mintlify.com",
     "description": "For programmatically generating documentation for code",
@@ -14599,6 +18018,45 @@
     "status": "paid-only",
     "notes": "Documentation SaaS platform, not a consumable public API. Developer API requires Pro tier ($250/mo). Hobby plan has no API access.",
     "date-checked": "2026-02-10",
+    "try-it": null
+  },
+  {
+    "name": "PHPhub",
+    "url": "https://phphub.net/linter/",
+    "description": "PHP syntax checker",
+    "auth": "none",
+    "https": true,
+    "cors": "no",
+    "category": "programming",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Pythonium",
+    "url": "https://pythonium.net/linter",
+    "description": "Validate Python code syntax",
+    "auth": "none",
+    "https": true,
+    "cors": "no",
+    "category": "programming",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Softwium",
+    "url": "https://softwium.com/sql-validator/",
+    "description": "Validate SQL queries",
+    "auth": "none",
+    "https": true,
+    "cors": "no",
+    "category": "programming",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -14632,6 +18090,19 @@
       "url": "https://export.arxiv.org/api/query?search_query=all:electron&max_results=1",
       "response-type": "text"
     }
+  },
+  {
+    "name": "Bootprint",
+    "url": "https://bootprint.space/",
+    "description": "Random facts and images of space",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "science-math",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "CORE",
@@ -14725,6 +18196,19 @@
       "url": "https://isro.vercel.app/api/spacecrafts",
       "response-type": "json"
     }
+  },
+  {
+    "name": "ISRO Statistics",
+    "url": "https://isrostats.in/apis",
+    "description": "ISRO Launches and Spacecrafts details",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "science-math",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "ITIS",
@@ -14950,6 +18434,19 @@
     "status": "broken",
     "notes": "Hosted on herokuapp; DNS resolution failure, app removed from Heroku free tier",
     "date-checked": "2026-02-08",
+    "try-it": null
+  },
+  {
+    "name": "Satellite Passes",
+    "url": "https://sat.terrestre.ar",
+    "description": "Find satellite passes",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "science-math",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -15187,15 +18684,15 @@
   },
   {
     "name": "Classify",
-    "url": "https://classify-web.herokuapp.com/#/api",
+    "url": "https://github.com/cheatsnake/classify",
     "description": "Encrypting & decrypting text messages",
     "auth": "none",
     "https": true,
     "cors": "yes",
     "category": "security",
-    "status": "broken",
-    "notes": "Hosted on Heroku (classify-web.herokuapp.com). Heroku free tier shut down Nov 2022. Returns error page. Tested 2026-02-15.",
-    "date-checked": "2026-02-08",
+    "status": "pending",
+    "notes": "URL updated from public-apis-2 (was broken). Previous: Hosted on Heroku (classify-web.herokuapp.com). Heroku free tier shut down Nov 2022. Returns error page. Tested 2026-02-15.",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -15397,6 +18894,19 @@
     "try-it": null
   },
   {
+    "name": "LeakInsight",
+    "url": "https://rapidapi.com/codigo6-codigo6-default/api/leakinsight-api/",
+    "description": "Find leaked or exposed credentials by email, username, phone, domain, hash, or breach origin",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "security",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "LoginRadius",
     "url": "https://www.loginradius.com/docs/",
     "description": "Managed User Authentication Service",
@@ -15464,6 +18974,19 @@
       "response-type": "json",
       "params": "resultsPerPage=3"
     }
+  },
+  {
+    "name": "OWASP ZAP",
+    "url": "https://www.zaproxy.org/docs/api/",
+    "description": "Automated security testing API for web apps",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "security",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Passwordinator",
@@ -15615,6 +19138,19 @@
     "try-it": null
   },
   {
+    "name": "Whoisfreaks",
+    "url": "https://whoisfreaks.com/",
+    "description": "Domain and DNS related information that will equip organizaion with comprehensive threat intelligence and attack surface analysis capabilities for enhanced security",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "security",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Best Buy",
     "url": "https://bestbuyapis.github.io/api-documentation/#overview",
     "description": "Products, Buying Options, Categories, Recommendations, Stores and Commerce",
@@ -15625,6 +19161,19 @@
     "status": "needs-key",
     "notes": "Free API key via email signup at developer.bestbuy.com/login. Products, Stores, Categories, Recommendations APIs. Extensive documentation.",
     "date-checked": "2026-02-10",
+    "try-it": null
+  },
+  {
+    "name": "Canopy",
+    "url": "https://www.canopyapi.co/",
+    "description": "A modern API for Amazon Data",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "shopping",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -15651,6 +19200,19 @@
     "status": "broken",
     "notes": "dummyproducts-api.herokuapp.com returns no content. Heroku removed free tier (Nov 2022), app shut down.",
     "date-checked": "2026-02-10",
+    "try-it": null
+  },
+  {
+    "name": "E-Commerce APIs",
+    "url": "https://apyhub.com/catalog/commerce-quick-tools",
+    "description": "All around e-commerce APIs. Generate QR codes, product categories and thumbnails, barcodes and many more.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "shopping",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -15745,10 +19307,62 @@
     "try-it": null
   },
   {
+    "name": "Platzi Fake Store",
+    "url": "https://fakeapi.platzi.com/",
+    "description": "A fake store API for your e-commerce or shopping website prototype. For testing and learning",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "shopping",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Printful",
+    "url": "https://developers.printful.com",
+    "description": "Printful's official API to manage and integrate their services",
+    "auth": "oauth",
+    "https": true,
+    "cors": "unknown",
+    "category": "shopping",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Printify",
+    "url": "https://developers.printify.com/",
+    "description": "Printify's official API to manage and integrate their services",
+    "auth": "oauth",
+    "https": true,
+    "cors": "unknown",
+    "category": "shopping",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Rappi",
     "url": "https://dev-portal.rappi.com/",
     "description": "Manage orders from Rappi's app",
     "auth": "oauth",
+    "https": true,
+    "cors": "unknown",
+    "category": "shopping",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "ScoutAPI",
+    "url": "https://scoutapi.com",
+    "description": "Affordable, Swift, and Reliable Amazon Data in Real-Time",
+    "auth": "api-key",
     "https": true,
     "cors": "unknown",
     "category": "shopping",
@@ -15768,6 +19382,19 @@
     "status": "needs-key",
     "notes": "Shopee Open Platform for sellers/ISVs. Strict eligibility: must be Shopee seller with min order thresholds, or registered ISV with live product. Requires profile approval (3-10 days).",
     "date-checked": "2026-02-10",
+    "try-it": null
+  },
+  {
+    "name": "Shopify",
+    "url": "https://shopify.dev/docs/api",
+    "description": "Manage sales channels, customers, products, and discounts for a retail business",
+    "auth": "oauth",
+    "https": true,
+    "cors": "unknown",
+    "category": "shopping",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -15998,12 +19625,38 @@
     "try-it": null
   },
   {
+    "name": "Hashtag",
+    "url": "https://mukeshsolanki.gitbook.io/hashtag-api/",
+    "description": "Generate Hashtags using a keyword or an Image",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "social",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Instagram",
     "url": "https://www.instagram.com/developer/",
     "description": "Instagram Login, Share on Instagram, Social Plugins and more",
     "auth": "oauth",
     "https": true,
     "cors": "unknown",
+    "category": "social",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Instagram Posts Generator",
+    "url": "https://instagram-posts-generator.vercel.app/",
+    "description": "Generate posts with templates from popular instagram pages.",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
     "category": "social",
     "status": "pending",
     "notes": "",
@@ -16205,6 +19858,19 @@
     "try-it": null
   },
   {
+    "name": "SocialData API",
+    "url": "https://socialdata.tools",
+    "description": "Read Twitter data",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "social",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "TamTam",
     "url": "https://dev.tamtam.chat/",
     "description": "Bot API to interact with TamTam",
@@ -16322,6 +19988,19 @@
     "try-it": null
   },
   {
+    "name": "TwitterApi.IO",
+    "url": "https://twitterapi.io",
+    "description": "Access Twitter's Real-time & Historical Data with Unmatched Simplicity",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "social",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "vk",
     "url": "https://vk.com/dev/sites",
     "description": "Read and write vk data",
@@ -16329,6 +20008,45 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Webex",
+    "url": "https://developer.webex.com",
+    "description": "Team collaboration software",
+    "auth": "oauth",
+    "https": true,
+    "cors": "yes",
+    "category": "social",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Zoom",
+    "url": "https://developers.zoom.us/docs/api",
+    "description": "Video communication, web conferencing, chat, and webinars",
+    "auth": "oauth",
+    "https": true,
+    "cors": "unknown",
+    "category": "social",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "American Football Highlights API",
+    "url": "https://highlightly.net/documentation/american-football/",
+    "description": "Real time American Football (NFL/NCAA) highlights",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "sports-fitness",
     "status": "pending",
     "notes": "",
     "date-checked": null,
@@ -16371,6 +20089,19 @@
     "status": "needs-key",
     "notes": "HTTP 401 - requires API key",
     "date-checked": "2026-02-08",
+    "try-it": null
+  },
+  {
+    "name": "Basketball Highlights API",
+    "url": "https://highlightly.net/documentation/basketball/",
+    "description": "Real time basketball video highlights",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "sports-fitness",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -16442,6 +20173,19 @@
     "try-it": null
   },
   {
+    "name": "F1 API",
+    "url": "https://f1api.dev",
+    "description": "Open F1 API with realtime data",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "sports-fitness",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Fitbit",
     "url": "https://dev.fitbit.com/",
     "description": "Fitbit Information",
@@ -16481,6 +20225,19 @@
     "try-it": null
   },
   {
+    "name": "Football Highlights",
+    "url": "https://highlightly.net/documentation/football/",
+    "description": "Real time football (soccer) highlights from over +950 leagues",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "sports-fitness",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Football Standings",
     "url": "https://github.com/azharimm/football-standings-api",
     "description": "Display football standings e.g epl, la liga, serie a etc. The data is based on espn site",
@@ -16501,6 +20258,19 @@
     "url": "https://www.football-data.org",
     "description": "Football data with matches info, players, teams, and competitions",
     "auth": "x-mashape-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "sports-fitness",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Hockey Highlights",
+    "url": "https://highlightly.net/documentation/hockey/",
+    "description": "Real time hockey highlights",
+    "auth": "api-key",
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
@@ -16549,16 +20319,29 @@
     "try-it": null
   },
   {
+    "name": "NBA GraphQL",
+    "url": "https://nbaapi.com/graphql/",
+    "description": "Advanced NBA Player, Team, and Season Statistics and Data",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "sports-fitness",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "NBA Stats",
-    "url": "https://any-api.com/nba_com/nba_com/docs/API_Description",
+    "url": "https://api.server.nbaapi.com/",
     "description": "Current and historical NBA Statistics",
     "auth": "none",
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "broken",
-    "notes": "any-api.com docs page redirects to apilayer.com marketplace (docs gone). stats.nba.com/stats/ returns HTTP 403 Forbidden. NBA locked down their stats API to block non-browser requests.",
-    "date-checked": "2026-02-08",
+    "status": "pending",
+    "notes": "URL updated from public-apis-2 (was broken). Previous: any-api.com docs page redirects to apilayer.com marketplace (docs gone). stats.nba.com/stats/ returns HTTP 403 Forbidden. NBA locked down their stats API to block non-browser requests.",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -16623,6 +20406,19 @@
     "name": "Sport Data",
     "url": "https://sportdataapi.com",
     "description": "Get sports data from all over the world",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "sports-fitness",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Sport Highlights",
+    "url": "https://highlightly.net/documentation/sports/",
+    "description": "Real time Sport Highlights",
     "auth": "api-key",
     "https": true,
     "cors": "unknown",
@@ -16817,6 +20613,19 @@
     }
   },
   {
+    "name": "DummyJSON",
+    "url": "https://dummyjson.com/",
+    "description": "Generate dummy data in JSON format",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "test-data",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "English Random Words",
     "url": "https://random-words-api.vercel.app/word",
     "description": "Generate English Random Words with Pronunciation",
@@ -16840,6 +20649,19 @@
     "status": "broken",
     "notes": "Domain redirects to dclinicstudios.com — company pivoted/sold domain.",
     "date-checked": "2026-02-10",
+    "try-it": null
+  },
+  {
+    "name": "Faker",
+    "url": "https://fakerjs.dev/",
+    "description": "Generate massive amounts of fake (but realistic) data for testing and development.",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "test-data",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -16904,6 +20726,19 @@
     }
   },
   {
+    "name": "JSONing",
+    "url": "https://jsoning.com/api/",
+    "description": "Fake REST API for prototyping",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "test-data",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "JSONPlaceholder",
     "url": "http://jsonplaceholder.typicode.com/",
     "description": "Fake data for testing and prototyping",
@@ -16965,6 +20800,19 @@
     }
   },
   {
+    "name": "Mockae",
+    "url": "https://mockae.com/",
+    "description": "Fake REST API powered by Lua",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "test-data",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Mockaroo",
     "url": "https://www.mockaroo.com/docs",
     "description": "Generate fake data to JSON, CSV, TXT, SQL and XML",
@@ -17005,6 +20853,19 @@
       "url": "https://random-data-api.com/api/v2/users",
       "response-type": "json"
     }
+  },
+  {
+    "name": "Random Identity",
+    "url": "https://rapidapi.com/edualc1018/api/random-identity-generator",
+    "description": "Random Identity Generator with custom response format",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "test-data",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Randommer",
@@ -17161,12 +21022,38 @@
     }
   },
   {
-    "name": "Code Detection API",
-    "url": "https://codedetectionapi.runtime.dev",
-    "description": "Detect, label, format and enrich the code in your app or in your data pipeline",
-    "auth": "oauth",
+    "name": "AI Text Moderation, Toxicity & Sentiment Analyzer",
+    "url": "https://rapidapi.com/vintarok-vintarok-default/api/ai-text-moderation-toxicity-aspects-sentiment-analyzer",
+    "description": "Detect sentiment, toxicity, and emotional aspects in text with AI moderation",
+    "auth": "api-key",
     "https": true,
-    "cors": "unknown",
+    "cors": "yes",
+    "category": "text-analysis",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "AI Translate text API",
+    "url": "https://apyhub.com/utility/sharpapi-translate-text",
+    "description": "The Text Translation API translates text into any of the 80 supported languages, providing accurate and context-aware translations",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "text-analysis",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Analyse Keywords API",
+    "url": "https://apyhub.com/utility/analyse-keywords",
+    "description": "This API lets you extract high-frequency keywords, key phrases and latent semantic keywords from any URL",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
     "category": "text-analysis",
     "status": "pending",
     "notes": "",
@@ -17200,6 +21087,19 @@
     "try-it": null
   },
   {
+    "name": "Chatpdf",
+    "url": "https://chatpdf.so/api",
+    "description": "Chat with pdf using GPT4 and ChatGPT",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "text-analysis",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Cloudmersive Natural Language Processing",
     "url": "https://www.cloudmersive.com/nlp-api",
     "description": "Natural language processing and text analysis",
@@ -17210,6 +21110,32 @@
     "status": "needs-key",
     "notes": "Free tier: 600 API calls/month, no expiration. Email signup at portal.cloudmersive.com/signup",
     "date-checked": "2026-02-10",
+    "try-it": null
+  },
+  {
+    "name": "Code Detection API",
+    "url": "https://codedetectionapi.runtime.dev",
+    "description": "Detect, label, format and enrich the code in your app or in your data pipeline",
+    "auth": "oauth",
+    "https": true,
+    "cors": "unknown",
+    "category": "text-analysis",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Convert Text to Speech API",
+    "url": "https://apyhub.com/utility/text-to-speech/",
+    "description": "This API converts any text to speech automatically",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "text-analysis",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -17226,6 +21152,19 @@
     "try-it": null
   },
   {
+    "name": "Detect Language API",
+    "url": "https://apyhub.com/utility/language-detector",
+    "description": "This API detects the language from any text (+ 50 languages supported)",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "text-analysis",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "ELI",
     "url": "https://nlp.insightera.co.th/docs/v1.0",
     "description": "Natural Language Processing Tools for Thai Language",
@@ -17236,6 +21175,19 @@
     "status": "needs-key",
     "notes": "Thai NLP API by InsightEra. Token-based auth. Swagger docs live at nlp.insightera.co.th/docs/v1.0. Contact company for token",
     "date-checked": "2026-02-10",
+    "try-it": null
+  },
+  {
+    "name": "Fuzzy Text Search API",
+    "url": "https://apyhub.com/utility/search-fuzzy-text",
+    "description": "The Fuzzy Text Search API finds close matches for user queries, handling typos and partial inputs to deliver relevant results quickly and accurately",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "text-analysis",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -17278,6 +21230,19 @@
     "try-it": null
   },
   {
+    "name": "LanguageTool",
+    "url": "https://languagetool.org/http-api/",
+    "description": "Style and Grammar Checker for 25+ Languages",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "text-analysis",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Lecto Translation",
     "url": "https://rapidapi.com/lecto-lecto-default/api/lecto-translation/",
     "description": "Translation API with free tier and reasonable prices",
@@ -17305,6 +21270,32 @@
       "url": "https://libretranslate.com/languages",
       "response-type": "json"
     }
+  },
+  {
+    "name": "Proofread and Grammar Check API",
+    "url": "https://apyhub.com/utility/sharpapi-proofread-grammer-check",
+    "description": "The Proofreading and Grammar Check API ensures the provided text is grammatically correct and polished by automatically proofreading and checking for errors",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "text-analysis",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Safe text",
+    "url": "https://rapidapi.com/bacloud14/api/safe-text",
+    "description": "Clean short and long texts. It is probably world most complete text-cleaner API! Providing very fast and accurate results.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "text-analysis",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Semantria",
@@ -17385,6 +21376,19 @@
     "try-it": null
   },
   {
+    "name": "IndianPincodes",
+    "url": "https://www.indianpincodes.co.in",
+    "description": "API for getting Pincode details in India",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "tracking",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Pixela",
     "url": "https://pixe.la",
     "description": "API for recording and tracking habits or effort, routines",
@@ -17428,15 +21432,15 @@
   },
   {
     "name": "PostNord",
-    "url": "https://developer.postnord.com/api",
+    "url": "https://developer.postnord.com/apis",
     "description": "Provides information about parcels in transport for Sweden and Denmark",
     "auth": "api-key",
     "https": false,
     "cors": "unknown",
     "category": "tracking",
-    "status": "broken",
-    "notes": "Developer portal at developer.postnord.com exists but /api page returns 404. API categories listed but individual endpoints appear defunct.",
-    "date-checked": "2026-02-10",
+    "status": "pending",
+    "notes": "URL updated from public-apis-2 (was broken). Previous: Developer portal at developer.postnord.com exists but /api page returns 404. API categories listed but individual endpoints appear defunct.",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -17489,6 +21493,19 @@
     "status": "needs-key",
     "notes": "Now requires paid API via RapidAPI. adsbexchange.com/data/ redirects to RapidAPI marketplace for subscription access.",
     "date-checked": "2026-02-09",
+    "try-it": null
+  },
+  {
+    "name": "adsbdb",
+    "url": "https://www.adsbdb.com",
+    "description": "Open access to aircraft, airline, and flight route data",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "transportation",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -17680,6 +21697,45 @@
     "try-it": null
   },
   {
+    "name": "facha",
+    "url": "https://docs.api.facha.dev/",
+    "description": "Aircraft Tracking, AIS Ship Tracking, Temporary Email Detection, IP GeoLocation, Package Tracking",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "transportation",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Flight Fare Search",
+    "url": "https://rapidapi.com/farish978/api/flight-fare-search",
+    "description": "Search for realtime flight fares across destinations",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "transportation",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Fuel Prices at Spanish Gas Stations",
+    "url": "https://datos.gob.es/en/apidata",
+    "description": "Provides information about fuel prices at gas stations in Spain",
+    "auth": "none",
+    "https": true,
+    "cors": "no",
+    "category": "transportation",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Grab",
     "url": "https://developer.grab.com/docs/",
     "description": "Track deliveries, ride fares, payments and loyalty points",
@@ -17748,6 +21804,19 @@
     "try-it": null
   },
   {
+    "name": "Konkan Railway Live Train Position",
+    "url": "https://konkan-railway-api.vercel.app/",
+    "description": "Realtime data for trains on India's Konkan Railway",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "transportation",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Land Transport Authority DataMall, Singapore",
     "url": "https://datamall.lta.gov.sg/content/dam/datamall/datasets/LTA_DataMall_API_User_Guide.pdf",
     "description": "Singapore transport information",
@@ -17775,6 +21844,19 @@
       "url": "http://app.metrolisboa.pt/status/getLinhas.php",
       "response-type": "json"
     }
+  },
+  {
+    "name": "MTA",
+    "url": "https://api.mta.info/#/subwayRealTimeFeeds",
+    "description": "MTA Subway Realtime Feeds",
+    "auth": "none",
+    "https": true,
+    "cors": "no",
+    "category": "transportation",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Navitia",
@@ -17874,12 +21956,38 @@
     "try-it": null
   },
   {
+    "name": "Swedavia Airports",
+    "url": "https://apideveloper.swedavia.se/",
+    "description": "Airport and flight information of Swedish Airports operated by Swedavia",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "transportation",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Tankerkoenig",
     "url": "https://creativecommons.tankerkoenig.de/swagger/",
     "description": "German realtime gas/diesel prices",
     "auth": "api-key",
     "https": true,
     "cors": "yes",
+    "category": "transportation",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Trackr TMS",
+    "url": "https://rapidapi.com/jccm6/api/trackr-tms",
+    "description": "Trackr API makes it easy to create, assign, and track shipments, with driver support, movement history, and more",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
     "category": "transportation",
     "status": "pending",
     "notes": "",
@@ -18457,6 +22565,19 @@
     "try-it": null
   },
   {
+    "name": "Bly.to",
+    "url": "https://blyto.com/docs",
+    "description": "URL shortening service with analytics and tracking capabilities",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "url-shorteners",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "CleanURI",
     "url": "https://cleanuri.com/docs",
     "description": "URL shortener service",
@@ -18574,6 +22695,19 @@
     "try-it": null
   },
   {
+    "name": "Manyapis.com",
+    "url": "https://manyapis.com/products/short-url",
+    "description": "Free URL shortener API with up to 50 requests per day",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "url-shorteners",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Mgnet.me",
     "url": "http://mgnet.me/api.html",
     "description": "Torrent URL shorten API",
@@ -18584,6 +22718,19 @@
     "status": "broken",
     "notes": "mgnet.me/api.html redirects to Facebook plugins page. Service dead. Tested 2026-02-08.",
     "date-checked": "2026-02-08",
+    "try-it": null
+  },
+  {
+    "name": "Ogli",
+    "url": "https://app.ogli.sh",
+    "description": "Generate short links like any other shortener but with custom OG/meta tags for perfect previews. Ideal for SPAs, apps, and anyone who wants control over what gets shared.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "url-shorteners",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -18652,6 +22799,32 @@
     "try-it": null
   },
   {
+    "name": "Spoo.me",
+    "url": "https://spoo.me/api",
+    "description": "Free URL shortener with custom alias, max-clicks, password protection and advanced analytics support",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "url-shorteners",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "T.LY",
+    "url": "https://t.ly/docs",
+    "description": "URL shortener and link management service",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "url-shorteners",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "TinyURL",
     "url": "https://tinyurl.com/app/dev",
     "description": "Shorten long URLs",
@@ -18678,6 +22851,19 @@
     "try-it": null
   },
   {
+    "name": "Urlmskr",
+    "url": "https://github.com/Axorax/urlmskr#urlmskr-api",
+    "description": "Easy and fast masked, shortened link creation",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "url-shorteners",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Brazilian Vehicles and Prices",
     "url": "https://deividfortuna.github.io/fipe/",
     "description": "Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe",
@@ -18692,6 +22878,32 @@
       "url": "https://parallelum.com.br/fipe/api/v1/carros/marcas",
       "response-type": "json"
     }
+  },
+  {
+    "name": "CarAPI",
+    "url": "https://carapi.app",
+    "description": "The developer friendly vehicle API. Make, model, trims and more via a RESTFul API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "vehicle",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "CarsXE",
+    "url": "https://api.carsxe.com/",
+    "description": "CarsXE API provides comprehensive data on vehicles, including VIN decoding & specifications, license plate decoding, images, history and market value. It enables developers to build innovative applications for the automotive industry, such as insurance & roadside assistance tools, ride sharing & grocery delivery apps, inventory management systems, and market analysis platforms.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "vehicle",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Helipaddy sites",
@@ -18797,6 +23009,19 @@
     }
   },
   {
+    "name": "Bob's Burgers API",
+    "url": "https://bobsburgersapi.com/",
+    "description": "The Bob's Burgers API contains data for hundreds of characters, episodes, running gags, and images from the show",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "video",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Breaking Bad",
     "url": "https://breakingbadapi.com/documentation",
     "description": "Breaking Bad API",
@@ -18823,6 +23048,19 @@
     "try-it": null
   },
   {
+    "name": "Buffy the Vampire Slayer and Angel",
+    "url": "https://github.com/Thatskat/btvs-angel-api",
+    "description": "Get episode, cast and crew data from Buffy the Vampire Slayer and Angel",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "video",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Catalogopolis",
     "url": "https://api.catalogopolis.xyz/docs/",
     "description": "Doctor Who API",
@@ -18846,6 +23084,19 @@
     "status": "broken",
     "notes": "Heroku app dead. catchtheshow.herokuapp.com returns no response.",
     "date-checked": "2026-02-08",
+    "try-it": null
+  },
+  {
+    "name": "Compress Video API",
+    "url": "https://apyhub.com/utility/job-compress-video",
+    "description": "Compress video files through an asynchronous workflow, a practical API for large-scale or long-duration videos / tasks",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "video",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -18891,6 +23142,32 @@
     "try-it": null
   },
   {
+    "name": "Eurovision Song Contest",
+    "url": "https://eurovisionapi.runasp.net/",
+    "description": "Unofficial Eurovision Song Contest API",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "video",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Extract Audio from Video API",
+    "url": "https://apyhub.com/utility/job-extract-video-audio",
+    "description": "This API helps you extract audio from any video at scale",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "video",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Final Space",
     "url": "https://finalspaceapi.com/docs/",
     "description": "Final Space API",
@@ -18923,6 +23200,58 @@
     "try-it": null
   },
   {
+    "name": "Gcore Streaming",
+    "url": "https://docs.gcore.com/streaming",
+    "description": "Scale to 100+ million viewers and beyond. Stream everything from online games to online events reliably in minutes instead of months.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "video",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Generate Thumbnail from video API",
+    "url": "https://apyhub.com/utility/thumbnail-from-video",
+    "description": "This API generates image thumbnails from any input video file, in the desired size (pixels). The API supports multiple video formats including MP4, WEBM, FLV, AVI, MKV, MOV and 3GP",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "video",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "GIF from Video API",
+    "url": "https://apyhub.com/utility/gif-from-video",
+    "description": "This API helps you generate GIF from any video",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "video",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Harry Potter Characters",
+    "url": "https://hp-api.onrender.com/",
+    "description": "Harry Potter Characters Data with with imagery",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "video",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Harry Potter Charactes",
     "url": "https://hp-api.herokuapp.com/",
     "description": "Harry Potter Characters Data with with imagery",
@@ -18937,6 +23266,32 @@
       "url": "https://hp-api.onrender.com/api/spells",
       "response-type": "json"
     }
+  },
+  {
+    "name": "Hunt",
+    "url": "https://www.huntapi.com",
+    "description": "Video To API. Get video or audio and metadata for all video platforms with one provider.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "video",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "IMDb",
+    "url": "https://developer.imdb.com/",
+    "description": "API for receiving movie, serial and cast information",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "video",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "IMDb-API",
@@ -19039,6 +23394,19 @@
     "try-it": null
   },
   {
+    "name": "Mux",
+    "url": "https://www.mux.com/",
+    "description": "Mux Video is an API that enables developers to build unique live and on-demand video experiences",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "video",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Open Movie Database",
     "url": "http://www.omdbapi.com/",
     "description": "Movie information",
@@ -19068,6 +23436,19 @@
     }
   },
   {
+    "name": "Rendi",
+    "url": "https://rendi.dev",
+    "description": "FFmpeg API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "no",
+    "category": "video",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Ron Swanson Quotes",
     "url": "https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api",
     "description": "Television",
@@ -19084,10 +23465,49 @@
     }
   },
   {
+    "name": "Rules of Acquisition",
+    "url": "https://rulesofacquisition.herokuapp.com/",
+    "description": "Ferengi Rules of Acquisition from Star Trek with episode references",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "video",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Shotstack",
+    "url": "https://shotstack.io/",
+    "description": "Cloud-based video editing API",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "video",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Simkl",
     "url": "https://simkl.docs.apiary.io",
     "description": "Movie, TV and Anime data",
     "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "video",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "South Park Quotes",
+    "url": "https://github.com/Thatskat/southpark-quotes-api",
+    "description": "Get some quotes from South Park, mmkay!",
+    "auth": "none",
     "https": true,
     "cors": "unknown",
     "category": "video",
@@ -19111,6 +23531,19 @@
       "url": "http://stapi.co/api/v1/rest/character/search?pageSize=3",
       "response-type": "json"
     }
+  },
+  {
+    "name": "Star Wars Databank",
+    "url": "https://starwars-databank.vercel.app/",
+    "description": "Info and data from the Star Wars databank in the form of an API",
+    "auth": "none",
+    "https": true,
+    "cors": "yes",
+    "category": "video",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "Stranger Things Quotes",
@@ -19152,6 +23585,19 @@
     "status": "broken",
     "notes": "HTTP 404 - API offline",
     "date-checked": "2026-02-08",
+    "try-it": null
+  },
+  {
+    "name": "Supernatural Quotes",
+    "url": "https://lidiakovac.github.io/supernatural-api",
+    "description": "100+ Supernatural quotes",
+    "auth": "none",
+    "https": true,
+    "cors": "unknown",
+    "category": "video",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -19319,6 +23765,19 @@
     "name": "uNoGS",
     "url": "https://rapidapi.com/unogs/api/unogsng",
     "description": "Unofficial Netflix Online Global Search, Search all netflix regions in one place",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "video",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Video Thumbnail API",
+    "url": "https://apyhub.com/utility/job-video-thumbnail",
+    "description": "Create Video Thumbnails from any video or URL",
     "auth": "api-key",
     "https": true,
     "cors": "yes",
@@ -19517,6 +23976,19 @@
     "try-it": null
   },
   {
+    "name": "GribStream",
+    "url": "https://gribstream.com/",
+    "description": "Global weather forecast API for any use. Leverage the NBM and GFS models. Great for bulk pulls",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "weather",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "HG Weather",
     "url": "https://hgbrasil.com/status/weather",
     "description": "Provides weather forecast data for cities in Brazil",
@@ -19546,6 +24018,32 @@
     }
   },
   {
+    "name": "Korea Meteorological Administration",
+    "url": "https://apihub.kma.go.kr/",
+    "description": "Weather and climate data from KMA",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "weather",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Met Office DataPoint",
+    "url": "https://www.metoffice.gov.uk/services/data/datapoint/",
+    "description": "Weather data for the UK",
+    "auth": "api-key",
+    "https": true,
+    "cors": "unknown",
+    "category": "weather",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "MetaWeather",
     "url": "https://www.metaweather.com/api/",
     "description": "Weather",
@@ -19559,10 +24057,36 @@
     "try-it": null
   },
   {
+    "name": "Meteoblue",
+    "url": "https://content.meteoblue.com/en/business-solutions/weather-apis",
+    "description": "Global weather data with 100+ weather variables, 14 days ahead and 4 days of history data.",
+    "auth": "api-key",
+    "https": true,
+    "cors": "yes",
+    "category": "weather",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
     "name": "Meteorologisk Institutt",
     "url": "https://api.met.no/weatherapi/documentation",
     "description": "Weather and climate data",
     "auth": "user-agent",
+    "https": true,
+    "cors": "unknown",
+    "category": "weather",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
+  },
+  {
+    "name": "Meteosource",
+    "url": "https://www.meteosource.com/",
+    "description": "Global weather forecasts based on machine learning and historical data",
+    "auth": "api-key",
     "https": true,
     "cors": "unknown",
     "category": "weather",
