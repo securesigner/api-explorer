@@ -2298,9 +2298,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cloud-storage-file-sharing",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "File hosting REST API. Free account with API key from Dashboard > Settings > API Details. Rate limit 3-4 req/sec. Upload, list, rename, folder management.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2337,9 +2337,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cloud-storage-file-sharing",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Plans start at $69/mo (Start plan). Free trial available but no permanent free tier. Pricing: Start $69/mo, Grow $199/mo, Scale $379/mo.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2350,9 +2350,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cloud-storage-file-sharing",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free account with API token from profile page. Limited free tier: only basic operations (upload, create folders, rename, remove). Most endpoints require premium.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2376,9 +2376,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cloud-storage-file-sharing",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free account, create OAuth app at gyazo.com/oauth/applications for access token. Screenshot/image hosting API with upload, search, image management.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2389,9 +2389,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cloud-storage-file-sharing",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free API key from account page (api.imgbb.com). Simple image upload API with base64/URL/file support, up to 32MB.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2428,9 +2428,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cloud-storage-file-sharing",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free account gets developer API key at pastebin.com/signup. Limits: max 25 unlisted pastes, 10 private pastes for free. Create/list/delete pastes.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2441,9 +2441,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cloud-storage-file-sharing",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free account at app.pinata.cloud/register. IPFS pinning service. JWT-based auth. SDK available (Node.js). Create API key from dashboard.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2454,9 +2454,9 @@
     "https": true,
     "cors": "yes",
     "category": "cloud-storage-file-sharing",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Salesforce product. Requires Quip Plus, Quip Advanced, or Salesforce Enterprise/Professional license. No free tier for individual developers. OAuth2 auth.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2467,9 +2467,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cloud-storage-file-sharing",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "S3-compatible distributed cloud storage. Free tier: 25GB storage, 25GB egress/mo. Rebranded docs at storj.dev. Signup at console.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -2493,9 +2493,9 @@
     "https": true,
     "cors": "yes",
     "category": "cloud-storage-file-sharing",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Rebranded to Storacha (storacha.network). IPFS/Filecoin-based decentralized storage. Free tier: 5GB storage, 5GB egress at $0/mo. Console at console.storacha.network.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -12376,9 +12376,9 @@
     "https": true,
     "cors": "yes",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "API deprioritized. Company released desktop offline version and open-sourced mastering algorithm (phaselimiter-gui on GitHub). API effectively abandoned.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -12454,9 +12454,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "University-backed (Universitat Pompeu Fabra) sound library API. Token and OAuth2 auth. Free API key via freesound.org. Search, browse, download sounds. Well-documented APIv2.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -12570,9 +12570,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Lyrics search, artist/album/track info, music recommendations. API at api.ksoft.si. Requires API key in headers. Docs last updated ~5 years ago (may be fragile).",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -12583,9 +12583,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free API account at last.fm/api/account/create. Extensive methods: album, artist, track, user, chart, geo, tag. CBS/Paramount owned. Commercial/research use requires contacting partners@last.fm.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -12641,9 +12641,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Lyrics and song metadata API. Free for non-commercial use. Register to get API key. Commercial use requires paid plans (see about.musixmatch.com/api-pricing).",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -12654,9 +12654,9 @@
     "https": true,
     "cors": "yes",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free signup at developer.prod.napster.com/signup. Catalog metadata (top artists, trending, genres, listen count), user playlists and favorites.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -12683,9 +12683,9 @@
     "https": true,
     "cors": "no",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Phish concert archive API. v2 (Sep 2024) requires NO API key — free and open. Swagger docs available. Also has MCP server. Could be tested as working in future session.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -12712,9 +12712,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Live music database. Requires paid partnership agreement and license fee. Not approving requests for student/educational/hobbyist purposes. 6M+ events.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -12725,9 +12725,9 @@
     "https": true,
     "cors": "yes",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Cross-platform music link API. Works WITHOUT a key at 10 req/min. They've stopped issuing new API keys. No auth actually required. Could be tested as working.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -12777,9 +12777,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Recommendation API for music, movies, shows, etc. Free API key at tastedive.com/account/api_access. 300 req/hour. Now part of Qloo; legacy API still supported.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -12790,9 +12790,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free test API key '2' for development. Premium $8/mo for production. Rate limit 2 req/sec. Music metadata: artists, albums, tracks, music videos, charts.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
@@ -12803,9 +12803,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Brazilian lyrics/music site. API docs at api.vagalume.com.br/docs/ return 503 error. Main site vagalume.com.br is active but API appears to be down.",
+    "date-checked": "2026-02-10",
     "try-it": null
   },
   {
