@@ -757,9 +757,9 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier 1K check req/day, 100 reports/day, 5 blacklist/day. Email signup at abuseipdb.com.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -770,9 +770,9 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free community threat intel platform by LevelBlue (AT&T). Email signup at otx.alienvault.com.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -783,9 +783,9 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Open-source Cuckoo fork. Free signup at capesandbox.com. Token auth, default 5 req/min.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -796,9 +796,9 @@
     "https": true,
     "cors": "yes",
     "category": "anti-malware",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Fraud prevention/data verification. Free tier available. Email signup at dymo.tpeoficial.com.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -822,9 +822,9 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free for non-commercial use. Google Cloud Console API key. No credit card for basic usage.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -835,9 +835,9 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free for non-commercial use. API key via registration. Daily feed updated at 1:00 UTC.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -848,9 +848,9 @@
     "https": true,
     "cors": "no",
     "category": "anti-malware",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free malware sample sharing. 2000 API calls/day. Email signup at malshare.com/register.php.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -861,9 +861,9 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free community API from abuse.ch. Auth-Key via auth.abuse.ch. Free under fair use.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -874,9 +874,9 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "URL security/phishing protection. Free Link Verifier API. Email signup at developer.metacert.com.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -887,9 +887,9 @@
     "https": true,
     "cors": "yes",
     "category": "anti-malware",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "RapidAPI page returns Page Not Found. API removed from marketplace.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -900,9 +900,9 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Discord-focused phishing detection. Free API for Discord bots. Signup at phisherman.gg.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -913,9 +913,9 @@
     "https": true,
     "cors": "yes",
     "category": "anti-malware",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Content scanning API. Starts $49/mo for 1K files. Free trial credits (no CC) but no permanent free tier.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -939,9 +939,9 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier with email signup at urlscan.io/user/signup/. Rate-limited quotas per user.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -952,9 +952,9 @@
     "https": true,
     "cors": "yes",
     "category": "anti-malware",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Starts $39/mo for 1K scans. Free trial only at ionxsolutions.com. No permanent free tier.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -965,9 +965,9 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free public API: 4 req/min, 500/day, 15.5K/mo. Community signup at virustotal.com. Non-commercial.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -978,9 +978,9 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Starts $39/mo for 10K calls. 14-day free trial only at mywot.com. No permanent free tier.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -13019,9 +13019,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free open data portal (OpenDataSoft platform). Account registration at data.nantesmetropole.fr.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -13090,9 +13090,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "code.gov redirects to digital.gov. Federal source code service sunset by GSA.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -13132,9 +13132,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free US government API gateway by GSA. API key via signup at api.data.gov. 25+ agencies, 450+ APIs.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -13174,9 +13174,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free German parliament data API. API key from DIP documentation at dip.bundestag.de.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -13229,9 +13229,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free US Federal Election Commission API. Key via signup at api.open.fec.gov. 1K calls/hr.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -13284,9 +13284,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "University of Sydney gun law database API. Free access. Docs at gunpolicy.org/api.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -13342,9 +13342,9 @@
     "https": true,
     "cors": "yes",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free US government API. Email signup at nps.gov/subjects/developer/. Parks, alerts, events data.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -13498,9 +13498,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free Estonian open data portal. API at avaandmed.eesti.ee. Registration for API key.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -13527,9 +13527,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free French open data API. Account at data.gouv.fr. 74K datasets. Open Licence 2.0.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -13569,9 +13569,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free Indian government open data portal. Registration at data.gov.in. 236K+ APIs available.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -13627,9 +13627,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free Korean government open data portal. Registration at data.go.kr. 11K+ Open APIs.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -13653,9 +13653,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free Luxembourg open data portal. Account at data.public.lu. CC0 licensed. API reference available.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -13718,9 +13718,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free NSW government API portal. Registration at api.nsw.gov.au. Fuel, security, trades APIs.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -13960,9 +13960,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free Thai government open data portal at data.go.th. API with registration.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -14092,9 +14092,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "usa.gov/developer returns 404. Developer API appears discontinued.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -14612,9 +14612,9 @@
     "https": true,
     "cors": "yes",
     "category": "jobs",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "SharpAPI via ApyHub. 1K atoms per call. Free tier via ApyHub signup at apyhub.com.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -14781,9 +14781,9 @@
     "https": true,
     "cors": "unknown",
     "category": "jobs",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier 1000 jobs via RapidAPI. $1/1000 after. Email signup through RapidAPI.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -14807,9 +14807,9 @@
     "https": true,
     "cors": "unknown",
     "category": "jobs",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free 200 API credits/mo (200 jobs). Email signup at app.theirstack.com/signup. Paid from $59/mo.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -19210,9 +19210,9 @@
     "https": true,
     "cors": "yes",
     "category": "shopping",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub platform. Free tier 5 calls/day. Email signup at apyhub.com.",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
