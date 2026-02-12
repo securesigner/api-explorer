@@ -7683,9 +7683,9 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub free Starter 5 calls/day, email signup at apyhub.com",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -7764,9 +7764,9 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "EverAPI family. Free plan 100 credits/mo, email signup at app.emailvalidation.io/register",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -7777,9 +7777,9 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "DNS resolution failure — enveloop.com domain dead",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -7845,9 +7845,9 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free plan: unlimited contacts, 2K emails/mo, no CC. Signup at app.indiepitcher.com",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -7948,9 +7948,9 @@
     "https": true,
     "cors": "unknown",
     "category": "email",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free Hobby plan: 100 verifications/mo, email signup at noparam.com/register",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -7961,9 +7961,9 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "SMS/messaging API. Key from dashboard.notilify.com. OTP, messaging, verification endpoints",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -7974,9 +7974,9 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free plan 10 credits first month. WhatsApp/email checker API. Signup at proweblook.com/auth/signup",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -7987,9 +7987,9 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free plan: 3K emails/mo, 100/day, 1 domain, no CC. Signup at resend.com/signup",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -8026,9 +8026,9 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "European email/SMS platform. Pricing page redirects to sales booking (cal.com), no visible free tier",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -8039,9 +8039,9 @@
     "https": true,
     "cors": "no",
     "category": "email",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free plan: 250 checks/mo. Disposable email detection API. sweepemails.com",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -8052,9 +8052,9 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub/Boomlify free Starter 5 calls/day, email signup at apyhub.com",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -8065,9 +8065,9 @@
     "https": true,
     "cors": "no",
     "category": "email",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Basic plan free, no CC required. Fraud/bot detection, email intelligence. Signup at app.trueguard.io",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -8091,9 +8091,9 @@
     "https": true,
     "cors": "unknown",
     "category": "email",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Private temp email API for devs/QA. Unlimited mailboxes. Signup at app.zyntra.app",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -16215,9 +16215,9 @@
     "https": true,
     "cors": "yes",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free API key via signup form at blackhistoryapi.io. Random facts, search, metadata endpoints",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -16328,9 +16328,9 @@
     "https": true,
     "cors": "yes",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub free Starter 5 calls/day, email signup at apyhub.com. URL metadata + malicious link check",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -16354,9 +16354,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free API key via email registration at api.joshuaproject.net. People groups, countries, languages data",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -16367,9 +16367,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free with Kaggle account. API key from account settings. Datasets, competitions, models access",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -16380,9 +16380,9 @@
     "https": true,
     "cors": "yes",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free plan: 60 req/hr, personal use only. URL metadata extraction. Signup at my.linkpreview.net",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -16422,9 +16422,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier for open/public data. Premium datasets require subscription. Signup at data.nasdaq.com",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -16522,9 +16522,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free gov API for federal recreation areas/facilities/campsites. Registration at ridb.recreation.gov",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -16664,9 +16664,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free plan: 100 lookups/day, 25 searches/day. Product barcode data. Signup at upcdatabase.org/signup",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -21032,9 +21032,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI free BASIC plan $0/mo. Multilingual sentiment, toxicity, emotion analysis. rapidapi.com/vintarok-vintarok-default/api/ai-text-moderation-toxicity-aspects-sentiment-analyzer",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -21045,9 +21045,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub/SharpAPI free Starter 5 calls/day, email signup at apyhub.com",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -21058,9 +21058,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub free Starter 5 calls/day, email signup at apyhub.com",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -21097,9 +21097,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "DNS resolution failure — chatpdf.so domain dead",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -21136,9 +21136,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub free Starter 5 calls/day, email signup at apyhub.com",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -21162,9 +21162,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub free Starter 5 calls/day, email signup at apyhub.com",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -21188,9 +21188,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub free Starter 5 calls/day, email signup at apyhub.com",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -21282,9 +21282,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub/SharpAPI free Starter 5 calls/day, email signup at apyhub.com",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
@@ -21295,9 +21295,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "RapidAPI returns 'API not found' — removed from marketplace",
+    "date-checked": "2026-02-11",
     "try-it": null
   },
   {
