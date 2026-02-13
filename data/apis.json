@@ -2153,9 +2153,9 @@
     "https": true,
     "cors": "unknown",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free developer account at developers.freelancer.com. OAuth required. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -2166,9 +2166,9 @@
     "https": true,
     "cors": "unknown",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free with Google Cloud account (generous daily quota). OAuth required. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -2179,9 +2179,9 @@
     "https": true,
     "cors": "unknown",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free with Google Cloud account. OAuth required. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -2309,9 +2309,9 @@
     "https": true,
     "cors": "no",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API docs live. Free trial provides API access. OAuth supported. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -2322,9 +2322,9 @@
     "https": true,
     "cors": "unknown",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free sandbox environment for testing. OAuth required. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -2426,9 +2426,9 @@
     "https": true,
     "cors": "unknown",
     "category": "business",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free Atlassian account provides API key and token access. OAuth supported. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -13121,9 +13121,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "OpenDataSoft platform, API v2 returns data (569 datasets). Free API key for higher rate limits. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -13192,9 +13192,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "code.gov and api.code.gov redirect to digital.gov policy page. API decommissioned. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -13234,9 +13234,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "api.data.gov active with free API key signup page. US government GSA service. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -13279,9 +13279,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API at search.dip.bundestag.de/api/v1 returns 401 requiring key. Free key available per bundestag.de docs. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -13334,9 +13334,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "OpenFEC API docs live. Uses free api.data.gov key. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -13376,9 +13376,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "thegazette.co.uk/data live. Open Government Licence, free registration. Developer docs at GitHub. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -13389,9 +13389,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Main site returns 503, /api endpoint stuck in infinite 303 redirect loop. API non-functional. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -13447,9 +13447,9 @@
     "https": true,
     "cors": "yes",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Developer Resources page live. Swagger API docs. Uses free api.data.gov key. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -13603,9 +13603,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "avaandmed.eesti.ee portal active. Estonian government open data with free API access and registration. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -13632,9 +13632,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "data.gouv.fr live. uData API returns JSON on GET. API key for write ops, free registration. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -13661,9 +13661,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "data.gov.gr live. API v1 with OAuth token auth. Free government platform, free token registration. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -13674,9 +13674,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Open Government Data Platform India live at data.gov.in. Swagger API docs. Free API key registration. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -13732,9 +13732,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Portal live at data.go.kr (Korean/English). Free government open data platform, requires API key signup. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -13758,9 +13758,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "data.public.lu live. uData API with Swagger UI. Free registration, API key for write ops. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -13823,9 +13823,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "api.nsw.gov.au live with API catalogue. Free Sign up/Register for API access. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -14065,9 +14065,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "data.go.th returns HTTP 403 Access Denied. Portal blocks external access, likely geoblocking or down. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -14171,9 +14171,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Developer Hub live. API key (HTTP basic auth) and OAuth 2.0. Free registration. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -14197,9 +14197,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "www.usa.gov/developer returns 404. api.usa.gov also 404. API service moved to api.data.gov but original URL dead. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -15422,9 +15422,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Docs redirect to docs.massivemusic.com (enterprise B2B sonic branding). 7digital merged with MassiveMusic, no public free developer tier. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -15448,9 +15448,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs live, OAuth 1.0a with consumer key/secret. Free account signup at audiomack.com/register. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -15461,9 +15461,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Developer page live, OAuth 2.0. Restricted to labels/merchandise partners, must email for access. Free for qualifying partners. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -15487,9 +15487,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Developers portal live. Free developer registration with Deezer account, OAuth required. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -15500,9 +15500,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API alive (welcome JSON with stats). Free developer account registration, OAuth 1.0a. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -15539,9 +15539,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API returns 401 requesting access_token. Free API client creation at genius.com/developers, OAuth. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -15584,9 +15584,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Developer docs live. OAuth2 + client_id auth. Free developer portal at devportal.jamendo.com. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -15616,9 +15616,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Developer portal live. Free developer access with OAuth. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -15687,9 +15687,9 @@
     "https": true,
     "cors": "yes",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API docs live, OAuth2. Free app creation, read endpoints work without auth but write requires token. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -15839,9 +15839,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Developer docs live, OAuth 2.1. Free app registration at soundcloud.com/you/apps. Rate limited 50 tokens/12h. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -15852,9 +15852,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs live at developer.spotify.com. Free developer dashboard, OAuth2. Active development. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16329,9 +16329,9 @@
     "https": true,
     "cors": "yes",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs live at blackhistoryapi.io. Requires Google sign-in for free API key. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16374,9 +16374,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Enterprise-only pricing (Enterprise/Strategic/Custom tiers). Only 14-day free trial, no permanent free tier. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16400,9 +16400,9 @@
     "https": true,
     "cors": "yes",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "GitHub API docs live. Water quality data platform. Free API key registration available. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16413,9 +16413,9 @@
     "https": true,
     "cors": "yes",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Enterprise B2B data product for U.S. business intelligence. No free tier advertised. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16442,9 +16442,9 @@
     "https": true,
     "cors": "yes",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Domain reliable.to hijacked by GoDaddy 'for sale' page. API is dead. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16455,9 +16455,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "German Federal Statistical Office. Free registration for API access to GENESIS-Online statistical data. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16468,9 +16468,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API docs live at api.joshuaproject.net. Free API key via registration. People groups, countries, languages data. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16481,9 +16481,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs live at kaggle.com/docs/api. Free Kaggle account required, API token from account settings. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16494,9 +16494,9 @@
     "https": true,
     "cors": "yes",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Site live at linkpreview.net. Free tier available with free API key sign-up. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16536,9 +16536,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs live (formerly Quandl). Free API key with access to free datasets. Premium datasets require paid subscription. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16597,9 +16597,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API docs live. Requires API key; accounts free for open data projects. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16623,9 +16623,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "dev.peakmetrics.com DNS failure. Enterprise-only platform (request a demo, contact sales). No public API or free tier. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16636,9 +16636,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RIDB at ridb.recreation.gov is live. API returns 401 without key. Free API keys available via recreation.gov registration. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16649,9 +16649,9 @@
     "https": false,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Developer page live at scoop.it/dev. Requires OAuth tokens. Free tier available. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16662,9 +16662,9 @@
     "https": true,
     "cors": "yes",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Open Data API live at dev.socrata.com (Tyler Technologies). Free app tokens available. Works without token at lower throttle. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16701,9 +16701,9 @@
     "https": true,
     "cors": "yes",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "DNS failure for api.coursecoupon.me. Domain no longer resolves. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16730,9 +16730,9 @@
     "https": true,
     "cors": "yes",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "DNS failure for unidb.app. Domain no longer resolves. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16778,9 +16778,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API docs live at upcdatabase.org/api. Free account registration with API access and rate limits. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16804,9 +16804,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "MediaWiki API live at wikidata.org/w/api.php. Read access works without auth; OAuth required for write operations. Free. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16833,9 +16833,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Yelp Fusion (Places API) active at docs.developer.yelp.com. Requires API key with free tier. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -19319,9 +19319,9 @@
     "https": true,
     "cors": "unknown",
     "category": "shopping",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free developer account at developer.digikey.com. OAuth required. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -19358,9 +19358,9 @@
     "https": true,
     "cors": "unknown",
     "category": "shopping",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free eBay Developers Program. OAuth required. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -19371,9 +19371,9 @@
     "https": true,
     "cors": "unknown",
     "category": "shopping",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free Etsy Open API v3 for developers. OAuth 2.0 required. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -19384,9 +19384,9 @@
     "https": true,
     "cors": "yes",
     "category": "shopping",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Seller API for marketplace partners. Free seller account (geo-restricted to India). Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -19465,9 +19465,9 @@
     "https": true,
     "cors": "unknown",
     "category": "shopping",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free API access with Printful account. OAuth required. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -19478,9 +19478,9 @@
     "https": true,
     "cors": "unknown",
     "category": "shopping",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free API with Printify account. Personal access tokens or OAuth 2.0. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -19491,9 +19491,9 @@
     "https": true,
     "cors": "unknown",
     "category": "shopping",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Developer portal live. Free partner registration. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -19530,9 +19530,9 @@
     "https": true,
     "cors": "unknown",
     "category": "shopping",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free Shopify Partner/Developer program. OAuth required. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -19543,9 +19543,9 @@
     "https": true,
     "cors": "unknown",
     "category": "shopping",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Redirects to TikTok Shop Partner Center (Tokopedia merged into TikTok Shop). Free partner registration. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20185,9 +20185,9 @@
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Highlightly API. Docs live. Free BASIC tier available via RapidAPI. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20198,9 +20198,9 @@
     "https": true,
     "cors": "yes",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs and site live. Free plan: 100 requests/day. Paid plans from $19/mo. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20211,9 +20211,9 @@
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Symptom checker API. Free Basic plan: 100 transactions/mo at EUR 0. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20237,9 +20237,9 @@
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Highlightly API. Docs live. Free BASIC tier available via RapidAPI. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20250,9 +20250,9 @@
     "https": true,
     "cors": "no",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "DNS failure for api.cfl.ca. Main site returns 404 for API. Shut down. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20279,9 +20279,9 @@
     "https": true,
     "cors": "yes",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Betting API with Swagger docs live. API key via free Cloudbet account. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20292,9 +20292,9 @@
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Site live with Swagger API docs. Requires API key via free registration. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20334,9 +20334,9 @@
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Developer portal live at dev.fitbit.com. Free OAuth registration available. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20347,9 +20347,9 @@
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "RapidAPI listing returns 404. API removed from RapidAPI marketplace. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20373,9 +20373,9 @@
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Highlightly API. Docs live. Free BASIC tier available via RapidAPI. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20402,9 +20402,9 @@
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Site live. Free plan (EUR 0) includes top competitions. Paid plans from EUR 12/mo. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20415,9 +20415,9 @@
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Highlightly API. Docs live. Free BASIC tier available via RapidAPI. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20428,9 +20428,9 @@
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Developer portal live at developer.jcdecaux.com. Free API key registration for bike-sharing data. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20454,9 +20454,9 @@
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI FREEMIUM. Basic plan: free, 100 req/day. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20541,9 +20541,9 @@
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI marketplace API. Freemium model with free tier. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20554,9 +20554,9 @@
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "sportdataapi.com returns 404 (Apache default page). SSL failure on app subdomain. Site is dead. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20567,9 +20567,9 @@
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Highlightly.net docs live. Free accounts available via Highlightly or RapidAPI. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20612,9 +20612,9 @@
     "https": true,
     "cors": "yes",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "DNS failure for developers.decathlon.com. Could not resolve host. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20625,9 +20625,9 @@
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs on GitBook. Free tier available in pricing plans. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20638,9 +20638,9 @@
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs live. Free API Plan confirmed, no credit card required. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20667,9 +20667,9 @@
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "developers.strava.com live. Free OAuth2 API registration for developers. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20693,9 +20693,9 @@
     "https": true,
     "cors": "yes",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free Sports API confirmed. Free tier available, $9/mo for production key. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20706,9 +20706,9 @@
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "OAuth2 docs live. Free registration and API access available. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20719,9 +20719,9 @@
     "https": true,
     "cors": "unknown",
     "category": "sports-fitness",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "REST API live at wger.de/api/v2/. Open-source fitness API. API key for authenticated endpoints. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -21176,9 +21176,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI FREEMIUM. Free BASIC plan: 30 req/month, $0. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -21189,9 +21189,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub free tier available. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -21202,9 +21202,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub free tier available. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -21215,9 +21215,9 @@
     "https": true,
     "cors": "unknown",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "apilayer freemium model, free plan available with signup. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -21241,9 +21241,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "chatpdf.so DNS resolves but server returns empty reply (HTTP/1.1) or PROTOCOL_ERROR (HTTP/2) on all paths. Site non-functional. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -21267,9 +21267,9 @@
     "https": true,
     "cors": "unknown",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Plans start at $19.99/mo (Basic, 1K credits). 14-day free trial only, no permanent free tier. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -21280,9 +21280,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub free tier available. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -21306,9 +21306,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub free tier available. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -21332,9 +21332,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub free tier available. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -21426,9 +21426,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub free tier available. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -21439,9 +21439,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "RapidAPI returns 'API not found' — delisted from marketplace. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -21452,9 +21452,9 @@
     "https": true,
     "cors": "unknown",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Paid SaaS text analytics by Lexalytics. Contact sales required. No free tier. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -21478,9 +21478,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free/Community plan with 50K requests. Developer portal at dev.tisane.ai. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -21491,9 +21491,9 @@
     "https": true,
     "cors": "unknown",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "IBM Cloud Lite (free) plan available. Free IBM Cloud account with NLU access. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
