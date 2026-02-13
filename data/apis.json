@@ -385,10 +385,13 @@
     "https": true,
     "cors": "unknown",
     "category": "animals",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /rest/AphiaRecordsByName/{name}?like=true returns JSON array of marine species taxonomy records. Rich data: classifications, citations, LSIDs. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
+    "try-it": {
+      "url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Delphinidae?like=true",
+      "response-type": "json"
+    }
   },
   {
     "name": "xeno-canto",
@@ -728,9 +731,9 @@
     "https": true,
     "cors": "yes",
     "category": "anime",
-    "status": "needs-key",
-    "notes": "Free token via Discord bot 'Kohai' (/token command). Docs at docs.waifu.it. Anime image/quote API",
-    "date-checked": "2026-02-10",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -757,9 +760,9 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "needs-key",
-    "notes": "Free tier 1K check req/day, 100 reports/day, 5 blacklist/day. Email signup at abuseipdb.com.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -770,9 +773,9 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "needs-key",
-    "notes": "Free community threat intel platform by LevelBlue (AT&T). Email signup at otx.alienvault.com.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -783,9 +786,9 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "needs-key",
-    "notes": "Open-source Cuckoo fork. Free signup at capesandbox.com. Token auth, default 5 req/min.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -796,9 +799,9 @@
     "https": true,
     "cors": "yes",
     "category": "anti-malware",
-    "status": "needs-key",
-    "notes": "Fraud prevention/data verification. Free tier available. Email signup at dymo.tpeoficial.com.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -809,10 +812,13 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /v1/domains returns JSON array of known malicious domains (phishing, scam). No auth needed. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
+    "try-it": {
+      "url": "https://api.fishfish.gg/v1/domains",
+      "response-type": "json"
+    }
   },
   {
     "name": "Google Safe Browsing",
@@ -822,9 +828,9 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "needs-key",
-    "notes": "Free for non-commercial use. Google Cloud Console API key. No credit card for basic usage.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -835,9 +841,9 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "needs-key",
-    "notes": "Free for non-commercial use. API key via registration. Daily feed updated at 1:00 UTC.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -848,9 +854,9 @@
     "https": true,
     "cors": "no",
     "category": "anti-malware",
-    "status": "needs-key",
-    "notes": "Free malware sample sharing. 2000 API calls/day. Email signup at malshare.com/register.php.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -861,9 +867,9 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "needs-key",
-    "notes": "Free community API from abuse.ch. Auth-Key via auth.abuse.ch. Free under fair use.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -874,9 +880,9 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "needs-key",
-    "notes": "URL security/phishing protection. Free Link Verifier API. Email signup at developer.metacert.com.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -887,9 +893,9 @@
     "https": true,
     "cors": "yes",
     "category": "anti-malware",
-    "status": "broken",
-    "notes": "RapidAPI page returns Page Not Found. API removed from marketplace.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -900,9 +906,9 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "needs-key",
-    "notes": "Discord-focused phishing detection. Free API for Discord bots. Signup at phisherman.gg.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -913,9 +919,9 @@
     "https": true,
     "cors": "yes",
     "category": "anti-malware",
-    "status": "paid-only",
-    "notes": "Content scanning API. Starts $49/mo for 1K files. Free trial credits (no CC) but no permanent free tier.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -939,9 +945,9 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "needs-key",
-    "notes": "Free tier with email signup at urlscan.io/user/signup/. Rate-limited quotas per user.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -952,9 +958,9 @@
     "https": true,
     "cors": "yes",
     "category": "anti-malware",
-    "status": "paid-only",
-    "notes": "Starts $39/mo for 1K scans. Free trial only at ionxsolutions.com. No permanent free tier.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -965,9 +971,9 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "needs-key",
-    "notes": "Free public API: 4 req/min, 500/day, 15.5K/mo. Community signup at virustotal.com. Non-commercial.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -978,9 +984,9 @@
     "https": true,
     "cors": "unknown",
     "category": "anti-malware",
-    "status": "paid-only",
-    "notes": "Starts $39/mo for 10K calls. 14-day free trial only at mywot.com. No permanent free tier.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -1020,9 +1026,9 @@
     "https": true,
     "cors": "yes",
     "category": "art-design",
-    "status": "needs-key",
-    "notes": "Free tier: $0/mo, 50 req/day, backlink required. Signup at artsearch.io/console. Visual art search",
-    "date-checked": "2026-02-10",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -1265,9 +1271,9 @@
     "https": true,
     "cors": "yes",
     "category": "art-design",
-    "status": "broken",
-    "notes": "Domain redirects to orshot.com (rebranded). Original Pika image generation API no longer exists at pika.style",
-    "date-checked": "2026-02-10",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -1359,9 +1365,9 @@
     "https": true,
     "cors": "yes",
     "category": "authentication-authorization",
-    "status": "needs-key",
-    "notes": "Free Hobby tier: 50,000 monthly active users, unlimited apps, no credit card required. Signup at dashboard.clerk.com",
-    "date-checked": "2026-02-10",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -1372,9 +1378,9 @@
     "https": true,
     "cors": "yes",
     "category": "authentication-authorization",
-    "status": "needs-key",
-    "notes": "Known passkey auth platform with free developer tier. Website unreachable during automated testing (likely blocks bots). Signup at corbado.com",
-    "date-checked": "2026-02-10",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -1490,8 +1496,8 @@
     "cors": "yes",
     "category": "blockchain",
     "status": "needs-key",
-    "notes": "BSC blockchain explorer, Etherscan family. Free API key with 5 calls/sec rate limit. Email signup at bscscan.com. Redirects to etherscan.io/apis.",
-    "date-checked": "2026-02-11",
+    "notes": "Free registration at bscscan.com/register. V1 API deprecated (migrate to Etherscan V2), but legacy keys may still work. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -1555,8 +1561,8 @@
     "cors": "unknown",
     "category": "blockchain",
     "status": "needs-key",
-    "notes": "Free tier: $0/month, 50K Compute Units, 20 RPS, 2 Access Tokens. Paid starts $49/mo. 100+ blockchain protocols supported. Signup at account.getblock.io.",
-    "date-checked": "2026-02-11",
+    "notes": "Free shared plan available (worth $49). Signup at account.getblock.io. Paid from $10/mo. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -1581,8 +1587,8 @@
     "cors": "yes",
     "category": "blockchain",
     "status": "needs-key",
-    "notes": "Blockchain token/record API on Arbitrum Nova. API keys generated in Layer4 web app. Some endpoints use credits. No explicit free tier pricing shown on docs page.",
-    "date-checked": "2026-02-11",
+    "notes": "Free tier with 5000 testnet credits. Paid from $0.02/credit. No-code blockchain platform. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -1726,9 +1732,9 @@
     "https": true,
     "cors": "yes",
     "category": "books",
-    "status": "needs-key",
-    "notes": "Free tier: $0/mo, 50 req/day, non-commercial only. Signup at apileague.com. Books search/covers/similar",
-    "date-checked": "2026-02-10",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -2058,9 +2064,9 @@
     "https": true,
     "cors": "no",
     "category": "business",
-    "status": "needs-key",
-    "notes": "Iranian cloud provider with CDN/cloud/DNS/video APIs. Docs page returned JS challenge/redirect — could not fetch full content. Known cloud infra provider requiring API keys.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -2097,9 +2103,9 @@
     "https": true,
     "cors": "yes",
     "category": "business",
-    "status": "needs-key",
-    "notes": "Company data enrichment API. 'Start for free' at app.companyenrich.com. 30M+ companies, 300+ data points. Free tier available.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -2175,9 +2181,9 @@
     "https": true,
     "cors": "yes",
     "category": "business",
-    "status": "needs-key",
-    "notes": "Company logo API. Free Community plan: 500K req/mo with attribution required. Paid Startup $400/yr removes attribution (1M req/mo). Trusted by 30K+ teams.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -2188,9 +2194,9 @@
     "https": true,
     "cors": "unknown",
     "category": "business",
-    "status": "needs-key",
-    "notes": "Logo API for brands, stocks, ETFs. Docs at docs.logokit.com. Logo API + Brand API endpoints. Requires authentication. Clearbit alternative.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -2240,9 +2246,9 @@
     "https": true,
     "cors": "yes",
     "category": "business",
-    "status": "needs-key",
-    "notes": "Email finder & verifier API. Bearer token auth. Credit-based system — 1 finder credit per verified email found. API key at nioleads.com/dashboard/integrations.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -2464,10 +2470,13 @@
     "https": true,
     "cors": "yes",
     "category": "calendar",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Free REST API for time/date calculations. OpenAPI spec at digidates.de/en/docs/openapi.yaml. Endpoints: /unixtime, /week, /leapyear, /weekday, /co2/{year}, /countdown/{date}, /age/{date}, /germanpublicholidays. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
+    "try-it": {
+      "url": "https://digidates.de/api/v1/unixtime",
+      "response-type": "json"
+    }
   },
   {
     "name": "Festivo Public Holidays",
@@ -2490,9 +2499,9 @@
     "https": true,
     "cors": "yes",
     "category": "calendar",
-    "status": "needs-key",
-    "notes": "ApyHub utility. Free tier: $0/mo, 5 API calls/day. Signup at apyhub.com. Generates iCal files from event data",
-    "date-checked": "2026-02-10",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -2620,10 +2629,13 @@
     "https": true,
     "cors": "yes",
     "category": "calendar",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Open REST API for public/school holidays. Supports DE, AT, CH, FR, and more (not US). GET /PublicHolidays with countryIsoCode, validFrom, validTo. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
+    "try-it": {
+      "url": "https://openholidaysapi.org/PublicHolidays?countryIsoCode=DE&languageIsoCode=EN&validFrom=2026-01-01&validTo=2026-03-31",
+      "response-type": "json"
+    }
   },
   {
     "name": "Public Holidays",
@@ -2727,9 +2739,9 @@
     "https": false,
     "cors": "unknown",
     "category": "cloud-storage-file-sharing",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Not a REST API. Delta Lake is a Spark/JVM storage library. The URL points to Scala/Java API docs (Javadoc), not a web service endpoint. No HTTP API exists. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -2779,9 +2791,9 @@
     "https": true,
     "cors": "yes",
     "category": "cloud-storage-file-sharing",
-    "status": "needs-key",
-    "notes": "S3-compatible object storage. Free account signup. Pay-per-use pricing (€0.04/GB). No free storage tier but free account creation at auth.gcore.com",
-    "date-checked": "2026-02-10",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -2909,9 +2921,9 @@
     "https": true,
     "cors": "yes",
     "category": "cloud-storage-file-sharing",
-    "status": "paid-only",
-    "notes": "14-day free trial (100 GB) only, then paid plans from €10/mo. No ongoing free tier for API access",
-    "date-checked": "2026-02-10",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -4005,9 +4017,9 @@
     "https": true,
     "cors": "yes",
     "category": "currency-exchange",
-    "status": "needs-key",
-    "notes": "ApyHub utility. Free tier: $0/mo, 5 API calls/day. Signup at apyhub.com. Currency conversion to multiple targets",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -4034,9 +4046,9 @@
     "https": true,
     "cors": "yes",
     "category": "currency-exchange",
-    "status": "needs-key",
-    "notes": "EverAPI family. Free tier: 300 req/month, no CC required. 150+ currencies, minutely updates. Signup at app.currencyapi.com/register",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -4186,9 +4198,9 @@
     "https": true,
     "cors": "yes",
     "category": "currency-exchange",
-    "status": "needs-key",
-    "notes": "Free tier: $0/mo, 5000 req/month, 160+ currencies, daily updates, 30-day historical. No CC. Signup at fxfeed.io/login/signup",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -4199,9 +4211,9 @@
     "https": true,
     "cors": "no",
     "category": "currency-exchange",
-    "status": "needs-key",
-    "notes": "Free tier: $0/mo, 1000 req/month, 3 endpoints, hourly updates. No CC required. Signup at fxratesapi.com/auth/signup",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -4212,9 +4224,9 @@
     "https": true,
     "cors": "yes",
     "category": "currency-exchange",
-    "status": "broken",
-    "notes": "fygraph.com failed to load content — appears to be JS-only SPA or dead site. No accessible docs or pricing info",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -4225,9 +4237,9 @@
     "https": true,
     "cors": "yes",
     "category": "currency-exchange",
-    "status": "needs-key",
-    "notes": "Free plan: 10 req/day, no CC required. Currency exchange rates. Signup at manyapis.com/signup",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -4238,9 +4250,9 @@
     "https": true,
     "cors": "unknown",
     "category": "currency-exchange",
-    "status": "needs-key",
-    "notes": "Free tier: $0/mo, 100 req/month, daily updates, no CC. Precious metals + 150+ forex currencies. Signup at metalpriceapi.com/register",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -4267,9 +4279,9 @@
     "https": true,
     "cors": "yes",
     "category": "currency-exchange",
-    "status": "needs-key",
-    "notes": "Free tier: $0/mo, 300 req/month, 1 req/sec, current rates only. Reserve Bank of Australia data. Signup at app.exchangeratesapi.com.au",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -4280,9 +4292,9 @@
     "https": true,
     "cors": "yes",
     "category": "currency-exchange",
-    "status": "needs-key",
-    "notes": "Free tier: $0/mo, 200 req/day, 593 currencies. No CC required. Signup at unirateapi.com/register",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -4309,10 +4321,13 @@
     "https": true,
     "cors": "unknown",
     "category": "data-validation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "French government address geocoding API. GET /search/?q={query}&limit=N returns GeoJSON FeatureCollection with coordinates, postal codes, city names. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
+    "try-it": {
+      "url": "https://api-adresse.data.gouv.fr/search/?q=Paris&limit=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "Brevo Suit",
@@ -4323,8 +4338,8 @@
     "cors": "yes",
     "category": "data-validation",
     "status": "needs-key",
-    "notes": "Brevo (ex-Sendinblue) CRM suite. Free plan: 300 emails/day, API access for contacts/email/SMS. Signup at app.brevo.com",
-    "date-checked": "2026-02-11",
+    "notes": "Brevo (ex-Sendinblue) developer API. Free plan: 300 emails/day. Key at app.brevo.com/settings/keys. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -4349,8 +4364,8 @@
     "cors": "unknown",
     "category": "data-validation",
     "status": "needs-key",
-    "notes": "Free BASIC plan: $0/mo, 200 charity checks/month, no CC required. IRS/PUB78/BMF/OFAC data. Signup at pactman.org/register-developer",
-    "date-checked": "2026-02-11",
+    "notes": "Angular SPA at pactman.org. API requires key, signup exists. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -4433,8 +4448,8 @@
     "cors": "yes",
     "category": "data-validation",
     "status": "needs-key",
-    "notes": "ApyHub utility. Free tier: $0/mo, 5 API calls/day. UK postcode validation. Signup at apyhub.com",
-    "date-checked": "2026-02-11",
+    "notes": "ApyHub platform. Free signup at apyhub.com/auth/signup. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -4446,8 +4461,8 @@
     "cors": "yes",
     "category": "data-validation",
     "status": "needs-key",
-    "notes": "EverAPI family. Free tier: 100 req/month. EU VAT number validation and lookup. Signup at app.vatcheckapi.com/register",
-    "date-checked": "2026-02-11",
+    "notes": "VAT validation API. Free plan: $0/mo. Paid from $9.99/mo. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -4603,9 +4618,9 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "needs-key",
-    "notes": "5 calls/day free tier. E-commerce catalog includes currency conversion, barcode/QR generation, product AI tools. Uses 'Atoms' credit system. Assessed in prior sessions — same free tier pattern.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -7683,9 +7698,9 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "needs-key",
-    "notes": "ApyHub free Starter 5 calls/day, email signup at apyhub.com",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -7764,9 +7779,9 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "needs-key",
-    "notes": "EverAPI family. Free plan 100 credits/mo, email signup at app.emailvalidation.io/register",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -7777,9 +7792,9 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "broken",
-    "notes": "DNS resolution failure — enveloop.com domain dead",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -7845,9 +7860,9 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "needs-key",
-    "notes": "Free plan: unlimited contacts, 2K emails/mo, no CC. Signup at app.indiepitcher.com",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -7948,9 +7963,9 @@
     "https": true,
     "cors": "unknown",
     "category": "email",
-    "status": "needs-key",
-    "notes": "Free Hobby plan: 100 verifications/mo, email signup at noparam.com/register",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -7961,9 +7976,9 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "needs-key",
-    "notes": "SMS/messaging API. Key from dashboard.notilify.com. OTP, messaging, verification endpoints",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -7974,9 +7989,9 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "needs-key",
-    "notes": "Free plan 10 credits first month. WhatsApp/email checker API. Signup at proweblook.com/auth/signup",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -7987,9 +8002,9 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "needs-key",
-    "notes": "Free plan: 3K emails/mo, 100/day, 1 domain, no CC. Signup at resend.com/signup",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -8026,9 +8041,9 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "paid-only",
-    "notes": "European email/SMS platform. Pricing page redirects to sales booking (cal.com), no visible free tier",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -8039,9 +8054,9 @@
     "https": true,
     "cors": "no",
     "category": "email",
-    "status": "needs-key",
-    "notes": "Free plan: 250 checks/mo. Disposable email detection API. sweepemails.com",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -8052,9 +8067,9 @@
     "https": true,
     "cors": "yes",
     "category": "email",
-    "status": "needs-key",
-    "notes": "ApyHub/Boomlify free Starter 5 calls/day, email signup at apyhub.com",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -8065,9 +8080,9 @@
     "https": true,
     "cors": "no",
     "category": "email",
-    "status": "needs-key",
-    "notes": "Basic plan free, no CC required. Fraud/bot detection, email intelligence. Signup at app.trueguard.io",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -8091,9 +8106,9 @@
     "https": true,
     "cors": "unknown",
     "category": "email",
-    "status": "needs-key",
-    "notes": "Private temp email API for devs/QA. Unlimited mailboxes. Signup at app.zyntra.app",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -8136,10 +8151,13 @@
     "https": true,
     "cors": "unknown",
     "category": "entertainment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /api returns random Elon Musk news as JSON with title/description/url/image. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
+    "try-it": {
+      "url": "https://elonmu.sh/api",
+      "response-type": "json"
+    }
   },
   {
     "name": "Excuser",
@@ -8191,10 +8209,13 @@
     "https": true,
     "cors": "unknown",
     "category": "entertainment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /whoas/random returns JSON with movie/timestamp/quote data for Keanu whoa moments. Render free tier alive. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
+    "try-it": {
+      "url": "https://whoa.onrender.com/whoas/random",
+      "response-type": "json"
+    }
   },
   {
     "name": "Meme Maker",
@@ -8220,9 +8241,9 @@
     "https": true,
     "cors": "yes",
     "category": "entertainment",
-    "status": "needs-key",
-    "notes": "RapidAPI. BASIC plan $0/mo, free for personal/non-commercial use. AI-generated horoscopes in multiple languages",
-    "date-checked": "2026-02-10",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -8246,10 +8267,13 @@
     "https": true,
     "cors": "unknown",
     "category": "entertainment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /random_joke returns JSON joke with setup/punchline. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
+    "try-it": {
+      "url": "https://official-joke-api.appspot.com/random_joke",
+      "response-type": "json"
+    }
   },
   {
     "name": "Random Dad Joke",
@@ -8259,10 +8283,13 @@
     "https": true,
     "cors": "unknown",
     "category": "entertainment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET / with Accept: application/json returns JSON joke. Returns plain text without header. icanhazdadjoke.com. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
+    "try-it": {
+      "url": "https://icanhazdadjoke.com/",
+      "response-type": "text"
+    }
   },
   {
     "name": "Random Useless Facts",
@@ -8304,9 +8331,9 @@
     "https": true,
     "cors": "yes",
     "category": "entertainment",
-    "status": "needs-key",
-    "notes": "RapidAPI. BASIC plan $0/mo, free for personal/educational use. Random fun facts",
-    "date-checked": "2026-02-10",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -8330,9 +8357,9 @@
     "https": true,
     "cors": "yes",
     "category": "environment",
-    "status": "needs-key",
-    "notes": "Free plan: $0/mo, 50 API calls/mo, sandbox access, no credit card. Carbon offset and environmental impact API",
-    "date-checked": "2026-02-10",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -8566,9 +8593,9 @@
     "https": true,
     "cors": "unknown",
     "category": "environment",
-    "status": "needs-key",
-    "notes": "Open data API, free self-registration. Launching new portal with no registration needed. 5 req/sec rate limit",
-    "date-checked": "2026-02-10",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -8595,9 +8622,9 @@
     "https": true,
     "cors": "yes",
     "category": "environment",
-    "status": "needs-key",
-    "notes": "Free developer account, signup at wattbuy.readme.io. Energy rates and utility data API",
-    "date-checked": "2026-02-10",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -9590,9 +9617,9 @@
     "https": true,
     "cors": "yes",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Hosted on Render free tier (jellybellywikiapi.onrender.com). Timeout on all endpoints even after 60s. Cold start never completes — effectively dead. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -9616,9 +9643,9 @@
     "https": true,
     "cors": "unknown",
     "category": "food-drink",
-    "status": "working",
-    "notes": "lcbo.dev — No auth required despite listing api-key. GraphQL API, 60 req/min, no signup needed. POST-only GraphQL so no try-it config",
-    "date-checked": "2026-02-10",
+    "status": "pending",
+    "notes": "URL updated from public-apis-2 (was broken). Previous: Hosted API shut down. Code open-sourced on GitHub (heycarsten/lcbo-api). No replacement service",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -9661,9 +9688,9 @@
     "https": true,
     "cors": "unknown",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "URL updated from public-apis-2 (was broken). Previous: Service appears to be down - failed to connect to API endpoint",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Both punkapi.online and api.punkapi.com have DNS resolution failure. GitHub mirror exists (alxiw/punkapi) but no live API. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -9700,10 +9727,13 @@
     "https": true,
     "cors": "unknown",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Returns pizza-themed PNG images for HTTP status codes. GET /{code} returns image/png (e.g. /200, /404, /418). ~100KB per image. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
+    "try-it": {
+      "url": "https://status.pizza/200",
+      "response-type": "image"
+    }
   },
   {
     "name": "Systembolaget",
@@ -13019,9 +13049,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "needs-key",
-    "notes": "Free open data portal (OpenDataSoft platform). Account registration at data.nantesmetropole.fr.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -13090,9 +13120,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "broken",
-    "notes": "code.gov redirects to digital.gov. Federal source code service sunset by GSA.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -13132,9 +13162,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "needs-key",
-    "notes": "Free US government API gateway by GSA. API key via signup at api.data.gov. 25+ agencies, 450+ APIs.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -13174,9 +13204,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "needs-key",
-    "notes": "Free German parliament data API. API key from DIP documentation at dip.bundestag.de.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -13229,9 +13259,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "needs-key",
-    "notes": "Free US Federal Election Commission API. Key via signup at api.open.fec.gov. 1K calls/hr.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -13284,9 +13314,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "needs-key",
-    "notes": "University of Sydney gun law database API. Free access. Docs at gunpolicy.org/api.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -13342,9 +13372,9 @@
     "https": true,
     "cors": "yes",
     "category": "government",
-    "status": "needs-key",
-    "notes": "Free US government API. Email signup at nps.gov/subjects/developer/. Parks, alerts, events data.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -13498,9 +13528,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "needs-key",
-    "notes": "Free Estonian open data portal. API at avaandmed.eesti.ee. Registration for API key.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -13527,9 +13557,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "needs-key",
-    "notes": "Free French open data API. Account at data.gouv.fr. 74K datasets. Open Licence 2.0.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -13569,9 +13599,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "needs-key",
-    "notes": "Free Indian government open data portal. Registration at data.gov.in. 236K+ APIs available.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -13627,9 +13657,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "needs-key",
-    "notes": "Free Korean government open data portal. Registration at data.go.kr. 11K+ Open APIs.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -13653,9 +13683,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "needs-key",
-    "notes": "Free Luxembourg open data portal. Account at data.public.lu. CC0 licensed. API reference available.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -13718,9 +13748,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "needs-key",
-    "notes": "Free NSW government API portal. Registration at api.nsw.gov.au. Fuel, security, trades APIs.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -13960,9 +13990,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "needs-key",
-    "notes": "Free Thai government open data portal at data.go.th. API with registration.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -14092,9 +14122,9 @@
     "https": true,
     "cors": "unknown",
     "category": "government",
-    "status": "broken",
-    "notes": "usa.gov/developer returns 404. Developer API appears discontinued.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -14612,9 +14642,9 @@
     "https": true,
     "cors": "yes",
     "category": "jobs",
-    "status": "needs-key",
-    "notes": "SharpAPI via ApyHub. 1K atoms per call. Free tier via ApyHub signup at apyhub.com.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -14638,9 +14668,9 @@
     "https": true,
     "cors": "yes",
     "category": "jobs",
-    "status": "needs-key",
-    "notes": "Job posting API via RapidAPI. ATS/career site jobs: $1-$9/1K jobs. LinkedIn jobs: $0.75-$4.50/1K. Free internships API & Y Combinator jobs API available. 175K+ employer career sites.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -14677,9 +14707,9 @@
     "https": true,
     "cors": "unknown",
     "category": "jobs",
-    "status": "paid-only",
-    "notes": "Starts at $485/mo (no free tier). Pro $745/mo, Pro+ $925/mo, Ultra $1650/mo. 34M+ total jobs. Can explore rate-limited endpoints publicly before subscribing.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -14690,9 +14720,9 @@
     "https": true,
     "cors": "unknown",
     "category": "jobs",
-    "status": "working",
-    "notes": "Free public API for remote jobs. No auth required. Endpoint: jobicy.com/api/v2/remote-jobs. JSON format with optional filters (geo, industry, tag, count). RSS feed also available.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -14742,9 +14772,9 @@
     "https": true,
     "cors": "unknown",
     "category": "jobs",
-    "status": "broken",
-    "notes": "Could not fetch content from okjob.io/api — page returned error. Site may be down or deprecated.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -14781,9 +14811,9 @@
     "https": true,
     "cors": "unknown",
     "category": "jobs",
-    "status": "needs-key",
-    "notes": "Free tier 1000 jobs via RapidAPI. $1/1000 after. Email signup through RapidAPI.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -14807,9 +14837,9 @@
     "https": true,
     "cors": "unknown",
     "category": "jobs",
-    "status": "needs-key",
-    "notes": "Free 200 API credits/mo (200 jobs). Email signup at app.theirstack.com/signup. Paid from $59/mo.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -15028,9 +15058,9 @@
     "https": false,
     "cors": "unknown",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Not a REST API. Client-side JavaScript library for face detection using TensorFlow.js. GitHub repo only, no web service endpoint. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -15547,10 +15577,13 @@
     "https": true,
     "cors": "yes",
     "category": "music",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /api/search?q={query} returns JSON array of song lyrics (plain + synced LRC format). No auth needed. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
+    "try-it": {
+      "url": "https://lrclib.net/api/search?q=bohemian+rhapsody",
+      "response-type": "json"
+    }
   },
   {
     "name": "Lyrics.ovh",
@@ -15589,9 +15622,9 @@
     "https": true,
     "cors": "unknown",
     "category": "music",
-    "status": "paid-only",
-    "notes": "Plans start at $49/mo (Trial tier). No free API tier available. AI music generation",
-    "date-checked": "2026-02-10",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -16082,9 +16115,9 @@
     "https": true,
     "cors": "unknown",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Not a REST API. Python library (pip package) for scraping Substack newsletters. GitHub repo only, no web service endpoint. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16215,9 +16248,9 @@
     "https": true,
     "cors": "yes",
     "category": "open-data",
-    "status": "needs-key",
-    "notes": "Free API key via signup form at blackhistoryapi.io. Random facts, search, metadata endpoints",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -16328,9 +16361,9 @@
     "https": true,
     "cors": "yes",
     "category": "open-data",
-    "status": "needs-key",
-    "notes": "ApyHub free Starter 5 calls/day, email signup at apyhub.com. URL metadata + malicious link check",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -16354,9 +16387,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "needs-key",
-    "notes": "Free API key via email registration at api.joshuaproject.net. People groups, countries, languages data",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -16367,9 +16400,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "needs-key",
-    "notes": "Free with Kaggle account. API key from account settings. Datasets, competitions, models access",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -16380,9 +16413,9 @@
     "https": true,
     "cors": "yes",
     "category": "open-data",
-    "status": "needs-key",
-    "notes": "Free plan: 60 req/hr, personal use only. URL metadata extraction. Signup at my.linkpreview.net",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -16422,9 +16455,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "needs-key",
-    "notes": "Free tier for open/public data. Premium datasets require subscription. Signup at data.nasdaq.com",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -16522,9 +16555,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "needs-key",
-    "notes": "Free gov API for federal recreation areas/facilities/campsites. Registration at ridb.recreation.gov",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -16664,9 +16697,9 @@
     "https": true,
     "cors": "unknown",
     "category": "open-data",
-    "status": "needs-key",
-    "notes": "Free plan: 100 lookups/day, 25 searches/day. Product barcode data. Signup at upcdatabase.org/signup",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -17082,10 +17115,13 @@
     "https": true,
     "cors": "unknown",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /api/jokes/random returns JSON joke with setup/punchline. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
+    "try-it": {
+      "url": "https://jokefather.com/api/jokes/random",
+      "response-type": "json"
+    }
   },
   {
     "name": "kanye.rest",
@@ -17111,10 +17147,13 @@
     "https": true,
     "cors": "yes",
     "category": "personality",
-    "status": "pending",
-    "notes": "URL updated from public-apis-2 (was broken). Previous: Heroku app (kimiquotes.herokuapp.com). Heroku free tier ended Nov 2022. Tested 2026-02-08.",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "GET /api/quote returns random Kimi Raikkonen quote as JSON. Cloudflare Pages hosted. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
+    "try-it": {
+      "url": "https://kimiquotes.pages.dev/api/quote",
+      "response-type": "json"
+    }
   },
   {
     "name": "Medium",
@@ -17221,9 +17260,9 @@
     "https": true,
     "cors": "no",
     "category": "personality",
-    "status": "paid-only",
-    "notes": "Free plan is chatbot-only (no API access). API access starts at Gold tier ($99/mo). Token via email request",
-    "date-checked": "2026-02-10",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -17364,8 +17403,8 @@
     "cors": "yes",
     "category": "phone",
     "status": "needs-key",
-    "notes": "EverAPI family. Free tier: 100 req/month. Phone validation for 230+ countries. Signup at app.numlookupapi.com/register",
-    "date-checked": "2026-02-11",
+    "notes": "Free plan: 100 requests/mo. Paid from $9.99/mo. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -17406,8 +17445,8 @@
     "cors": "yes",
     "category": "phone",
     "status": "needs-key",
-    "notes": "Free credits on signup. Paid plans from $9.99/mo (2000 req). Phone number validation API. Signup at proweblook.com/auth/signup",
-    "date-checked": "2026-02-11",
+    "notes": "Free tier available. API at api.proweblook.com. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -17419,8 +17458,8 @@
     "cors": "yes",
     "category": "phone",
     "status": "needs-key",
-    "notes": "Free plan: $0, 10 credits first month. WhatsApp number validation. Signup at proweblook.com/auth/signup",
-    "date-checked": "2026-02-11",
+    "notes": "Same Proweblook platform, free tier available. API at api.proweblook.com. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -17899,9 +17938,12 @@
     "cors": "unknown",
     "category": "podcasts",
     "status": "working",
-    "notes": "Apple's public podcast search API. No auth required. Endpoint: itunes.apple.com/search?media=podcast&term=... Same underlying API as iTunes Search (music) which is already working.",
-    "date-checked": "2026-02-11",
-    "try-it": null
+    "notes": "Apple iTunes Search API for podcasts. GET /search?term={query}&media=podcast&limit=N returns JSON with podcast metadata (feed URLs, artwork, genres). Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
+    "try-it": {
+      "url": "https://itunes.apple.com/search?term=podcast&media=podcast&limit=3",
+      "response-type": "json"
+    }
   },
   {
     "name": "PodcastIndex",
@@ -17912,8 +17954,8 @@
     "cors": "unknown",
     "category": "podcasts",
     "status": "needs-key",
-    "notes": "Free API key via email signup at api.podcastindex.org. Open-source project. Uses Amazon-style auth headers (X-Auth-Key + SHA-1 hash). Comprehensive podcast search/episode API.",
-    "date-checked": "2026-02-11",
+    "notes": "Free API key via email signup at api.podcastindex.org. Well-documented OpenAPI spec. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -17925,8 +17967,8 @@
     "cors": "yes",
     "category": "podcasts",
     "status": "needs-key",
-    "notes": "Free signup at taddy.org/signup/developers. GraphQL API for 4M+ podcasts, 200M episodes, transcripts. 'Sign Up for Free' prominent.",
-    "date-checked": "2026-02-11",
+    "notes": "Free developer signup at taddy.org/signup/developers. GraphQL API at api.taddy.org. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -18099,10 +18141,13 @@
     "https": true,
     "cors": "yes",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Space facts and images API. api.bootprint.space/all/earth returns JSON with random fact and CDN image URL. Only 'earth' object works reliably; other planets return 500. Docs at bootprint.space/endpoints. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
+    "try-it": {
+      "url": "https://api.bootprint.space/all/earth",
+      "response-type": "json"
+    }
   },
   {
     "name": "CORE",
@@ -18205,10 +18250,13 @@
     "https": true,
     "cors": "yes",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Backend at services.isrostats.in. GET /api/launches returns JSON array of ISRO missions with name, date, vehicle, payload, status. Also /api/spacecraft. Frontend SPA at isrostats.in. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
+    "try-it": {
+      "url": "https://services.isrostats.in/api/launches",
+      "response-type": "json"
+    }
   },
   {
     "name": "ITIS",
@@ -18444,9 +18492,9 @@
     "https": true,
     "cors": "yes",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "sat.terrestre.ar unresponsive — timeout on all endpoints (root and /api) even at 20s. Server not responding. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -19171,9 +19219,9 @@
     "https": true,
     "cors": "unknown",
     "category": "shopping",
-    "status": "needs-key",
-    "notes": "Amazon product data API. Free Hobby tier: 100 requests/month forever, no additional charges. Pay-as-you-go: $0.01/request. Signup at canopyapi.co.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -19210,9 +19258,9 @@
     "https": true,
     "cors": "yes",
     "category": "shopping",
-    "status": "needs-key",
-    "notes": "ApyHub platform. Free tier 5 calls/day. Email signup at apyhub.com.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -19314,9 +19362,9 @@
     "https": true,
     "cors": "unknown",
     "category": "shopping",
-    "status": "working",
-    "notes": "Free fake e-commerce API. No auth required despite api-key listing. Endpoint: api.escuelajs.co/api/v1/products. Full CRUD, pagination, JWT auth optional. Built for learning.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -19366,9 +19414,9 @@
     "https": true,
     "cors": "unknown",
     "category": "shopping",
-    "status": "needs-key",
-    "notes": "Amazon product data API. Free plan available via API marketplaces (likely RapidAPI). No credit card required to start. Docs at scoutapi.com/documentation.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -19632,9 +19680,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "needs-key",
-    "notes": "RapidAPI-hosted (hashtag5.p.rapidapi.com). Free RapidAPI account for key. Generates hashtags from keywords/images.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -19658,9 +19706,9 @@
     "https": true,
     "cors": "yes",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Vercel-hosted Next.js app. Root returns HTML, /api returns 404. No discoverable API endpoints. Web UI only, not a REST API. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -19865,9 +19913,9 @@
     "https": true,
     "cors": "no",
     "category": "social",
-    "status": "needs-key",
-    "notes": "Pay-as-you-go: $0.20/1K tweets or users. 'Try for Free' with no credit card required. No subscriptions. Balance doesn't expire.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -19995,9 +20043,9 @@
     "https": true,
     "cors": "no",
     "category": "social",
-    "status": "needs-key",
-    "notes": "Pay-as-you-go: $0.15/1K tweets, $0.18/1K profiles. $0.1 free credits immediately, no credit card required. 1000+ req/sec. Unofficial Twitter/X data API.",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -20620,13 +20668,10 @@
     "https": true,
     "cors": "unknown",
     "category": "test-data",
-    "status": "working",
-    "notes": "Free, no auth required. 160M+ requests/month served. Fake REST API for testing/prototyping",
-    "date-checked": "2026-02-10",
-    "try-it": {
-      "url": "https://dummyjson.com/products?limit=5",
-      "response-type": "json"
-    }
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
+    "try-it": null
   },
   {
     "name": "English Random Words",
@@ -20865,9 +20910,9 @@
     "https": true,
     "cors": "yes",
     "category": "test-data",
-    "status": "needs-key",
-    "notes": "RapidAPI. Freemium, BASIC plan $0/mo. Generates random user identity data",
-    "date-checked": "2026-02-10",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -21032,9 +21077,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "needs-key",
-    "notes": "RapidAPI free BASIC plan $0/mo. Multilingual sentiment, toxicity, emotion analysis. rapidapi.com/vintarok-vintarok-default/api/ai-text-moderation-toxicity-aspects-sentiment-analyzer",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -21045,9 +21090,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "needs-key",
-    "notes": "ApyHub/SharpAPI free Starter 5 calls/day, email signup at apyhub.com",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -21058,9 +21103,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "needs-key",
-    "notes": "ApyHub free Starter 5 calls/day, email signup at apyhub.com",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -21097,9 +21142,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "broken",
-    "notes": "DNS resolution failure — chatpdf.so domain dead",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -21136,9 +21181,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "needs-key",
-    "notes": "ApyHub free Starter 5 calls/day, email signup at apyhub.com",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -21162,9 +21207,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "needs-key",
-    "notes": "ApyHub free Starter 5 calls/day, email signup at apyhub.com",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -21188,9 +21233,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "needs-key",
-    "notes": "ApyHub free Starter 5 calls/day, email signup at apyhub.com",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -21240,9 +21285,9 @@
     "https": true,
     "cors": "unknown",
     "category": "text-analysis",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "working",
+    "notes": "POST /v2/check with text and language params returns JSON grammar/style analysis. Free public API, no auth needed. POST-only, no GET try-it. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -21282,9 +21327,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "needs-key",
-    "notes": "ApyHub/SharpAPI free Starter 5 calls/day, email signup at apyhub.com",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -21295,9 +21340,9 @@
     "https": true,
     "cors": "yes",
     "category": "text-analysis",
-    "status": "broken",
-    "notes": "RapidAPI returns 'API not found' — removed from marketplace",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -21387,8 +21432,8 @@
     "cors": "unknown",
     "category": "tracking",
     "status": "needs-key",
-    "notes": "Free tier via email signup. Paid: Rs.2000/mo ($23 USD). Indian postal code lookup API",
-    "date-checked": "2026-02-10",
+    "notes": "Free tier with limits, paid Rs.2000/mo for unlimited. Bearer token auth at indianpincodes.co.in/api. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -21442,8 +21487,8 @@
     "cors": "unknown",
     "category": "tracking",
     "status": "needs-key",
-    "notes": "Free developer portal signup. 17 active APIs including Track & Trace, Service Points, Transit Time. API key provided after registration",
-    "date-checked": "2026-02-10",
+    "notes": "Developer portal at developer.postnord.com with free signup. Tracking API at atapi2.postnord.com. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -22575,9 +22620,9 @@
     "https": true,
     "cors": "yes",
     "category": "url-shorteners",
-    "status": "needs-key",
-    "notes": "Free account available. URL shortening with analytics and tracking. API key from manage-api-key page. Signup at blyto.com/sign-up",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -22705,9 +22750,9 @@
     "https": true,
     "cors": "yes",
     "category": "url-shorteners",
-    "status": "needs-key",
-    "notes": "Same Manyapis platform. Free plan: 10 req/day, no CC required. URL shortening API. Signup at manyapis.com/signup",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -22731,9 +22776,9 @@
     "https": true,
     "cors": "yes",
     "category": "url-shorteners",
-    "status": "broken",
-    "notes": "app.ogli.sh returns HTTP 520 (Cloudflare origin server error). Service unreachable",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -22809,9 +22854,9 @@
     "https": true,
     "cors": "yes",
     "category": "url-shorteners",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "working",
+    "notes": "POST-only URL shortener. POST / with url param returns JSON {short_url}. Free, no auth. Supports custom alias, password protection, analytics. No GET try-it (POST-only). Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -22822,9 +22867,9 @@
     "https": true,
     "cors": "yes",
     "category": "url-shorteners",
-    "status": "paid-only",
-    "notes": "API access only in paid plans starting at $5/mo (Hobby). No free API tier. 5-day free trial only. Pricing at t.ly/#pricing",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -22861,9 +22906,9 @@
     "https": true,
     "cors": "unknown",
     "category": "url-shorteners",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Vercel deployment not found — 404 DEPLOYMENT_NOT_FOUND. urlmskr.vercel.app removed. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -22890,9 +22935,9 @@
     "https": true,
     "cors": "no",
     "category": "vehicle",
-    "status": "needs-key",
-    "notes": "Free dev tier — no fees, no signup needed for free dataset. Paid plans from $199/year for production. Signup at carapi.app/register",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
@@ -22903,9 +22948,9 @@
     "https": true,
     "cors": "no",
     "category": "vehicle",
-    "status": "needs-key",
-    "notes": "Sandbox tier: $0/mo, 100 API calls lifetime (shared). VIN decoder, plates, images, market value. Signup at api.carsxe.com/signin",
-    "date-checked": "2026-02-11",
+    "status": "pending",
+    "notes": "",
+    "date-checked": null,
     "try-it": null
   },
   {
