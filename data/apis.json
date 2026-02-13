@@ -1365,9 +1365,9 @@
     "https": true,
     "cors": "yes",
     "category": "authentication-authorization",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Authentication platform. Hobby plan = free (no credit card). Pro plan for higher limits. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -1378,9 +1378,9 @@
     "https": true,
     "cors": "yes",
     "category": "authentication-authorization",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Passkey observability/adoption platform. Pricing starts at $750/mo (Observe), $2500/mo (Adopt), custom Enterprise. No free tier. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -1404,9 +1404,9 @@
     "https": true,
     "cors": "no",
     "category": "authentication-authorization",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Auth/billing platform. Free plan available with custom domain. Paid from $25/mo. Management API with OAuth. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -2499,9 +2499,9 @@
     "https": true,
     "cors": "yes",
     "category": "calendar",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub iCal Generator utility. ApyHub has free tier with signup. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -2512,9 +2512,9 @@
     "https": true,
     "cors": "unknown",
     "category": "calendar",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Google Calendar API. Free within default quotas via Google Cloud Console. Requires OAuth setup. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -2999,9 +2999,9 @@
     "https": true,
     "cors": "unknown",
     "category": "continuous-integration",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "CI/CD platform with REST API. Free plan ($0) available, paid from $29/mo. OAuth registration required. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -8241,9 +8241,9 @@
     "https": true,
     "cors": "yes",
     "category": "entertainment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI listing alive. Free tier typically available via RapidAPI signup. By vintarok. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -8331,9 +8331,9 @@
     "https": true,
     "cors": "yes",
     "category": "entertainment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI listing alive. Free tier via RapidAPI signup. By vintarok. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -8357,9 +8357,9 @@
     "https": true,
     "cors": "yes",
     "category": "environment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Environmental impact API (tree planting, carbon offset, ocean cleanup). Free Starter plan: 50 API calls/mo. Basic 1000/mo, Growth 5000/mo. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -8370,9 +8370,9 @@
     "https": true,
     "cors": "unknown",
     "category": "environment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "JuheAPI AQI. Listed as no-auth but endpoint requires apikey param (returns 'invalid apikey' without it). Free tier: 10K requests. Auth field should be api-key. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -8593,9 +8593,9 @@
     "https": true,
     "cors": "unknown",
     "category": "environment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "UK water/wastewater open data portal. Developer registration required at data.thameswater.co.uk for API access. Site live, redirects to /s/ dashboard. Free open data program. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -8622,9 +8622,9 @@
     "https": true,
     "cors": "yes",
     "category": "environment",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Energy data API (electricity rates, solar, carbon footprint). Developer docs hosted on readme.io (live, 200). API key required with signup. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -8648,9 +8648,9 @@
     "https": true,
     "cors": "unknown",
     "category": "events",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Event management API. Free OAuth app registration for API access, no paid API tier. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -9643,9 +9643,9 @@
     "https": true,
     "cors": "unknown",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "URL updated from public-apis-2 (was broken). Previous: Hosted API shut down. Code open-sourced on GitHub (heycarsten/lcbo-api). No replacement service",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "New GraphQL API at lcbo.dev (replaced old lcboapi.com). VitePress docs. Requires API key signup. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -9824,9 +9824,9 @@
     "https": true,
     "cors": "unknown",
     "category": "food-drink",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Beer social network API. Requires application/approval process. Free upon approval, rate-limited. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -14561,9 +14561,9 @@
     "https": true,
     "cors": "unknown",
     "category": "health",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "FHIR Healthcare APIs at developer.orionhealth.io. Requires registration. Portal alive. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16778,9 +16778,9 @@
     "https": true,
     "cors": "yes",
     "category": "open-source-projects",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Renamed to Openverse. Old URL redirects to api.openverse.org. Free OAuth registration for higher rate limits. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16905,9 +16905,9 @@
     "https": true,
     "cors": "unknown",
     "category": "patent",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "European Patent Office Open Patent Services. Free for registered developers with fair-use limits. OPS API returns 403 without credentials. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -16973,10 +16973,13 @@
     "https": true,
     "cors": "yes",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Free REST API for HTTP status codes with Akshay Kumar images (AK as a Service). GET /api/{code} returns image/*. Vercel deployment alive. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
+    "try-it": {
+      "url": "https://akshaykumar-rest.vercel.app/api/200",
+      "response-type": "image"
+    }
   },
   {
     "name": "Biriyani As A Service",
@@ -17086,10 +17089,13 @@
     "https": true,
     "cors": "yes",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Free API delivering curated quotes from Indian entrepreneurs. GET /api/quotes/random returns JSON with quote, author, tags. Vercel deployment alive. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
+    "try-it": {
+      "url": "https://indian-quotes-api.vercel.app/api/quotes/random",
+      "response-type": "json"
+    }
   },
   {
     "name": "Inspiration",
@@ -17163,9 +17169,9 @@
     "https": true,
     "cors": "unknown",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "API officially deprecated. GitHub repo states: 'The Medium API is no longer supported. We do not recommend using it.' and 'We don't allow any new integrations with our API.' Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -17231,9 +17237,9 @@
     "https": true,
     "cors": "unknown",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Next.js SPA only. No REST API endpoints — /api/random and /api paths redirect (308) to HTML homepage. Despite /developer page in listed URL, no public API found. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -17260,9 +17266,9 @@
     "https": true,
     "cors": "no",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "AI personality profiling using NLP and Big Five/NEO/HEXACO/DISC models. Free academic API token available by emailing info@sentino.org. Python client: sentino-api on PyPI. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -17347,9 +17353,9 @@
     "https": false,
     "cors": "no",
     "category": "personality",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "DNS failure — could not resolve host whoistheoldest.com. Domain expired or removed. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -18005,9 +18011,9 @@
     "https": true,
     "cors": "yes",
     "category": "programming",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "working",
+    "notes": "POST-only API at noteapiconnector-tools.vercel.app/api/jmespath. Accepts JSON {data, query}, returns JMESPath evaluation result. Listed URL is docs page only. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -18044,9 +18050,9 @@
     "https": true,
     "cors": "unknown",
     "category": "programming",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "SPA landing page only (APITiny platform). No REST API endpoint found at any path. api subdomain has no DNS. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -18070,9 +18076,9 @@
     "https": true,
     "cors": "no",
     "category": "programming",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Not a REST API. Web-based PHP code validator (WordPress site). No API endpoint found. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -18083,9 +18089,9 @@
     "https": true,
     "cors": "no",
     "category": "programming",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Not a REST API. Web-based Python syntax checker (WordPress site). Same developer as PHPhub/Softwium. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -18096,9 +18102,9 @@
     "https": true,
     "cors": "no",
     "category": "programming",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Not a REST API. Web-based SQL syntax checker (WordPress site). Same developer as PHPhub/Pythonium. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -18344,9 +18350,9 @@
     "https": true,
     "cors": "yes",
     "category": "science-math",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "NASA Astrophysics Data System. Free API tokens via registration. API returns 401 without token. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20668,10 +20674,13 @@
     "https": true,
     "cors": "unknown",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
-    "try-it": null
+    "status": "working",
+    "notes": "Free mock data API — no signup or auth needed despite being listed as api-key. 10+ resources (products, users, carts, posts, quotes, recipes, todos). GET /products/1 returns full product JSON. Auth field in source is wrong (listed as api-key, actually none). Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
+    "try-it": {
+      "url": "https://dummyjson.com/products/1",
+      "response-type": "json"
+    }
   },
   {
     "name": "English Random Words",
@@ -20707,9 +20716,9 @@
     "https": true,
     "cors": "unknown",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Not a REST API. JavaScript library (npm package @faker-js/faker). URL fakerjs.dev is VitePress documentation site only. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20781,9 +20790,9 @@
     "https": true,
     "cors": "yes",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Web-based mock API generator platform (WordPress/AIOSEO). No public REST API endpoint — /api/ returns HTML docs. Users create their own custom mock APIs. Same developer as Mockae. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20855,9 +20864,9 @@
     "https": true,
     "cors": "yes",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Web-based mock API tool (WordPress). /api/users returns 404 HTML. No public REST API endpoints. Same developer as JSONing. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -20910,9 +20919,9 @@
     "https": true,
     "cors": "yes",
     "category": "test-data",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI marketplace API. Free Basic tier with limited monthly requests. X-RapidAPI-Key header required. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -22607,9 +22616,9 @@
     "https": true,
     "cors": "unknown",
     "category": "url-shorteners",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Major URL shortener with OAuth2 API. Free plan available with limited link creation. OAuth2 access tokens from dev.bitly.com. Actively maintained. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -22620,9 +22629,9 @@
     "https": true,
     "cors": "yes",
     "category": "url-shorteners",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "URL shortener with analytics/tracking. API docs page live at blyto.com/docs (200). API key required. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -22750,9 +22759,9 @@
     "https": true,
     "cors": "yes",
     "category": "url-shorteners",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "URL shortener API with free tier (50 requests/day per description). Product page live at manyapis.com/products/short-url (200). API key required. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -22776,9 +22785,9 @@
     "https": true,
     "cors": "yes",
     "category": "url-shorteners",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Cloudflare error 520 — origin server returned unexpected response. app.ogli.sh is behind Cloudflare but origin is down. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -22867,9 +22876,9 @@
     "https": true,
     "cors": "yes",
     "category": "url-shorteners",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Popular URL shortener with API. Free tier available. API key from t.ly account dashboard. Docs at t.ly/docs (403 via curl but Cloudflare challenge, site accessible via browser). Active GitHub packages. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -22935,9 +22944,9 @@
     "https": true,
     "cors": "no",
     "category": "vehicle",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Vehicle data API at carapi.app. Free dataset for exploration, full API billed at $0.001/call. Soft rate limiting. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -22948,9 +22957,9 @@
     "https": true,
     "cors": "no",
     "category": "vehicle",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Vehicle data API. 7-day free trial available. Full access requires contact sales. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
@@ -23019,9 +23028,9 @@
     "https": true,
     "cors": "yes",
     "category": "vehicle",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Connected car API. Free Build/sandbox tier for development. Paid Launch/Scale/Enterprise for production. OAuth required. Tested 2026-02-13.",
+    "date-checked": "2026-02-13",
     "try-it": null
   },
   {
