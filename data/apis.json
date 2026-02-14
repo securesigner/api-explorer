@@ -3270,9 +3270,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Site redirects /developers to /contact; enterprise/sales-only with no free API tier. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3283,9 +3283,9 @@
     "https": true,
     "cors": "yes",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs live (Docusaurus). Free API for registered users, authentication required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3296,9 +3296,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs moved to v5 at bybit-exchange.github.io/docs/v5/intro. Free API key for market data. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3335,9 +3335,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Redirects to Coinbase Developer Platform (docs.cdp.coinbase.com/exchange). Migrated from Pro to CDP. API key required. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3364,9 +3364,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs live. Public and authenticated endpoints. Free developer key signup at coindcx.com/api-dashboard. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3406,9 +3406,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API docs alive at coinigy.docs.apiary.io. API key required. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3419,9 +3419,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs live at coinlib.io/apidocs. API key required, free account with rate limits. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3477,9 +3477,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs live. Free plan ($0) with rate limits, also paid tiers. Requires API key. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3490,9 +3490,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs live. Crypto payment API with free plan (100 req/min). Requires signup. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3561,9 +3561,9 @@
     "https": true,
     "cors": "yes",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs live at api.exchange.cryptomkt.com. Full REST API documentation. Free trading API. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3587,9 +3587,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs live, redirects to docs.dydx.xyz. v4 indexer API. Decentralized exchange with API key auth. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3600,9 +3600,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "GitHub wiki docs live. Free tier via apiKey=freekey for Ethereum token data. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3613,9 +3613,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Postman docs live. Public endpoints available without auth; private endpoints require free API key. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3639,9 +3639,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Site live at gate.com (gate.io redirects). Major exchange with free API access for market data. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3668,9 +3668,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Domain hijacked — rates.hirak.site serves JS redirect spam page. Known hijacked domain. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3681,9 +3681,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API docs live at huobiapi.github.io. Free API key for market data. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3694,9 +3694,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Redirects to quicknode.com. icy.tools acquired by QuickNode, developer API no longer exists as independent service. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3707,9 +3707,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "GitHub API docs alive. Requires API key (HMAC SHA512 signing). Free account on exchange. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3720,9 +3720,9 @@
     "https": true,
     "cors": "yes",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs alive at infura.io. Free tier available. Requires API key. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3746,9 +3746,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs alive, redirects to kucoin.com/docs-new. Free API key for trading/market data. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3830,9 +3830,9 @@
     "https": true,
     "cors": "yes",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "SSL certificate expired. Nomics shut down in 2023. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3843,9 +3843,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs alive at doc.novadax.com. Public endpoints without auth; private endpoints require free API key. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3856,9 +3856,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Original okex.com DNS failure — rebranded to OKX. Docs alive at okx.com/docs-v5/en/. Free API key signup. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3882,9 +3882,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs alive, redirects to api-docs.poloniex.com (Docusaurus). Free API key signup. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3908,9 +3908,9 @@
     "https": true,
     "cors": "no",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "technical-analysis-api.com alive. Coin prediction API with Stripe payments. API key required. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3947,9 +3947,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs alive at docs.valr.com (Postman-hosted). South African crypto exchange, free API key signup. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3960,9 +3960,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API service alive. Free API key available (1 key per IP, data updated every 5 min). Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7091,9 +7091,9 @@
     "https": true,
     "cors": "yes",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI listing. Free BASIC plan: $0/mo (30 req/mo). Requires X-RapidAPI-Key. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7195,9 +7195,9 @@
     "https": true,
     "cors": "yes",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Site live. Free tier: 600 calls/mo, no expiration. Requires API key. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7221,9 +7221,9 @@
     "https": true,
     "cors": "yes",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub platform. Free tier with daily limits. Requires API key. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7234,9 +7234,9 @@
     "https": true,
     "cors": "yes",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub platform. Free tier with daily limits. Requires API key. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7247,9 +7247,9 @@
     "https": true,
     "cors": "yes",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub platform. Free tier with daily limits. Requires API key. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7260,9 +7260,9 @@
     "https": true,
     "cors": "yes",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub platform. Free tier with daily limits. Requires API key. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7273,9 +7273,9 @@
     "https": true,
     "cors": "no",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Site live. File conversion API. Free tier: 50 free API calls, no credit card required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7299,9 +7299,9 @@
     "https": true,
     "cors": "unknown",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Redirects to customjs.space. Pricing page with free tier available. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7312,9 +7312,9 @@
     "https": true,
     "cors": "yes",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub platform. Free tier with API credits. Requires API key. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7341,9 +7341,9 @@
     "https": true,
     "cors": "yes",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub platform. Free tier available with API key. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7367,9 +7367,9 @@
     "https": true,
     "cors": "yes",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Site live. Offers API with free tier. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7380,9 +7380,9 @@
     "https": true,
     "cors": "unknown",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Site live. Pricing page with per-month plans. Free tier available. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7419,9 +7419,9 @@
     "https": true,
     "cors": "unknown",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs redirect to developers.mattermost.com/api-documentation/. Open-source platform with free cloud and self-hosted tiers. OAuth required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7432,9 +7432,9 @@
     "https": true,
     "cors": "unknown",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "DNS failure: Could not resolve host mercury.postlight.com. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7471,9 +7471,9 @@
     "https": true,
     "cors": "no",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Redirects to RapidAPI listing. Free tier available via RapidAPI. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7484,9 +7484,9 @@
     "https": true,
     "cors": "no",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Developer docs site live at developers.pandadoc.com. Free plan available. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7497,9 +7497,9 @@
     "https": true,
     "cors": "yes",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub platform. Free tier available with API key. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7510,9 +7510,9 @@
     "https": true,
     "cors": "yes",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Site live. API references found. Requires API key. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7523,9 +7523,9 @@
     "https": true,
     "cors": "no",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Site live. Free tier available. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7536,9 +7536,9 @@
     "https": true,
     "cors": "yes",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Site live. Free tier with API_KEY authentication. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7549,9 +7549,9 @@
     "https": true,
     "cors": "unknown",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Developer portal returns 503 temporarily, but Pocket is active Mozilla product. OAuth required, free to use. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7562,9 +7562,9 @@
     "https": true,
     "cors": "unknown",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs at developers.podio.com load fully. Free for 5 users. OAuth required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7575,9 +7575,9 @@
     "https": true,
     "cors": "unknown",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Site live. Pricing page with free tier found. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7588,9 +7588,9 @@
     "https": true,
     "cors": "yes",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Site live. Free tier available. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7601,9 +7601,9 @@
     "https": true,
     "cors": "unknown",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Site live. Screenshot and HTML-to-PDF API services. Requires API key. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7614,9 +7614,9 @@
     "https": true,
     "cors": "unknown",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "APILayer marketplace. Free tier available. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7672,9 +7672,9 @@
     "https": true,
     "cors": "no",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Site live. Pricing page with free tier available. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7701,9 +7701,9 @@
     "https": true,
     "cors": "yes",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub platform. Free tier available with API key. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7714,9 +7714,9 @@
     "https": true,
     "cors": "no",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "DNS failure: Could not resolve host webpdf.xyz. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7727,9 +7727,9 @@
     "https": true,
     "cors": "unknown",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API docs at zube.io/docs/api load fully. Uses JWT/OAuth auth. Free tier available. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -8807,9 +8807,9 @@
     "https": true,
     "cors": "unknown",
     "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "APILayer marketplace. Free tier with subscribe option. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -8820,9 +8820,9 @@
     "https": true,
     "cors": "unknown",
     "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Malaysian payment platform. API key required. Free plan available. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -8849,9 +8849,9 @@
     "https": true,
     "cors": "unknown",
     "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Brazilian boleto API. Free plan (gratuito) available. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -8904,9 +8904,9 @@
     "https": true,
     "cors": "no",
     "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Earnings data API. Free tier and pricing page available. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -8959,9 +8959,9 @@
     "https": true,
     "cors": "unknown",
     "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Site live. API_KEY authentication. Pricing page available. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -8985,9 +8985,9 @@
     "https": true,
     "cors": "unknown",
     "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "HTTP 403 Forbidden. Site blocks access. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -9011,9 +9011,9 @@
     "https": true,
     "cors": "unknown",
     "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "SSL certificate mismatch. HTTP 404 with -k flag. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -9050,9 +9050,9 @@
     "https": true,
     "cors": "yes",
     "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "HTTP/2 protocol error. Empty reply with HTTP/1.1 fallback. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -9089,9 +9089,9 @@
     "https": true,
     "cors": "yes",
     "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "IIN/BIN lookup API. Pricing page with API key required. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -9118,9 +9118,9 @@
     "https": true,
     "cors": "unknown",
     "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Financial data platform. Pricing page with free tier available. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -9209,9 +9209,9 @@
     "https": true,
     "cors": "yes",
     "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Financial instrument identifier API. Free tier with API key. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -9507,9 +9507,9 @@
     "https": true,
     "cors": "yes",
     "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Currency exchange rate API. Pricing page available. Requires API key. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -21705,9 +21705,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free plan available (100 req/mo). Aviationstack flight data API. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -21776,9 +21776,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free-to-use container database. OAuth registration required at bic-boxtech.org. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -21828,9 +21828,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI listing active. Requires RapidAPI key. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -21870,9 +21870,9 @@
     "https": true,
     "cors": "yes",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI listing active. Requires RapidAPI key. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -21899,9 +21899,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Developer portal alive at developer.grab.com. OAuth registration required. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -21941,9 +21941,9 @@
     "https": true,
     "cors": "no",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "DNS failure — docs.impala.travel and impala.travel both unresolvable. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -21980,9 +21980,9 @@
     "https": false,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "LTA DataMall portal alive. Free API key via registration at datamall.lta.gov.sg. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -22064,9 +22064,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "digital.sncf.com returns 400 Request Rejected on all paths. API portal inaccessible. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -22093,9 +22093,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Developer portal alive at developer.sabre.com (Dev Studio). API key required. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -22119,9 +22119,9 @@
     "https": true,
     "cors": "no",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Developer portal alive. Free public APIs (FlightInfo, AirportInfo, WaitTime). Sign up for subscription key. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -22145,9 +22145,9 @@
     "https": true,
     "cors": "no",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI listing active. Requires RapidAPI key. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -22229,9 +22229,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Open data portal alive at opendata.bordeaux-metropole.fr. API Carto available with key. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -22307,9 +22307,9 @@
     "https": false,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Original URL 404 but DB API Marketplace alive at developers.deutschebahn.com. Free API key registration. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -22349,9 +22349,9 @@
     "https": false,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "TheBus HEA API alive. Requires free AppID registration. XML-based web service. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -22362,9 +22362,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "emel.city-platform.com/opendata redirects to emel.pt security advisory page. API portal gone. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -22401,9 +22401,9 @@
     "https": true,
     "cors": "no",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "developer.tfgm.com returns 403 CloudFront error. API portal blocked/down. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -22430,9 +22430,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "OC Transpo developer portal alive. GTFS and real-time data via free registered API key. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -22475,9 +22475,9 @@
     "https": false,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "SPTrans Olho Vivo API alive. OAuth registration required at sptrans.com.br. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -22504,9 +22504,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Trafiklab API portal alive. Free API keys for Swedish public transport data. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -22517,9 +22517,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "opentransportdata.swiss portal alive. API key registration required. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -22546,9 +22546,9 @@
     "https": false,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "NS API portal alive at ns.nl/reisinformatie/ns-api. API key required. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -22617,9 +22617,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "TransLink Open API developer portal alive. Free registration required to obtain API key. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -22630,9 +22630,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "WMATA developer portal alive. Free API access — sign up to acquire keys. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -22673,9 +22673,9 @@
     "https": true,
     "cors": "yes",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "developer.uber.com returns 404 Not Found. Developer portal shut down. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
