@@ -3101,9 +3101,9 @@
     "https": true,
     "cors": "yes",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Blockchain infrastructure provider. Free tier: 100M compute units/mo. API key required for all endpoints. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3127,9 +3127,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Major crypto exchange API. Free API key for trading and market data endpoints. Public market data available but authenticated endpoints need key. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3179,9 +3179,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Crypto exchange API. Free API key for authenticated endpoints. Public endpoints available but most functionality requires key. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3218,9 +3218,9 @@
     "https": true,
     "cors": "unknown",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Block.io Bitcoin/Litecoin/Dogecoin wallet API. Free API key available. Cloudflare-protected site. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -3626,9 +3626,9 @@
     "https": true,
     "cors": "yes",
     "category": "cryptocurrency",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "FTX crypto exchange filed for bankruptcy Nov 2022. Domain still serves old React SPA shell but exchange and API are defunct. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -4603,9 +4603,9 @@
     "https": true,
     "cors": "unknown",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Website screenshot API based on Chrome and AWS Lambda. Free tier available with API key. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -4817,9 +4817,9 @@
     "https": true,
     "cors": "no",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Web search API by Brave. Free monthly credits available. Requires API key. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -5047,9 +5047,9 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docker Hub REST API for managing repositories, images, and tags. Free tier with authentication token required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -5209,9 +5209,9 @@
     "https": true,
     "cors": "yes",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Ghost CMS Content API. Free self-hosted option. API key provided via query parameter. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -5300,9 +5300,9 @@
     "https": true,
     "cors": "unknown",
     "category": "development",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Google Fonts Developer API. Free API key required for identification. Returns font metadata. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7104,9 +7104,9 @@
     "https": true,
     "cors": "unknown",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Spreadsheet-database hybrid API. Free tier available (up to 1,000 records/base). API key required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7143,9 +7143,9 @@
     "https": true,
     "cors": "yes",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Project management API. Free Personal tier available. Personal access token or OAuth required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7169,9 +7169,9 @@
     "https": true,
     "cors": "unknown",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Time tracking API. Free plan available. API key required via X-Api-Key header. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7182,9 +7182,9 @@
     "https": true,
     "cors": "unknown",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "File conversion API (200+ formats). Free tier: 25 conversion minutes/day. API key required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -7208,9 +7208,9 @@
     "https": true,
     "cors": "no",
     "category": "documents-productivity",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free stats tracking service for programmers. API uses token authentication. Open source project. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -8755,9 +8755,9 @@
     "https": true,
     "cors": "unknown",
     "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Stock, forex, and crypto market data API. Free API key available (25 req/day). Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -8998,9 +8998,9 @@
     "https": true,
     "cors": "unknown",
     "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free stock API for realtime market data, company fundamentals, and alternative data. Free tier available. API key required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -9024,9 +9024,9 @@
     "https": true,
     "cors": "yes",
     "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Federal Reserve Economic Data API. Free API key required. Provides US economic data series. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -9235,9 +9235,9 @@
     "https": true,
     "cors": "unknown",
     "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Financial data aggregation API. Free tier available (pay as you go). API key required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -9374,9 +9374,9 @@
     "https": true,
     "cors": "unknown",
     "category": "finance",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Payment processing API. Free to use (pay per transaction). Secret API key required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10008,9 +10008,9 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Blizzard developer portal. OAuth-based, free client credentials registration. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10050,9 +10050,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Supercell developer portal. Free API key registration. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10134,9 +10134,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Supercell developer portal. Free API key registration. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10147,9 +10147,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Supercell developer portal. Free API key registration. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10231,9 +10231,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Bungie.Net API. Full REST API with free API key from bungie.net. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10295,9 +10295,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "OpenDota API. Free tier with rate limits; API key for higher limits. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10356,9 +10356,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ESI (EVE Swagger Interface). OAuth-based, free developer registration. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10411,9 +10411,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Fortnite Tracker TRN API. Free API key registration available. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10479,9 +10479,9 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Game data API at gamebrain.co. Behind Cloudflare, site alive. Requires API key. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10556,9 +10556,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Gaming database API. Free registration for API key. Behind Cloudflare. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10582,9 +10582,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ArenaNet API at api.guildwars2.com/v2. Free API key for authenticated endpoints. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10608,9 +10608,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "343 Industries Halo Public API (Beta). Free developer key via Azure API Management portal. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10621,9 +10621,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Original hearthstoneapi.com dead, but API active on RapidAPI. x-mashape-key = RapidAPI key, free tier. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10634,9 +10634,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI-hosted. Free tier available. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10647,9 +10647,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Humor API. Free tier: $0/mo, 10 points/day. Requires API key. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10660,9 +10660,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Hypixel API. Returns 403 without API-Key header. Free keys for Hypixel players. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10705,9 +10705,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Internet Game Database, owned by Twitch/Amazon. Requires free Twitch Client ID. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10750,9 +10750,9 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Jokes API. Free tier: 60 calls/day, 5/hour. API key for higher limits. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10776,9 +10776,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free open-source chess platform. Many read endpoints free; OAuth for write ops. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10805,9 +10805,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "herokuapp.com domain. HTTP 404 — Heroku free tier shutdown. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10818,9 +10818,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Marvel Comics API. Free API key registration at developer.marvel.com. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10863,9 +10863,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Game mod hosting API. Requires api_key. Free registration. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10876,9 +10876,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Minecraft/Mojang API. Wiki moved to minecraft.wiki. API at api.mojang.com alive. Requires Microsoft auth. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10918,9 +10918,9 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI-hosted party game API. Free tier available. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10947,9 +10947,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Esports data API. Fixtures Only plan available for free. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10960,9 +10960,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "GGG developer docs. Free OAuth registration for developers. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -10989,9 +10989,9 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI-hosted. Free BASIC plan: 1,000 req/month. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -11060,9 +11060,9 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "PUBG developer portal. Free API key registration program. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -11086,9 +11086,9 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Quiz API. Free tier with API key registration. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -11115,9 +11115,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Video game database API. Free for personal use and startups with ≤100K MAU. API key required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -11144,9 +11144,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Riot developer portal. Free developer API key program. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -11221,9 +11221,9 @@
     "https": true,
     "cors": "yes",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free open game API. Register agent to get token. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -11234,9 +11234,9 @@
     "https": true,
     "cors": "no",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Steam Web API. Free API key via Steam account. Third-party docs at steamapi.xpaw.me. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -11263,9 +11263,9 @@
     "https": true,
     "cors": "unknown",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "SuperHero API. Requires GitHub account for free access token. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -11292,9 +11292,9 @@
     "https": true,
     "cors": "no",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Game server monetization plugin API. GitBook docs alive. Requires key. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -11379,9 +11379,9 @@
     "https": true,
     "cors": "no",
     "category": "games-comics",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Wargaming Developer Room. Free API key registration. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -11805,9 +11805,9 @@
     "https": true,
     "cors": "yes",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Geocoding, routing, and maps API. Free tier available. API key required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -11818,9 +11818,9 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "US/Canada geocoding API. Free tier: 2,500 lookups/day. API key required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -12006,9 +12006,9 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Google Maps Platform APIs. Free tier: $200/mo credit. API key required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -12051,9 +12051,9 @@
     "https": true,
     "cors": "unknown",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Maps, geocoding, and routing APIs. Free tier available (pay as you grow). API key required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -12348,9 +12348,9 @@
     "https": true,
     "cors": "yes",
     "category": "geocoding",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Geocoding, reverse geocoding, and routing API. Free tier available. API key required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -14980,9 +14980,9 @@
     "https": true,
     "cors": "yes",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI-hosted, free tier available. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -14993,9 +14993,9 @@
     "https": true,
     "cors": "yes",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Thai government AI platform, requires registration for API key. Free tier. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15006,9 +15006,9 @@
     "https": true,
     "cors": "yes",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI-hosted task creation & auto-grading API. Free tier available. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15019,9 +15019,9 @@
     "https": true,
     "cors": "yes",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API gateway for 200+ AI models. Free plan at $0 forever. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15071,9 +15071,9 @@
     "https": true,
     "cors": "yes",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Custom GPT API. 7-day free trial with full Standard features. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15097,9 +15097,9 @@
     "https": true,
     "cors": "unknown",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Google Cloud conversational AI. Free tier with trial credits. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15110,9 +15110,9 @@
     "https": true,
     "cors": "yes",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "AI API gateway for 100+ models. Free tier with signup at app.edenai.run. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15162,9 +15162,9 @@
     "https": true,
     "cors": "unknown",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Domain hijacked: faceapi.hirak.site redirects to spam/parking page with JWT token. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15175,9 +15175,9 @@
     "https": true,
     "cors": "unknown",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Image recognition API. Free plan with free API key, permanently free. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15188,9 +15188,9 @@
     "https": true,
     "cors": "unknown",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI-hosted. Image Labeling, Face Detection, NSFW Classification APIs. Freemium. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15201,9 +15201,9 @@
     "https": true,
     "cors": "unknown",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "DNS failure — could not resolve host docs.identity.ps. Site dead. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15214,9 +15214,9 @@
     "https": true,
     "cors": "yes",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "AI content moderation API. Swagger UI at irisnet.de/api/. Requires API key. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15227,9 +15227,9 @@
     "https": true,
     "cors": "unknown",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "DNS failure — could not resolve host jsonai.cloud. Site dead. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15240,9 +15240,9 @@
     "https": true,
     "cors": "unknown",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Pivoted to event streaming (Apache Kafka). Pricing starts at $149/mo. 30-day trial only, no permanent free tier. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15253,9 +15253,9 @@
     "https": true,
     "cors": "yes",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Returns 404 Page Not Found. API documentation page no longer exists. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15266,9 +15266,9 @@
     "https": true,
     "cors": "yes",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "AI chatbot platform API. API key required. Free signup available. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15331,9 +15331,9 @@
     "https": true,
     "cors": "yes",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Computer vision model hub. Free tier for personal or business use. Requires API key. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15344,9 +15344,9 @@
     "https": true,
     "cors": "unknown",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Cloud-based face recognition API. API key required. Starter plans available with free registration. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15357,9 +15357,9 @@
     "https": true,
     "cors": "yes",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free AI anti-spam solution with REST API endpoints. Free tier available. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15370,9 +15370,9 @@
     "https": true,
     "cors": "yes",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub AI summarization API. Requires apy-token header. ApyHub free tier. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15383,9 +15383,9 @@
     "https": true,
     "cors": "yes",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "DNS failure: Could not resolve host timedoor.io. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15396,9 +15396,9 @@
     "https": true,
     "cors": "unknown",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Timeseries forecasting API for energy/IoT data. API key required. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17583,9 +17583,9 @@
     "https": true,
     "cors": "yes",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Image and PDF generation API. API key required. Free tier available. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17596,9 +17596,9 @@
     "https": true,
     "cors": "yes",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "DNS failure: Could not resolve host docs.bruzu.com or bruzu.com. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17609,9 +17609,9 @@
     "https": true,
     "cors": "yes",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub utility API for changing image backgrounds. API key required. Free tier on ApyHub platform. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17622,9 +17622,9 @@
     "https": true,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Image optimization and compression API. Cloudflare-protected. API key required. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17635,9 +17635,9 @@
     "https": true,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Image manipulation and data API. API key required. Free tier available. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17648,9 +17648,9 @@
     "https": true,
     "cors": "yes",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Image generation API with dynamic URLs and templates. API key required. Free tier available. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17661,9 +17661,9 @@
     "https": true,
     "cors": "yes",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Dynamic image generation API for personalized visuals. API key required. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17674,9 +17674,9 @@
     "https": true,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Photo sharing platform API. OAuth required. Free API access available. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17687,9 +17687,9 @@
     "https": true,
     "cors": "yes",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub utility API for generating image thumbnails. API key required. Free tier on ApyHub platform. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17700,9 +17700,9 @@
     "https": true,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Stock photo API. OAuth required. Free API access for non-commercial use. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17713,9 +17713,9 @@
     "https": true,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "DNS failure: Could not resolve host developers.gfycat.com. Service shut down in 2023. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17726,9 +17726,9 @@
     "https": true,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "GIF search and sharing API. API key required. Free tier available. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17739,9 +17739,9 @@
     "https": true,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Google Photos Library API. OAuth required. Free access with Google Cloud project. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17752,9 +17752,9 @@
     "https": true,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "APILayer image upload API. API key required. Free tier available on APILayer marketplace. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17765,9 +17765,9 @@
     "https": true,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Image hosting and sharing API. OAuth required. Free API access available. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17807,9 +17807,9 @@
     "https": true,
     "cors": "yes",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Background removal API for product images. API key required. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17820,9 +17820,9 @@
     "https": true,
     "cors": "yes",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free stock photo and video API. API key required. Free tier available. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17833,9 +17833,9 @@
     "https": true,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Background removal and image editing API. API key required. Free tier available. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17846,9 +17846,9 @@
     "https": true,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free stock photo API. API key required. Free access available. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17891,9 +17891,9 @@
     "https": true,
     "cors": "yes",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub utility API for removing image backgrounds. API key required. Free tier on ApyHub platform. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17904,9 +17904,9 @@
     "https": true,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "AI-powered background removal API. API key required. Free tier: 50 API calls/month. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17933,9 +17933,9 @@
     "https": true,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Stock photo and media API. OAuth required. Free API access for non-commercial use. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17946,9 +17946,9 @@
     "https": true,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Image hosting, optimization, and CDN API. API key required. Free tier available. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17959,9 +17959,9 @@
     "https": true,
     "cors": "yes",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RapidAPI image compression and conversion API. API key required via RapidAPI. Free tier available. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17972,9 +17972,9 @@
     "https": true,
     "cors": "yes",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Dynamic image generation API from templates. API key required. Free tier available. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17985,9 +17985,9 @@
     "https": true,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free high-resolution photo API. OAuth required. Free access: 50 requests/hour. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -17998,9 +17998,9 @@
     "https": true,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Wallpaper search and download API. API key required for NSFW content, public endpoints available. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -18011,9 +18011,9 @@
     "https": true,
     "cors": "unknown",
     "category": "photography",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Enterprise DAM platform by Bynder. REST API requires enterprise subscription. No free tier. Tested 2025-06-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19611,9 +19611,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Google Blogger API. Free access via Google Cloud Console. OAuth required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19624,9 +19624,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "SSL certificate expired. Cisco Spark was rebranded to Webex. developer.ciscospark.com is abandoned. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19650,9 +19650,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Discord developer platform. Free bot/app access with OAuth. Extensive docs at discord.com/developers. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19663,9 +19663,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Disqus comment platform API. API docs live at disqus.com/api/docs. Free developer registration. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19689,9 +19689,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Meta for Developers platform. Free developer accounts with Graph API access. OAuth required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19702,9 +19702,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Foursquare Places API developer portal live. Free tier with limited calls. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19728,9 +19728,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Enterprise B2B data enrichment platform. No visible free tier. Paid plans only (Essentials, etc). Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19783,9 +19783,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Instagram Platform via Meta for Developers. Redirects to developers.facebook.com/docs/instagram-platform. Free developer access. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19809,9 +19809,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Korean platform developer portal at developers.kakao.com. Free developer access with OAuth. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19841,9 +19841,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "LINE Developers platform at developers.line.biz. Free Messaging API tier. OAuth required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19854,9 +19854,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "LinkedIn API via Microsoft docs. Free developer access with OAuth. Consumer/Marketing API products. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19880,9 +19880,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Microsoft Graph API at docs.microsoft.com. Free via Azure/M365 developer program. OAuth required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19893,9 +19893,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Korean platform developer portal at developers.naver.com. Free developer access with OAuth. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19925,9 +19925,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Pinterest developer platform at developers.pinterest.com. Free developer access with OAuth. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19938,9 +19938,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Product Hunt GraphQL API v2. Free developer_token (does not expire). OAuth for user actions. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19951,9 +19951,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Reddit API at reddit.com/dev/api. Free tier for scripts/personal bots. Blocks curl (403) but API functional. OAuth required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19977,9 +19977,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Reddit-clone with compatible API. Behind Vercel security checkpoint but site operational. OAuth required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19990,9 +19990,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Slack API at api.slack.com. Free developer access for bots and apps. OAuth required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -20042,9 +20042,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Telegram MTProto API at core.telegram.org. Free API access for developers. API key/hash required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -20068,9 +20068,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "TikTok developer platform at developers.tiktok.com. Login Kit and other APIs. Free developer access. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -20081,9 +20081,9 @@
     "https": true,
     "cors": "yes",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "REST API for freecycling platform. Developer registration at trashnothing.com/developer. Free API access. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -20094,9 +20094,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Tumblr API v2 docs at tumblr.com/docs/en/api/v2. Free developer access. OAuth required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -20107,9 +20107,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Twitch developer docs at dev.twitch.tv. Free developer access for bots and extensions. OAuth required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -20120,9 +20120,9 @@
     "https": true,
     "cors": "no",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "X/Twitter API v2. Limited free tier available (1,500 tweets/mo write, basic read). Developer portal live. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -20146,9 +20146,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "VK developer platform at vk.com/dev. Free developer access. OAuth required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -20159,9 +20159,9 @@
     "https": true,
     "cors": "yes",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Cisco Webex developer platform at developer.webex.com. Free developer access. OAuth required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -20172,9 +20172,9 @@
     "https": true,
     "cors": "unknown",
     "category": "social",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Zoom developer platform at developers.zoom.us. Free developer accounts with API access. OAuth required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -21747,9 +21747,9 @@
     "https": false,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "BART transit API. Free API key required via registration. Provides schedules, routes, and real-time data. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -21802,9 +21802,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "MBTA v3 API for Boston transit data. Free API key required early in development. Provides schedules, routes, and predictions. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -21912,9 +21912,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Routing, geocoding, and map matching API. Free plan available (no credit card required). API key required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -22035,9 +22035,9 @@
     "https": true,
     "cors": "yes",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "EV charging station API. Returns 403 without API key. Free API key available via registration. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -22375,9 +22375,9 @@
     "https": true,
     "cors": "unknown",
     "category": "transportation",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "TfL Unified API for London transport data. Free API key via registration at api-portal.tfl.gov.uk. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23369,9 +23369,9 @@
     "https": true,
     "cors": "yes",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Gcore CDN streaming platform. Developer docs live at docs.gcore.com/streaming. API key required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23395,9 +23395,9 @@
     "https": true,
     "cors": "yes",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub utility API. Free tier available on ApyHub platform. API key required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23440,9 +23440,9 @@
     "https": true,
     "cors": "yes",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Video download API at huntapi.com. 10 free credits on signup, no credit card required. API key required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23466,9 +23466,9 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "DNS failure: Could not resolve host imdb-api.com. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23498,9 +23498,9 @@
     "https": true,
     "cors": "no",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Video generation API. Site live with SDK examples showing setAPIKey(). Pricing page exists. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23566,9 +23566,9 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Video infrastructure platform. No credit card required to start. Free tier available. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23608,9 +23608,9 @@
     "https": true,
     "cors": "no",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "FFmpeg cloud API at rendi.dev. Site live. API key required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23650,9 +23650,9 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Video editing API. Free tier: Get Started For Free. No credit card required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23663,9 +23663,9 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "TV/anime tracking API. Docs live on Apiary. Free developer access. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23846,9 +23846,9 @@
     "https": true,
     "cors": "yes",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "React SPA on Netlify but API endpoints return 404. No working backend. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23888,9 +23888,9 @@
     "https": false,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Domain parked/hijacked. Redirects to /lander page. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23943,9 +23943,9 @@
     "https": true,
     "cors": "yes",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Netflix search API on RapidAPI. Free tier available via RapidAPI. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23982,9 +23982,9 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Streaming availability API. Free Developer plan: 1,000 req/mo, no credit card required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24008,9 +24008,9 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Google YouTube Data API v3. Generous free quota (10,000 units/day). OAuth required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
