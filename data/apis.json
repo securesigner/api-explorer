@@ -15045,9 +15045,9 @@
     "https": true,
     "cors": "yes",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Site active. Free tier with 800 calls/month via signup at portal.cloudmersive.com. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15058,9 +15058,9 @@
     "https": true,
     "cors": "yes",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free Trial API keys available. Trial API calls are free. Register at dashboard.cohere.com. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15149,9 +15149,9 @@
     "https": true,
     "cors": "no",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs at docs.gladia.io active. Speech-to-text API with free tier. Signup at app.gladia.io. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15279,9 +15279,9 @@
     "https": true,
     "cors": "unknown",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Site at nlpcloud.io active behind Cloudflare. NLP API service with free tier. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15292,9 +15292,9 @@
     "https": true,
     "cors": "yes",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Well-known LLM API. Free credits for new accounts. Signup at platform.openai.com. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15318,9 +15318,9 @@
     "https": true,
     "cors": "unknown",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free developer tool by Google/Jigsaw for comment toxicity analysis. API key via Google Cloud. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15409,9 +15409,9 @@
     "https": true,
     "cors": "unknown",
     "category": "machine-learning",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier with 2000 non-commercial API calls/month. Developer portal at developer.wolframalpha.com. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15904,9 +15904,9 @@
     "https": true,
     "cors": "unknown",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free plan available ($0/mo). News API covering 7,500+ sources. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15917,9 +15917,9 @@
     "https": true,
     "cors": "unknown",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Developer portal loads but no self-service signup or free tier. Enterprise/commercial licensing only via contact form. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15943,9 +15943,9 @@
     "https": true,
     "cors": "yes",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: 1,000 daily requests, no credit card required. News from 70+ countries in 18+ languages. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15969,9 +15969,9 @@
     "https": true,
     "cors": "unknown",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free Launchpad plan: 5,000 req/mo with 12h delay. Financial news API with sentiment analysis. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -15982,9 +15982,9 @@
     "https": true,
     "cors": "yes",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free plan available (non-commercial, daily limit). 80,000+ sources, up to 6 years history. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -16008,9 +16008,9 @@
     "https": true,
     "cors": "no",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "GitHub repo is source code for self-hosted Node.js/NestJS app. No public hosted endpoint. Not a REST API. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -16021,9 +16021,9 @@
     "https": true,
     "cors": "no",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Web scraping and SERP API service. Free tier with credits available at app.hasdata.com. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -16047,9 +16047,9 @@
     "https": true,
     "cors": "yes",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free finance and stock market news API. JSON format, 80+ markets, 5,000+ sources. Free plan available. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -16060,9 +16060,9 @@
     "https": true,
     "cors": "unknown",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Developer portal live. Free API key registration available (rate-limited). Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -16073,9 +16073,9 @@
     "https": true,
     "cors": "unknown",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "newsapi.org — JSON search results for global news articles. Free developer plan available. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -16086,9 +16086,9 @@
     "https": true,
     "cors": "yes",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Event Registry news intelligence API. 30,000+ publishers. Free plan: 2,000 requests/day. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -16099,9 +16099,9 @@
     "https": true,
     "cors": "unknown",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Real-time and historical news API. Free tier available with API key. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -16112,9 +16112,9 @@
     "https": true,
     "cors": "yes",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Real-time news API. Free plan ($0). API key required. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -16125,9 +16125,9 @@
     "https": true,
     "cors": "yes",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "News API with trending articles and 10+ categories. Free plan ($0, limited requests). Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -16138,9 +16138,9 @@
     "https": true,
     "cors": "unknown",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "News API on RapidAPI. Free tier available via RapidAPI subscription. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -16164,9 +16164,9 @@
     "https": true,
     "cors": "no",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Domain shows generic 'Coming Soon' placeholder page. No API available. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -16206,9 +16206,9 @@
     "https": true,
     "cors": "unknown",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Open Platform API. Free developer key: 500 calls/day, non-commercial use. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -16219,9 +16219,9 @@
     "https": true,
     "cors": "unknown",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "RSS feed reader with Google Reader-compatible REST API. Free accounts available. Auth via email/password token. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -16232,9 +16232,9 @@
     "https": true,
     "cors": "yes",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Live and top story news API. Free plan: 100 requests/day. API key required. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -16245,9 +16245,9 @@
     "https": true,
     "cors": "unknown",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "National Library of Australia API (v3). Free API key required. Returns JSON. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -16258,9 +16258,9 @@
     "https": true,
     "cors": "yes",
     "category": "news",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "worldnewsapi.com — Free plan: 100 requests/day. API key required. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -18747,9 +18747,9 @@
     "https": true,
     "cors": "yes",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Not a REST API. Android library for device safety verification. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -18760,9 +18760,9 @@
     "https": true,
     "cors": "yes",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Threat intelligence API. Free plan available. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -18786,9 +18786,9 @@
     "https": true,
     "cors": "yes",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Not a REST API. Client-side JavaScript library for bot detection. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -18799,9 +18799,9 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Bug bounty platform REST API. Free account with API access tokens. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -18812,9 +18812,9 @@
     "https": true,
     "cors": "no",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Active API at search.censys.io/api. Free community tier available with API key. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -18838,9 +18838,9 @@
     "https": true,
     "cors": "yes",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Criminal background check API. 25 free credits on signup. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -18851,9 +18851,9 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "DNS failure. Site shut down. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -18919,9 +18919,9 @@
     "https": true,
     "cors": "yes",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Active at fingerprint.com. 14-day free trial with unlimited API calls. Paid plans from $99/mo. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -18932,9 +18932,9 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Fraud detection API. Free Micro plan available. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -18945,9 +18945,9 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Attack surface management API. Free signup available. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -18958,9 +18958,9 @@
     "https": true,
     "cors": "no",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Secret detection API. Free tier and tools available via docs.gitguardian.com. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -18971,9 +18971,9 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Docs active at docs.greynoise.io. Free Community API for querying IPs. API key required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -18984,9 +18984,9 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Bug bounty platform API. Free registration for researchers with API access. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19010,9 +19010,9 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "API v3 active. Free Pwned Passwords API (no key). hibp-api-key required for breach/paste search. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19023,9 +19023,9 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "OSINT search engine API. Free tier via intelx.io. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19036,9 +19036,9 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "RapidAPI listing removed. API not found. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19049,9 +19049,9 @@
     "https": true,
     "cors": "yes",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Identity platform API. Free plan: 25,000 MAU, unlimited apps. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19160,9 +19160,9 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Virtual card API. Free sandbox and $0 personal plan with API access. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19173,9 +19173,9 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Threat intelligence API. Free community account available. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19186,9 +19186,9 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Active behind Cloudflare. Free tier with 50 queries/mo. API key required. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19199,9 +19199,9 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Developer portal active. Free tier with API key available. Internet device search engine. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19212,9 +19212,9 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "DNS failure. Service acquired and shut down. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19225,9 +19225,9 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Redirects to dead domain. Service shut down. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19267,9 +19267,9 @@
     "https": true,
     "cors": "unknown",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Vulnerability database API. Free and Personal tiers available. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -19280,9 +19280,9 @@
     "https": true,
     "cors": "no",
     "category": "security",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Active at whoisfreaks.com. Free signup available. WHOIS lookup API with API key. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23253,9 +23253,9 @@
     "https": true,
     "cors": "yes",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub utility API. Free tier available. Requires apy-token header. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23282,9 +23282,9 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "OAuth developer platform active. Free developer access with SDKs for JS, PHP, Python, iOS, Android. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23324,9 +23324,9 @@
     "https": true,
     "cors": "yes",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub utility API. Free tier available. Requires apy-token header. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23382,9 +23382,9 @@
     "https": true,
     "cors": "yes",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub utility API. Free tier available. Requires apy-token header. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23453,9 +23453,9 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Enterprise licensing only via AWS Data Exchange. No free tier available. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23579,9 +23579,9 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free API keys available via email. Poster API requires Patreon. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23833,9 +23833,9 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free API key registration at the-one-api.dev. LOTR movie/character/quote data. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23875,9 +23875,9 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free API key at developer.themoviedb.org. Comprehensive movie/TV database. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23901,9 +23901,9 @@
     "https": true,
     "cors": "yes",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free client ID registration at trakt.tv. API docs on Apiary. Movie/TV tracking data. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23914,9 +23914,9 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier for open-source/non-commercial use. Pricing based on company revenue. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23956,9 +23956,9 @@
     "https": true,
     "cors": "yes",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "ApyHub utility API. Free tier available. Requires apy-token header. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -23969,9 +23969,9 @@
     "https": true,
     "cors": "unknown",
     "category": "video",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "OAuth developer platform active. Free app creation with API access. Requires Vimeo account. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24037,9 +24037,9 @@
     "https": false,
     "cors": "unknown",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free Limited Trial plan: ~50 calls/day. Full weather data API. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24050,9 +24050,9 @@
     "https": true,
     "cors": "unknown",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "AEMET OpenData portal active. Free API key available via registration form. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24063,9 +24063,9 @@
     "https": true,
     "cors": "unknown",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free plan available with signup. Pricing page shows free tier with upgrade options. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24076,9 +24076,9 @@
     "https": true,
     "cors": "unknown",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "Domain redirects to weatherstack.com. Acquired ~2019, original API no longer exists. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24089,9 +24089,9 @@
     "https": true,
     "cors": "unknown",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Air quality index API. Free token via email registration. Default quota 1,000 req/sec. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24118,9 +24118,9 @@
     "https": true,
     "cors": "yes",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Chinese weather API. Free tier with token via dashboard.caiyunapp.com. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24131,9 +24131,9 @@
     "https": true,
     "cors": "unknown",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Basque Country weather via Open Data Euskadi portal. Free API key registration. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24157,9 +24157,9 @@
     "https": true,
     "cors": "unknown",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Historical weather forecast API. Free plan available. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24170,9 +24170,9 @@
     "https": true,
     "cors": "yes",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Brazilian weather API. Free tier: 5 cities, 400 req/day. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24199,9 +24199,9 @@
     "https": true,
     "cors": "unknown",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Korean government weather API hub. Free registration with token auth. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24212,9 +24212,9 @@
     "https": true,
     "cors": "unknown",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "DataPoint service decommissioned and no longer available. Retirement FAQ confirms shutdown. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24238,9 +24238,9 @@
     "https": true,
     "cors": "yes",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free weather API: 5,000 calls/year, 100+ variables, JSON & CSV. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24251,9 +24251,9 @@
     "https": true,
     "cors": "unknown",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free weather API requiring User-Agent header identification. v3 API documentation active. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24264,9 +24264,9 @@
     "https": true,
     "cors": "unknown",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Weather API with free tier: 400 calls/day. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24277,9 +24277,9 @@
     "https": true,
     "cors": "unknown",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "broken",
+    "notes": "m3o.com domain parked at Sedo marketplace. Service defunct. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24306,9 +24306,9 @@
     "https": true,
     "cors": "yes",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier includes 1500 units/month. Documentation active at docs.oikolab.com. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24351,9 +24351,9 @@
     "https": true,
     "cors": "unknown",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "UV Index API. Free tier available, sign up via Google/GitHub. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24364,9 +24364,9 @@
     "https": true,
     "cors": "unknown",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier: 1,000,000 calls/month, 60 calls/min. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24377,9 +24377,9 @@
     "https": true,
     "cors": "yes",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free subscription available. Developer portal active with registration and API key creation. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24406,9 +24406,9 @@
     "https": true,
     "cors": "yes",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Marine weather API. Free plan: 10 requests/day. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24419,9 +24419,9 @@
     "https": true,
     "cors": "unknown",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free weather API tier with 60+ data layers. Docs active on readme.io. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24448,9 +24448,9 @@
     "https": true,
     "cors": "yes",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free weather API with free tier available. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24480,9 +24480,9 @@
     "https": true,
     "cors": "yes",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free plan: 1 million calls/month. Real-time, forecast, and historical weather. Tested 2026-02-13.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24493,9 +24493,9 @@
     "https": true,
     "cors": "unknown",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "needs-key",
+    "notes": "Free tier at $0 with 21-day trial, no card required. Multiple pricing tiers. Tested 2026-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   },
   {
@@ -24506,9 +24506,9 @@
     "https": true,
     "cors": "no",
     "category": "weather",
-    "status": "pending",
-    "notes": "",
-    "date-checked": null,
+    "status": "paid-only",
+    "notes": "Only 7-day free trial, no permanent free tier. Paid business API. Tested 2025-02-14.",
+    "date-checked": "2026-02-14",
     "try-it": null
   }
 ]
